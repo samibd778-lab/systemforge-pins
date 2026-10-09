@@ -1,0 +1,244 @@
+{
+ "pins": [
+  {
+   "id": "ccs-1-pipeline",
+   "p": "ccs",
+   "angle": "Plan every post on every platform: a board moving posts from Idea to Posted"
+  },
+  {
+   "id": "fco-1-overview",
+   "p": "fco",
+   "angle": "Your whole freelance business in one Notion page: clients, proposals, projects, tasks, invoices, expenses"
+  },
+  {
+   "id": "ccs-2-repurpose",
+   "p": "ccs",
+   "angle": "One idea, five posts: turn one YouTube video into a Short, a Reel, a newsletter and a LinkedIn post, each tracked as its own card"
+  },
+  {
+   "id": "fco-2-invoices",
+   "p": "fco",
+   "angle": "Know who owes you money: invoices that show paid, sent and days late"
+  },
+  {
+   "id": "ccs-3-deals",
+   "p": "ccs",
+   "angle": "Track brand deals until you get paid: Pitched, Signed, Delivered, Paid"
+  },
+  {
+   "id": "fco-3-projects",
+   "p": "fco",
+   "angle": "Every project at one glance: health shows On track, At risk, Overdue or Done"
+  },
+  {
+   "id": "ccs-4-channels",
+   "p": "ccs",
+   "angle": "A weekly posting goal for every channel, showing how many posts are left this week"
+  },
+  {
+   "id": "fco-4-emails",
+   "p": "fco",
+   "angle": "Ready-to-send client emails: follow-up, proposal, kickoff, invoice, reminder, final notice"
+  },
+  {
+   "id": "ccs-5-pillars",
+   "p": "ccs",
+   "angle": "Which content topic works best: content pillars with average reach per post"
+  },
+  {
+   "id": "fco-5-clients",
+   "p": "fco",
+   "angle": "Stop losing clients in your inbox: every client with a next follow-up date"
+  },
+  {
+   "id": "ccs-6-review",
+   "p": "ccs",
+   "angle": "Plan your content week in 15 minutes every Sunday with a weekly review"
+  },
+  {
+   "id": "fco-6-flow",
+   "p": "fco",
+   "angle": "From proposal to paid: proposal becomes a project, then an invoice, then paid"
+  },
+  {
+   "id": "ccs-7-ideas",
+   "p": "ccs",
+   "angle": "Never lose a video idea again: every idea goes into one list, then moves to Posted"
+  },
+  {
+   "id": "fco-7-followups",
+   "p": "fco",
+   "angle": "Never forget a client follow-up: every client shows the next follow-up date"
+  },
+  {
+   "id": "ccs-8-calendar",
+   "p": "ccs",
+   "angle": "A content calendar view in Notion for every platform"
+  },
+  {
+   "id": "fco-8-won",
+   "p": "fco",
+   "angle": "Mark a proposal as Won and turn it into a project in one step"
+  },
+  {
+   "id": "ccs-9-engagement",
+   "p": "ccs",
+   "angle": "Post results with views, likes, comments, shares and saves; engagement % calculated for you"
+  },
+  {
+   "id": "fco-9-hourly",
+   "p": "fco",
+   "angle": "See profit and your real hourly rate for every project, calculated for you"
+  },
+  {
+   "id": "ccs-10-dealflow",
+   "p": "ccs",
+   "angle": "Brand deals move from Pitched to Signed to Delivered to Paid"
+  },
+  {
+   "id": "fco-10-today",
+   "p": "fco",
+   "angle": "Tasks show what is overdue, due today and due this week"
+  },
+  {
+   "id": "ccs-11-askpay",
+   "p": "ccs",
+   "angle": "Brand deal scripts include a ready message to ask a brand for payment"
+  },
+  {
+   "id": "fco-11-onboarding",
+   "p": "fco",
+   "angle": "A client onboarding checklist so every new client gets the same smooth start"
+  },
+  {
+   "id": "ccs-12-hooks",
+   "p": "ccs",
+   "angle": "A hook library with opening lines that make people stop scrolling"
+  },
+  {
+   "id": "fco-12-reminder",
+   "p": "fco",
+   "angle": "A ready-to-send friendly payment reminder email for late invoices"
+  },
+  {
+   "id": "ccs-13-goals",
+   "p": "ccs",
+   "angle": "A weekly posting goal for each channel and how many posts are left this week"
+  },
+  {
+   "id": "fco-13-proposals",
+   "p": "fco",
+   "angle": "Track each proposal value, win chance and expiry date"
+  },
+  {
+   "id": "ccs-14-batch",
+   "p": "ccs",
+   "angle": "Creator tip: batch your filming; move every post through Idea, Draft, Create, Edit, Scheduled, Posted"
+  },
+  {
+   "id": "fco-14-expenses",
+   "p": "fco",
+   "angle": "Link expenses to each project and see your real profit"
+  },
+  {
+   "id": "ccs-15-track5",
+   "p": "ccs",
+   "angle": "5 things every creator should track: ideas, channels, results, pillars and brand deals"
+  },
+  {
+   "id": "fco-15-track5",
+   "p": "fco",
+   "angle": "The 5 things every freelancer should track: clients, proposals, projects, invoices, expenses"
+  },
+  {
+   "id": "ccs-16-owed",
+   "p": "ccs",
+   "angle": "See the posts you still owe a brand and the due dates"
+  },
+  {
+   "id": "fco-16-beforeafter",
+   "p": "fco",
+   "angle": "Before: clients in your inbox, invoices in a spreadsheet. After: everything in one Notion page"
+  },
+  {
+   "id": "ccs-17-gallery",
+   "p": "ccs",
+   "angle": "Gallery view to see every post as a card with its stage"
+  },
+  {
+   "id": "fco-17-phone",
+   "p": "fco",
+   "angle": "Works in the Notion app on your phone: see unpaid invoices anywhere"
+  },
+  {
+   "id": "ccs-18-platforms",
+   "p": "ccs",
+   "angle": "Plan TikTok, Reels, Shorts and more from one board, one card per post"
+  },
+  {
+   "id": "fco-18-recap",
+   "p": "fco",
+   "angle": "Freelance tip: send a short recap email after every client call; the template includes a follow-up after a call script"
+  },
+  {
+   "id": "ccs-19-phone",
+   "p": "ccs",
+   "angle": "Capture ideas on your phone with the Notion app, then plan them on your computer"
+  },
+  {
+   "id": "fco-19-deposit",
+   "p": "fco",
+   "angle": "Freelance tip: ask for a deposit before you start; track it as its own invoice"
+  },
+  {
+   "id": "ccs-20-setup",
+   "p": "ccs",
+   "angle": "Ready in 5 minutes: buy, duplicate into Notion, follow the Start here guide"
+  },
+  {
+   "id": "fco-20-setup",
+   "p": "fco",
+   "angle": "Ready in 5 minutes: buy, duplicate into Notion, follow the Start here guide"
+  },
+  {
+   "id": "ccs-21-pillars",
+   "p": "ccs",
+   "angle": "Content pillars: split content into 3 to 5 topics and see which brings the most reach"
+  },
+  {
+   "id": "fco-21-health",
+   "p": "fco",
+   "angle": "Project health shows On track, At risk, Overdue or Done with a progress bar"
+  },
+  {
+   "id": "ccs-22-review",
+   "p": "ccs",
+   "angle": "A 15-minute weekly review page to plan next week"
+  },
+  {
+   "id": "fco-22-emails",
+   "p": "fco",
+   "angle": "8 ready-to-send client emails for every stage of a project"
+  },
+  {
+   "id": "ccs-23-pipeline",
+   "p": "ccs",
+   "angle": "Every post moves through six stages: Idea, Draft, Create, Edit, Scheduled, Posted"
+  },
+  {
+   "id": "fco-23-oneplace",
+   "p": "fco",
+   "angle": "Clients, proposals, projects, tasks, invoices and expenses all linked in one Notion page"
+  },
+  {
+   "id": "ccs-24-sponsor",
+   "p": "ccs",
+   "angle": "Track every sponsor: fee, posts owed, due dates and days late on payment"
+  },
+  {
+   "id": "fco-24-late",
+   "p": "fco",
+   "angle": "Late invoices flag themselves and show how many days late"
+  }
+ ]
+}
