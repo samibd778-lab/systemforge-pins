@@ -1,0 +1,678 @@
+{
+ "videos": [
+  {
+   "id": "r01-late-invoices",
+   "p": "fco",
+   "theme": "sage",
+   "title": "Late invoices flag themselves in this Notion template #shorts",
+   "caption": "Freelancers: stop keeping unpaid invoices in your head. Every invoice shows paid, sent or late, and late ones count the days for you.",
+   "tags": "#notion #notiontemplate #freelancer #freelancetips #productivity",
+   "scenes": [
+    {
+     "type": "hook",
+     "text": "Who still<br>owes you<br>money?",
+     "kicker": "FREELANCERS",
+     "sub": "",
+     "size": 128,
+     "dur": 2.4
+    },
+    {
+     "type": "shot",
+     "layout": "zoom",
+     "text": "Every invoice,<br>one list",
+     "parts": [
+      [
+       "fco-invoices",
+       [
+        70,
+        335,
+        385,
+        500
+       ]
+      ],
+      [
+       "fco-invoices",
+       [
+        1065,
+        335,
+        1160,
+        500
+       ]
+      ]
+     ],
+     "dir": "h",
+     "dur": 2.8
+    },
+    {
+     "type": "shot",
+     "layout": "zoom",
+     "text": "Late ones count<br>the days for you",
+     "parts": [
+      [
+       "fco-invoices",
+       [
+        70,
+        335,
+        290,
+        500
+       ]
+      ],
+      [
+       "fco-invoices",
+       [
+        573,
+        335,
+        695,
+        500
+       ]
+      ]
+     ],
+     "dir": "h",
+     "dur": 2.8
+    },
+    {
+     "type": "shot",
+     "layout": "laptop",
+     "shots": [
+      "fco-dashboard"
+     ],
+     "text": "Clients, projects,<br>invoices. One page.",
+     "dur": 2.8
+    },
+    {
+     "type": "end",
+     "sub": "a calm Notion template",
+     "dur": 2.6
+    }
+   ]
+  },
+  {
+   "id": "r02-content-board",
+   "p": "ccs",
+   "theme": "clay",
+   "title": "Plan content for every platform in one Notion board #shorts",
+   "caption": "Posting on TikTok, Instagram, YouTube and a newsletter? Every post gets one card that moves from Idea to Posted.",
+   "tags": "#notion #notiontemplate #contentcreator #contentplanner #creatortips",
+   "scenes": [
+    {
+     "type": "hook",
+     "text": "Posting on<br>5 platforms?",
+     "kicker": "CREATORS",
+     "sub": "plan it in one place",
+     "size": 128,
+     "dur": 2.4
+    },
+    {
+     "type": "shot",
+     "layout": "laptop",
+     "shots": [
+      "ccs-pipeline"
+     ],
+     "text": "One card<br>per post",
+     "dur": 2.8
+    },
+    {
+     "type": "shot",
+     "layout": "phone",
+     "shots": [
+      "ccs-phone-posted"
+     ],
+     "text": "On your<br>phone too",
+     "dur": 2.8
+    },
+    {
+     "type": "shot",
+     "layout": "zoom",
+     "text": "A weekly goal<br>for every channel",
+     "parts": [
+      [
+       "ccs-phone-channels",
+       [
+        30,
+        280,
+        510,
+        820
+       ]
+      ]
+     ],
+     "dir": "h",
+     "dur": 2.8
+    },
+    {
+     "type": "end",
+     "sub": "a calm Notion template",
+     "dur": 2.6
+    }
+   ]
+  },
+  {
+   "id": "r03-client-owes",
+   "p": "fco",
+   "theme": "cream",
+   "title": "See which client still owes you in Notion #shorts",
+   "caption": "A simple freelance client tracker: next follow-up date, notes and what each client still owes you.",
+   "tags": "#notion #notiontemplate #freelancer #freelancetips #productivity",
+   "scenes": [
+    {
+     "type": "hook",
+     "text": "Which client<br>still owes you?",
+     "kicker": "FREELANCE TIP",
+     "sub": "",
+     "size": 128,
+     "dur": 2.4
+    },
+    {
+     "type": "shot",
+     "layout": "zoom",
+     "text": "Every client,<br>what they owe",
+     "parts": [
+      [
+       "fco-clients",
+       [
+        0,
+        340,
+        165,
+        505
+       ]
+      ],
+      [
+       "fco-clients",
+       [
+        1063,
+        340,
+        1157,
+        505
+       ]
+      ]
+     ],
+     "dir": "h",
+     "dur": 2.8
+    },
+    {
+     "type": "shot",
+     "layout": "zoom",
+     "text": "Never miss<br>a follow-up",
+     "parts": [
+      [
+       "fco-clients",
+       [
+        0,
+        340,
+        165,
+        505
+       ]
+      ],
+      [
+       "fco-clients",
+       [
+        821,
+        340,
+        935,
+        505
+       ]
+      ]
+     ],
+     "dir": "h",
+     "dur": 2.8
+    },
+    {
+     "type": "end",
+     "sub": "a calm Notion template",
+     "dur": 2.6
+    }
+   ]
+  },
+  {
+   "id": "r04-brand-deals",
+   "p": "ccs",
+   "theme": "sage",
+   "title": "Track brand deals until you get paid #shorts",
+   "caption": "Creators: track every sponsorship from pitch to paid. Fee, posts you still owe and when the brand should pay.",
+   "tags": "#notion #notiontemplate #contentcreator #contentplanner #creatortips",
+   "scenes": [
+    {
+     "type": "hook",
+     "text": "Which brand<br>still owes you?",
+     "kicker": "CREATORS",
+     "sub": "",
+     "size": 128,
+     "dur": 2.4
+    },
+    {
+     "type": "shot",
+     "layout": "zoom",
+     "text": "Fee, money,<br>payment due",
+     "parts": [
+      [
+       "ccs-deals",
+       [
+        50,
+        305,
+        215,
+        450
+       ]
+      ],
+      [
+       "ccs-deals",
+       [
+        955,
+        305,
+        1040,
+        450
+       ]
+      ],
+      [
+       "ccs-deals",
+       [
+        1120,
+        305,
+        1240,
+        450
+       ]
+      ]
+     ],
+     "dir": "h",
+     "dur": 2.8
+    },
+    {
+     "type": "shot",
+     "layout": "zoom",
+     "text": "Delivered → Paid",
+     "parts": [
+      [
+       "ccs-deals-board",
+       [
+        272,
+        125,
+        736,
+        340
+       ]
+      ]
+     ],
+     "dir": "h",
+     "dur": 2.8
+    },
+    {
+     "type": "end",
+     "sub": "a calm Notion template",
+     "dur": 2.6
+    }
+   ]
+  },
+  {
+   "id": "r05-proposal-to-paid",
+   "p": "fco",
+   "theme": "clay",
+   "title": "From proposal to paid: a calm Notion system for freelancers #shorts",
+   "caption": "Client, proposal, project, invoice, paid. One simple flow in Notion, with example data and a 5-minute start guide.",
+   "tags": "#notion #notiontemplate #freelancer #freelancetips #productivity",
+   "scenes": [
+    {
+     "type": "hook",
+     "text": "From proposal<br>to paid",
+     "kicker": "FREELANCER CLIENT OS",
+     "sub": "",
+     "size": 120,
+     "dur": 2.4
+    },
+    {
+     "type": "shot",
+     "layout": "zoom",
+     "text": "One simple flow",
+     "parts": [
+      [
+       "fco-dashboard",
+       [
+        700,
+        0,
+        1792,
+        260
+       ]
+      ]
+     ],
+     "dir": "h",
+     "dur": 2.8
+    },
+    {
+     "type": "shot",
+     "layout": "zoom",
+     "text": "Track every<br>proposal",
+     "parts": [
+      [
+       "fco-proposals",
+       [
+        50,
+        325,
+        260,
+        495
+       ]
+      ],
+      [
+       "fco-proposals",
+       [
+        1475,
+        325,
+        1662,
+        495
+       ]
+      ]
+     ],
+     "dir": "h",
+     "dur": 2.8
+    },
+    {
+     "type": "shot",
+     "layout": "zoom",
+     "text": "Then get paid",
+     "parts": [
+      [
+       "fco-invoices",
+       [
+        70,
+        335,
+        385,
+        500
+       ]
+      ],
+      [
+       "fco-invoices",
+       [
+        1065,
+        335,
+        1160,
+        500
+       ]
+      ]
+     ],
+     "dir": "h",
+     "dur": 2.8
+    },
+    {
+     "type": "end",
+     "sub": "a calm Notion template",
+     "dur": 2.6
+    }
+   ]
+  },
+  {
+   "id": "r06-content-ideas",
+   "p": "ccs",
+   "theme": "cream",
+   "title": "Never lose a content idea again (Notion) #shorts",
+   "caption": "Every idea gets a card with its format and platform. Move it through Idea, Draft, Create, Edit, Scheduled, Posted.",
+   "tags": "#notion #notiontemplate #contentcreator #contentplanner #creatortips",
+   "scenes": [
+    {
+     "type": "hook",
+     "text": "Never lose<br>a content idea",
+     "kicker": "CREATOR TIP",
+     "sub": "",
+     "size": 128,
+     "dur": 2.4
+    },
+    {
+     "type": "shot",
+     "layout": "zoom",
+     "text": "Every idea<br>gets a card",
+     "parts": [
+      [
+       "ccs-pipeline",
+       [
+        1010,
+        80,
+        1490,
+        440
+       ]
+      ]
+     ],
+     "dir": "h",
+     "dur": 2.8
+    },
+    {
+     "type": "shot",
+     "layout": "phones",
+     "shots": [
+      "ccs-phone-create",
+      "ccs-phone-posted"
+     ],
+     "text": "Move it along<br>as you work",
+     "dur": 2.8
+    },
+    {
+     "type": "end",
+     "sub": "a calm Notion template",
+     "dur": 2.6
+    }
+   ]
+  },
+  {
+   "id": "r07-overdue-tasks",
+   "p": "fco",
+   "theme": "sage",
+   "title": "What's overdue today? A freelance task list in Notion #shorts",
+   "caption": "Every task is linked to a client and project, with priority, hours and an overdue flag.",
+   "tags": "#notion #notiontemplate #freelancer #freelancetips #productivity",
+   "scenes": [
+    {
+     "type": "hook",
+     "text": "What's overdue<br>today?",
+     "kicker": "FREELANCE TIP",
+     "sub": "",
+     "size": 128,
+     "dur": 2.4
+    },
+    {
+     "type": "shot",
+     "layout": "zoom",
+     "text": "Your tasks<br>tell you",
+     "parts": [
+      [
+       "fco-tasks",
+       [
+        90,
+        310,
+        345,
+        650
+       ]
+      ],
+      [
+       "fco-tasks",
+       [
+        1472,
+        310,
+        1660,
+        650
+       ]
+      ]
+     ],
+     "dir": "h",
+     "dur": 2.8
+    },
+    {
+     "type": "shot",
+     "layout": "zoom",
+     "text": "High priority<br>first",
+     "parts": [
+      [
+       "fco-tasks",
+       [
+        90,
+        310,
+        345,
+        650
+       ]
+      ],
+      [
+       "fco-tasks",
+       [
+        908,
+        310,
+        1097,
+        650
+       ]
+      ]
+     ],
+     "dir": "h",
+     "dur": 2.8
+    },
+    {
+     "type": "end",
+     "sub": "a calm Notion template",
+     "dur": 2.6
+    }
+   ]
+  },
+  {
+   "id": "r08-weekly-goals",
+   "p": "ccs",
+   "theme": "clay",
+   "title": "Are you on track this week? Weekly posting goals in Notion #shorts",
+   "caption": "Set a weekly posting goal for each channel and see how many posts are left.",
+   "tags": "#notion #notiontemplate #contentcreator #contentplanner #creatortips",
+   "scenes": [
+    {
+     "type": "hook",
+     "text": "Are you<br>on track<br>this week?",
+     "kicker": "CREATORS",
+     "sub": "",
+     "size": 128,
+     "dur": 2.4
+    },
+    {
+     "type": "shot",
+     "layout": "phone",
+     "shots": [
+      "ccs-phone-channels"
+     ],
+     "text": "A goal for<br>every channel",
+     "dur": 2.8
+    },
+    {
+     "type": "shot",
+     "layout": "laptop",
+     "shots": [
+      "ccs-channels"
+     ],
+     "text": "All your<br>channels",
+     "dur": 2.8,
+     "show_w": 1600
+    },
+    {
+     "type": "end",
+     "sub": "a calm Notion template",
+     "dur": 2.6
+    }
+   ]
+  },
+  {
+   "id": "r09-client-emails",
+   "p": "fco",
+   "theme": "cream",
+   "title": "Stop rewriting the same client emails #shorts",
+   "caption": "8 ready-to-send client emails inside the template: follow-up after a call, proposal, kickoff, invoice, friendly reminder and more.",
+   "tags": "#notion #notiontemplate #freelancer #freelancetips #productivity",
+   "scenes": [
+    {
+     "type": "hook",
+     "text": "Stop rewriting<br>client emails",
+     "kicker": "FREELANCERS",
+     "sub": "",
+     "size": 120,
+     "dur": 2.4
+    },
+    {
+     "type": "shot",
+     "layout": "zoom",
+     "text": "The words are<br>already written",
+     "parts": [
+      [
+       "fco-emails",
+       [
+        470,
+        290,
+        1090,
+        762
+       ]
+      ]
+     ],
+     "dir": "h",
+     "dur": 2.8
+    },
+    {
+     "type": "shot",
+     "layout": "zoom",
+     "text": "Copy, paste,<br>send",
+     "parts": [
+      [
+       "fco-emails",
+       [
+        470,
+        590,
+        1090,
+        762
+       ]
+      ]
+     ],
+     "dir": "h",
+     "dur": 2.8
+    },
+    {
+     "type": "end",
+     "sub": "a calm Notion template",
+     "dur": 2.6
+    }
+   ]
+  },
+  {
+   "id": "r10-creator-hq",
+   "p": "ccs",
+   "theme": "sage",
+   "title": "Your whole creator business in one Notion workspace #shorts",
+   "caption": "Content board, channels and brand deals, all linked in one calm Notion workspace.",
+   "tags": "#notion #notiontemplate #contentcreator #contentplanner #creatortips",
+   "scenes": [
+    {
+     "type": "hook",
+     "text": "Your creator<br>HQ in Notion",
+     "kicker": "CONTENT CREATOR STUDIO",
+     "sub": "",
+     "size": 120,
+     "dur": 2.4
+    },
+    {
+     "type": "shot",
+     "layout": "laptop",
+     "shots": [
+      "ccs-dashboard"
+     ],
+     "text": "Plan it.<br>Post it.",
+     "dur": 2.8
+    },
+    {
+     "type": "shot",
+     "layout": "laptop",
+     "shots": [
+      "ccs-pipeline"
+     ],
+     "text": "Every post,<br>every stage",
+     "dur": 2.8
+    },
+    {
+     "type": "shot",
+     "layout": "laptop",
+     "shots": [
+      "ccs-deals"
+     ],
+     "text": "Every brand deal",
+     "dur": 2.8,
+     "show_w": 1350
+    },
+    {
+     "type": "end",
+     "sub": "a calm Notion template",
+     "dur": 2.6
+    }
+   ]
+  }
+ ]
+}
