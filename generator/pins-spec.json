@@ -1233,6 +1233,744 @@
     ]
    ],
    "dir": "h"
+  },
+  {
+   "id": "ccs-25-onthego",
+   "p": "ccs",
+   "layout": "phones",
+   "shots": [
+    "ccs-phone-channels",
+    "ccs-phone-posted"
+   ],
+   "title": "Every platform,<br>on the go",
+   "sub": "followers and weekly goals",
+   "chips": [
+    "TikTok",
+    "YouTube",
+    "Newsletter"
+   ],
+   "angle": "Channel cards and the content board in the Notion phone app",
+   "theme": "sage",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "fco-25-tasks",
+   "p": "fco",
+   "layout": "laptop",
+   "shots": [
+    "fco-tasks"
+   ],
+   "title": "Freelance Task Tracker",
+   "sub": "every to-do, linked to a project",
+   "chips": [
+    "Client",
+    "Due",
+    "Priority"
+   ],
+   "angle": "A Notion task list with client, due date, priority and project",
+   "theme": "clay",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "ccs-26-posted",
+   "p": "ccs",
+   "layout": "zoom",
+   "shots": [],
+   "title": "What did you<br>post this week?",
+   "sub": "every post, in one column",
+   "chips": [
+    "Posted",
+    "Short video",
+    "Photo post"
+   ],
+   "angle": "A Posted column of content cards with format and platform",
+   "theme": "cream",
+   "kicker": "CREATOR TIP",
+   "parts": [
+    [
+     "ccs-pipeline",
+     [
+      297,
+      80,
+      520,
+      777
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "fco-26-winchance",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Which proposal<br>will you win?",
+   "sub": "value and win chance, side by side",
+   "chips": [
+    "High",
+    "Medium",
+    "Low"
+   ],
+   "angle": "Proposals with value and win chance (high, medium, low)",
+   "theme": "sage",
+   "kicker": "FREELANCE TIP",
+   "parts": [
+    [
+     "fco-proposals",
+     [
+      50,
+      325,
+      260,
+      495
+     ]
+    ],
+    [
+     "fco-proposals",
+     [
+      1287,
+      325,
+      1662,
+      495
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "ccs-27-late",
+   "p": "ccs",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Late posts<br>stand out",
+   "sub": "so nothing slips",
+   "chips": [
+    "Late",
+    "This week",
+    "Edit"
+   ],
+   "angle": "Content cards in Edit and Draft columns, with a red Late flag",
+   "theme": "clay",
+   "kicker": "CREATOR TIP",
+   "parts": [
+    [
+     "ccs-pipeline",
+     [
+      55,
+      80,
+      280,
+      300
+     ]
+    ],
+    [
+     "ccs-pipeline",
+     [
+      537,
+      80,
+      760,
+      300
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "fco-27-expenses",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Where did the<br>money go?",
+   "sub": "every cost linked to a project",
+   "chips": [
+    "Software",
+    "Stock assets",
+    "Contractor"
+   ],
+   "angle": "Expenses with amount and category: software, stock assets, contractor",
+   "theme": "cream",
+   "kicker": "FREELANCE TIP",
+   "parts": [
+    [
+     "fco-expenses",
+     [
+      40,
+      325,
+      310,
+      500
+     ]
+    ],
+    [
+     "fco-expenses",
+     [
+      310,
+      325,
+      497,
+      500
+     ]
+    ],
+    [
+     "fco-expenses",
+     [
+      497,
+      325,
+      690,
+      500
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "ccs-28-deliverables",
+   "p": "ccs",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Know what each<br>brand gets",
+   "sub": "deliverables, written down",
+   "chips": [
+    "Deliverables",
+    "Delivered",
+    "Fee"
+   ],
+   "angle": "Brand deals with the deliverables promised and how many are delivered",
+   "theme": "sage",
+   "kicker": "BRAND DEALS",
+   "parts": [
+    [
+     "ccs-deals",
+     [
+      50,
+      305,
+      215,
+      450
+     ]
+    ],
+    [
+     "ccs-deals",
+     [
+      610,
+      305,
+      870,
+      450
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "fco-28-hq",
+   "p": "fco",
+   "layout": "stack",
+   "shots": [
+    "fco-dashboard",
+    "fco-proposals",
+    "fco-tasks"
+   ],
+   "title": "Your freelance HQ",
+   "sub": "dashboard · proposals · tasks",
+   "chips": [
+    "Win work",
+    "Deliver",
+    "Get paid"
+   ],
+   "angle": "Freelancer Client OS pages stacked: dashboard, proposals and tasks",
+   "theme": "clay",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "ccs-29-getpaid",
+   "p": "ccs",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Get paid for<br>every deal",
+   "sub": "delivered → paid",
+   "chips": [
+    "Delivered",
+    "Paid",
+    "Late"
+   ],
+   "angle": "Brand deal cards in Delivered and Paid columns with fee and due date",
+   "theme": "cream",
+   "kicker": "BRAND DEALS",
+   "parts": [
+    [
+     "ccs-deals-board",
+     [
+      272,
+      125,
+      736,
+      340
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "fco-29-priority",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Do the high<br>priority first",
+   "sub": "your list sorts it out",
+   "chips": [
+    "High",
+    "Medium",
+    "Low"
+   ],
+   "angle": "Tasks with a high, medium or low priority tag",
+   "theme": "sage",
+   "kicker": "FREELANCE TIP",
+   "parts": [
+    [
+     "fco-tasks",
+     [
+      90,
+      310,
+      345,
+      650
+     ]
+    ],
+    [
+     "fco-tasks",
+     [
+      908,
+      310,
+      1097,
+      650
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "ccs-30-hq",
+   "p": "ccs",
+   "layout": "stack",
+   "shots": [
+    "ccs-dashboard",
+    "ccs-deals",
+    "ccs-channels"
+   ],
+   "title": "Your creator HQ",
+   "sub": "dashboard · deals · channels",
+   "chips": [
+    "Content",
+    "Deals",
+    "Channels"
+   ],
+   "angle": "Content Creator Studio pages stacked: dashboard, brand deals and channels",
+   "theme": "clay",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "fco-30-source",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Where do your<br>clients come from?",
+   "sub": "track the source of every client",
+   "chips": [
+    "Upwork",
+    "Referral",
+    "LinkedIn"
+   ],
+   "angle": "Clients with their source (Upwork, referral, LinkedIn), status and total invoiced",
+   "theme": "cream",
+   "kicker": "FREELANCE TIP",
+   "parts": [
+    [
+     "fco-clients",
+     [
+      0,
+      340,
+      165,
+      505
+     ]
+    ],
+    [
+     "fco-clients",
+     [
+      1568,
+      340,
+      1880,
+      505
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "ccs-31-followers",
+   "p": "ccs",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Followers per<br>platform",
+   "sub": "in one simple list",
+   "chips": [
+    "TikTok",
+    "Newsletter",
+    "YouTube"
+   ],
+   "angle": "Channel cards on the phone with followers and posts done this week",
+   "theme": "sage",
+   "kicker": "CHANNELS",
+   "parts": [
+    [
+     "ccs-phone-channels",
+     [
+      30,
+      280,
+      510,
+      820
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "fco-31-getpaid",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Win work. Do it.<br>Get paid.",
+   "sub": "the calm freelance system",
+   "chips": [
+    "Clients",
+    "Projects",
+    "Invoices"
+   ],
+   "angle": "Freelancer Client OS banner: Win work. Do it. Get paid.",
+   "theme": "clay",
+   "kicker": "FREELANCER CLIENT OS",
+   "parts": [
+    [
+     "fco-dashboard",
+     [
+      0,
+      0,
+      700,
+      300
+     ]
+    ]
+   ],
+   "dir": "h",
+   "title_size": 92
+  },
+  {
+   "id": "ccs-32-planner",
+   "p": "ccs",
+   "layout": "combo",
+   "shots": [
+    "ccs-dashboard",
+    "ccs-phone-channels"
+   ],
+   "title": "Creator Planner",
+   "sub": "on your laptop and phone",
+   "chips": [
+    "Channels",
+    "Content",
+    "Deals"
+   ],
+   "angle": "The creator dashboard on a laptop and channel cards on a phone",
+   "theme": "cream",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "fco-32-deliverables",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Every deadline<br>in one place",
+   "sub": "days left, counted for you",
+   "chips": [
+    "Deadline",
+    "Days left",
+    "Client"
+   ],
+   "angle": "Projects with days left and the deadline for each one",
+   "theme": "sage",
+   "kicker": "PROJECTS",
+   "parts": [
+    [
+     "fco-projects",
+     [
+      60,
+      318,
+      325,
+      455
+     ]
+    ],
+    [
+     "fco-projects",
+     [
+      888,
+      318,
+      1000,
+      455
+     ]
+    ],
+    [
+     "fco-projects",
+     [
+      1075,
+      318,
+      1262,
+      455
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "ccs-33-scheduled",
+   "p": "ccs",
+   "layout": "zoom",
+   "shots": [],
+   "title": "See what goes<br>out tomorrow",
+   "sub": "scheduled posts in one column",
+   "chips": [
+    "Scheduled",
+    "Tomorrow",
+    "Newsletter"
+   ],
+   "angle": "A Scheduled column with posts going out tomorrow",
+   "theme": "clay",
+   "kicker": "CREATOR TIP",
+   "parts": [
+    [
+     "ccs-pipeline",
+     [
+      1257,
+      80,
+      1480,
+      420
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "fco-33-owed",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Who still<br>owes you?",
+   "sub": "outstanding, per invoice",
+   "chips": [
+    "Outstanding",
+    "Late",
+    "Paid"
+   ],
+   "angle": "Invoices with amount, client and the outstanding amount still owed",
+   "theme": "cream",
+   "kicker": "GET PAID ON TIME",
+   "parts": [
+    [
+     "fco-invoices",
+     [
+      70,
+      335,
+      290,
+      500
+     ]
+    ],
+    [
+     "fco-invoices",
+     [
+      290,
+      335,
+      385,
+      500
+     ]
+    ],
+    [
+     "fco-invoices",
+     [
+      1158,
+      335,
+      1278,
+      500
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "ccs-34-ideas",
+   "p": "ccs",
+   "layout": "zoom",
+   "shots": [],
+   "title": "From idea<br>to posted",
+   "sub": "one card moves through every stage",
+   "chips": [
+    "Idea",
+    "Create",
+    "Posted"
+   ],
+   "angle": "Content cards in Create and Idea columns with format and platforms",
+   "theme": "sage",
+   "kicker": "CONTENT PIPELINE",
+   "parts": [
+    [
+     "ccs-pipeline",
+     [
+      777,
+      80,
+      1000,
+      300
+     ]
+    ],
+    [
+     "ccs-pipeline",
+     [
+      1017,
+      80,
+      1240,
+      420
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "fco-34-pipeline",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Draft → Sent →<br>Talking → Won",
+   "sub": "follow every proposal",
+   "chips": [
+    "Draft",
+    "Sent",
+    "Won"
+   ],
+   "angle": "Proposal stages: draft, sent, talking, won",
+   "theme": "clay",
+   "kicker": "PROPOSALS",
+   "parts": [
+    [
+     "fco-proposals",
+     [
+      840,
+      0,
+      1808,
+      165
+     ]
+    ]
+   ],
+   "dir": "h",
+   "title_size": 92
+  },
+  {
+   "id": "ccs-35-move",
+   "p": "ccs",
+   "layout": "phones",
+   "shots": [
+    "ccs-phone-edit",
+    "ccs-phone-dashboard"
+   ],
+   "title": "Move cards<br>as you work",
+   "sub": "on the Notion phone app",
+   "chips": [
+    "Edit",
+    "Posted",
+    "Late"
+   ],
+   "angle": "Content cards on the Notion phone app with stage, format and platform",
+   "theme": "cream",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "fco-35-hours",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "How long did<br>that really take?",
+   "sub": "log hours on every task",
+   "chips": [
+    "Time (hrs)",
+    "Done",
+    "Project"
+   ],
+   "angle": "Tasks with the hours each one took",
+   "theme": "sage",
+   "kicker": "FREELANCE TIP",
+   "parts": [
+    [
+     "fco-tasks",
+     [
+      90,
+      310,
+      345,
+      650
+     ]
+    ],
+    [
+     "fco-tasks",
+     [
+      1285,
+      310,
+      1472,
+      650
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "ccs-36-dayslate",
+   "p": "ccs",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Late on a<br>brand deliverable?",
+   "sub": "days late, counted for you",
+   "chips": [
+    "Content due",
+    "Days late",
+    "Brand"
+   ],
+   "angle": "Brand deals with content due date and days late",
+   "theme": "clay",
+   "kicker": "BRAND DEALS",
+   "parts": [
+    [
+     "ccs-deals",
+     [
+      50,
+      305,
+      215,
+      450
+     ]
+    ],
+    [
+     "ccs-deals",
+     [
+      345,
+      305,
+      530,
+      450
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "fco-36-crm",
+   "p": "fco",
+   "layout": "laptop",
+   "shots": [
+    "fco-clients"
+   ],
+   "title": "Simple Freelance CRM",
+   "sub": "clients, follow-ups, what they owe",
+   "chips": [
+    "Clients",
+    "Follow-ups",
+    "Owes you"
+   ],
+   "angle": "A Notion client list with company, email, follow-up date and amount owed",
+   "theme": "cream",
+   "kicker": "NOTION TEMPLATE",
+   "show_w": 1300
   }
  ]
 }

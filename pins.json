@@ -239,6 +239,126 @@
    "id": "fco-24-late",
    "p": "fco",
    "angle": "Invoice rows with due date and the number of days overdue"
+  },
+  {
+   "id": "ccs-25-onthego",
+   "p": "ccs",
+   "angle": "Channel cards and the content board in the Notion phone app"
+  },
+  {
+   "id": "fco-25-tasks",
+   "p": "fco",
+   "angle": "A Notion task list with client, due date, priority and project"
+  },
+  {
+   "id": "ccs-26-posted",
+   "p": "ccs",
+   "angle": "A Posted column of content cards with format and platform"
+  },
+  {
+   "id": "fco-26-winchance",
+   "p": "fco",
+   "angle": "Proposals with value and win chance (high, medium, low)"
+  },
+  {
+   "id": "ccs-27-late",
+   "p": "ccs",
+   "angle": "Content cards in Edit and Draft columns, with a red Late flag"
+  },
+  {
+   "id": "fco-27-expenses",
+   "p": "fco",
+   "angle": "Expenses with amount and category: software, stock assets, contractor"
+  },
+  {
+   "id": "ccs-28-deliverables",
+   "p": "ccs",
+   "angle": "Brand deals with the deliverables promised and how many are delivered"
+  },
+  {
+   "id": "fco-28-hq",
+   "p": "fco",
+   "angle": "Freelancer Client OS pages stacked: dashboard, proposals and tasks"
+  },
+  {
+   "id": "ccs-29-getpaid",
+   "p": "ccs",
+   "angle": "Brand deal cards in Delivered and Paid columns with fee and due date"
+  },
+  {
+   "id": "fco-29-priority",
+   "p": "fco",
+   "angle": "Tasks with a high, medium or low priority tag"
+  },
+  {
+   "id": "ccs-30-hq",
+   "p": "ccs",
+   "angle": "Content Creator Studio pages stacked: dashboard, brand deals and channels"
+  },
+  {
+   "id": "fco-30-source",
+   "p": "fco",
+   "angle": "Clients with their source (Upwork, referral, LinkedIn), status and total invoiced"
+  },
+  {
+   "id": "ccs-31-followers",
+   "p": "ccs",
+   "angle": "Channel cards on the phone with followers and posts done this week"
+  },
+  {
+   "id": "fco-31-getpaid",
+   "p": "fco",
+   "angle": "Freelancer Client OS banner: Win work. Do it. Get paid."
+  },
+  {
+   "id": "ccs-32-planner",
+   "p": "ccs",
+   "angle": "The creator dashboard on a laptop and channel cards on a phone"
+  },
+  {
+   "id": "fco-32-deliverables",
+   "p": "fco",
+   "angle": "Projects with days left and the deadline for each one"
+  },
+  {
+   "id": "ccs-33-scheduled",
+   "p": "ccs",
+   "angle": "A Scheduled column with posts going out tomorrow"
+  },
+  {
+   "id": "fco-33-owed",
+   "p": "fco",
+   "angle": "Invoices with amount, client and the outstanding amount still owed"
+  },
+  {
+   "id": "ccs-34-ideas",
+   "p": "ccs",
+   "angle": "Content cards in Create and Idea columns with format and platforms"
+  },
+  {
+   "id": "fco-34-pipeline",
+   "p": "fco",
+   "angle": "Proposal stages: draft, sent, talking, won"
+  },
+  {
+   "id": "ccs-35-move",
+   "p": "ccs",
+   "angle": "Content cards on the Notion phone app with stage, format and platform"
+  },
+  {
+   "id": "fco-35-hours",
+   "p": "fco",
+   "angle": "Tasks with the hours each one took"
+  },
+  {
+   "id": "ccs-36-dayslate",
+   "p": "ccs",
+   "angle": "Brand deals with content due date and days late"
+  },
+  {
+   "id": "fco-36-crm",
+   "p": "fco",
+   "angle": "A Notion client list with company, email, follow-up date and amount owed"
   }
  ]
 }
