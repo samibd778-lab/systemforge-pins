@@ -1,0 +1,1238 @@
+{
+ "pins": [
+  {
+   "id": "ccs-1-pipeline",
+   "p": "ccs",
+   "layout": "combo",
+   "shots": [
+    "ccs-pipeline",
+    "ccs-phone-posted"
+   ],
+   "title": "Content Planner",
+   "sub": "plan every post, every platform",
+   "chips": [
+    "Idea → Posted",
+    "Board",
+    "Phone"
+   ],
+   "angle": "A Notion content board on a laptop and phone: every post moves from Idea to Posted",
+   "theme": "clay",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "fco-1-overview",
+   "p": "fco",
+   "layout": "laptop",
+   "shots": [
+    "fco-dashboard"
+   ],
+   "title": "Freelancer Client OS",
+   "sub": "your whole business, one page",
+   "chips": [
+    "Clients",
+    "Proposals",
+    "Invoices"
+   ],
+   "angle": "The Freelancer Client OS dashboard in Notion: client, proposal, project, invoice, paid",
+   "theme": "sage",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "ccs-2-repurpose",
+   "p": "ccs",
+   "layout": "phones",
+   "shots": [
+    "ccs-phone-posted",
+    "ccs-phone-edit"
+   ],
+   "title": "One idea,<br>many platforms",
+   "sub": "tracked as one card per post",
+   "chips": [
+    "TikTok",
+    "Instagram",
+    "YouTube"
+   ],
+   "angle": "Content cards on the Notion phone app, each linked to the platforms it goes to",
+   "theme": "cream",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "fco-2-invoices",
+   "p": "fco",
+   "layout": "laptop",
+   "shots": [
+    "fco-invoices"
+   ],
+   "title": "Invoice Tracker",
+   "sub": "for freelancers",
+   "chips": [
+    "Paid",
+    "Sent",
+    "Days overdue"
+   ],
+   "angle": "A Notion invoice tracker showing amount, client, days overdue and status",
+   "theme": "sage",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "ccs-3-deals",
+   "p": "ccs",
+   "layout": "laptop",
+   "shots": [
+    "ccs-deals"
+   ],
+   "title": "Brand Deal Tracker",
+   "sub": "from pitch to paid",
+   "chips": [
+    "Pitched",
+    "Signed",
+    "Delivered",
+    "Paid"
+   ],
+   "angle": "A Notion brand deal tracker: fee, posts owed, payment due and stage for each sponsor",
+   "theme": "clay",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "fco-3-projects",
+   "p": "fco",
+   "layout": "laptop",
+   "shots": [
+    "fco-projects"
+   ],
+   "title": "Project Tracker",
+   "sub": "budget · deadline · days left",
+   "chips": [
+    "Budget",
+    "Deadline",
+    "Costs"
+   ],
+   "angle": "A Notion project tracker with budget, client, costs, days left and deadline",
+   "theme": "cream",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "ccs-4-channels",
+   "p": "ccs",
+   "layout": "combo",
+   "shots": [
+    "ccs-channels",
+    "ccs-phone-channels"
+   ],
+   "title": "Channel Tracker",
+   "sub": "a weekly goal for every platform",
+   "chips": [
+    "Followers",
+    "Weekly goal",
+    "On track?"
+   ],
+   "angle": "Channel cards on laptop and phone showing followers and this week's posting goal",
+   "theme": "sage",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "fco-4-emails",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Client emails,<br>ready to send",
+   "sub": "copy · paste · personalize",
+   "chips": [
+    "Follow-up",
+    "Proposal",
+    "Reminder"
+   ],
+   "angle": "A list of ready-to-send client email scripts inside Notion",
+   "theme": "clay",
+   "kicker": "INCLUDED",
+   "parts": [
+    [
+     "fco-emails",
+     [
+      470,
+      290,
+      1090,
+      762
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "ccs-5-pillars",
+   "p": "ccs",
+   "layout": "stack",
+   "shots": [
+    "ccs-dashboard",
+    "ccs-pipeline",
+    "ccs-channels"
+   ],
+   "title": "Content Creator<br>Studio",
+   "sub": "plan it · post it · see what works",
+   "chips": [
+    "Content",
+    "Channels",
+    "Brand deals"
+   ],
+   "angle": "Three pages of the Content Creator Studio Notion template: dashboard, content board and channels",
+   "theme": "cream",
+   "kicker": "NOTION TEMPLATE",
+   "title_size": 96
+  },
+  {
+   "id": "fco-5-clients",
+   "p": "fco",
+   "layout": "laptop",
+   "shots": [
+    "fco-clients"
+   ],
+   "title": "Client Tracker",
+   "sub": "never miss a follow-up",
+   "chips": [
+    "Follow-up date",
+    "Owes you",
+    "Notes"
+   ],
+   "angle": "A Notion client tracker with company, email, next follow-up date and what each client owes you",
+   "theme": "sage",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "ccs-6-review",
+   "p": "ccs",
+   "layout": "combo",
+   "shots": [
+    "ccs-dashboard",
+    "ccs-phone-dashboard"
+   ],
+   "title": "Creator Dashboard",
+   "sub": "on your laptop and phone",
+   "chips": [
+    "Make content",
+    "Brand deals",
+    "Resources"
+   ],
+   "angle": "The Content Creator Studio dashboard on a laptop and on the Notion phone app",
+   "theme": "clay",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "fco-6-flow",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "From client<br>to paid",
+   "sub": "one simple flow in Notion",
+   "chips": [
+    "Client",
+    "Proposal",
+    "Project",
+    "Invoice"
+   ],
+   "angle": "The Freelancer Client OS flow: client, proposal, project, invoice, paid",
+   "theme": "cream",
+   "kicker": "FREELANCER CLIENT OS",
+   "parts": [
+    [
+     "fco-dashboard",
+     [
+      700,
+      0,
+      1792,
+      260
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "ccs-7-ideas",
+   "p": "ccs",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Never lose a<br>content idea",
+   "sub": "every idea gets a card",
+   "chips": [
+    "Idea",
+    "Create",
+    "Posted"
+   ],
+   "angle": "Idea cards on a Notion content board, each with its format and platform",
+   "theme": "sage",
+   "kicker": "CREATOR TIP",
+   "parts": [
+    [
+     "ccs-pipeline",
+     [
+      1010,
+      80,
+      1490,
+      440
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "fco-7-followups",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Never forget<br>a follow-up",
+   "sub": "every client has a next date",
+   "chips": [
+    "Next follow-up",
+    "Due",
+    "Notes"
+   ],
+   "angle": "Client list with follow-up status and the next follow-up date for each client",
+   "theme": "clay",
+   "kicker": "FREELANCE TIP",
+   "parts": [
+    [
+     "fco-clients",
+     [
+      0,
+      340,
+      165,
+      505
+     ]
+    ],
+    [
+     "fco-clients",
+     [
+      534,
+      340,
+      633,
+      505
+     ]
+    ],
+    [
+     "fco-clients",
+     [
+      821,
+      340,
+      1063,
+      505
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "ccs-8-calendar",
+   "p": "ccs",
+   "layout": "phones",
+   "shots": [
+    "ccs-phone-create",
+    "ccs-phone-posted"
+   ],
+   "title": "Plan content<br>on your phone",
+   "sub": "in the Notion app",
+   "chips": [
+    "Create",
+    "Posted",
+    "Late"
+   ],
+   "angle": "The content board in the Notion phone app with Create and Posted columns",
+   "theme": "cream",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "fco-8-won",
+   "p": "fco",
+   "layout": "laptop",
+   "shots": [
+    "fco-proposals"
+   ],
+   "title": "Proposal Tracker",
+   "sub": "draft · sent · talking · won",
+   "chips": [
+    "Value",
+    "Win chance",
+    "Valid until"
+   ],
+   "angle": "A Notion proposal tracker with scope, status, value and win chance",
+   "theme": "sage",
+   "kicker": "NOTION TEMPLATE",
+   "show_w": 1250
+  },
+  {
+   "id": "ccs-9-engagement",
+   "p": "ccs",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Are you on track<br>this week?",
+   "sub": "see it per channel",
+   "chips": [
+    "0 / 4",
+    "Behind",
+    "Followers"
+   ],
+   "angle": "Channel cards showing posts done versus the weekly goal for each platform",
+   "theme": "clay",
+   "kicker": "CREATOR TIP",
+   "parts": [
+    [
+     "ccs-phone-channels",
+     [
+      30,
+      280,
+      510,
+      1060
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "fco-9-hourly",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "See your<br>real profit",
+   "sub": "per project, calculated for you",
+   "chips": [
+    "Paid",
+    "Profit",
+    "Progress"
+   ],
+   "angle": "Project rows showing paid amount, profit and a progress bar",
+   "theme": "cream",
+   "kicker": "FREELANCE TIP",
+   "parts": [
+    [
+     "fco-projects",
+     [
+      60,
+      318,
+      325,
+      455
+     ]
+    ],
+    [
+     "fco-projects-money",
+     [
+      135,
+      327,
+      511,
+      464
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "ccs-10-dealflow",
+   "p": "ccs",
+   "layout": "laptop",
+   "shots": [
+    "ccs-deals-board"
+   ],
+   "title": "Brand Deal Board",
+   "sub": "signed · delivered · paid",
+   "chips": [
+    "Fee",
+    "Posts done",
+    "Due date"
+   ],
+   "angle": "A Notion board of brand deals grouped by Signed, Delivered, Paid and Pitched",
+   "theme": "sage",
+   "kicker": "NOTION TEMPLATE",
+   "show_w": 1066
+  },
+  {
+   "id": "fco-10-today",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "What's overdue<br>today?",
+   "sub": "your tasks tell you",
+   "chips": [
+    "Overdue",
+    "Done",
+    "Priority"
+   ],
+   "angle": "A Notion task list with due dates, priority, hours and an Overdue or Done flag",
+   "theme": "clay",
+   "kicker": "FREELANCE TIP",
+   "parts": [
+    [
+     "fco-tasks",
+     [
+      90,
+      310,
+      345,
+      650
+     ]
+    ],
+    [
+     "fco-tasks",
+     [
+      720,
+      310,
+      1097,
+      650
+     ]
+    ],
+    [
+     "fco-tasks",
+     [
+      1472,
+      310,
+      1660,
+      650
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "ccs-11-askpay",
+   "p": "ccs",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Which brand<br>still owes you?",
+   "sub": "know before you ask",
+   "chips": [
+    "Waiting",
+    "Late",
+    "Paid"
+   ],
+   "angle": "Brand deals with fee, money status (waiting, late, paid) and payment due date",
+   "theme": "cream",
+   "kicker": "CREATOR TIP",
+   "parts": [
+    [
+     "ccs-deals",
+     [
+      50,
+      305,
+      215,
+      450
+     ]
+    ],
+    [
+     "ccs-deals",
+     [
+      870,
+      305,
+      1240,
+      450
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "fco-11-onboarding",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Scripts &<br>checklists included",
+   "sub": "start every client the same way",
+   "chips": [
+    "Email scripts",
+    "Onboarding",
+    "Weekly review"
+   ],
+   "angle": "Dashboard sections linking to email scripts, a client onboarding checklist and a weekly review",
+   "theme": "sage",
+   "kicker": "INCLUDED",
+   "parts": [
+    [
+     "fco-dashboard",
+     [
+      30,
+      485,
+      400,
+      605
+     ]
+    ],
+    [
+     "fco-dashboard",
+     [
+      470,
+      485,
+      850,
+      605
+     ]
+    ],
+    [
+     "fco-dashboard",
+     [
+      910,
+      485,
+      1300,
+      605
+     ]
+    ]
+   ],
+   "dir": "v"
+  },
+  {
+   "id": "ccs-12-hooks",
+   "p": "ccs",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Hook library<br>included",
+   "sub": "plus deal scripts & weekly review",
+   "chips": [
+    "Hooks",
+    "Scripts",
+    "Review"
+   ],
+   "angle": "Dashboard sections of a creator Notion template: content, brand deals, hook library and weekly review",
+   "theme": "clay",
+   "kicker": "INCLUDED",
+   "parts": [
+    [
+     "ccs-phone-dashboard",
+     [
+      20,
+      200,
+      520,
+      960
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "fco-12-reminder",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Send a friendly<br>payment reminder",
+   "sub": "the words are already written",
+   "chips": [
+    "Invoice sent",
+    "Reminder",
+    "Copy"
+   ],
+   "angle": "Client email scripts including invoice sent and a friendly payment reminder",
+   "theme": "cream",
+   "kicker": "FREELANCE TIP",
+   "parts": [
+    [
+     "fco-emails",
+     [
+      470,
+      420,
+      1090,
+      762
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "ccs-13-goals",
+   "p": "ccs",
+   "layout": "laptop",
+   "shots": [
+    "ccs-channels"
+   ],
+   "title": "Weekly Posting Goals",
+   "sub": "for every channel",
+   "chips": [
+    "TikTok",
+    "Instagram",
+    "YouTube"
+   ],
+   "angle": "Channel cards with a weekly posting goal for each platform",
+   "theme": "sage",
+   "kicker": "NOTION TEMPLATE",
+   "show_w": 1600
+  },
+  {
+   "id": "fco-13-proposals",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Track every<br>proposal",
+   "sub": "value, status and win chance",
+   "chips": [
+    "Sent",
+    "Won",
+    "Win chance"
+   ],
+   "angle": "Proposal rows with status, value and win chance",
+   "theme": "clay",
+   "kicker": "NOTION TEMPLATE",
+   "parts": [
+    [
+     "fco-proposals",
+     [
+      50,
+      325,
+      260,
+      495
+     ]
+    ],
+    [
+     "fco-proposals",
+     [
+      983,
+      325,
+      1100,
+      495
+     ]
+    ],
+    [
+     "fco-proposals",
+     [
+      1287,
+      325,
+      1662,
+      495
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "ccs-14-batch",
+   "p": "ccs",
+   "layout": "phones",
+   "shots": [
+    "ccs-phone-edit",
+    "ccs-phone-create"
+   ],
+   "title": "Batch your<br>filming",
+   "sub": "then move each card along",
+   "chips": [
+    "Create",
+    "Edit",
+    "Posted"
+   ],
+   "angle": "Content cards in Create and Edit columns on the Notion phone app",
+   "theme": "cream",
+   "kicker": "CREATOR TIP"
+  },
+  {
+   "id": "fco-14-expenses",
+   "p": "fco",
+   "layout": "laptop",
+   "shots": [
+    "fco-expenses"
+   ],
+   "title": "Expense Tracker",
+   "sub": "know your real profit",
+   "chips": [
+    "Amount",
+    "Category",
+    "Project"
+   ],
+   "angle": "A Notion expense tracker with amount, category, date and linked project",
+   "theme": "sage",
+   "kicker": "NOTION TEMPLATE",
+   "show_w": 1300
+  },
+  {
+   "id": "ccs-15-track5",
+   "p": "ccs",
+   "layout": "stack",
+   "shots": [
+    "ccs-pipeline",
+    "ccs-channels",
+    "ccs-deals"
+   ],
+   "title": "Everything a creator<br>tracks",
+   "sub": "in one Notion workspace",
+   "chips": [
+    "Content",
+    "Channels",
+    "Deals"
+   ],
+   "angle": "Three pages of a creator Notion template: content board, channels and brand deals",
+   "theme": "clay",
+   "kicker": "NOTION TEMPLATE",
+   "title_size": 88
+  },
+  {
+   "id": "fco-15-track5",
+   "p": "fco",
+   "layout": "stack",
+   "shots": [
+    "fco-clients",
+    "fco-invoices",
+    "fco-projects"
+   ],
+   "title": "Everything a freelancer<br>tracks",
+   "sub": "in one Notion workspace",
+   "chips": [
+    "Clients",
+    "Invoices",
+    "Projects"
+   ],
+   "angle": "Three pages of a freelancer Notion template: clients, invoices and projects",
+   "theme": "cream",
+   "kicker": "NOTION TEMPLATE",
+   "title_size": 84
+  },
+  {
+   "id": "ccs-16-owed",
+   "p": "ccs",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Posts you<br>still owe",
+   "sub": "for every sponsor",
+   "chips": [
+    "0 / 2",
+    "2 / 2",
+    "Due date"
+   ],
+   "angle": "Brand deal cards showing fee, posts done out of posts owed and due date",
+   "theme": "sage",
+   "kicker": "CREATOR TIP",
+   "parts": [
+    [
+     "ccs-deals-board",
+     [
+      30,
+      120,
+      500,
+      340
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "fco-16-beforeafter",
+   "p": "fco",
+   "layout": "stack",
+   "shots": [
+    "fco-dashboard",
+    "fco-clients",
+    "fco-invoices"
+   ],
+   "title": "Inbox chaos →<br>one Notion page",
+   "sub": "for freelancers",
+   "chips": [
+    "Clients",
+    "Invoices",
+    "Tasks"
+   ],
+   "angle": "Freelancer Client OS pages stacked: dashboard, clients and invoices",
+   "theme": "clay",
+   "kicker": "NOTION TEMPLATE",
+   "title_size": 92
+  },
+  {
+   "id": "ccs-17-gallery",
+   "p": "ccs",
+   "layout": "combo",
+   "shots": [
+    "ccs-pipeline",
+    "ccs-phone-edit"
+   ],
+   "title": "Your Content Board",
+   "sub": "on every device",
+   "chips": [
+    "Board",
+    "Late",
+    "Platforms"
+   ],
+   "angle": "The content board on a laptop and the Notion phone app",
+   "theme": "cream",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "fco-17-phone",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Late invoices<br>flag themselves",
+   "sub": "with days overdue",
+   "chips": [
+    "Late",
+    "Days overdue",
+    "Outstanding"
+   ],
+   "angle": "Invoice rows with amount, client and days overdue",
+   "theme": "sage",
+   "kicker": "GET PAID ON TIME",
+   "parts": [
+    [
+     "fco-invoices",
+     [
+      70,
+      335,
+      385,
+      500
+     ]
+    ],
+    [
+     "fco-invoices",
+     [
+      573,
+      335,
+      695,
+      500
+     ]
+    ],
+    [
+     "fco-invoices",
+     [
+      1065,
+      335,
+      1160,
+      500
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "ccs-18-platforms",
+   "p": "ccs",
+   "layout": "zoom",
+   "shots": [],
+   "title": "TikTok, Reels,<br>Shorts & more",
+   "sub": "plan them all in one place",
+   "chips": [
+    "TikTok",
+    "Instagram",
+    "Threads"
+   ],
+   "angle": "Platform tags: TikTok, Instagram, YouTube, LinkedIn, X and Threads",
+   "theme": "clay",
+   "kicker": "EVERY PLATFORM",
+   "parts": [
+    [
+     "ccs-channels",
+     [
+      880,
+      0,
+      1802,
+      165
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "fco-18-recap",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Send a recap<br>after every call",
+   "sub": "script #1 is ready for you",
+   "chips": [
+    "Follow-up",
+    "Proposal",
+    "Kickoff"
+   ],
+   "angle": "Email scripts list starting with a follow-up after a call",
+   "theme": "cream",
+   "kicker": "FREELANCE TIP",
+   "parts": [
+    [
+     "fco-emails",
+     [
+      470,
+      290,
+      1090,
+      610
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "ccs-19-phone",
+   "p": "ccs",
+   "layout": "phones",
+   "shots": [
+    "ccs-phone-dashboard",
+    "ccs-phone-channels"
+   ],
+   "title": "Your studio<br>in your pocket",
+   "sub": "in the Notion phone app",
+   "chips": [
+    "Content",
+    "Channels",
+    "Deals"
+   ],
+   "angle": "The creator dashboard and channel cards in the Notion phone app",
+   "theme": "sage",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "fco-19-deposit",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Ask for a<br>50% deposit",
+   "sub": "track it as its own invoice",
+   "chips": [
+    "Deposit 50%",
+    "Final 50%",
+    "Paid"
+   ],
+   "angle": "Invoices including a 50% deposit and a final 50% payment for one project",
+   "theme": "clay",
+   "kicker": "FREELANCE TIP",
+   "parts": [
+    [
+     "fco-invoices",
+     [
+      70,
+      335,
+      385,
+      500
+     ]
+    ],
+    [
+     "fco-invoices",
+     [
+      1278,
+      335,
+      1520,
+      500
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "ccs-20-setup",
+   "p": "ccs",
+   "layout": "laptop",
+   "shots": [
+    "ccs-dashboard"
+   ],
+   "title": "Ready in 5 Minutes",
+   "sub": "duplicate · start here · post",
+   "chips": [
+    "Example data",
+    "Start here",
+    "Notion"
+   ],
+   "angle": "The Content Creator Studio dashboard with a Start here guide",
+   "theme": "cream",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "fco-20-setup",
+   "p": "fco",
+   "layout": "laptop",
+   "shots": [
+    "fco-dashboard"
+   ],
+   "title": "Ready in 5 Minutes",
+   "sub": "duplicate · start here · get paid",
+   "chips": [
+    "Example data",
+    "Start here",
+    "Notion"
+   ],
+   "angle": "The Freelancer Client OS dashboard with a Start here guide",
+   "theme": "sage",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "ccs-21-pillars",
+   "p": "ccs",
+   "layout": "combo",
+   "shots": [
+    "ccs-pipeline",
+    "ccs-phone-create"
+   ],
+   "title": "Plan it. Post it.<br>See what works.",
+   "sub": "a calm creator dashboard",
+   "chips": [
+    "Idea",
+    "Draft",
+    "Posted"
+   ],
+   "angle": "The content board on a laptop and phone: plan it, post it, see what works",
+   "theme": "clay",
+   "kicker": "CONTENT CREATOR STUDIO",
+   "title_size": 92
+  },
+  {
+   "id": "fco-21-health",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "A progress bar<br>for every project",
+   "sub": "status and profit at a glance",
+   "chips": [
+    "In progress",
+    "Done",
+    "Profit"
+   ],
+   "angle": "Project rows with a progress bar, status and profit",
+   "theme": "cream",
+   "kicker": "PROJECTS",
+   "parts": [
+    [
+     "fco-projects",
+     [
+      60,
+      318,
+      325,
+      455
+     ]
+    ],
+    [
+     "fco-projects-money",
+     [
+      699,
+      327,
+      886,
+      464
+     ]
+    ],
+    [
+     "fco-projects-money",
+     [
+      1261,
+      327,
+      1449,
+      464
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "ccs-22-review",
+   "p": "ccs",
+   "layout": "zoom",
+   "shots": [],
+   "title": "A 15-minute<br>weekly review",
+   "sub": "plan next week on Sunday",
+   "chips": [
+    "Weekly review",
+    "Daily loop",
+    "Start here"
+   ],
+   "angle": "Dashboard links to a weekly review, your daily loop and a start here guide",
+   "theme": "sage",
+   "kicker": "CREATOR TIP",
+   "parts": [
+    [
+     "ccs-phone-dashboard",
+     [
+      20,
+      640,
+      520,
+      960
+     ]
+    ]
+   ],
+   "dir": "h"
+  },
+  {
+   "id": "fco-22-emails",
+   "p": "fco",
+   "layout": "laptop",
+   "shots": [
+    "fco-emails"
+   ],
+   "title": "8 Client Emails",
+   "sub": "for every stage of a project",
+   "chips": [
+    "Proposal",
+    "Invoice",
+    "Reminder"
+   ],
+   "angle": "Client email scripts in Notion for every stage of a project",
+   "theme": "clay",
+   "kicker": "NOTION TEMPLATE",
+   "show_w": 1300
+  },
+  {
+   "id": "ccs-23-pipeline",
+   "p": "ccs",
+   "layout": "laptop",
+   "shots": [
+    "ccs-pipeline"
+   ],
+   "title": "Content Pipeline",
+   "sub": "six stages, one board",
+   "chips": [
+    "Edit",
+    "Posted",
+    "Scheduled"
+   ],
+   "angle": "A Notion content board with Edit, Posted, Draft, Create, Idea and Scheduled columns",
+   "theme": "cream",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "fco-23-oneplace",
+   "p": "fco",
+   "layout": "stack",
+   "shots": [
+    "fco-proposals",
+    "fco-tasks",
+    "fco-expenses"
+   ],
+   "title": "All linked<br>together",
+   "sub": "proposals · tasks · expenses",
+   "chips": [
+    "Proposals",
+    "Tasks",
+    "Expenses"
+   ],
+   "angle": "Freelancer pages stacked: proposals, tasks and expenses, all linked",
+   "theme": "sage",
+   "kicker": "NOTION TEMPLATE"
+  },
+  {
+   "id": "ccs-24-sponsor",
+   "p": "ccs",
+   "layout": "laptop",
+   "shots": [
+    "ccs-deals"
+   ],
+   "title": "Sponsorship Tracker",
+   "sub": "fee · posts owed · payment due",
+   "chips": [
+    "Fee",
+    "Payment due",
+    "Stage"
+   ],
+   "angle": "A Notion sponsorship tracker with fee, payment due date and stage",
+   "theme": "clay",
+   "kicker": "NOTION TEMPLATE",
+   "show_w": 1350
+  },
+  {
+   "id": "fco-24-late",
+   "p": "fco",
+   "layout": "zoom",
+   "shots": [],
+   "title": "Days overdue,<br>counted for you",
+   "sub": "no more guessing",
+   "chips": [
+    "Due date",
+    "Days overdue",
+    "Late"
+   ],
+   "angle": "Invoice rows with due date and the number of days overdue",
+   "theme": "cream",
+   "kicker": "GET PAID ON TIME",
+   "parts": [
+    [
+     "fco-invoices",
+     [
+      70,
+      335,
+      290,
+      500
+     ]
+    ],
+    [
+     "fco-invoices",
+     [
+      573,
+      335,
+      830,
+      500
+     ]
+    ]
+   ],
+   "dir": "h"
+  }
+ ]
+}
