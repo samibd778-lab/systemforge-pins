@@ -81,7 +81,12 @@ def build(v):
     for p, d in zip(imgs, durs):
         args += ['-loop', '1', '-t', f'{d + XF:.2f}', '-i', p]
     total = sum(durs) + XF
-    args += ['-f', 'lavfi', '-t', f'{total:.2f}', '-i', 'anullsrc=r=44100:cl=stereo']
+    import music
+    from scipy.io import wavfile
+    wav = os.path.join(work, 'music.wav')
+    wavfile.write(wav, music.SR, music.make(total + 0.5, shift=0 if v['p'] == 'fco' else 5,
+                                             variant=sum(map(ord, v['id'])) % 2))
+    args += ['-i', wav]
     f = []
     for i, d in enumerate(durs):  # slow push-in on every scene
         z = 0.06
