@@ -1,0 +1,92 @@
+{
+ "videos": [
+  {
+   "id": "v01-pipeline-move",
+   "p": "ccs",
+   "theme": "sage",
+   "hook": "POV: your content<br>plan actually moves",
+   "segments": [
+    {
+     "src": "raw/1_yihEph3LTjfOrYzapriZnPf8vBC58Gy.mp4",
+     "t0": 5.0,
+     "t1": 10.0,
+     "box": [
+      1190,
+      450,
+      1910,
+      1008
+     ],
+     "zoom": 1.08
+    },
+    {
+     "src": "raw/1_yihEph3LTjfOrYzapriZnPf8vBC58Gy.mp4",
+     "t0": 10.0,
+     "t1": 12.8,
+     "box": [
+      110,
+      130,
+      560,
+      320
+     ],
+     "caption": "…and the stage<br>updates itself",
+     "zoom": 1.05,
+     "hook": false
+    }
+   ]
+  },
+  {
+   "id": "v02-proposal-won",
+   "p": "fco",
+   "theme": "clay",
+   "hook": "Draft → Won.<br>Best feeling.",
+   "segments": [
+    {
+     "src": "raw/1sr2jRzQs_ccaAw4Z2BsGDEs1eMLp_DUU.mp4",
+     "t0": 25.8,
+     "t1": 30.0,
+     "box": [
+      1180,
+      470,
+      1760,
+      940
+     ],
+     "zoom": 1.06
+    },
+    {
+     "src": "raw/1sr2jRzQs_ccaAw4Z2BsGDEs1eMLp_DUU.mp4",
+     "t0": 33.0,
+     "t1": 39.0,
+     "box": [
+      1170,
+      465,
+      1690,
+      720
+     ],
+     "caption": "See which deals<br>you'll probably win",
+     "zoom": 1.04,
+     "hook": false
+    }
+   ]
+  },
+  {
+   "id": "v03-proposal-board",
+   "p": "fco",
+   "theme": "cream",
+   "hook": "Drag your deals<br>to Won",
+   "segments": [
+    {
+     "src": "raw/1ei4VRX7q3zPW2pSMRbbRsCRm1_nEI0cw.mp4",
+     "t0": 9.0,
+     "t1": 19.0,
+     "box": [
+      430,
+      250,
+      1160,
+      820
+     ],
+     "zoom": 1.07
+    }
+   ]
+  }
+ ]
+}
