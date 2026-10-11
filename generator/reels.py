@@ -109,9 +109,15 @@ def main():
     spec = json.load(open(os.path.join(ROOT, 'generator', 'reels-spec.json')))['videos']
     only = sys.argv[1:]
     for v in spec:
-        if not only or v['id'] in only:
+        if only != ['--json'] and (not only or v['id'] in only):
             build(v); print('ok', v['id'])
-    json.dump({'videos': [{k: v[k] for k in ('id', 'p', 'title', 'caption', 'tags')} for v in spec]},
+    extra = json.load(open(os.path.join(ROOT, 'generator', 'videos-extra.json')))['videos']
+    real = [{k: v[k] for k in ('id', 'p', 'title', 'caption', 'tags')} for v in spec]
+    mixed = [real.pop(0)]  # r01 was already posted first; then real recordings and slideshows alternate
+    while extra or real:
+        if extra: mixed.append(extra.pop(0))
+        if real: mixed.append(real.pop(0))
+    json.dump({'videos': mixed},
               open(os.path.join(ROOT, 'videos.json'), 'w'), indent=1, ensure_ascii=False)
 
 

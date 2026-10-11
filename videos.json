@@ -8,6 +8,13 @@
    "tags": "#notion #notiontemplate #freelancer #freelancetips #productivity"
   },
   {
+   "id": "v01-pipeline-move",
+   "p": "ccs",
+   "title": "POV: your content plan actually moves (Notion) #shorts",
+   "caption": "Drag a post from Idea to Create and the stage updates everywhere. A calm Notion content planner for creators who post on more than one platform.",
+   "tags": "#notion #notiontemplate #contentcreator #contentplanner #creatortips"
+  },
+  {
    "id": "r02-content-board",
    "p": "ccs",
    "title": "Plan content for every platform in one Notion board #shorts",
@@ -15,11 +22,25 @@
    "tags": "#notion #notiontemplate #contentcreator #contentplanner #creatortips"
   },
   {
+   "id": "v02-proposal-won",
+   "p": "fco",
+   "title": "Draft to Won: track every proposal in Notion #shorts",
+   "caption": "Change a proposal from Draft to Won and see the win chance of every deal. Freelancer Client OS keeps proposals, projects and invoices in one Notion page.",
+   "tags": "#notion #notiontemplate #freelancer #freelancetips #productivity"
+  },
+  {
    "id": "r03-client-owes",
    "p": "fco",
    "title": "See which client still owes you in Notion #shorts",
    "caption": "A simple freelance client tracker: next follow-up date, notes and what each client still owes you.",
    "tags": "#notion #notiontemplate #freelancer #freelancetips #productivity"
+  },
+  {
+   "id": "v03-proposal-board",
+   "p": "fco",
+   "title": "Drag your deals to Won (Notion for freelancers) #shorts",
+   "caption": "A simple proposal board in Notion: Draft, Negotiating, Sent, Won. Drag a card when the client says yes.",
+   "tags": "#notion #notiontemplate #freelancer #freelancelife #productivity"
   },
   {
    "id": "r04-brand-deals",

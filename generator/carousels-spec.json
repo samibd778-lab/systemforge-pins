@@ -1,0 +1,519 @@
+{
+ "carousels": [
+  {
+   "id": "k01-get-paid",
+   "p": "fco",
+   "theme": "sage",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "FREELANCE TIPS",
+     "title": "3 ways to get<br>paid on time",
+     "sub": "without awkward emails"
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "Ask for a deposit",
+     "text": "Split big projects: 50% before you start, 50% at the end.",
+     "parts": [
+      [
+       "fco-invoices",
+       [
+        70,
+        335,
+        385,
+        500
+       ]
+      ],
+      [
+       "fco-invoices",
+       [
+        1278,
+        335,
+        1520,
+        500
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "Count the days late",
+     "text": "When you can see \"9 days overdue\", you know when to follow up.",
+     "parts": [
+      [
+       "fco-invoices",
+       [
+        70,
+        335,
+        290,
+        500
+       ]
+      ],
+      [
+       "fco-invoices",
+       [
+        573,
+        335,
+        695,
+        500
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "Use a friendly reminder",
+     "text": "Keep a polite reminder ready, so you never write it from scratch.",
+     "parts": [
+      [
+       "fco-emails",
+       [
+        470,
+        420,
+        1090,
+        762
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "cta"
+    }
+   ],
+   "caption": "Getting paid shouldn't feel awkward. 3 small habits that help:\n\n1. Ask for a deposit before you start\n2. Track how many days an invoice is late\n3. Keep a friendly reminder email ready\n\nFreelancer Client OS is a Notion template that does all three for you. Link in bio.\n\n#notion #notiontemplate #freelancer #freelancetips #freelancelife #productivity #smallbusiness"
+  },
+  {
+   "id": "k02-content-week",
+   "p": "ccs",
+   "theme": "clay",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "CREATOR TIPS",
+     "title": "Plan a week of<br>content in<br>15 minutes",
+     "size": 100
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "Dump every idea",
+     "text": "Every idea gets a card, with its format and platform.",
+     "parts": [
+      [
+       "ccs-pipeline",
+       [
+        1010,
+        80,
+        1490,
+        440
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "Set a goal per channel",
+     "text": "See how many posts are left this week on each platform.",
+     "parts": [
+      [
+       "ccs-phone-channels",
+       [
+        30,
+        280,
+        510,
+        820
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "Move cards as you work",
+     "text": "Idea → Draft → Create → Edit → Scheduled → Posted.",
+     "parts": [
+      [
+       "ccs-pipeline",
+       [
+        537,
+        80,
+        1240,
+        420
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "cta"
+    }
+   ],
+   "caption": "Your weekly content plan in 15 minutes:\n\n1. Dump every idea on one board\n2. Set a weekly goal for each channel\n3. Move each card until it's posted\n\nContent Creator Studio is a Notion template built for creators who post on more than one platform. Link in bio.\n\n#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #productivity"
+  },
+  {
+   "id": "k03-freelance-track",
+   "p": "fco",
+   "theme": "cream",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "FOR FREELANCERS",
+     "title": "What every<br>freelancer<br>should track",
+     "size": 104
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "Clients & follow-ups",
+     "text": "Every client with a next follow-up date.",
+     "parts": [
+      [
+       "fco-clients",
+       [
+        0,
+        340,
+        165,
+        505
+       ]
+      ],
+      [
+       "fco-clients",
+       [
+        821,
+        340,
+        1063,
+        505
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "Proposals & win chance",
+     "text": "Know which deals you will probably win.",
+     "parts": [
+      [
+       "fco-proposals",
+       [
+        50,
+        325,
+        260,
+        495
+       ]
+      ],
+      [
+       "fco-proposals",
+       [
+        1287,
+        325,
+        1662,
+        495
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "Projects & profit",
+     "text": "See the real profit of each project.",
+     "parts": [
+      [
+       "fco-projects",
+       [
+        60,
+        318,
+        325,
+        455
+       ]
+      ],
+      [
+       "fco-projects-money",
+       [
+        135,
+        327,
+        511,
+        464
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "cta"
+    }
+   ],
+   "caption": "Stop running your freelance business from your inbox. Track these 3 things:\n\n1. Clients and the next follow-up\n2. Proposals and their win chance\n3. Projects and real profit\n\nAll in one Notion page with Freelancer Client OS. Link in bio.\n\n#notion #notiontemplate #freelancer #freelancetips #freelancelife #productivity #smallbusiness"
+  },
+  {
+   "id": "k04-brand-deals",
+   "p": "ccs",
+   "theme": "sage",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "BRAND DEALS",
+     "title": "Never chase a<br>brand payment<br>blind again",
+     "size": 100
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "Track the stage",
+     "text": "Pitched, Signed, Delivered, Paid.",
+     "parts": [
+      [
+       "ccs-deals-board",
+       [
+        272,
+        125,
+        736,
+        340
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "Know who still owes you",
+     "text": "Waiting, late or paid, at a glance.",
+     "parts": [
+      [
+       "ccs-deals",
+       [
+        50,
+        305,
+        215,
+        450
+       ]
+      ],
+      [
+       "ccs-deals",
+       [
+        870,
+        305,
+        1240,
+        450
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "Count the posts you owe",
+     "text": "Deliverables and due dates for each sponsor.",
+     "parts": [
+      [
+       "ccs-deals-board",
+       [
+        30,
+        120,
+        500,
+        340
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "cta"
+    }
+   ],
+   "caption": "Working with brands? Keep it simple:\n\n1. Track each deal from pitch to paid\n2. See which brand still owes you\n3. Know which posts you still owe\n\nContent Creator Studio has a brand deal tracker and ready scripts to ask for payment. Link in bio.\n\n#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #productivity"
+  },
+  {
+   "id": "k05-proposal-flow",
+   "p": "fco",
+   "theme": "clay",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "FREELANCER CLIENT OS",
+     "title": "From proposal<br>to paid",
+     "sub": "one calm flow in Notion"
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "Send the proposal",
+     "text": "Value, status and win chance in one table.",
+     "parts": [
+      [
+       "fco-proposals",
+       [
+        50,
+        325,
+        260,
+        495
+       ]
+      ],
+      [
+       "fco-proposals",
+       [
+        983,
+        325,
+        1100,
+        495
+       ]
+      ],
+      [
+       "fco-proposals",
+       [
+        1287,
+        325,
+        1662,
+        495
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "Do the work",
+     "text": "Deadlines and days left for every project.",
+     "parts": [
+      [
+       "fco-projects",
+       [
+        60,
+        318,
+        325,
+        455
+       ]
+      ],
+      [
+       "fco-projects",
+       [
+        888,
+        318,
+        1000,
+        455
+       ]
+      ],
+      [
+       "fco-projects",
+       [
+        1075,
+        318,
+        1262,
+        455
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "Get paid",
+     "text": "Invoices show what is paid, sent or late.",
+     "parts": [
+      [
+       "fco-invoices",
+       [
+        70,
+        335,
+        385,
+        500
+       ]
+      ],
+      [
+       "fco-invoices",
+       [
+        1065,
+        335,
+        1160,
+        500
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "cta"
+    }
+   ],
+   "caption": "Client → proposal → project → invoice → paid.\n\nFreelancer Client OS links every step in one Notion page, so nothing falls through the cracks. Comes with example data and a 5-minute start guide. Link in bio.\n\n#notion #notiontemplate #freelancer #freelancetips #freelancelife #productivity #smallbusiness"
+  },
+  {
+   "id": "k06-creator-hq",
+   "p": "ccs",
+   "theme": "cream",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "CONTENT CREATOR STUDIO",
+     "title": "Your creator<br>HQ in Notion"
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "One board for every post",
+     "text": "Six stages, from Idea to Posted.",
+     "parts": [
+      [
+       "ccs-pipeline",
+       [
+        537,
+        80,
+        1240,
+        420
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "Every channel",
+     "text": "TikTok, Instagram, YouTube, newsletter and more.",
+     "parts": [
+      [
+       "ccs-channels",
+       [
+        880,
+        0,
+        1802,
+        165
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "Every sponsor",
+     "text": "Fee, payment due and stage.",
+     "parts": [
+      [
+       "ccs-deals",
+       [
+        50,
+        305,
+        215,
+        450
+       ]
+      ],
+      [
+       "ccs-deals",
+       [
+        1120,
+        305,
+        1240,
+        450
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "cta"
+    }
+   ],
+   "caption": "Everything a creator tracks, in one calm Notion workspace: content, channels and brand deals.\n\nContent Creator Studio comes with example data and a 5-minute start guide. Link in bio.\n\n#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #productivity"
+  }
+ ]
+}

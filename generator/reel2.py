@@ -61,6 +61,11 @@ def build(spec, outdir):
         last = f'x{i}'
     total = sum(d for _, d in parts) - 0.25 * (len(parts) - 1)
     music = spec.get('music')
+    if music == 'auto':
+        import music as m
+        from scipy.io import wavfile
+        music = os.path.join(work, 'm.wav')
+        wavfile.write(music, m.SR, m.make(total + 0.5, shift=0 if spec['p'] == 'fco' else 5, variant=sum(map(ord, spec['id'])) % 2))
     if music:
         args += ['-i', music]
         f.append(f'[{len(parts)}:a]atrim=0:{total:.2f},afade=t=out:st={total-1:.2f}:d=1,volume=0.8[a]')
@@ -82,3 +87,4 @@ if __name__ == '__main__':
     for s in specs:
         if not only or s['id'] in only:
             print('ok', build(s, os.path.join(root, 'clips')))
+            print('ok', build(dict(s, music='auto'), os.path.join(root, 'videos')))
