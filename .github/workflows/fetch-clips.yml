@@ -13,20 +13,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Download and shrink
+        continue-on-error: true
         run: |
+          exec > >(tee -a fetch-log.txt) 2>&1
           pip install -q gdown
           sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg
           mkdir -p raw
           for id in $(echo "${{ inputs.ids }}" | tr ',' ' '); do
-            gdown -q --id "$id" -O "tmp_$id.mp4"
+            gdown "https://drive.google.com/uc?id=$id" -O "tmp_$id.mp4" || { echo "DOWNLOAD FAILED $id"; continue; }
             ffmpeg -loglevel error -y -i "tmp_$id.mp4" -vf "scale=1920:-2,fps=30" -c:v libx264 -crf 24 -preset veryfast -an "raw/$id.mp4"
             rm "tmp_$id.mp4"
             ls -la "raw/$id.mp4"
           done
       - name: Commit
+        if: always()
         run: |
           git config user.name "Claude"
           git config user.email "noreply@anthropic.com"
-          git add raw
+          mkdir -p raw && mv fetch-log.txt raw/ 2>/dev/null; git add raw
           git commit -m "Add raw clips from Drive" || echo "nothing new"
           git push
