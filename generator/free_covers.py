@@ -29,12 +29,16 @@ def base(bg_i, inner):
 
 
 def title_block(kicker, lines, pills=(), y0=None, size=62):
+    # Everything sits in the middle band (y 220-400) so Notion's wide crop keeps it.
     n = len(lines)
-    y = y0 or (250 if n == 1 else 215)
-    out = f"<text x='150' y='{y-70}' font-family='{SANS}' font-size='16' font-weight='700' fill='{SAGE}' letter-spacing='4'>{esc(kicker)}</text>"
+    if n == 1:
+        size, kick_y, base, py = min(size, 58), 258, [318], 342
+    else:
+        size, kick_y, base, py = 48, 226, [278, 334], 356
+    out = f"<text x='150' y='{kick_y}' font-family='{SANS}' font-size='16' font-weight='700' fill='{SAGE}' letter-spacing='4'>{esc(kicker)}</text>"
     for i, l in enumerate(lines):
-        out += f"<text x='150' y='{y+i*int(size*1.15)}' font-family='{SERIF}' font-size='{size}' font-weight='700' fill='{INK if i == 0 else MUT}'>{esc(l)}</text>"
-    x, py = 150, y + (n - 1) * int(size * 1.15) + 60
+        out += f"<text x='150' y='{base[i]}' font-family='{SERIF}' font-size='{size}' font-weight='700' fill='{INK if i == 0 else MUT}'>{esc(l)}</text>"
+    x = 150
     for t, c in pills:
         w, s = pill(x, py, t, c)
         out += s
@@ -91,7 +95,7 @@ C['inv_home'] = base(0, title_block('FREE NOTION TEMPLATE', ['Get paid on time.'
 C['inv_db'] = base(1, title_block('FREELANCE INVOICE TRACKER', ['Invoices'], [('Days overdue', ACC), ('Next step', SAGE)])
                    + card(960, 120, 340, 360, 'STATUS', [('Draft', '1', MUT), ('Sent', '2', ACC), ('Paid', '2', SAGE)], ('Chase these first', ACC)))
 C['inv_clients'] = base(2, title_block('FREELANCE INVOICE TRACKER', ['Clients'], [('Owes you', ACC), ('Lifetime paid', SAGE), ('Pays on time?', INK)])
-                        + card(960, 120, 340, 360, 'CLIENT', [('Owes you', '$1,200', ACC), ('Lifetime paid', '$4,300', SAGE), ('Pays', 'On time', SAGE)]))
+                        + card(960, 120, 340, 360, 'CLIENT', [('Owes you', '$0', INK), ('Lifetime paid', '$1,750', SAGE), ('Pays', 'On time', SAGE)]))
 C['inv_emails'] = base(0, title_block('FREELANCE INVOICE TRACKER', ['Reminder Emails'], [('Friendly', SAGE), ('Second', ACC), ('Final notice', INK)])
                        + card(960, 120, 340, 360, 'EMAIL', [('Invoice sent', '', INK), ('Friendly reminder', '', INK), ('Second reminder', '', INK), ('Final notice', '', INK)]))
 C['inv_kit'] = base(1, title_block('FREELANCE INVOICE TRACKER', ['Get Paid Faster Kit'], [('Checklist', SAGE), ('Payment terms', ACC), ('5 habits', INK)], size=58)
