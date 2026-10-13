@@ -37,19 +37,19 @@ def build(spec, outdir):
         top = TOP + max(0, (1180 - vh) // 2)
         out = os.path.join(work, f's{i}.mp4')
         # slow push-in: scale the crop up over time, keep it centred, then pad into the card
-        fc = (f"[0:v]crop={x1-x0}:{y1-y0}:{x0}:{y0},scale={VW}:{vh},setsar=1,"
-              f"scale=w='trunc({VW}*(1+({z}-1)*t/{d})/2)*2':h=-2:eval=frame,crop={VW}:{vh},"
+        fc = (f"[0:v]crop={x1-x0}:{y1-y0}:{x0}:{y0},scale={VW}:{vh}:flags=lanczos,unsharp=5:5:0.9:5:5:0,setsar=1,"
+              f"scale=w='trunc({VW}*(1+({z}-1)*t/{d})/2)*2':h=-2:eval=frame:flags=lanczos,crop={VW}:{vh},"
               f"pad={VW+16}:{vh+16}:8:8:color=white[c];"
               f"[1:v][c]overlay=32:{top}:shortest=1,fps=30,format=yuv420p[v]")
         subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-ss', str(s['t0']), '-t', str(d), '-i', s['src'],
                         '-loop', '1', '-t', str(d), '-i', bg, '-filter_complex', fc, '-map', '[v]',
-                        '-c:v', 'libx264', '-crf', '18', '-preset', 'medium', out], check=True)
+                        '-c:v', 'libx264', '-crf', '10', '-preset', 'medium', out], check=True)
         parts.append((out, d))
     endp = os.path.join(work, 'end.png')
     reels.render_png(reels.scene_html({'type': 'end', 'sub': spec.get('end_sub', 'a calm Notion template')}, spec['theme'], spec['p']), endp)
     endv = os.path.join(work, 'end.mp4')
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-loop', '1', '-t', '2.4', '-i', endp,
-                    '-vf', 'fps=30,format=yuv420p', '-c:v', 'libx264', '-crf', '18', endv], check=True)
+                    '-vf', 'fps=30,format=yuv420p', '-c:v', 'libx264', '-crf', '10', endv], check=True)
     parts.append((endv, 2.4))
     args = ['ffmpeg', '-y', '-loglevel', 'error']
     for p, _ in parts:
@@ -73,7 +73,7 @@ def build(spec, outdir):
     if music:
         args += ['-map', '[a]', '-c:a', 'aac', '-b:a', '160k']
     out = os.path.join(outdir, spec['id'] + ('' if music else '-nosound') + '.mp4')
-    args += ['-c:v', 'libx264', '-crf', '19', '-preset', 'slow', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', out]
+    args += ['-c:v', 'libx264', '-b:v', '10M', '-maxrate', '14M', '-bufsize', '20M', '-preset', 'slow', '-profile:v', 'high', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', out]
     subprocess.run(args, check=True)
     return out
 

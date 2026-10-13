@@ -90,14 +90,14 @@ def build(v):
     f = []
     for i, d in enumerate(durs):  # slow push-in on every scene
         z = 0.06
-        f.append(f"[{i}:v]scale=w='trunc({W}*(1+{z}*t/{d + XF:.2f})/2)*2':h=-2:eval=frame,crop={W}:{H},setsar=1,fps={FPS},format=yuv420p[s{i}]")
+        f.append(f"[{i}:v]scale=w='trunc({W}*(1+{z}*t/{d + XF:.2f})/2)*2':h=-2:eval=frame:flags=lanczos,crop={W}:{H},setsar=1,fps={FPS},format=yuv420p[s{i}]")
     last, off = 's0', 0.0
     for i in range(1, len(durs)):
         off += durs[i - 1]
         f.append(f'[{last}][s{i}]xfade=transition=fade:duration={XF}:offset={off:.2f}[x{i}]')
         last = f'x{i}'
     args += ['-filter_complex', ';'.join(f), '-map', f'[{last}]', '-map', f'{len(durs)}:a',
-             '-c:v', 'libx264', '-preset', 'medium', '-crf', '21', '-pix_fmt', 'yuv420p', '-r', str(FPS),
+             '-c:v', 'libx264', '-preset', 'slow', '-b:v', '10M', '-maxrate', '14M', '-bufsize', '20M', '-pix_fmt', 'yuv420p', '-r', str(FPS),
              '-c:a', 'aac', '-b:a', '64k', '-shortest', '-movflags', '+faststart',
              os.path.join(OUT, v['id'] + '.mp4')]
     subprocess.run(args, check=True)

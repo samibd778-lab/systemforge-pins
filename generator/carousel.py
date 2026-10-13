@@ -54,7 +54,7 @@ def render(html, out):
     subprocess.run([gen.CHROME, '--headless=new', '--no-sandbox', '--hide-scrollbars', '--allow-file-access-from-files',
                     f'--window-size={W},{H + 300}', f'--screenshot={tmp}', 'file://' + f.name],
                    check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    Image.open(tmp).crop((0, 0, W, H)).convert('RGB').save(out, quality=90)
+    Image.open(tmp).crop((0, 0, W, H)).convert('RGB').save(out, quality=95, subsampling=0)
     os.remove(f.name); os.remove(tmp)
 
 

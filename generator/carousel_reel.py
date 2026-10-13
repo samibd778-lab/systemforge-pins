@@ -57,7 +57,7 @@ def build(c):
     args += ['-i', wav]
     f = []
     for i, du in enumerate(durs):
-        f.append(f"[{i}:v]scale=w='trunc({W}*(1+0.05*t/{du + XF:.2f})/2)*2':h=-2:eval=frame,crop={W}:{H},setsar=1,fps={FPS},format=yuv420p[s{i}]")
+        f.append(f"[{i}:v]scale=w='trunc({W}*(1+0.05*t/{du + XF:.2f})/2)*2':h=-2:eval=frame:flags=lanczos,crop={W}:{H},setsar=1,fps={FPS},format=yuv420p[s{i}]")
     last, off = 's0', 0.0
     for i in range(1, n):
         off += durs[i - 1]
@@ -66,7 +66,7 @@ def build(c):
     f.append(f'[{n}:a]afade=t=out:st={total - 1:.2f}:d=1,volume=0.8[a]')
     out = os.path.join(ROOT, 'videos', c['id'] + '.mp4')
     args += ['-filter_complex', ';'.join(f), '-map', f'[{last}]', '-map', '[a]',
-             '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-pix_fmt', 'yuv420p', '-r', str(FPS),
+             '-c:v', 'libx264', '-preset', 'slow', '-b:v', '10M', '-maxrate', '14M', '-bufsize', '20M', '-pix_fmt', 'yuv420p', '-r', str(FPS),
              '-c:a', 'aac', '-b:a', '128k', '-shortest', '-movflags', '+faststart', out]
     subprocess.run(args, check=True)
     return out
