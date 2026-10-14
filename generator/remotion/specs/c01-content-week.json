@@ -1,0 +1,59 @@
+{
+  "id": "c01-content-week",
+  "video": "rec-c01-content-week.mp4",
+  "videoW": 1920,
+  "videoH": 1080,
+  "windowTitle": "Content Creator Studio · Content",
+  "music": "music.wav",
+  "segments": [
+    {
+      "src": 27.2, "dur": 5.0,
+      "caption": ["My Notion content planner", "tells me what to post next"],
+      "cams": [
+        {"t": 0, "cam": {"cx": 900, "cy": 560, "w": 1100}},
+        {"t": 1.6, "cam": {"cx": 900, "cy": 560, "w": 1100}},
+        {"t": 3.0, "cam": {"cx": 1200, "cy": 588, "w": 620}}
+      ],
+      "ring": {"from": 1.6, "x": 1172, "y": 568, "w": 145, "h": 38}
+    },
+    {
+      "src": 33.2, "dur": 6.0, "rate": 2.0,
+      "caption": ["Pick a post date", "It counts down the days"],
+      "cams": [{"t": 0, "cam": {"cx": 1200, "cy": 588, "w": 620}}],
+      "ring": {"from": 0, "x": 1172, "y": 568, "w": 145, "h": 38}
+    },
+    {
+      "src": 47.7, "dur": 5.0,
+      "caption": ["Missed a date?", "It warns you right away"],
+      "cams": [
+        {"t": 0, "cam": {"cx": 900, "cy": 560, "w": 1100}},
+        {"t": 1.6, "cam": {"cx": 900, "cy": 560, "w": 1100}},
+        {"t": 3.0, "cam": {"cx": 1200, "cy": 588, "w": 620}}
+      ],
+      "ring": {"from": 1.6, "x": 1172, "y": 568, "w": 145, "h": 38}
+    },
+    {
+      "src": 91.6, "dur": 5.2,
+      "caption": ["Posted it?", "One click and it moves on"],
+      "cams": [
+        {"t": 0, "cam": {"cx": 740, "cy": 480, "w": 1300}},
+        {"t": 1.8, "cam": {"cx": 740, "cy": 480, "w": 1300}},
+        {"t": 3.2, "cam": {"cx": 1180, "cy": 588, "w": 640}}
+      ],
+      "ring": {"from": 1.7, "x": 1058, "y": 568, "w": 260, "h": 38}
+    },
+    {
+      "src": 118.8, "dur": 5.0, "rate": 1.3,
+      "caption": ["Stuck for ideas?", "30 ideas, ready to use"],
+      "cams": [
+        {"t": 0, "cam": {"cx": 760, "cy": 640, "w": 1150}},
+        {"t": 5.0, "cam": {"cx": 760, "cy": 660, "w": 1000}}
+      ]
+    }
+  ],
+  "end": {
+    "title": ["Content", "Creator Studio"],
+    "sub": ["Plan every post, on every", "platform, in one Notion page."],
+    "cta": "Link in bio"
+  }
+}
