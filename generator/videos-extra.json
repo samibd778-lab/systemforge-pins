@@ -70,6 +70,14 @@
    "caption": "Every invoice shows its next step: send it, wait, send a reminder, or add the payment date. Log a reminder and it waits before asking you to follow up again.",
    "tags": "#notion #notiontemplate #freelancer #invoicetracker #freelancetips",
    "after": "r03-client-owes"
+  },
+  {
+   "id": "c01-content-week",
+   "p": "ccs",
+   "title": "This Notion content planner tells me what to post next #shorts",
+   "caption": "Pick a post date and it counts down the days. Miss a date and it warns you right away. Mark it posted in one click. Plus 30 content ideas ready to use.",
+   "tags": "#notion #notiontemplate #contentcreator #contentplanner #creatortips",
+   "after": "f01-next-step"
   }
  ]
 }
