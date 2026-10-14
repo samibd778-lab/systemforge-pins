@@ -62,6 +62,14 @@
    "title": "One Notion page for your whole creator business #shorts",
    "caption": "Everything a creator tracks, in one calm Notion workspace: content, channels and brand deals.\n\nContent Creator Studio comes with example data and a 5-minute start guide.",
    "tags": "#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #productivity"
+  },
+  {
+   "id": "f01-next-step",
+   "p": "fco",
+   "title": "This Notion invoice tracker tells you who to chase next #shorts",
+   "caption": "Every invoice shows its next step: send it, wait, send a reminder, or add the payment date. Log a reminder and it waits before asking you to follow up again.",
+   "tags": "#notion #notiontemplate #freelancer #invoicetracker #freelancetips",
+   "after": "r03-client-owes"
   }
  ]
 }

@@ -112,11 +112,18 @@ def main():
         if only != ['--json'] and (not only or v['id'] in only):
             build(v); print('ok', v['id'])
     extra = json.load(open(os.path.join(ROOT, 'generator', 'videos-extra.json')))['videos']
+    # entries with "after": "<id>" are pinned right after that video (used to jump the queue)
+    pinned = [v for v in extra if v.get('after')]
+    extra = [v for v in extra if not v.get('after')]
     real = [{k: v[k] for k in ('id', 'p', 'title', 'caption', 'tags')} for v in spec]
     mixed = [real.pop(0)]  # r01 was already posted first; then real recordings and slideshows alternate
     while extra or real:
         if extra: mixed.append(extra.pop(0))
         if real: mixed.append(real.pop(0))
+    for v in pinned:
+        ids = [m['id'] for m in mixed]
+        pos = ids.index(v['after']) + 1 if v['after'] in ids else len(mixed)
+        mixed.insert(pos, {k: v[k] for k in ('id', 'p', 'title', 'caption', 'tags')})
     json.dump({'videos': mixed},
               open(os.path.join(ROOT, 'videos.json'), 'w'), indent=1, ensure_ascii=False)
 
