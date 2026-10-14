@@ -155,6 +155,53 @@
    "caption": "Your weekly content plan in 15 minutes:\n\n1. Dump every idea on one board\n2. Set a weekly goal for each channel\n3. Move each card until it's posted\n\nContent Creator Studio is a Notion template built for creators who post on more than one platform. Link in bio.\n\n#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #productivity"
   },
   {
+   "id": "k07-chase-invoice",
+   "p": "fco",
+   "theme": "sage",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "FREELANCE TIPS",
+     "title": "How to chase a<br>late invoice",
+     "sub": "3 emails you can copy"
+    },
+    {
+     "type": "text",
+     "num": "01",
+     "title": "Day 1 late: a friendly reminder",
+     "text": "Assume they forgot. Keep it light.",
+     "box": "Hi Sam, quick reminder that invoice #104 was due yesterday. I've attached it again here. Thanks so much!",
+     "label": "Copy this"
+    },
+    {
+     "type": "text",
+     "num": "02",
+     "title": "Day 7: a second reminder",
+     "text": "Ask if something is blocking it.",
+     "box": "Hi Sam, following up on invoice #104, now a week overdue. Is anything holding it up on your side? Happy to help.",
+     "label": "Copy this"
+    },
+    {
+     "type": "text",
+     "num": "03",
+     "title": "Day 21: a final notice",
+     "text": "Calm, clear, with one date.",
+     "box": "Hi Sam, invoice #104 is now 3 weeks overdue. Please pay it by this Friday. After that I'll need to pause work on the project.",
+     "label": "Copy this"
+    },
+    {
+     "type": "text",
+     "num": "04",
+     "title": "Write down every reminder",
+     "text": "Note the day you sent each one. Then you know when to send the next, and you never send two in one day."
+    },
+    {
+     "type": "softcta"
+    }
+   ],
+   "caption": "Chasing a late invoice doesn't have to feel awkward. A simple plan:\n\nDay 1 late: a friendly reminder\nDay 7: ask if something is blocking it\nDay 21: a final notice with one clear date\n\nSave this so you have the emails ready next time.\n\nWant this done for you? Freelancer Client OS is a Notion template that shows the next step for every invoice. Link in bio.\n\n#notion #notiontemplate #freelancer #freelancetips #freelancelife #invoicing #smallbusiness"
+  },
+  {
    "id": "k03-freelance-track",
    "p": "fco",
    "theme": "cream",
@@ -250,6 +297,53 @@
    "caption": "Stop running your freelance business from your inbox. Track these 3 things:\n\n1. Clients and the next follow-up\n2. Proposals and their win chance\n3. Projects and real profit\n\nAll in one Notion page with Freelancer Client OS. Link in bio.\n\n#notion #notiontemplate #freelancer #freelancetips #freelancelife #productivity #smallbusiness"
   },
   {
+   "id": "k10-repurpose",
+   "p": "ccs",
+   "theme": "clay",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "CREATOR TIPS",
+     "title": "1 video,<br>5 posts",
+     "sub": "make it once, post it all week"
+    },
+    {
+     "type": "text",
+     "num": "01",
+     "title": "Reel or TikTok",
+     "text": "Post the original video first."
+    },
+    {
+     "type": "text",
+     "num": "02",
+     "title": "YouTube Short",
+     "text": "Same video, new title. Use the words people would type into search."
+    },
+    {
+     "type": "text",
+     "num": "03",
+     "title": "Carousel",
+     "text": "Turn the key points into 5 to 7 slides. One idea per slide."
+    },
+    {
+     "type": "text",
+     "num": "04",
+     "title": "Pinterest pin",
+     "text": "Pick one strong frame and add a clear title."
+    },
+    {
+     "type": "text",
+     "num": "05",
+     "title": "Newsletter",
+     "text": "Write the story behind the video: why you made it and what you learned."
+    },
+    {
+     "type": "softcta"
+    }
+   ],
+   "caption": "Stop making new content for every platform. Turn one video into 5 posts:\n\n1. Reel or TikTok\n2. YouTube Short with a new title\n3. A carousel of the key points\n4. A Pinterest pin\n5. A newsletter story\n\nSave this for your next filming day.\n\nWant this done for you? Content Creator Studio is a Notion template to plan every post on every platform. Link in bio.\n\n#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #contentstrategy"
+  },
+  {
    "id": "k04-brand-deals",
    "p": "ccs",
    "theme": "sage",
@@ -325,6 +419,54 @@
     }
    ],
    "caption": "Working with brands? Keep it simple:\n\n1. Track each deal from pitch to paid\n2. See which brand still owes you\n3. Know which posts you still owe\n\nContent Creator Studio has a brand deal tracker and ready scripts to ask for payment. Link in bio.\n\n#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #productivity"
+  },
+  {
+   "id": "k08-before-quote",
+   "p": "fco",
+   "theme": "cream",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "FREELANCE TIPS",
+     "title": "5 questions<br>before you<br>quote",
+     "sub": "so the price is right the first time",
+     "size": 100
+    },
+    {
+     "type": "text",
+     "num": "01",
+     "title": "What does \"done\" look like?",
+     "text": "Get the finish line in writing. It stops \"one more thing\" later."
+    },
+    {
+     "type": "text",
+     "num": "02",
+     "title": "What's the deadline?",
+     "text": "Rush work takes more of your time. It's fair to charge more for it."
+    },
+    {
+     "type": "text",
+     "num": "03",
+     "title": "How many feedback rounds?",
+     "text": "Agree on a number. Unlimited changes means unlimited work."
+    },
+    {
+     "type": "text",
+     "num": "04",
+     "title": "What's the budget range?",
+     "text": "It saves you both from a proposal that was never going to fit."
+    },
+    {
+     "type": "text",
+     "num": "05",
+     "title": "Who approves the work?",
+     "text": "One decision maker means fewer surprises at the end."
+    },
+    {
+     "type": "softcta"
+    }
+   ],
+   "caption": "Before you send a price, ask these 5 questions:\n\n1. What does \"done\" look like?\n2. What's the deadline?\n3. How many feedback rounds?\n4. What's the budget range?\n5. Who approves the work?\n\nSave this for your next discovery call.\n\nWant this done for you? Freelancer Client OS is a Notion template for clients, proposals, projects and invoices. Link in bio.\n\n#notion #notiontemplate #freelancer #freelancetips #freelancelife #invoicing #smallbusiness"
   },
   {
    "id": "k05-proposal-flow",
@@ -440,6 +582,63 @@
    "caption": "Client → proposal → project → invoice → paid.\n\nFreelancer Client OS links every step in one Notion page, so nothing falls through the cracks. Comes with example data and a 5-minute start guide. Link in bio.\n\n#notion #notiontemplate #freelancer #freelancetips #freelancelife #productivity #smallbusiness"
   },
   {
+   "id": "k11-pitch-brand",
+   "p": "ccs",
+   "theme": "sage",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "CREATOR TIPS",
+     "title": "Pitch a brand<br>in 5 lines",
+     "sub": "copy, paste, make it yours"
+    },
+    {
+     "type": "text",
+     "num": "01",
+     "title": "Why them",
+     "text": "Start with a real reason you like the brand.",
+     "box": "Hi Lena, I've used your planner every week for a year.",
+     "label": "Line 1"
+    },
+    {
+     "type": "text",
+     "num": "02",
+     "title": "Who your audience is",
+     "text": "Who they are, not only how many.",
+     "box": "My followers are freelancers who want calmer work weeks.",
+     "label": "Line 2"
+    },
+    {
+     "type": "text",
+     "num": "03",
+     "title": "Real proof",
+     "text": "Only true numbers. If you don't have them yet, skip this line.",
+     "box": "My last tutorial got [your real number] saves.",
+     "label": "Line 3"
+    },
+    {
+     "type": "text",
+     "num": "04",
+     "title": "One clear idea",
+     "text": "Make it easy to picture.",
+     "box": "Idea: a 30-second \"plan my week\" video using your planner.",
+     "label": "Line 4"
+    },
+    {
+     "type": "text",
+     "num": "05",
+     "title": "An easy next step",
+     "text": "One small question they can say yes to.",
+     "box": "Want me to send my rates and dates?",
+     "label": "Line 5"
+    },
+    {
+     "type": "softcta"
+    }
+   ],
+   "caption": "A brand pitch doesn't need to be long. 5 lines:\n\n1. Why you like them\n2. Who your audience is\n3. Real proof (only true numbers)\n4. One clear idea\n5. An easy next step\n\nSave this for your next pitch.\n\nWant this done for you? Content Creator Studio has a brand deal tracker and ready pitch scripts in Notion. Link in bio.\n\n#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #contentstrategy"
+  },
+  {
    "id": "k06-creator-hq",
    "p": "ccs",
    "theme": "cream",
@@ -514,6 +713,106 @@
     }
    ],
    "caption": "Everything a creator tracks, in one calm Notion workspace: content, channels and brand deals.\n\nContent Creator Studio comes with example data and a 5-minute start guide. Link in bio.\n\n#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #productivity"
+  },
+  {
+   "id": "k09-real-rate",
+   "p": "fco",
+   "theme": "clay",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "FREELANCE TIPS",
+     "title": "Find your<br>real hourly<br>rate",
+     "sub": "a 2-minute check",
+     "size": 104
+    },
+    {
+     "type": "text",
+     "num": "01",
+     "title": "Start with what you were paid",
+     "text": "Take one finished project.",
+     "box": "$1,200 project",
+     "label": "Example"
+    },
+    {
+     "type": "text",
+     "num": "02",
+     "title": "Subtract the costs",
+     "text": "Tools, fonts, stock photos, travel.",
+     "box": "$1,200 − $150 = $1,050",
+     "label": "Example"
+    },
+    {
+     "type": "text",
+     "num": "03",
+     "title": "Count every hour",
+     "text": "Calls, emails and fixes count too.",
+     "box": "30 hours in total",
+     "label": "Example"
+    },
+    {
+     "type": "text",
+     "num": "04",
+     "title": "Divide",
+     "text": "What's left, divided by your hours.",
+     "box": "$1,050 ÷ 30 = $35 per hour",
+     "label": "Example"
+    },
+    {
+     "type": "text",
+     "num": "05",
+     "title": "Compare it to your quote",
+     "text": "Lower than you thought? Raise your price or cut the extras next time."
+    },
+    {
+     "type": "softcta"
+    }
+   ],
+   "caption": "Do you know what you really earn per hour? Quick check:\n\n1. Take what the client paid\n2. Subtract project costs\n3. Count every hour (calls and emails too)\n4. Divide\n5. Compare it to your quote\n\nThe numbers in the slides are an example. Try it with your last project.\n\nWant this done for you? Freelancer Client OS calculates profit and real hourly rate for each project in Notion. Link in bio.\n\n#notion #notiontemplate #freelancer #freelancetips #freelancelife #invoicing #smallbusiness"
+  },
+  {
+   "id": "k12-weekly-review",
+   "p": "ccs",
+   "theme": "cream",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "CREATOR TIPS",
+     "title": "A 15-minute<br>content<br>review",
+     "sub": "same 4 questions every week",
+     "size": 104
+    },
+    {
+     "type": "text",
+     "num": "01",
+     "title": "What got the most saves?",
+     "text": "Saves mean people found it useful. Make a part two."
+    },
+    {
+     "type": "text",
+     "num": "02",
+     "title": "What flopped, and why?",
+     "text": "Check the hook first. Then the topic. Then the time you posted."
+    },
+    {
+     "type": "text",
+     "num": "03",
+     "title": "What's next week?",
+     "text": "Pick your ideas, starting from what worked."
+    },
+    {
+     "type": "text",
+     "num": "04",
+     "title": "Set a goal per channel",
+     "text": "Small and clear beats big and vague.",
+     "box": "3 TikToks · 2 carousels · 1 Short",
+     "label": "Example"
+    },
+    {
+     "type": "softcta"
+    }
+   ],
+   "caption": "Your 15-minute weekly content review:\n\n1. What got the most saves?\n2. What flopped, and why?\n3. What's next week?\n4. Set a goal per channel\n\nSave this and try it this Sunday.\n\nWant this done for you? Content Creator Studio has a weekly review page and a goal for each channel in Notion. Link in bio.\n\n#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #contentstrategy"
   }
  ]
 }

@@ -37,6 +37,23 @@ def slide_html(s, c, n, total):
 <h2 style="margin:0;{SER};font-size:62px;line-height:1.08;font-weight:700;letter-spacing:-1px">{s['title']}</h2></div>
 <p style="margin:22px 0 0;font-size:34px;line-height:1.4;color:{MUT}">{s['text']}</p>
 <div style="flex:1;display:flex;align-items:center;justify-content:center">{card}</div>'''
+    elif t == 'text':  # value slide: no screenshot, optional example box
+        box = ''
+        if s.get('box'):
+            box = (f'<div style="margin-top:46px;background:{PAP};border-radius:30px;padding:40px 44px;box-shadow:0 14px 34px rgba(46,42,37,.10)">'
+                   f'<div style="font-size:22px;font-weight:700;letter-spacing:3px;color:{SAGE};text-transform:uppercase">{s.get("label", "Example")}</div>'
+                   f'<div style="margin-top:16px;{SER};font-size:42px;line-height:1.3;color:{INK}">{s["box"]}</div></div>')
+        inner = f'''<div style="flex:1;display:flex;flex-direction:column;justify-content:center">
+<div style="{SER};font-size:120px;font-weight:700;color:{BR};line-height:1">{s['num']}</div>
+<h2 style="margin:26px 0 0;{SER};font-size:72px;line-height:1.08;font-weight:700;letter-spacing:-1.5px">{s['title']}</h2>
+<p style="margin:28px 0 0;font-size:38px;line-height:1.4;color:{MUT}">{s['text']}</p>{box}</div>'''
+    elif t == 'softcta':  # value carousels: gentle ending
+        inner = f'''<div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:30px">
+<div style="{SER};font-style:italic;font-size:54px;color:{BR}">Want this done for you?</div>
+<h1 style="margin:0;{SER};font-size:96px;line-height:1.04;font-weight:700;letter-spacing:-2px">{PRODUCTS[c['p']]}</h1>
+<div style="font-size:34px;color:{MUT}">a ready-made Notion template</div>
+<div style="margin-top:16px;background:{INK};color:{PAP};border-radius:999px;padding:28px 60px;font-size:40px;font-weight:700">Link in bio</div>
+<div style="margin-top:10px;font-size:32px;color:{MUT}">Save this post for later 🔖</div></div>'''
     else:  # cta
         inner = f'''<div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:34px">
 <div style="font-size:26px;font-weight:700;letter-spacing:5px;color:{SAGE}">NOTION TEMPLATE</div>

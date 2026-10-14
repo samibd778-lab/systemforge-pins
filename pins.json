@@ -161,6 +161,19 @@
    "angle": "A Notion project list with a progress bar and status (in progress or done) on every project"
   },
   {
+   "id": "tip-fco-01-invoice",
+   "p": "fco",
+   "kind": "tip",
+   "angle": "5 things every invoice needs",
+   "tips": [
+    "An invoice number: So you and the client can find it fast.",
+    "A real due date: A date, not \"ASAP\" or \"when you can\".",
+    "What you did, line by line: Clear items are easier to approve.",
+    "How to pay you: Bank details or a payment link.",
+    "Your payment terms: Late fee or deposit rules, if you have them."
+   ]
+  },
+  {
    "id": "fco-12-reminder",
    "p": "fco",
    "angle": "Client email scripts including invoice sent and a friendly payment reminder"
@@ -169,6 +182,18 @@
    "id": "ccs-44-deals",
    "p": "ccs",
    "angle": "A Notion brand deal list with fee, posts delivered, payment status and payment due date"
+  },
+  {
+   "id": "tip-ccs-01-batch",
+   "p": "ccs",
+   "kind": "tip",
+   "angle": "Batch a week of content in one afternoon",
+   "tips": [
+    "Pick 3 topics: One idea per post, nothing more.",
+    "Write all the hooks first: The first line decides if people stay.",
+    "Film everything in one go: Same light, same outfit, less setup.",
+    "Edit and schedule next day: Fresh eyes catch the boring parts."
+   ]
   },
   {
    "id": "ccs-13-goals",
@@ -181,6 +206,18 @@
    "angle": "A Notion task list with due dates, priority, hours and overdue tasks marked in red"
   },
   {
+   "id": "tip-fco-02-late",
+   "p": "fco",
+   "kind": "tip",
+   "angle": "How to chase a late invoice politely",
+   "tips": [
+    "Day 1 late: friendly reminder: Short, kind, invoice attached.",
+    "Day 7: second reminder: Ask if anything is blocking payment.",
+    "Day 21: final notice: Give one clear date to pay by.",
+    "Wait a few days between emails: Log each reminder so you don't spam."
+   ]
+  },
+  {
    "id": "fco-13-proposals",
    "p": "fco",
    "angle": "Proposal rows with status, value and win chance"
@@ -189,6 +226,18 @@
    "id": "ccs-45-dealboard",
    "p": "ccs",
    "angle": "A Notion board of brand deals moving from pitched to signed, delivered and paid"
+  },
+  {
+   "id": "tip-ccs-02-pillars",
+   "p": "ccs",
+   "kind": "tip",
+   "angle": "Pick your content pillars in 4 steps",
+   "tips": [
+    "Choose 3 to 5 topics: Ones you could talk about for years.",
+    "Rotate them every week: Your feed feels varied, not random.",
+    "Check which one gets reach: Look at views and saves per pillar.",
+    "Make more of the winner: Keep the others as support."
+   ]
   },
   {
    "id": "ccs-14-batch",
@@ -201,6 +250,19 @@
    "angle": "A Notion expense list with amount, category, date and the project each cost belongs to"
   },
   {
+   "id": "tip-fco-03-quote",
+   "p": "fco",
+   "kind": "tip",
+   "angle": "Ask this before you quote a project",
+   "tips": [
+    "What does \"done\" look like?: Get the finish line in writing.",
+    "What's the deadline?: Rush work costs more. Say so.",
+    "How many feedback rounds?: Unlimited changes = unlimited work.",
+    "What's the budget range?: Saves you both a wasted proposal.",
+    "Who approves the work?: One decision maker, fewer surprises."
+   ]
+  },
+  {
    "id": "fco-14-expenses",
    "p": "fco",
    "angle": "A Notion expense tracker with amount, category, date and linked project"
@@ -209,6 +271,19 @@
    "id": "ccs-46-dashboard",
    "p": "ccs",
    "angle": "A Notion creator dashboard with content, pillars, channels, brand deals and resources"
+  },
+  {
+   "id": "tip-ccs-03-hooks",
+   "p": "ccs",
+   "kind": "tip",
+   "angle": "5 hook ideas to steal for your next post",
+   "tips": [
+    "\"Stop doing X if you want Y\": Calls out a common mistake.",
+    "\"I tried X for 30 days\": People want to know how it ended.",
+    "\"3 mistakes I made with X\": Honest and easy to relate to.",
+    "\"How I do X in 10 minutes\": Promises a fast, clear result.",
+    "\"Nobody tells you this about X\": Makes people curious."
+   ]
   },
   {
    "id": "ccs-15-track5",
@@ -221,6 +296,18 @@
    "angle": "A Notion page of ready client emails: follow-up after a call, sending a proposal, payment reminder"
   },
   {
+   "id": "tip-fco-04-deposit",
+   "p": "fco",
+   "kind": "tip",
+   "angle": "How to ask for a deposit without the awkward",
+   "tips": [
+    "Put it in the proposal: Not as a surprise after they say yes.",
+    "Ask 30 to 50% upfront: Enough to protect your time.",
+    "Start when it's paid: The deposit is the real \"yes\".",
+    "Split big jobs into milestones: Get paid as each part is done."
+   ]
+  },
+  {
    "id": "fco-15-track5",
    "p": "fco",
    "angle": "Three pages of a freelancer Notion template: clients, invoices and projects"
@@ -229,6 +316,19 @@
    "id": "ccs-47-board",
    "p": "ccs",
    "angle": "A Notion content board with a post card and its stage being changed to Posted"
+  },
+  {
+   "id": "tip-ccs-04-repurpose",
+   "p": "ccs",
+   "kind": "tip",
+   "angle": "Turn 1 video into 5 posts",
+   "tips": [
+    "Reel or TikTok: Post the original.",
+    "YouTube Short: Same video, new title and keywords.",
+    "Carousel: Turn the key points into slides.",
+    "Pinterest pin: A strong frame plus a clear title.",
+    "Newsletter: Write the story behind it."
+   ]
   },
   {
    "id": "ccs-16-owed",
@@ -241,6 +341,18 @@
    "angle": "A Notion invoice list showing days overdue and a Late label on unpaid invoices"
   },
   {
+   "id": "tip-fco-05-rate",
+   "p": "fco",
+   "kind": "tip",
+   "angle": "Find your real hourly rate",
+   "tips": [
+    "Count every hour: Calls, emails and fixes count too.",
+    "Subtract project costs: Tools, fonts, stock photos, travel.",
+    "Divide what's left by hours: That's what you really earned per hour.",
+    "Compare it to your quote: Too low? Raise prices or cut extras."
+   ]
+  },
+  {
    "id": "fco-16-beforeafter",
    "p": "fco",
    "angle": "Freelancer Client OS pages stacked: dashboard, clients and invoices"
@@ -249,6 +361,19 @@
    "id": "ccs-48-ideas",
    "p": "ccs",
    "angle": "A Notion page with 30 content ideas sorted by pillar and a repurpose map"
+  },
+  {
+   "id": "tip-ccs-05-checklist",
+   "p": "ccs",
+   "kind": "tip",
+   "angle": "Check this before you post",
+   "tips": [
+    "Hook in the first second: Say the point right away.",
+    "Captions on screen: Many people watch with sound off.",
+    "A clear cover: Readable title, even when small.",
+    "A question in the caption: Gives people a reason to comment.",
+    "Keywords, not just hashtags: Write what people would search."
+   ]
   },
   {
    "id": "ccs-17-gallery",
@@ -261,6 +386,19 @@
    "angle": "A Notion invoice list where every invoice shows its next step: send it, send a reminder or done"
   },
   {
+   "id": "tip-fco-06-proposal",
+   "p": "fco",
+   "kind": "tip",
+   "angle": "A proposal that wins has these 5 parts",
+   "tips": [
+    "Their problem first: Show you listened before you sell.",
+    "2 or 3 options: Let them choose, not just say yes or no.",
+    "Clear price and timeline: No \"it depends\" on the page.",
+    "An expiry date: A gentle reason to decide this week.",
+    "One next step: \"Reply yes and I'll send the invoice.\""
+   ]
+  },
+  {
    "id": "fco-17-phone",
    "p": "fco",
    "angle": "Invoice rows with amount, client and days overdue"
@@ -269,6 +407,19 @@
    "id": "ccs-49-countdown",
    "p": "ccs",
    "angle": "A Notion content card where picking a post date shows a countdown like In 2 days"
+  },
+  {
+   "id": "tip-ccs-06-pitch",
+   "p": "ccs",
+   "kind": "tip",
+   "angle": "How to pitch a brand in 5 lines",
+   "tips": [
+    "Pick brands you already use: Your pitch sounds real because it is.",
+    "Say who your audience is: Who they are, not just how many.",
+    "Share real past results: Only true numbers, or none at all.",
+    "Give one clear idea: \"A 30-second tutorial using X.\"",
+    "Keep it short: Easy to read means easy to answer."
+   ]
   },
   {
    "id": "ccs-18-platforms",
@@ -281,6 +432,18 @@
    "angle": "Email scripts list starting with a follow-up after a call"
   },
   {
+   "id": "tip-fco-07-review",
+   "p": "fco",
+   "kind": "tip",
+   "angle": "Your 15-minute Friday review",
+   "tips": [
+    "Check unpaid invoices: Who needs a reminder?",
+    "Follow up with warm leads: One short message each.",
+    "Look at next week's deadlines: No Monday surprises.",
+    "Log hours and expenses: Five minutes now saves an hour later."
+   ]
+  },
+  {
    "id": "ccs-19-phone",
    "p": "ccs",
    "angle": "The creator dashboard and channel cards in the Notion phone app"
@@ -289,6 +452,19 @@
    "id": "fco-19-deposit",
    "p": "fco",
    "angle": "Invoices including a 50% deposit and a final 50% payment for one project"
+  },
+  {
+   "id": "tip-ccs-07-numbers",
+   "p": "ccs",
+   "kind": "tip",
+   "angle": "5 numbers to log after every post",
+   "tips": [
+    "Views: How far it went.",
+    "Saves: People found it useful.",
+    "Shares: People wanted others to see it.",
+    "Comments: It started a conversation.",
+    "The pillar it belongs to: So you can see which topic works."
+   ]
   },
   {
    "id": "ccs-20-setup",
@@ -301,6 +477,19 @@
    "angle": "The Freelancer Client OS dashboard with a Start here guide"
   },
   {
+   "id": "tip-fco-08-onboard",
+   "p": "fco",
+   "kind": "tip",
+   "angle": "Before you start client work check these",
+   "tips": [
+    "Agreement signed: Scope, price and dates in writing.",
+    "Deposit paid: Then the work begins.",
+    "Kickoff call booked: Goals, contacts, first deadline.",
+    "Access and files shared: Logins, brand files, examples.",
+    "One place to talk: Email or chat, not five apps."
+   ]
+  },
+  {
    "id": "ccs-21-pillars",
    "p": "ccs",
    "angle": "The content board on a laptop and phone: plan it, post it, see what works"
@@ -309,6 +498,18 @@
    "id": "fco-21-health",
    "p": "fco",
    "angle": "Project rows with a progress bar, status and profit"
+  },
+  {
+   "id": "tip-ccs-08-review",
+   "p": "ccs",
+   "kind": "tip",
+   "angle": "A 15-minute weekly content review",
+   "tips": [
+    "What got the most saves?: Make a part two.",
+    "What flopped, and why?: Weak hook? Wrong time? Wrong topic?",
+    "Pick next week's ideas: Start from what worked.",
+    "Set a goal per channel: \"3 TikToks, 2 carousels, 1 Short.\""
+   ]
   },
   {
    "id": "ccs-22-review",
@@ -321,6 +522,18 @@
    "angle": "Client email scripts in Notion for every stage of a project"
   },
   {
+   "id": "tip-fco-09-leads",
+   "p": "fco",
+   "kind": "tip",
+   "angle": "Stop losing leads with 4 habits",
+   "tips": [
+    "Write where each lead came from: Do more of what brings work.",
+    "Set a next follow-up date: Every lead, every time.",
+    "Keep notes from every call: Names, needs, budget, timing.",
+    "Follow up more than once: A busy \"no reply\" is not a \"no\"."
+   ]
+  },
+  {
    "id": "ccs-23-pipeline",
    "p": "ccs",
    "angle": "A Notion content board with Edit, Posted, Draft, Create, Idea and Scheduled columns"
@@ -329,6 +542,19 @@
    "id": "fco-23-oneplace",
    "p": "fco",
    "angle": "Freelancer pages stacked: proposals, tasks and expenses, all linked"
+  },
+  {
+   "id": "tip-ccs-09-ideas",
+   "p": "ccs",
+   "kind": "tip",
+   "angle": "Never run out of content ideas again",
+   "tips": [
+    "Save good comments: Questions are ready-made topics.",
+    "Answer the FAQ: If 3 people ask, make a post.",
+    "Share a mistake: And what you learned from it.",
+    "Show behind the scenes: Your setup, your process, your week.",
+    "Keep one idea board: Capture ideas the moment they show up."
+   ]
   },
   {
    "id": "ccs-24-sponsor",
@@ -341,6 +567,18 @@
    "angle": "Invoice rows with due date and the number of days overdue"
   },
   {
+   "id": "tip-fco-10-scope",
+   "p": "fco",
+   "kind": "tip",
+   "angle": "Say no to scope creep kindly",
+   "tips": [
+    "Write the scope down: Before the work starts.",
+    "Name the extra: \"That's outside what we agreed.\"",
+    "Offer a price for it: Extra work, extra invoice.",
+    "Or swap it: \"We can do this instead of that.\""
+   ]
+  },
+  {
    "id": "ccs-25-onthego",
    "p": "ccs",
    "angle": "Channel cards and the content board in the Notion phone app"
@@ -349,6 +587,18 @@
    "id": "fco-25-tasks",
    "p": "fco",
    "angle": "A Notion task list with client, due date, priority and project"
+  },
+  {
+   "id": "tip-ccs-10-brandpay",
+   "p": "ccs",
+   "kind": "tip",
+   "angle": "Get paid by brands on time",
+   "tips": [
+    "Agree on fee and posts in writing: Even a short email counts.",
+    "Ask for the payment date: \"Net 30\" means 30 days. Write it down.",
+    "Invoice the day you post: Add the post link to the invoice.",
+    "Follow up the day it's late: Polite, short, invoice attached."
+   ]
   },
   {
    "id": "ccs-26-posted",

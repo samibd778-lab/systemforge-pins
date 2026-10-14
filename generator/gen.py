@@ -179,6 +179,15 @@ def main():
     while new or rest:
         if new: mixed.append(new.pop(0))
         if rest: mixed.append(rest.pop(0))
+    # value-first tip pins (generator/styles/tips.py): from 'insert_at', one tip every 'every' slots
+    tp = json.load(open(os.path.join(ROOT, 'generator', 'tips-spec.json')))
+    tips = [{'id': sp['id'], 'p': sp['p'], 'kind': 'tip', 'angle': ' '.join(x for x in sp['title'] if x),
+             'tips': [f'{a}: {b}' for a, b in sp['tips']]} for sp in tp['pins']]
+    pos = tp.get('insert_at', len(mixed))
+    for t in tips:
+        pos = min(pos, len(mixed))
+        mixed.insert(pos, t)
+        pos += tp.get('every', 3)
     json.dump({'pins': mixed}, open(os.path.join(ROOT, 'pins.json'), 'w'), indent=1, ensure_ascii=False)
     print(len(mixed), 'pins in pins.json')
 
