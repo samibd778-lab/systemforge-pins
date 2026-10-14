@@ -1,0 +1,61 @@
+{
+  "id": "f01-next-step",
+  "video": "rec-f01-next-step.mp4",
+  "videoW": 1920,
+  "videoH": 1080,
+  "windowTitle": "Freelancer Client OS · Invoices",
+  "music": "music.wav",
+  "segments": [
+    {
+      "src": 20.2, "dur": 5.0,
+      "caption": ["My Notion invoice tracker", "tells me who to chase"],
+      "cams": [
+        {"t": 0, "cam": {"cx": 1010, "cy": 640, "w": 1500}},
+        {"t": 1.0, "cam": {"cx": 1010, "cy": 640, "w": 1500}},
+        {"t": 3.0, "cam": {"cx": 1370, "cy": 590, "w": 640}}
+      ],
+      "ring": {"from": 3.0, "x": 1240, "y": 566, "w": 270, "h": 36}
+    },
+    {
+      "src": 35.9, "dur": 5.2,
+      "caption": ["Sent a reminder?", "It waits before nagging you"],
+      "cams": [
+        {"t": 0, "cam": {"cx": 1130, "cy": 640, "w": 1050}},
+        {"t": 1.3, "cam": {"cx": 1130, "cy": 640, "w": 1050}},
+        {"t": 2.7, "cam": {"cx": 1370, "cy": 590, "w": 600}}
+      ],
+      "ring": {"from": 1.6, "x": 1240, "y": 566, "w": 270, "h": 36}
+    },
+    {
+      "src": 50.6, "dur": 5.5, "rate": 1.6,
+      "caption": ["…and counts the days", "since your last reminder"],
+      "cams": [{"t": 0, "cam": {"cx": 1370, "cy": 590, "w": 640}}],
+      "ring": {"from": 0, "x": 1240, "y": 566, "w": 270, "h": 36}
+    },
+    {
+      "src": 72.9, "dur": 5.2,
+      "caption": ["Client paid?", "It asks for the payment date"],
+      "cams": [
+        {"t": 0, "cam": {"cx": 1000, "cy": 620, "w": 1150}},
+        {"t": 1.5, "cam": {"cx": 1000, "cy": 620, "w": 1150}},
+        {"t": 2.9, "cam": {"cx": 1370, "cy": 590, "w": 620}}
+      ],
+      "ring": {"from": 1.7, "x": 1240, "y": 566, "w": 270, "h": 36}
+    },
+    {
+      "src": 83.0, "dur": 5.2,
+      "caption": ["Invoice sent?", "It counts down to the due date"],
+      "cams": [
+        {"t": 0, "cam": {"cx": 1000, "cy": 680, "w": 1250}},
+        {"t": 1.4, "cam": {"cx": 1000, "cy": 680, "w": 1250}},
+        {"t": 2.8, "cam": {"cx": 1440, "cy": 677, "w": 760}}
+      ],
+      "ring": {"from": 1.6, "x": 1240, "y": 660, "w": 400, "h": 36}
+    }
+  ],
+  "end": {
+    "title": ["Freelancer", "Client OS"],
+    "sub": ["A Notion template that tells you", "who to chase, and when."],
+    "cta": "Link in bio"
+  }
+}

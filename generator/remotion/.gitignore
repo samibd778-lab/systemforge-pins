@@ -1,0 +1,4 @@
+node_modules/
+out/
+public/rec*.mp4
+public/music.wav
