@@ -170,9 +170,17 @@ def main():
             render(sp)
             print('ok', sp['id'])
     # pins.json = posting order read by n8n (id, product, what the image shows)
-    json.dump({'pins': [{'id': sp['id'], 'p': sp['p'], 'angle': sp['angle']} for sp in specs]},
-              open(os.path.join(ROOT, 'pins.json'), 'w'), indent=1, ensure_ascii=False)
-    print(len(specs), 'pins in pins.json')
+    old = [{'id': sp['id'], 'p': sp['p'], 'angle': sp['angle']} for sp in specs]
+    # new-style pins (generator/styles/pins_v2.py) are mixed in from 'insert_at': new, old, new, old...
+    v2 = json.load(open(os.path.join(ROOT, 'generator', 'pins-v2-spec.json')))
+    new = [{'id': sp['id'], 'p': sp['p'], 'angle': sp['angle']} for sp in v2['pins']]
+    at = v2.get('insert_at', len(old))
+    rest, mixed = old[at:], old[:at]
+    while new or rest:
+        if new: mixed.append(new.pop(0))
+        if rest: mixed.append(rest.pop(0))
+    json.dump({'pins': mixed}, open(os.path.join(ROOT, 'pins.json'), 'w'), indent=1, ensure_ascii=False)
+    print(len(mixed), 'pins in pins.json')
 
 
 if __name__ == '__main__':

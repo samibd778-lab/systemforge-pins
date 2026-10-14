@@ -1,0 +1,721 @@
+{
+ "note": "Style 2026-10: Pinterest = laptop + numbered callouts (shots/rec/pins_v2.py), IG/FB = tilted 'photo' of the same screen. crop/targets are in screenshot pixels. insert_at = rotation index where new pins start, alternating new/old (Pinterest was at 15 on 2026-10-14).",
+ "pins": [
+  {
+   "id": "fco-40-onepage",
+   "p": "fco",
+   "shot": "shots/fco-dashboard.png",
+   "crop": [
+    0,
+    0,
+    1040,
+    650
+   ],
+   "kicker": "NOTION TEMPLATE FOR FREELANCERS",
+   "title": [
+    "Your whole",
+    "freelance",
+    "business, one page"
+   ],
+   "sub": "Clients, proposals, projects and invoices, <b>connected.</b>",
+   "callouts": [
+    [
+     "Win work: clients, proposals, projects",
+     92,
+     563
+    ],
+    [
+     "Deliver and get paid: tasks, invoices",
+     530,
+     563
+    ]
+   ],
+   "angle": "A Notion dashboard for freelancers: clients, proposals, projects, tasks and invoices linked on one page"
+  },
+  {
+   "id": "ccs-40-coming",
+   "p": "ccs",
+   "shot": "shots/rec/ccs_38.5.png",
+   "crop": [
+    100,
+    330,
+    1140,
+    980
+   ],
+   "kicker": "NOTION TEMPLATE FOR CREATORS",
+   "title": [
+    "Know what",
+    "to post",
+    "this week"
+   ],
+   "sub": "Missed, today and upcoming posts on <b>one page.</b>",
+   "callouts": [
+    [
+     "Missed a date? It warns you",
+     560,
+     486
+    ],
+    [
+     "What is due today",
+     530,
+     532
+    ],
+    [
+     "Counts down to each post",
+     545,
+     578
+    ]
+   ],
+   "angle": "A Notion content list where each post shows Missed date, Today or In 2 days"
+  },
+  {
+   "id": "fco-41-clients",
+   "p": "fco",
+   "shot": "shots/fco-clients.png",
+   "crop": [
+    500,
+    200,
+    1540,
+    850
+   ],
+   "kicker": "NOTION CLIENT TRACKER",
+   "title": [
+    "Never forget",
+    "a follow-up",
+    "again"
+   ],
+   "sub": "Every client with their next follow-up date.",
+   "callouts": [
+    [
+     "Follow-up is due",
+     560,
+     384
+    ],
+    [
+     "Their invoices, linked",
+     700,
+     384
+    ],
+    [
+     "What each client owes you",
+     1134,
+     384
+    ]
+   ],
+   "angle": "A Notion client list showing follow-up dates, linked invoices and how much each client owes"
+  },
+  {
+   "id": "ccs-41-card",
+   "p": "ccs",
+   "shot": "shots/rec/ccs_58.png",
+   "crop": [
+    880,
+    100,
+    1920,
+    750
+   ],
+   "kicker": "NOTION CONTENT PLANNER",
+   "title": [
+    "Every post",
+    "in one card",
+    ""
+   ],
+   "sub": "Stage, date, channels and your hook, <b>together.</b>",
+   "callouts": [
+    [
+     "Stage: Idea to Posted",
+     1110,
+     587
+    ],
+    [
+     "When it goes out",
+     1225,
+     587
+    ],
+    [
+     "Where it gets posted",
+     1560,
+     587
+    ]
+   ],
+   "angle": "One Notion content card showing its stage, posting date, channels and hook"
+  },
+  {
+   "id": "fco-42-proposals",
+   "p": "fco",
+   "shot": "shots/fco-proposals.png",
+   "crop": [
+    600,
+    180,
+    1640,
+    830
+   ],
+   "kicker": "NOTION PROPOSAL TRACKER",
+   "title": [
+    "Track every",
+    "proposal",
+    "you send"
+   ],
+   "sub": "Status, value and win chance for each quote.",
+   "callouts": [
+    [
+     "Won, sent or lost",
+     1010,
+     441
+    ],
+    [
+     "Value of each quote",
+     1440,
+     441
+    ],
+    [
+     "Win chance",
+     1500,
+     476
+    ]
+   ],
+   "angle": "A Notion proposal list with status (won, sent, lost), value and win chance for each quote"
+  },
+  {
+   "id": "ccs-42-pipeline",
+   "p": "ccs",
+   "shot": "shots/ccs-pipeline.png",
+   "crop": [
+    40,
+    60,
+    1080,
+    710
+   ],
+   "kicker": "NOTION CONTENT BOARD",
+   "title": [
+    "Move every idea",
+    "to Posted",
+    ""
+   ],
+   "sub": "Idea, Draft, Create, Edit, Scheduled, <b>Posted.</b>",
+   "callouts": [
+    [
+     "Late posts turn red",
+     85,
+     177
+    ],
+    [
+     "Posted column",
+     340,
+     97
+    ],
+    [
+     "Due this week",
+     575,
+     177
+    ]
+   ],
+   "angle": "A Notion content board with columns from Edit to Posted and late posts marked in red"
+  },
+  {
+   "id": "fco-43-projects",
+   "p": "fco",
+   "shot": "shots/fco-projects.png",
+   "crop": [
+    0,
+    180,
+    1040,
+    830
+   ],
+   "kicker": "NOTION PROJECT TRACKER",
+   "title": [
+    "Every project",
+    "on budget",
+    "and on time"
+   ],
+   "sub": "Budget, costs and days left, <b>side by side.</b>",
+   "callouts": [
+    [
+     "Budget per project",
+     475,
+     367
+    ],
+    [
+     "Costs add up here",
+     860,
+     367
+    ],
+    [
+     "Days left",
+     915,
+     436
+    ]
+   ],
+   "angle": "A Notion project list with budget, costs and days left before each deadline"
+  },
+  {
+   "id": "ccs-43-channels",
+   "p": "ccs",
+   "shot": "shots/ccs-channels.png",
+   "crop": [
+    0,
+    180,
+    1040,
+    830
+   ],
+   "kicker": "NOTION CONTENT PLANNER",
+   "title": [
+    "Every platform,",
+    "one weekly goal",
+    ""
+   ],
+   "sub": "TikTok, Instagram, YouTube, newsletter and more.",
+   "callouts": [
+    [
+     "Weekly goal: 0 / 3 posted",
+     80,
+     406
+    ],
+    [
+     "Followers on each one",
+     55,
+     382
+    ],
+    [
+     "Total reach",
+     560,
+     429
+    ]
+   ],
+   "angle": "Notion channel cards for Facebook, LinkedIn, Instagram and YouTube with followers, weekly goal and reach"
+  },
+  {
+   "id": "fco-44-progress",
+   "p": "fco",
+   "shot": "shots/fco-projects-money.png",
+   "crop": [
+    480,
+    180,
+    1520,
+    830
+   ],
+   "kicker": "NOTION PROJECT TRACKER",
+   "title": [
+    "See how far",
+    "each project",
+    "has come"
+   ],
+   "sub": "A progress bar on <b>every project.</b>",
+   "callouts": [
+    [
+     "Progress bar",
+     780,
+     376
+    ],
+    [
+     "33% done",
+     670,
+     376
+    ],
+    [
+     "In progress or done",
+     1305,
+     411
+    ]
+   ],
+   "angle": "A Notion project list with a progress bar and status (in progress or done) on every project"
+  },
+  {
+   "id": "ccs-44-deals",
+   "p": "ccs",
+   "shot": "shots/ccs-deals.png",
+   "crop": [
+    600,
+    200,
+    1640,
+    850
+   ],
+   "kicker": "NOTION BRAND DEAL TRACKER",
+   "title": [
+    "Get paid by",
+    "every brand",
+    ""
+   ],
+   "sub": "Fee, posts owed and payment date <b>for each deal.</b>",
+   "callouts": [
+    [
+     "Posts delivered vs owed",
+     800,
+     342
+    ],
+    [
+     "Fee per deal",
+     925,
+     342
+    ],
+    [
+     "Late payment flagged",
+     990,
+     373
+    ]
+   ],
+   "angle": "A Notion brand deal list with fee, posts delivered, payment status and payment due date"
+  },
+  {
+   "id": "fco-45-tasks",
+   "p": "fco",
+   "shot": "shots/fco-tasks.png",
+   "crop": [
+    700,
+    280,
+    1740,
+    930
+   ],
+   "kicker": "NOTION TASK TRACKER",
+   "title": [
+    "Know what",
+    "to do next",
+    "every morning"
+   ],
+   "sub": "Due date, priority and hours <b>for every task.</b>",
+   "callouts": [
+    [
+     "Overdue tasks flag themselves",
+     1520,
+     459
+    ],
+    [
+     "Priority",
+     937,
+     390
+    ],
+    [
+     "Hours per task",
+     1460,
+     355
+    ]
+   ],
+   "angle": "A Notion task list with due dates, priority, hours and overdue tasks marked in red"
+  },
+  {
+   "id": "ccs-45-dealboard",
+   "p": "ccs",
+   "shot": "shots/ccs-deals-board.png",
+   "crop": [
+    0,
+    0,
+    1040,
+    650
+   ],
+   "kicker": "NOTION BRAND DEAL BOARD",
+   "title": [
+    "From pitch",
+    "to paid",
+    ""
+   ],
+   "sub": "Follow every brand deal <b>on one board.</b>",
+   "callouts": [
+    [
+     "Signed",
+     80,
+     141
+    ],
+    [
+     "Payment is late",
+     312,
+     227
+    ],
+    [
+     "Paid",
+     565,
+     227
+    ]
+   ],
+   "angle": "A Notion board of brand deals moving from pitched to signed, delivered and paid"
+  },
+  {
+   "id": "fco-46-expenses",
+   "p": "fco",
+   "shot": "shots/fco-expenses.png",
+   "crop": [
+    40,
+    200,
+    1080,
+    850
+   ],
+   "kicker": "NOTION EXPENSE TRACKER",
+   "title": [
+    "Know your",
+    "real profit",
+    "per project"
+   ],
+   "sub": "Log costs and <b>link them to a project.</b>",
+   "callouts": [
+    [
+     "Amount",
+     470,
+     442
+    ],
+    [
+     "Category",
+     545,
+     408
+    ],
+    [
+     "Linked to the project",
+     960,
+     408
+    ]
+   ],
+   "angle": "A Notion expense list with amount, category, date and the project each cost belongs to"
+  },
+  {
+   "id": "ccs-46-dashboard",
+   "p": "ccs",
+   "shot": "shots/ccs-dashboard.png",
+   "crop": [
+    0,
+    280,
+    1040,
+    930
+   ],
+   "kicker": "NOTION TEMPLATE FOR CREATORS",
+   "title": [
+    "Your whole",
+    "creator business",
+    "in one page"
+   ],
+   "sub": "Content, brand deals and resources <b>together.</b>",
+   "callouts": [
+    [
+     "Content, pillars, channels",
+     100,
+     517
+    ],
+    [
+     "Brand deals and scripts",
+     560,
+     505
+    ],
+    [
+     "Your channels",
+     130,
+     698
+    ]
+   ],
+   "angle": "A Notion creator dashboard with content, pillars, channels, brand deals and resources"
+  },
+  {
+   "id": "fco-47-emails",
+   "p": "fco",
+   "shot": "shots/fco-emails.png",
+   "crop": [
+    420,
+    180,
+    1460,
+    830
+   ],
+   "kicker": "NOTION CLIENT EMAILS",
+   "title": [
+    "8 client emails",
+    "ready to copy",
+    ""
+   ],
+   "sub": "From follow-up to <b>final notice.</b>",
+   "callouts": [
+    [
+     "Follow-up after a call",
+     615,
+     454
+    ],
+    [
+     "Sending a proposal",
+     608,
+     510
+    ],
+    [
+     "Friendly payment reminder",
+     640,
+     734
+    ]
+   ],
+   "angle": "A Notion page of ready client emails: follow-up after a call, sending a proposal, payment reminder"
+  },
+  {
+   "id": "ccs-47-board",
+   "p": "ccs",
+   "shot": "shots/rec/ccs_91.5.png",
+   "crop": [
+    200,
+    220,
+    1240,
+    870
+   ],
+   "kicker": "NOTION CONTENT BOARD",
+   "title": [
+    "See every post",
+    "move forward",
+    ""
+   ],
+   "sub": "A board from Idea <b>to Posted.</b>",
+   "callouts": [
+    [
+     "Each post is a card",
+     300,
+     320
+    ],
+    [
+     "Posted column",
+     560,
+     257
+    ],
+    [
+     "Pick the next stage",
+     1160,
+     849
+    ]
+   ],
+   "angle": "A Notion content board with a post card and its stage being changed to Posted"
+  },
+  {
+   "id": "fco-48-late",
+   "p": "fco",
+   "shot": "shots/rec/fco_2.png",
+   "crop": [
+    640,
+    330,
+    1520,
+    880
+   ],
+   "kicker": "NOTION INVOICE TRACKER",
+   "title": [
+    "See who is",
+    "late to pay",
+    ""
+   ],
+   "sub": "Days overdue counted <b>for every invoice.</b>",
+   "callouts": [
+    [
+     "Days late, counted for you",
+     810,
+     582
+    ],
+    [
+     "Late invoices flag themselves",
+     1380,
+     582
+    ],
+    [
+     "Drafts never count as late",
+     1400,
+     675
+    ]
+   ],
+   "angle": "A Notion invoice list showing days overdue and a Late label on unpaid invoices"
+  },
+  {
+   "id": "ccs-48-ideas",
+   "p": "ccs",
+   "shot": "shots/rec/ccs_120.5.png",
+   "crop": [
+    300,
+    60,
+    1340,
+    710
+   ],
+   "kicker": "NOTION CONTENT IDEAS",
+   "title": [
+    "Never stuck",
+    "for ideas",
+    "again"
+   ],
+   "sub": "30 ideas in 5 pillars, plus a <b>repurpose map.</b>",
+   "callouts": [
+    [
+     "Repurpose map",
+     480,
+     337
+    ],
+    [
+     "Educate, Entertain, Inspire...",
+     1300,
+     290
+    ],
+    [
+     "30 ideas, ready to use",
+     700,
+     540
+    ]
+   ],
+   "angle": "A Notion page with 30 content ideas sorted by pillar and a repurpose map"
+  },
+  {
+   "id": "fco-49-nextstep",
+   "p": "fco",
+   "shot": "shots/rec/fco_22.png",
+   "crop": [
+    1000,
+    520,
+    1560,
+    870
+   ],
+   "kicker": "NOTION INVOICE TRACKER",
+   "title": [
+    "Your invoices",
+    "tell you",
+    "what to do next"
+   ],
+   "sub": "Send, wait, remind, or <b>mark as paid.</b>",
+   "callouts": [
+    [
+     "Next step on every invoice",
+     1268,
+     582
+    ],
+    [
+     "Drafts: send it first",
+     1268,
+     675
+    ],
+    [
+     "Paid means done",
+     1268,
+     722
+    ]
+   ],
+   "angle": "A Notion invoice list where every invoice shows its next step: send it, send a reminder or done"
+  },
+  {
+   "id": "ccs-49-countdown",
+   "p": "ccs",
+   "shot": "shots/rec/ccs_38.5.png",
+   "crop": [
+    1040,
+    100,
+    2080,
+    750
+   ],
+   "kicker": "NOTION CONTENT PLANNER",
+   "title": [
+    "Pick a date,",
+    "see the countdown",
+    ""
+   ],
+   "sub": "Tomorrow, in 2 days, <b>in 10 days.</b>",
+   "callouts": [
+    [
+     "In 2 days",
+     1240,
+     587
+    ],
+    [
+     "Pick the post date",
+     1552,
+     673
+    ],
+    [
+     "Stage",
+     1110,
+     587
+    ]
+   ],
+   "angle": "A Notion content card where picking a post date shows a countdown like In 2 days"
+  }
+ ],
+ "insert_at": 15
+}

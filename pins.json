@@ -76,9 +76,19 @@
    "angle": "The content board in the Notion phone app with Create and Posted columns"
   },
   {
+   "id": "fco-40-onepage",
+   "p": "fco",
+   "angle": "A Notion dashboard for freelancers: clients, proposals, projects, tasks and invoices linked on one page"
+  },
+  {
    "id": "fco-8-won",
    "p": "fco",
    "angle": "A Notion proposal tracker with scope, status, value and win chance"
+  },
+  {
+   "id": "ccs-40-coming",
+   "p": "ccs",
+   "angle": "A Notion content list where each post shows Missed date, Today or In 2 days"
   },
   {
    "id": "ccs-9-engagement",
@@ -86,9 +96,19 @@
    "angle": "Channel cards showing posts done versus the weekly goal for each platform"
   },
   {
+   "id": "fco-41-clients",
+   "p": "fco",
+   "angle": "A Notion client list showing follow-up dates, linked invoices and how much each client owes"
+  },
+  {
    "id": "fco-9-hourly",
    "p": "fco",
    "angle": "Project rows showing paid amount, profit and a progress bar"
+  },
+  {
+   "id": "ccs-41-card",
+   "p": "ccs",
+   "angle": "One Notion content card showing its stage, posting date, channels and hook"
   },
   {
    "id": "ccs-10-dealflow",
@@ -96,9 +116,19 @@
    "angle": "A Notion board of brand deals grouped by Signed, Delivered, Paid and Pitched"
   },
   {
+   "id": "fco-42-proposals",
+   "p": "fco",
+   "angle": "A Notion proposal list with status (won, sent, lost), value and win chance for each quote"
+  },
+  {
    "id": "fco-10-today",
    "p": "fco",
    "angle": "A Notion task list with due dates, priority, hours and an Overdue or Done flag"
+  },
+  {
+   "id": "ccs-42-pipeline",
+   "p": "ccs",
+   "angle": "A Notion content board with columns from Edit to Posted and late posts marked in red"
   },
   {
    "id": "ccs-11-askpay",
@@ -106,9 +136,19 @@
    "angle": "Brand deals with fee, money status (waiting, late, paid) and payment due date"
   },
   {
+   "id": "fco-43-projects",
+   "p": "fco",
+   "angle": "A Notion project list with budget, costs and days left before each deadline"
+  },
+  {
    "id": "fco-11-onboarding",
    "p": "fco",
    "angle": "Dashboard sections linking to email scripts, a client onboarding checklist and a weekly review"
+  },
+  {
+   "id": "ccs-43-channels",
+   "p": "ccs",
+   "angle": "Notion channel cards for Facebook, LinkedIn, Instagram and YouTube with followers, weekly goal and reach"
   },
   {
    "id": "ccs-12-hooks",
@@ -116,9 +156,19 @@
    "angle": "Dashboard sections of a creator Notion template: content, brand deals, hook library and weekly review"
   },
   {
+   "id": "fco-44-progress",
+   "p": "fco",
+   "angle": "A Notion project list with a progress bar and status (in progress or done) on every project"
+  },
+  {
    "id": "fco-12-reminder",
    "p": "fco",
    "angle": "Client email scripts including invoice sent and a friendly payment reminder"
+  },
+  {
+   "id": "ccs-44-deals",
+   "p": "ccs",
+   "angle": "A Notion brand deal list with fee, posts delivered, payment status and payment due date"
   },
   {
    "id": "ccs-13-goals",
@@ -126,9 +176,19 @@
    "angle": "Channel cards with a weekly posting goal for each platform"
   },
   {
+   "id": "fco-45-tasks",
+   "p": "fco",
+   "angle": "A Notion task list with due dates, priority, hours and overdue tasks marked in red"
+  },
+  {
    "id": "fco-13-proposals",
    "p": "fco",
    "angle": "Proposal rows with status, value and win chance"
+  },
+  {
+   "id": "ccs-45-dealboard",
+   "p": "ccs",
+   "angle": "A Notion board of brand deals moving from pitched to signed, delivered and paid"
   },
   {
    "id": "ccs-14-batch",
@@ -136,9 +196,19 @@
    "angle": "Content cards in Create and Edit columns on the Notion phone app"
   },
   {
+   "id": "fco-46-expenses",
+   "p": "fco",
+   "angle": "A Notion expense list with amount, category, date and the project each cost belongs to"
+  },
+  {
    "id": "fco-14-expenses",
    "p": "fco",
    "angle": "A Notion expense tracker with amount, category, date and linked project"
+  },
+  {
+   "id": "ccs-46-dashboard",
+   "p": "ccs",
+   "angle": "A Notion creator dashboard with content, pillars, channels, brand deals and resources"
   },
   {
    "id": "ccs-15-track5",
@@ -146,9 +216,19 @@
    "angle": "Three pages of a creator Notion template: content board, channels and brand deals"
   },
   {
+   "id": "fco-47-emails",
+   "p": "fco",
+   "angle": "A Notion page of ready client emails: follow-up after a call, sending a proposal, payment reminder"
+  },
+  {
    "id": "fco-15-track5",
    "p": "fco",
    "angle": "Three pages of a freelancer Notion template: clients, invoices and projects"
+  },
+  {
+   "id": "ccs-47-board",
+   "p": "ccs",
+   "angle": "A Notion content board with a post card and its stage being changed to Posted"
   },
   {
    "id": "ccs-16-owed",
@@ -156,9 +236,19 @@
    "angle": "Brand deal cards showing fee, posts done out of posts owed and due date"
   },
   {
+   "id": "fco-48-late",
+   "p": "fco",
+   "angle": "A Notion invoice list showing days overdue and a Late label on unpaid invoices"
+  },
+  {
    "id": "fco-16-beforeafter",
    "p": "fco",
    "angle": "Freelancer Client OS pages stacked: dashboard, clients and invoices"
+  },
+  {
+   "id": "ccs-48-ideas",
+   "p": "ccs",
+   "angle": "A Notion page with 30 content ideas sorted by pillar and a repurpose map"
   },
   {
    "id": "ccs-17-gallery",
@@ -166,9 +256,19 @@
    "angle": "The content board on a laptop and the Notion phone app"
   },
   {
+   "id": "fco-49-nextstep",
+   "p": "fco",
+   "angle": "A Notion invoice list where every invoice shows its next step: send it, send a reminder or done"
+  },
+  {
    "id": "fco-17-phone",
    "p": "fco",
    "angle": "Invoice rows with amount, client and days overdue"
+  },
+  {
+   "id": "ccs-49-countdown",
+   "p": "ccs",
+   "angle": "A Notion content card where picking a post date shows a countdown like In 2 days"
   },
   {
    "id": "ccs-18-platforms",
