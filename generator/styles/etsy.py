@@ -82,12 +82,13 @@ def hero(p, pr, tmp):
     path, (cw, ch) = crop(hs['shot'], hs['crop'], tmp, 'hero')
     w = 1640
     h = round(w * ch / cw)
-    body = (f'<div style="position:absolute;left:90px;top:80px;right:90px">'
+    # centered layout: stays readable when Etsy crops the thumbnail to a square
+    body = (f'<div style="position:absolute;left:90px;top:80px;right:90px;text-align:center">'
             f'<div class="kick"><i>SF</i>{pr["kicker"]}</div>'
-            f'<h1 style="margin-top:34px">{title_html(hs["title"])}</h1>'
-            f'<div class="sub" style="margin-top:22px">{hs["sub"]}</div></div>'
+            f'<h1 style="margin-top:34px;font-size:84px">{title_html(hs["title"])}</h1>'
+            f'<div class="sub" style="margin-top:22px;font-size:32px">{hs["sub"]}</div></div>'
             + card_html(path, (W - w) // 2, 500, w, h, pr['name'])
-            + f'<div class="pills" style="position:absolute;left:90px;bottom:60px">{"".join(f"<div class=pill>{x}</div>" for x in PILLS)}</div>')
+            + f'<div class="pills" style="position:absolute;left:0;right:0;bottom:60px;justify-content:center">{"".join(f"<div class=pill>{x}</div>" for x in PILLS)}</div>')
     return page(body, '.foot{display:none}')
 
 
