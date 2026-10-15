@@ -494,6 +494,165 @@
      "Plus a 15-minute Sunday plan"
     ]
    ]
+  },
+  "fit": {
+   "name": "Freelance Invoice Tracker",
+   "kicker": "NOTION TEMPLATE FOR FREELANCERS",
+   "hero": {
+    "shot": "shots/free/fit-tables.png",
+    "crop": [
+     0,
+     0,
+     1905,
+     753
+    ],
+    "title": [
+     "Get paid",
+     "on time"
+    ],
+    "sub": "Invoices, clients and late payments in one Notion page.",
+    "keyword": "Invoice Tracker",
+    "size": 128,
+    "features": "INVOICES • CLIENTS • LATE PAYMENTS • REMINDERS",
+    "screen": [
+     {
+      "shot": "shots/free/fit-home.png",
+      "crop": [
+       0,
+       0,
+       1860,
+       155
+      ]
+     },
+     {
+      "shot": "shots/free/fit-tables.png",
+      "crop": [
+       60,
+       0,
+       1860,
+       753
+      ]
+     }
+    ],
+    "badges": [
+     "Late invoices",
+     "Next step",
+     "Reminder emails"
+    ],
+    "badges_side": "right"
+   },
+   "features": [
+    {
+     "shot": "shots/free/fit-tables.png",
+     "crop": [
+      115,
+      415,
+      1330,
+      655
+     ],
+     "title": [
+      "See who is late,",
+      "at a glance"
+     ],
+     "sub": "Every invoice shows its status, due date and how many days late it is.",
+     "chips": [
+      "Days late, counted",
+      "Draft, Sent or Paid",
+      "Due date"
+     ]
+    },
+    {
+     "shot": "shots/free/fit-tables.png",
+     "crop": [
+      890,
+      410,
+      1665,
+      655
+     ],
+     "title": [
+      "Know which email",
+      "to send next"
+     ],
+     "sub": "Next step tells you: send the invoice, send a reminder, or done.",
+     "chips": [
+      "Next step on every invoice",
+      "Second reminder",
+      "Paid means done"
+     ]
+    },
+    {
+     "shot": "shots/free/fit-tables.png",
+     "crop": [
+      115,
+      40,
+      1340,
+      215
+     ],
+     "title": [
+      "See who",
+      "owes you money"
+     ],
+     "sub": "Each client shows what they owe, what they paid, and if they pay on time.",
+     "chips": [
+      "Owes you",
+      "Lifetime paid",
+      "On time or late"
+     ]
+    },
+    {
+     "shot": "shots/free/fit-client.png",
+     "crop": [
+      800,
+      215,
+      1860,
+      670
+     ],
+     "title": [
+      "Every client,",
+      "one clear page"
+     ],
+     "sub": "Contact, money owed and all their invoices in one place.",
+     "chips": [
+      "Company and email",
+      "Linked invoices",
+      "Pays on time?"
+     ]
+    }
+   ],
+   "inside": [
+    [
+     "Invoices",
+     "Amount, client, due date and status"
+    ],
+    [
+     "Late?",
+     "On track, late X days, or paid X days late"
+    ],
+    [
+     "Next step",
+     "Send, wait, friendly reminder, second reminder, final notice"
+    ],
+    [
+     "Due in",
+     "Counts down the days before each invoice is due"
+    ],
+    [
+     "Clients",
+     "Owes you, lifetime paid, and if they pay on time"
+    ],
+    [
+     "Chase these first",
+     "A view with the invoices to follow up today"
+    ],
+    [
+     "Reminder emails",
+     "Ready messages for every step"
+    ],
+    [
+     "Get Paid Faster Kit",
+     "Plus a 2-minute daily check"
+    ]
+   ]
   }
  }
 }
