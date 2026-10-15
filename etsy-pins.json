@@ -1,15 +1,5 @@
 [
  {
-  "id": "fco-1-hero",
-  "product": "fco",
-  "name": "Freelancer Client OS",
-  "kind": "hero",
-  "angle": "Freelancer CRM",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fco-1-hero.png",
-  "link": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
-  "board": "fco"
- },
- {
   "id": "ccs-1-hero",
   "product": "ccs",
   "name": "Content Creator Studio",
@@ -238,5 +228,15 @@
   "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/wcp-6-inside.png",
   "link": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template",
   "board": "wcp"
+ },
+ {
+  "id": "fco-1-hero",
+  "product": "fco",
+  "name": "Freelancer Client OS",
+  "kind": "hero",
+  "angle": "Freelancer CRM",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fco-1-hero.png",
+  "link": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
+  "board": "fco"
  }
 ]
