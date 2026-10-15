@@ -16,7 +16,35 @@
      "Your whole<br>freelance business",
      "in one Notion page"
     ],
-    "sub": "Clients, proposals, projects, invoices and expenses, all connected."
+    "sub": "Clients, proposals, projects, invoices and expenses, all connected.",
+    "keyword": "Freelancer CRM",
+    "features": "CLIENTS • PROPOSALS • PROJECTS • INVOICES",
+    "screen": [
+     {
+      "shot": "shots/fco-dashboard.png",
+      "crop": [
+       0,
+       0,
+       1792,
+       767
+      ]
+     },
+     {
+      "shot": "shots/fco-invoices.png",
+      "crop": [
+       0,
+       0,
+       1823,
+       567
+      ]
+     }
+    ],
+    "badges": [
+     "Invoice tracker",
+     "Client tracker",
+     "Proposals"
+    ],
+    "badges_side": "right"
    },
    "features": [
     {
@@ -163,7 +191,37 @@
      "Plan every post",
      "on every platform"
     ],
-    "sub": "Content plan, channels, results and brand deals in one Notion page."
+    "sub": "Content plan, channels, results and brand deals in one Notion page.",
+    "keyword": "Content Planner",
+    "size": 124,
+    "features": "CALENDAR • CHANNELS • RESULTS • BRAND DEALS",
+    "screen": [
+     {
+      "shot": "shots/ccs-dashboard.png",
+      "crop": [
+       0,
+       0,
+       1846,
+       762
+      ]
+     },
+     {
+      "shot": "shots/ccs-pipeline.png",
+      "crop": [
+       0,
+       0,
+       1846,
+       777
+      ]
+     }
+    ],
+    "phone": "shots/ccs-phone-dashboard.png",
+    "badges": [
+     "Content calendar",
+     "Brand deals",
+     "11 platforms"
+    ],
+    "badges_side": "left"
    },
    "features": [
     {

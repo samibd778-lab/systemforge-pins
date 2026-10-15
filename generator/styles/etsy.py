@@ -77,27 +77,71 @@ def title_html(t):
     return f'{a}<br><em>{b}</em>'
 
 
+def screen_img(hs, tmp, name, sw=1792):
+    """Laptop screen (16:10): the dashboard on top, a second screen stacked under it like a scrolled page."""
+    sh = round(sw / 1.6)
+    out = Image.new('RGB', (sw, sh), 'white')
+    y = 0
+    for part in hs['screen']:
+        im = Image.open(os.path.join(ROOT, part['shot'])).convert('RGB').crop(tuple(part['crop']))
+        im = im.resize((sw, round(im.height * sw / im.width)), Image.LANCZOS)
+        out.paste(im, (0, y))
+        y += im.height
+        if y >= sh:
+            break
+    path = os.path.join(tmp, name + '.png')
+    out.save(path)
+    return path
+
+
 def hero(p, pr, tmp):
-    """Etsy search shows the main photo cropped to a ~4:5 portrait tile (only the middle ~1200px of 2000).
-    So the kicker, title, subtitle and pills stay inside x 420..1580; the screenshot card can run wider."""
+    """Thumbnail-first hero, like the best sellers in Etsy search: big keyword title, laptop mockup,
+    feature badges, product name and a bottom strip. Etsy search crops to a ~4:5 tile (middle ~1200px),
+    so every word stays inside x 420..1580."""
     hs = pr['hero']
-    path, (cw, ch) = crop(hs['shot'], hs['crop'], tmp, 'hero')
-    w = 1640
-    css = ('.col{position:absolute;left:0;right:0;top:64px;bottom:170px;display:flex;flex-direction:column;align-items:center;text-align:center}'
-           '.col h1{margin-top:30px;font-size:108px;line-height:1.02;max-width:1160px}'
-           '.col .sub{margin-top:24px;font-size:36px;max-width:1000px;text-wrap:balance}'
-           f'.hc{{margin-top:48px;width:{w}px;flex:1;min-height:0}}'
-           '.hc img{height:auto!important}'
-           '.pills{position:absolute;left:0;right:0;bottom:52px;justify-content:center;gap:14px}'
-           '.pill{font-size:25px;padding:15px 24px}.foot{display:none}')
-    card = card_html(path, 0, 0, w, round(w * ch / cw), pr['name']).replace('position:absolute', 'position:relative').replace(
-        'style="left:0px;top:0px;', 'style="')
-    body = (f'<div class="col"><div class="kick"><i>SF</i>{pr["kicker"]}</div>'
-            f'<h1>{title_html(hs["title"])}</h1>'
-            f'<div class="sub">{hs["sub"]}</div>'
-            f'<div class="hc" style="position:relative">{card.replace("class=\"card\"", "class=\"card\" ", 1)}</div></div>'
-            + f'<div class="pills">{"".join(f"<div class=pill>{x}</div>" for x in PILLS)}</div>')
-    return page(body, css + '.hc .card{height:100%}')
+    scr = screen_img(hs, tmp, 'hero')
+    sw, bz = 1180, 22
+    shh = round(sw / 1.6)
+    lx = (W - sw - 2 * bz) // 2
+    ly = 336
+    css = (f'.kw{{position:absolute;left:0;right:0;text-align:center}}'
+           f'.k0{{top:62px;font-weight:700;font-size:30px;letter-spacing:8px;color:{SAGE}}}'
+           f'.k1{{top:104px;font-weight:800;font-size:{hs.get("size", 132)}px;letter-spacing:-4px;line-height:1}}'
+           f'.k2{{top:262px;font-weight:700;font-size:29px;letter-spacing:5px;color:{MUT}}}'
+           f'.lap{{position:absolute;left:{lx}px;top:{ly}px;background:#1E1C1A;border-radius:34px;padding:{bz}px;box-shadow:0 50px 90px rgba(46,42,37,.28)}}'
+           f'.lap img{{display:block;width:{sw}px;height:{shh}px;border-radius:8px}}'
+           f'.base{{position:absolute;left:{(W - 1440) // 2}px;top:{ly + shh + 2 * bz - 4}px;width:1440px;height:34px;'
+           f'background:linear-gradient(#D9D4CC,#B9B2A7);border-radius:0 0 40px 40px}}'
+           f'.base:before{{content:"";position:absolute;left:640px;width:160px;height:12px;background:#A69E92;border-radius:0 0 12px 12px}}'
+           f'.phone{{position:absolute;background:#1E1C1A;border-radius:44px;padding:13px;box-shadow:0 40px 80px rgba(46,42,37,.3)}}'
+           f'.phone img{{display:block;width:250px;height:556px;border-radius:32px}}'
+           f'.badge{{position:absolute;width:190px;height:190px;border-radius:50%;display:flex;align-items:center;justify-content:center;'
+           f'text-align:center;font-weight:800;font-size:29px;line-height:1.1;padding:20px;color:{PAP};box-shadow:0 14px 30px rgba(46,42,37,.22);border:6px solid {PAP}}}'
+           f'.new{{position:absolute;width:150px;height:150px;border-radius:50%;background:{INK};color:{PAP};display:flex;align-items:center;'
+           f'justify-content:center;font-weight:800;font-size:36px;letter-spacing:2px;transform:rotate(-12deg);border:6px solid {PAP};box-shadow:0 14px 30px rgba(46,42,37,.25)}}'
+           f'.name{{position:absolute;left:0;right:0;top:1192px;text-align:center;font-weight:800;font-size:62px;letter-spacing:-1px}}'
+           f'.strip{{position:absolute;left:0;right:0;bottom:0;height:130px;background:{SAGE};color:{PAP};display:flex;align-items:center;'
+           f'justify-content:center;font-weight:700;font-size:31px;letter-spacing:5px}}.foot{{display:none}}')
+    colors = [SAGE, ACC, '#9A5F3C']
+    side = hs.get('badges_side', 'right')
+    bx = 1395 if side == 'right' else 415
+    badges = ''.join(f'<div class="badge" style="left:{bx}px;top:{430 + i * 215}px;background:{colors[i % 3]}">{b}</div>'
+                     for i, b in enumerate(hs['badges']))
+    phone = ''
+    if hs.get('phone'):
+        phone = (f'<div class="phone" style="left:1310px;top:560px">'
+                 f'<img src="file://{os.path.join(ROOT, hs["phone"])}"></div>')
+    new_x = 1430 if side == 'left' else 420
+    body = (f'<div class="kw k0">NOTION TEMPLATE</div>'
+            f'<div class="kw k1">{hs["keyword"]}</div>'
+            f'<div class="kw k2">{hs["features"]}</div>'
+            f'<div class="base"></div><div class="lap"><img src="file://{scr}"></div>'
+            + phone + badges
+            + (f'<div class="new" style="left:{new_x}px;top:300px">NEW</div>' if not hs.get('phone') or side == 'right' else
+               f'<div class="new" style="left:430px;top:1020px">NEW</div>')
+            + f'<div class="name">{pr["name"]}</div>'
+            f'<div class="strip">INSTANT DOWNLOAD &nbsp;•&nbsp; EDITABLE &nbsp;•&nbsp; 5-MINUTE SETUP</div>')
+    return page(body, css)
 
 
 def feature(p, pr, f, v2, tmp, n):
