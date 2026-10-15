@@ -335,6 +335,165 @@
      "Repurpose map and a 15-minute weekly review page"
     ]
    ]
+  },
+  "wcp": {
+   "name": "Weekly Content Planner",
+   "kicker": "NOTION TEMPLATE FOR CREATORS",
+   "hero": {
+    "shot": "shots/free/wcp-home.png",
+    "crop": [
+     0,
+     0,
+     1905,
+     753
+    ],
+    "title": [
+     "Plan your week",
+     "of content"
+    ],
+    "sub": "Ideas, pipeline, weekly goals and dates in one Notion page.",
+    "keyword": "Content Calendar",
+    "size": 120,
+    "features": "IDEAS • PIPELINE • WEEKLY GOALS • CALENDAR",
+    "screen": [
+     {
+      "shot": "shots/free/wcp-home.png",
+      "crop": [
+       0,
+       0,
+       1690,
+       753
+      ]
+     },
+     {
+      "shot": "shots/free/wcp-content.png",
+      "crop": [
+       0,
+       120,
+       1690,
+       753
+      ]
+     }
+    ],
+    "badges": [
+     "Weekly goals",
+     "Next 7 days",
+     "30 ideas"
+    ],
+    "badges_side": "right"
+   },
+   "features": [
+    {
+     "shot": "shots/free/wcp-content.png",
+     "crop": [
+      110,
+      258,
+      1600,
+      590
+     ],
+     "title": [
+      "Move every idea",
+      "to Posted"
+     ],
+     "sub": "One list for all your posts: format, hook, publish date and stage.",
+     "chips": [
+      "Idea to Posted stages",
+      "Calendar view",
+      "Idea bank"
+     ]
+    },
+    {
+     "shot": "shots/free/wcp-content-right.png",
+     "crop": [
+      720,
+      258,
+      1850,
+      590
+     ],
+     "title": [
+      "Never miss a",
+      "posting date"
+     ],
+     "sub": "Every post tells you: today, in 2 days, live, or missed date.",
+     "chips": [
+      "Missed date warning",
+      "Counts down the days",
+      "Shows what's live"
+     ]
+    },
+    {
+     "shot": "shots/free/wcp-channels.png",
+     "crop": [
+      730,
+      90,
+      1860,
+      600
+     ],
+     "title": [
+      "A weekly goal",
+      "for every platform"
+     ],
+     "sub": "Set a goal for TikTok, Instagram, YouTube and more. Progress fills up as you post.",
+     "chips": [
+      "Goal per platform",
+      "Progress bar",
+      "Linked posts"
+     ]
+    },
+    {
+     "shot": "shots/free/wcp-item.png",
+     "crop": [
+      730,
+      0,
+      1860,
+      470
+     ],
+     "title": [
+      "Every post,",
+      "one clear page"
+     ],
+     "sub": "Stage, channels, format, pillar and publish date at a glance.",
+     "chips": [
+      "Format and pillar",
+      "Publish date",
+      "Date check"
+     ]
+    }
+   ],
+   "inside": [
+    [
+     "Content",
+     "Every idea, from first thought to posted"
+    ],
+    [
+     "Pipeline board",
+     "Drag cards from Idea to Posted"
+    ],
+    [
+     "Channels",
+     "Each platform with a weekly goal and progress"
+    ],
+    [
+     "Date check",
+     "Today, in X days, or a missed date warning"
+    ],
+    [
+     "4 extra views",
+     "Calendar, Idea bank, Next 7 days, By pillar"
+    ],
+    [
+     "Content pillars",
+     "Educate, Entertain, Inspire, Behind the scenes, Promote"
+    ],
+    [
+     "Hook Starters",
+     "Opening lines to start your posts"
+    ],
+    [
+     "30 ideas + repurpose map",
+     "Plus a 15-minute Sunday plan"
+    ]
+   ]
   }
  }
 }
