@@ -78,18 +78,26 @@ def title_html(t):
 
 
 def hero(p, pr, tmp):
+    """Etsy search shows the main photo cropped to a ~4:5 portrait tile (only the middle ~1200px of 2000).
+    So the kicker, title, subtitle and pills stay inside x 420..1580; the screenshot card can run wider."""
     hs = pr['hero']
     path, (cw, ch) = crop(hs['shot'], hs['crop'], tmp, 'hero')
     w = 1640
-    h = round(w * ch / cw)
-    # centered layout: stays readable when Etsy crops the thumbnail to a square
-    body = (f'<div style="position:absolute;left:90px;top:80px;right:90px;text-align:center">'
-            f'<div class="kick"><i>SF</i>{pr["kicker"]}</div>'
-            f'<h1 style="margin-top:34px;font-size:84px">{title_html(hs["title"])}</h1>'
-            f'<div class="sub" style="margin-top:22px;font-size:32px">{hs["sub"]}</div></div>'
-            + card_html(path, (W - w) // 2, 500, w, h, pr['name'])
-            + f'<div class="pills" style="position:absolute;left:0;right:0;bottom:60px;justify-content:center">{"".join(f"<div class=pill>{x}</div>" for x in PILLS)}</div>')
-    return page(body, '.foot{display:none}')
+    css = ('.col{position:absolute;left:0;right:0;top:64px;bottom:170px;display:flex;flex-direction:column;align-items:center;text-align:center}'
+           '.col h1{margin-top:30px;font-size:108px;line-height:1.02;max-width:1160px}'
+           '.col .sub{margin-top:24px;font-size:36px;max-width:1000px;text-wrap:balance}'
+           f'.hc{{margin-top:48px;width:{w}px;flex:1;min-height:0}}'
+           '.hc img{height:auto!important}'
+           '.pills{position:absolute;left:0;right:0;bottom:52px;justify-content:center;gap:14px}'
+           '.pill{font-size:25px;padding:15px 24px}.foot{display:none}')
+    card = card_html(path, 0, 0, w, round(w * ch / cw), pr['name']).replace('position:absolute', 'position:relative').replace(
+        'style="left:0px;top:0px;', 'style="')
+    body = (f'<div class="col"><div class="kick"><i>SF</i>{pr["kicker"]}</div>'
+            f'<h1>{title_html(hs["title"])}</h1>'
+            f'<div class="sub">{hs["sub"]}</div>'
+            f'<div class="hc" style="position:relative">{card.replace("class=\"card\"", "class=\"card\" ", 1)}</div></div>'
+            + f'<div class="pills">{"".join(f"<div class=pill>{x}</div>" for x in PILLS)}</div>')
+    return page(body, css + '.hc .card{height:100%}')
 
 
 def feature(p, pr, f, v2, tmp, n):
