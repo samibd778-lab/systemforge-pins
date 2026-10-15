@@ -1,0 +1,282 @@
+{
+ "note": "Etsy listing images 2000x1500 (4:3). Feature images reuse crops and callout targets from pins-v2-spec.json (from_pin). Only features the template really has.",
+ "products": {
+  "fco": {
+   "name": "Freelancer Client OS",
+   "kicker": "NOTION TEMPLATE FOR FREELANCERS",
+   "hero": {
+    "shot": "shots/fco-dashboard.png",
+    "crop": [
+     0,
+     0,
+     1792,
+     767
+    ],
+    "title": [
+     "Your whole freelance business",
+     "in one Notion page"
+    ],
+    "sub": "Clients, proposals, projects, tasks, invoices and expenses, all connected."
+   },
+   "features": [
+    {
+     "shot": "shots/rec/fco_22.png",
+     "crop": [
+      540,
+      465,
+      1800,
+      750
+     ],
+     "title": [
+      "Know who to chase,",
+      "and when"
+     ],
+     "sub": "Every invoice tells you its next step: send it, wait, remind, or done.",
+     "callouts": [
+      [
+       "Draft, Sent or Paid",
+       590,
+       583
+      ],
+      [
+       "Next step on every invoice",
+       1330,
+       583
+      ],
+      [
+       "Paid means done",
+       1330,
+       722
+      ]
+     ],
+     "chips": [
+      "Next step on every invoice",
+      "Days paid late, counted",
+      "Draft, Sent or Paid"
+     ]
+    },
+    {
+     "shot": "shots/fco-proposals.png",
+     "crop": [
+      840,
+      0,
+      1808,
+      495
+     ],
+     "title": [
+      "Win more",
+      "proposals"
+     ],
+     "sub": "See every quote, its value and its win chance at a glance.",
+     "chips": [
+      "Draft to Won pipeline",
+      "Value of each quote",
+      "Win chance"
+     ]
+    },
+    {
+     "shot": "shots/fco-projects-money.png",
+     "crop": [
+      500,
+      290,
+      1450,
+      470
+     ],
+     "title": [
+      "Deliver projects",
+      "on time"
+     ],
+     "sub": "Progress bars and project status keep every deadline in view.",
+     "chips": [
+      "Progress bar",
+      "Start date",
+      "In progress or done"
+     ]
+    },
+    {
+     "shot": "shots/fco-emails.png",
+     "crop": [
+      420,
+      180,
+      1460,
+      830
+     ],
+     "title": [
+      "Never write the",
+      "awkward email again"
+     ],
+     "sub": "8 ready-to-send client emails, from follow-up to final notice.",
+     "chips": [
+      "Follow-up after a call",
+      "Sending a proposal",
+      "Friendly payment reminder"
+     ]
+    }
+   ],
+   "inside": [
+    [
+     "Clients",
+     "Contact info, where they came from, next follow-up date"
+    ],
+    [
+     "Proposals",
+     "Value, win chance, expiry date. Mark Won to start the project"
+    ],
+    [
+     "Projects",
+     "Deadline, progress bar and health: on track, at risk, overdue"
+    ],
+    [
+     "Tasks",
+     "Due dates, hours and priority. See overdue and due this week"
+    ],
+    [
+     "Invoices",
+     "Next step on every invoice, days late, paid and outstanding"
+    ],
+    [
+     "Expenses",
+     "Linked to projects. Profit and real hourly rate calculated"
+    ],
+    [
+     "8 client emails",
+     "Follow-up, proposal, kickoff, invoice, reminder, final notice"
+    ],
+    [
+     "Onboarding checklist",
+     "Every step to start a new client the right way"
+    ]
+   ]
+  },
+  "ccs": {
+   "name": "Content Creator Studio",
+   "kicker": "NOTION TEMPLATE FOR CREATORS",
+   "hero": {
+    "shot": "shots/ccs-dashboard.png",
+    "crop": [
+     0,
+     0,
+     1846,
+     762
+    ],
+    "title": [
+     "Plan every post on",
+     "every platform"
+    ],
+    "sub": "Content plan, channels, results and brand deals in one calm Notion page."
+   },
+   "features": [
+    {
+     "shot": "shots/rec/ccs_38.5.png",
+     "crop": [
+      120,
+      320,
+      945,
+      690
+     ],
+     "title": [
+      "Always know",
+      "what to post next"
+     ],
+     "sub": "Every post counts down: today, tomorrow, in 3 days, or missed.",
+     "chips": [
+      "Missed date warning",
+      "Due today",
+      "Counts down to each post"
+     ]
+    },
+    {
+     "shot": "shots/ccs-channels.png",
+     "crop": [
+      0,
+      0,
+      1030,
+      450
+     ],
+     "title": [
+      "A weekly goal",
+      "for every channel"
+     ],
+     "sub": "TikTok, Instagram, YouTube, newsletter and more, side by side.",
+     "chips": [
+      "Posts this week vs goal",
+      "Followers on each one",
+      "Behind or on track"
+     ]
+    },
+    {
+     "shot": "shots/ccs-deals.png",
+     "crop": [
+      770,
+      0,
+      1700,
+      450
+     ],
+     "title": [
+      "Track brand deals",
+      "until you get paid"
+     ],
+     "sub": "Fees, posts you still owe, due dates and late payments.",
+     "chips": [
+      "Posts delivered vs owed",
+      "Fee per deal",
+      "Late payment flagged"
+     ]
+    },
+    {
+     "shot": "shots/rec/ccs_120.5.png",
+     "crop": [
+      150,
+      100,
+      1660,
+      700
+     ],
+     "title": [
+      "Never run out",
+      "of ideas"
+     ],
+     "sub": "30 content ideas and a repurpose map, ready to use.",
+     "chips": [
+      "30 ideas, ready to use",
+      "5 content pillars",
+      "Repurpose map"
+     ]
+    }
+   ],
+   "inside": [
+    [
+     "Content pipeline",
+     "Idea, Draft, Create, Edit, Scheduled, Posted. Board, calendar, gallery"
+    ],
+    [
+     "Post countdown",
+     "Missed date, today, tomorrow or in X days, on every post"
+    ],
+    [
+     "Channels",
+     "11 platforms, each with a weekly goal and posts left"
+    ],
+    [
+     "Post results",
+     "Views, likes, comments, shares, saves. Engagement % calculated"
+    ],
+    [
+     "Content pillars",
+     "3 to 5 topics. See which one brings the most reach"
+    ],
+    [
+     "Brand deals",
+     "From pitch to paid: fee, posts owed, due dates, days late"
+    ],
+    [
+     "Scripts and hooks",
+     "Brand deal scripts and a hook library, ready to copy"
+    ],
+    [
+     "30 ideas + weekly review",
+     "Repurpose map and a 15-minute weekly review page"
+    ]
+   ]
+  }
+ }
+}
