@@ -653,6 +653,300 @@
      "Plus a 2-minute daily check"
     ]
    ]
+  },
+  "prop": {
+   "name": "Freelance Proposal Tracker",
+   "kicker": "NOTION TEMPLATE FOR FREELANCERS",
+   "hero": {
+    "keyword": "Proposal Tracker",
+    "size": 120,
+    "features": "PROPOSALS • FOLLOW-UPS • PIPELINE • CLIENTS",
+    "screen": [
+     {
+      "shot": "shots/free/prop-home.png",
+      "crop": [
+       100,
+       100,
+       1860,
+       700
+      ]
+     },
+     {
+      "shot": "shots/free/prop-db.png",
+      "crop": [
+       100,
+       100,
+       1860,
+       500
+      ]
+     }
+    ],
+    "badges": [
+     "Follow-up reminders",
+     "Price check",
+     "Win rate"
+    ],
+    "badges_side": "right"
+   },
+   "features": [
+    {
+     "shot": "shots/free/prop-home.png",
+     "crop": [
+      578,
+      370,
+      1795,
+      590
+     ],
+     "title": [
+      "Know who to",
+      "follow up today"
+     ],
+     "sub": "Next step tells you what to do: send it, follow up #1, #2, #3, or send a new quote.",
+     "chips": [
+      "Next step on every quote",
+      "Days waiting",
+      "Expiry warning"
+     ]
+    },
+    {
+     "shot": "shots/free/prop-home-zoom.png",
+     "crop": [
+      480,
+      470,
+      1400,
+      800
+     ],
+     "title": [
+      "Drag a card when",
+      "a client answers"
+     ],
+     "sub": "See every proposal from Draft to Won, with its value and next step.",
+     "chips": [
+      "Draft to Won",
+      "Value on every card",
+      "Next step on the card"
+     ]
+    },
+    {
+     "shot": "shots/free/prop-db.png",
+     "crop": [
+      115,
+      140,
+      1230,
+      470
+     ],
+     "title": [
+      "Every quote,",
+      "one clear status"
+     ],
+     "sub": "Status, client, value and win chance for every proposal you send.",
+     "chips": [
+      "Status",
+      "Win chance",
+      "Linked clients"
+     ]
+    },
+    {
+     "shot": "shots/free/prop-client.png",
+     "crop": [
+      820,
+      270,
+      1900,
+      600
+     ],
+     "title": [
+      "See what each",
+      "client is worth"
+     ],
+     "sub": "Open value, won value and win rate on every client page.",
+     "chips": [
+      "Open value",
+      "Won value",
+      "Win rate"
+     ]
+    }
+   ],
+   "inside": [
+    [
+     "Proposals",
+     "Value, status, win chance and dates"
+    ],
+    [
+     "Next step",
+     "Send it, follow up #1 to #3, or send a new quote"
+    ],
+    [
+     "Expires",
+     "Warns you before a quote runs out"
+    ],
+    [
+     "Price check",
+     "Hours x rate tells you if you priced too low"
+    ],
+    [
+     "Clients",
+     "Open value, won value and win rate"
+    ],
+    [
+     "Follow-up emails",
+     "6 ready messages for every step"
+    ],
+    [
+     "Proposal Writing Guide",
+     "A copy-paste outline and a checklist"
+    ],
+    [
+     "Weekly review",
+     "Plus a Why I lost board and an inquiry form"
+    ]
+   ]
+  },
+  "deal": {
+   "name": "Brand Deal Tracker",
+   "kicker": "NOTION TEMPLATE FOR CREATORS",
+   "hero": {
+    "keyword": "Brand Deal Tracker",
+    "size": 112,
+    "features": "DEALS • POSTS • PAYMENTS • BRANDS",
+    "screen": [
+     {
+      "shot": "shots/free/deal-home.png",
+      "crop": [
+       100,
+       100,
+       1860,
+       700
+      ]
+     },
+     {
+      "shot": "shots/free/deal-board.png",
+      "crop": [
+       560,
+       380,
+       1860,
+       700
+      ]
+     }
+    ],
+    "badges": [
+     "Posts you owe",
+     "Late payments",
+     "Media kit"
+    ],
+    "badges_side": "right"
+   },
+   "features": [
+    {
+     "shot": "shots/free/deal-home.png",
+     "crop": [
+      578,
+      370,
+      1795,
+      570
+     ],
+     "title": [
+      "Know what to",
+      "do today"
+     ],
+     "sub": "Next step tells you: follow up, post, send your invoice or chase a late payment.",
+     "chips": [
+      "Next step on every deal",
+      "Posts done vs owed",
+      "Payment due or late"
+     ]
+    },
+    {
+     "shot": "shots/free/deal-board.png",
+     "crop": [
+      578,
+      405,
+      1795,
+      665
+     ],
+     "title": [
+      "Every deal from",
+      "pitch to paid"
+     ],
+     "sub": "Drag a card when a deal moves. Fee and next step on every card.",
+     "chips": [
+      "Pitched to Paid",
+      "Fee on every card",
+      "Drag to update"
+     ]
+    },
+    {
+     "shot": "shots/free/deal-posts.png",
+     "crop": [
+      117,
+      515,
+      1290,
+      753
+     ],
+     "title": [
+      "Never miss a",
+      "post you owe"
+     ],
+     "sub": "Every promised post with its due date, platform and days late.",
+     "chips": [
+      "Days late, counted",
+      "Platform",
+      "Tick when posted"
+     ]
+    },
+    {
+     "shot": "shots/free/deal-db.png",
+     "crop": [
+      90,
+      140,
+      1420,
+      435
+     ],
+     "title": [
+      "See your money",
+      "on every deal"
+     ],
+     "sub": "Fee, money per post, content progress and payment status for every brand deal.",
+     "chips": [
+      "$ per post",
+      "Paid or days late",
+      "Payment due date"
+     ]
+    }
+   ],
+   "inside": [
+    [
+     "Deals",
+     "Fee, stage, usage rights and dates"
+    ],
+    [
+     "Next step",
+     "Follow up, post, invoice or payment reminder"
+    ],
+    [
+     "Posts you owe",
+     "Every deliverable with its due date"
+    ],
+    [
+     "Money",
+     "Due in X days, X days late, or paid"
+    ],
+    [
+     "Brands",
+     "Earned, pending and number of deals"
+    ],
+    [
+     "Brand email scripts",
+     "6 ready messages, pitch to payment"
+    ],
+    [
+     "Rate card + Media kit",
+     "Ready pages to send to brands"
+    ],
+    [
+     "Weekly review",
+     "A 10-minute Friday checklist"
+    ]
+   ]
   }
  }
 }
