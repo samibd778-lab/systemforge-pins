@@ -709,12 +709,12 @@
      ]
     },
     {
-     "shot": "shots/free/prop-home-zoom.png",
+     "shot": "shots/free/prop-board.png",
      "crop": [
-      480,
-      470,
-      1400,
-      800
+      588,
+      175,
+      1785,
+      753
      ],
      "title": [
       "Drag a card when",
@@ -728,22 +728,22 @@
      ]
     },
     {
-     "shot": "shots/free/prop-db.png",
+     "shot": "shots/free/prop-item.png",
      "crop": [
-      115,
-      140,
-      1230,
-      470
+      735,
+      235,
+      1810,
+      485
      ],
      "title": [
-      "Every quote,",
-      "one clear status"
+      "Know if your",
+      "price is too low"
      ],
-     "sub": "Status, client, value and win chance for every proposal you send.",
+     "sub": "Add your hours and your rate. Price check tells you if the quote is under your rate.",
      "chips": [
-      "Status",
-      "Win chance",
-      "Linked clients"
+      "Price check",
+      "Next step",
+      "Expiry date"
      ]
     },
     {
