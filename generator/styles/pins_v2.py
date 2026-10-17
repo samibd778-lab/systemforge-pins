@@ -24,7 +24,8 @@ INK, MUT, ACC, SAGE, CREAM, PAP, CLAY, SAGEL = '#2E2A25', '#5C554C', '#D9A07B', 
 PRODUCTS = {'fco': 'Freelancer Client OS', 'ccs': 'Content Creator Studio', 'prop': 'Proposal Tracker', 'deal': 'Brand Deal Tracker'}
 PILLS = ['Instant access', 'Duplicate in 1 click', 'Pay once']
 
-FONT_CSS = f'''@font-face{{font-family:Fraunces;src:url(file://{FONTS}/fraunces600.woff2);font-weight:600}}
+FONT_CSS = f'''@font-face{{font-family:Fraunces;src:url(file://{FONTS}/fraunces-var.woff2);font-weight:100 900}}
+h1,h2,.serif{{font-variation-settings:"WONK" 0,"SOFT" 0,"opsz" 30}}
 @font-face{{font-family:InterW;src:url(file://{FONTS}/inter500.woff2);font-weight:500}}
 @font-face{{font-family:InterW;src:url(file://{FONTS}/inter700.woff2);font-weight:700}}'''
 
@@ -92,7 +93,7 @@ body{{width:{PW}px;height:{PH}px;background:{CREAM};position:relative;overflow:h
 .kick span{{display:inline-flex;align-items:center;gap:10px;background:{PAP};border-radius:40px;padding:12px 24px;font-weight:700;font-size:21px;letter-spacing:1.6px;color:{INK};box-shadow:0 6px 20px rgba(46,42,37,.08)}}
 .kick i{{width:28px;height:28px;border-radius:50%;background:{SAGE};color:{PAP};font-style:italic;font-family:Fraunces;font-size:14px;display:flex;align-items:center;justify-content:center}}
 .top{{position:absolute;top:116px;left:36px;right:36px;height:322px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}}
-h1{{font-family:Fraunces;font-weight:600;font-size:76px;line-height:1.04;color:{INK};letter-spacing:-2.4px}}
+h1{{font-family:Fraunces;font-weight:600;font-size:74px;line-height:1.08;color:{INK};letter-spacing:-0.5px}}
 h1 em{{font-style:normal;background:linear-gradient(transparent 12%,{CLAY} 12%,{CLAY} 92%,transparent 92%);padding:0 12px;border-radius:14px;color:#9A5F3C}}
 .sub{{margin-top:18px;font-size:27px;color:{MUT};line-height:1.3}}
 .sub b{{color:{INK}}}

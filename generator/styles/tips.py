@@ -44,7 +44,7 @@ body{{width:{w}px;height:{h}px;background:{CREAM};position:relative;overflow:hid
 .kick{{text-align:center}}
 .kick span{{display:inline-flex;align-items:center;gap:10px;background:{PAP};border-radius:40px;padding:12px 24px;font-weight:700;font-size:21px;letter-spacing:1.6px;box-shadow:0 6px 20px rgba(46,42,37,.08)}}
 .kick i{{width:28px;height:28px;border-radius:50%;background:{SAGE};color:{PAP};font-style:italic;font-family:Fraunces;font-size:14px;display:flex;align-items:center;justify-content:center}}
-h1{{margin:{34 if big else 26}px 0 {34 if big else 26}px;text-align:center;font-family:Fraunces;font-weight:600;font-size:{h1}px;line-height:1.05;letter-spacing:-2.4px}}
+h1{{margin:{34 if big else 26}px 0 {34 if big else 26}px;text-align:center;font-family:Fraunces;font-weight:600;font-size:{h1}px;line-height:1.08;letter-spacing:-0.5px}}
 h1 em{{font-style:normal;background:linear-gradient(transparent 12%,{CLAY} 12%,{CLAY} 92%,transparent 92%);padding:0 14px;border-radius:14px;color:#9A5F3C}}
 .list{{flex:1;display:flex;flex-direction:column;justify-content:center;gap:{gap}px}}
 .t{{display:flex;gap:20px;align-items:center;background:{PAP};border-radius:24px;padding:{30 if n <= 4 else 24 if big else 20}px 28px;box-shadow:0 10px 26px rgba(46,42,37,.08)}}
