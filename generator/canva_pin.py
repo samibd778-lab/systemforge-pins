@@ -23,6 +23,7 @@ def canva_html(sp):
     h = h.replace('<body>', f'<body style="margin:0"><div class="pg" data-document-role="page" data-label="{sp["id"]}" style="position:relative;width:{PW}px;height:{PH}px;overflow:hidden;background:#F6F1E9">', 1)
     h = h.replace('</body>', '</div></body>')
     h = h.replace('body{', '.pg{')
+    h = h.replace('*{{', '*{{').replace('<style>', "<style>div,span,p,b{font-family:Inter,'Helvetica Neue',Arial,sans-serif}", 1)
     return h
 
 
