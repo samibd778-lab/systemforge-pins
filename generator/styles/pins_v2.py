@@ -21,7 +21,7 @@ FONTS = os.path.join(ROOT, 'generator', 'remotion', 'public')
 CHROME = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
 
 INK, MUT, ACC, SAGE, CREAM, PAP, CLAY, SAGEL = '#2E2A25', '#5C554C', '#D9A07B', '#7A8B6F', '#F6F1E9', '#FFFDF9', '#EFDCCB', '#E3E8DC'
-PRODUCTS = {'fco': 'Freelancer Client OS', 'ccs': 'Content Creator Studio'}
+PRODUCTS = {'fco': 'Freelancer Client OS', 'ccs': 'Content Creator Studio', 'prop': 'Proposal Tracker', 'deal': 'Brand Deal Tracker'}
 PILLS = ['Instant access', 'Duplicate in 1 click', 'Pay once']
 
 FONT_CSS = f'''@font-face{{font-family:Fraunces;src:url(file://{FONTS}/fraunces600.woff2);font-weight:600}}

@@ -24,7 +24,7 @@ THEMES = {  # background, top blob, bottom blob
     'clay': (CLAY, CREAM, SAGEL),
     'cream': (CREAM, SAGEL, CLAY),
 }
-PRODUCTS = {'fco': 'Freelancer Client OS', 'ccs': 'Content Creator Studio'}
+PRODUCTS = {'fco': 'Freelancer Client OS', 'ccs': 'Content Creator Studio', 'prop': 'Proposal Tracker', 'deal': 'Brand Deal Tracker'}
 W, H = 1000, 1500
 
 
@@ -173,7 +173,8 @@ def main():
     old = [{'id': sp['id'], 'p': sp['p'], 'angle': sp['angle']} for sp in specs]
     # new-style pins (generator/styles/pins_v2.py) are mixed in from 'insert_at': new, old, new, old...
     v2 = json.load(open(os.path.join(ROOT, 'generator', 'pins-v2-spec.json')))
-    new = [{'id': sp['id'], 'p': sp['p'], 'angle': sp['angle']} for sp in v2['pins']]
+    new = [{'id': sp['id'], 'p': sp['p'], 'angle': sp['angle']} for sp in v2['pins'] if not sp.get('launch')]
+    launch = [{'id': sp['id'], 'p': sp['p'], 'angle': sp['angle']} for sp in v2['pins'] if sp.get('launch')]
     at = v2.get('insert_at', len(old))
     rest, mixed = old[at:], old[:at]
     while new or rest:
@@ -188,6 +189,12 @@ def main():
         pos = min(pos, len(mixed))
         mixed.insert(pos, t)
         pos += tp.get('every', 3)
+    # new products (launch=true in pins-v2-spec.json): from 'launch_at', one every 'launch_every' slots
+    pos = v2.get('launch_at', len(mixed))
+    for t in launch:
+        pos = min(pos, len(mixed))
+        mixed.insert(pos, t)
+        pos += v2.get('launch_every', 3)
     json.dump({'pins': mixed}, open(os.path.join(ROOT, 'pins.json'), 'w'), indent=1, ensure_ascii=False)
     print(len(mixed), 'pins in pins.json')
 
