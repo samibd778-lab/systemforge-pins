@@ -799,6 +799,26 @@
      "Weekly review",
      "Plus a Why I lost board and an inquiry form"
     ]
+   ],
+   "gsq_screen": [
+    {
+     "shot": "shots/free/prop-home.png",
+     "crop": [
+      570,
+      120,
+      1800,
+      600
+     ]
+    },
+    {
+     "shot": "shots/free/prop-board.png",
+     "crop": [
+      570,
+      120,
+      1800,
+      753
+     ]
+    }
    ]
   },
   "deal": {
@@ -946,6 +966,26 @@
      "Weekly review",
      "A 10-minute Friday checklist"
     ]
+   ],
+   "gsq_screen": [
+    {
+     "shot": "shots/free/deal-home.png",
+     "crop": [
+      570,
+      200,
+      1800,
+      580
+     ]
+    },
+    {
+     "shot": "shots/free/deal-board.png",
+     "crop": [
+      570,
+      330,
+      1800,
+      700
+     ]
+    }
    ]
   }
  }

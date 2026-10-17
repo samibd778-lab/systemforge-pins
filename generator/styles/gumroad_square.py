@@ -26,13 +26,17 @@ COPY = {
             ['Late invoices flagged', 'Next step on each one', 'Reminder emails']),
     'wcp': ('Weekly<br>Content Planner', 'Move every idea to Posted and never miss a posting date.',
             ['Idea to Posted board', 'Goal per platform', '30 content ideas']),
+    'prop': ('Proposal<br>Tracker', 'Know which quote to follow up today and win more work.',
+             ['Follow-up reminders', 'Price check', 'Win rate per client']),
+    'deal': ('Brand Deal<br>Tracker', 'Every brand deal from pitch to paid, in one Notion page.',
+             ['Posts you owe', 'Late payments', 'Media kit + rate card']),
 }
 FREE = {'fit', 'wcp'}
 
 
 def html(p, pr, tmp):
     title, sub, chips = COPY[p]
-    scr = screen_img(pr['hero'], tmp, 'sq')
+    scr = screen_img({'screen': pr.get('gsq_screen', pr['hero']['screen'])}, tmp, 'sq')
     sw = 1400
     sh = 690
     tag = 'FREE NOTION TEMPLATE' if p in FREE else 'NOTION TEMPLATE'
