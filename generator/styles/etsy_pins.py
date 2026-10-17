@@ -73,15 +73,33 @@ def hero_pin(pr, tmp):
     return page(body)
 
 
+def pin_box(f, aspect=1.62):
+    """A taller box for the vertical pin: 'pin_crop' if set, else the listing crop grown up/down to ~16:10
+    (the listing crops are thin strips, which look tiny on a 2:3 pin)."""
+    if f.get('pin_crop'):
+        return f['pin_crop']
+    x0, y0, x1, y1 = f['crop']
+    W0, H0 = Image.open(os.path.join(ROOT, f['shot'])).size
+    want = round((x1 - x0) / aspect)
+    if y1 - y0 >= want:
+        return [x0, y0, x1, y1]
+    cy = (y0 + y1) / 2
+    top = max(0, min(round(cy - want / 2), H0 - want))
+    return [x0, top, x1, min(H0, top + want)]
+
+
 def feature_pin(pr, f, tmp, n):
-    path, (cw, ch), _ = crop(f['shot'], f['crop'], tmp, f'pf{n}', trim=True)
-    sc = min(940 / cw, 640 / ch, 2.0)
+    path, (cw, ch), _ = crop(f['shot'], pin_box(f), tmp, f'pf{n}', trim=True)
+    # zoom on the key columns ('pin_crop' in etsy-spec.json) so the screen is big and readable
+    # big enough to read: ~470 px tall; a wide table bleeds off the right edge (chips name only what shows)
+    sc = min(470 / ch, 1.6) if cw / ch > 2.0 else min(940 / cw, 600 / ch, 1.6)
     w, h = round(cw * sc), round(ch * sc)
+    x0 = (W - w) // 2 if w <= 940 else 50
     y0 = 440 + (660 - (h + 36)) // 2
     a, b = f['title']
-    chips = ''.join(f'<div class="chip"><span class="n">{i + 1}</span>{c}</div>' for i, c in enumerate(f['chips'][:3]))
+    chips = ''.join(f'<div class="chip"><span class="n">{i + 1}</span>{c}</div>' for i, c in enumerate(f.get('pin_chips', f['chips'])[:3]))
     body = (f'<div class="top"><div class="k0">{pr["kicker"]}</div><h1>{a}<br><em>{b}</em></h1><div class="sub">{f["sub"]}</div></div>'
-            + card(path, (W - w) // 2, y0, w, h)
+            + card(path, x0, y0, w, h)
             + f'<div class="chips" style="top:1110px;flex-direction:row;flex-wrap:wrap;justify-content:center">{chips}</div>')
     return page(body, '.chip{font-size:24px;padding:12px 22px 12px 12px}.n{width:36px;height:36px;font-size:18px}.name{display:none}')
 

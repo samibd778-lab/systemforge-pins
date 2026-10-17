@@ -81,6 +81,17 @@
       "Next step on every invoice",
       "Days paid late, counted",
       "Draft, Sent or Paid"
+     ],
+     "pin_crop": [
+      850,
+      465,
+      1460,
+      750
+     ],
+     "pin_chips": [
+      "Next step on every invoice",
+      "Days paid late, counted",
+      "Send second reminder"
      ]
     },
     {
@@ -119,6 +130,11 @@
       "Progress bar",
       "Start date",
       "In progress or done"
+     ],
+     "pin_chips": [
+      "Progress bar",
+      "% done",
+      "Start date"
      ]
     },
     {
@@ -419,6 +435,12 @@
       "Missed date warning",
       "Counts down the days",
       "Shows what's live"
+     ],
+     "pin_crop": [
+      720,
+      120,
+      1850,
+      590
      ]
     },
     {
@@ -578,6 +600,17 @@
       "Next step on every invoice",
       "Second reminder",
       "Paid means done"
+     ],
+     "pin_crop": [
+      1100,
+      395,
+      1680,
+      660
+     ],
+     "pin_chips": [
+      "Late X days, counted",
+      "Due in",
+      "Next step on every invoice"
      ]
     },
     {
@@ -706,6 +739,17 @@
       "Next step on every quote",
       "Days waiting",
       "Expiry warning"
+     ],
+     "pin_crop": [
+      840,
+      370,
+      1640,
+      600
+     ],
+     "pin_chips": [
+      "Next step on every quote",
+      "Follow up #1, #2, #3",
+      "Value of each quote"
      ]
     },
     {
@@ -744,6 +788,12 @@
       "Price check",
       "Next step",
       "Expiry date"
+     ],
+     "pin_crop": [
+      740,
+      40,
+      1660,
+      520
      ]
     },
     {
@@ -763,6 +813,12 @@
       "Open value",
       "Won value",
       "Win rate"
+     ],
+     "pin_crop": [
+      810,
+      30,
+      1660,
+      480
      ]
     }
    ],
@@ -873,6 +929,17 @@
       "Next step on every deal",
       "Posts done vs owed",
       "Payment due or late"
+     ],
+     "pin_crop": [
+      890,
+      365,
+      1800,
+      570
+     ],
+     "pin_chips": [
+      "Next step on every deal",
+      "Post 2 more",
+      "Send a payment reminder"
      ]
     },
     {
@@ -911,6 +978,12 @@
       "Days late, counted",
       "Platform",
       "Tick when posted"
+     ],
+     "pin_crop": [
+      420,
+      200,
+      1420,
+      753
      ]
     },
     {
@@ -930,6 +1003,17 @@
       "$ per post",
       "Paid or days late",
       "Payment due date"
+     ],
+     "pin_crop": [
+      960,
+      140,
+      1745,
+      430
+     ],
+     "pin_chips": [
+      "$ per post",
+      "Paid or days late",
+      "Posts delivered"
      ]
     }
    ],
