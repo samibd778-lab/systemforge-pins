@@ -201,9 +201,9 @@
    ]
   },
   {
-   "id": "prop-02-board",
-   "p": "prop",
-   "angle": "A Notion proposal pipeline board with Draft, Sent, Negotiating and Won columns, each card shows client, value and next step"
+   "id": "deal-01-now",
+   "p": "deal",
+   "angle": "A Notion Do this now table for brand deals: next step on each deal, posts still owed, late posts and a brand that is 6 days late to pay"
   },
   {
    "id": "ccs-13-goals",
@@ -216,9 +216,9 @@
    "angle": "A Notion task list with due dates, priority, hours and overdue tasks marked in red"
   },
   {
-   "id": "prop-03-price",
+   "id": "prop-02-board",
    "p": "prop",
-   "angle": "A Notion proposal page with a price check that says $200 under your rate, plus next step and expiry date"
+   "angle": "A Notion proposal pipeline board with Draft, Sent, Negotiating and Won columns, each card shows client, value and next step"
   },
   {
    "id": "tip-fco-02-late",
@@ -238,9 +238,9 @@
    "angle": "Proposal rows with status, value and win chance"
   },
   {
-   "id": "prop-04-client",
-   "p": "prop",
-   "angle": "A Notion client page showing open value, won value, win rate and the list of quotes sent to that client"
+   "id": "deal-02-board",
+   "p": "deal",
+   "angle": "A Notion brand deal board with Pitched, Talking, Signed and Delivered columns; each card shows the brand, fee and next step"
   },
   {
    "id": "ccs-45-dealboard",
@@ -260,9 +260,9 @@
    ]
   },
   {
-   "id": "prop-05-list",
+   "id": "prop-03-price",
    "p": "prop",
-   "angle": "A Notion proposals table with status, client, next step, value and win chance for every quote"
+   "angle": "A Notion proposal page with a price check that says $200 under your rate, plus next step and expiry date"
   },
   {
    "id": "ccs-14-batch",
@@ -275,9 +275,9 @@
    "angle": "A Notion expense list with amount, category, date and the project each cost belongs to"
   },
   {
-   "id": "prop-06-home",
-   "p": "prop",
-   "angle": "The Proposal Tracker home page in Notion: a Follow up today list and a pipeline board on one page"
+   "id": "deal-03-posts",
+   "p": "deal",
+   "angle": "A Notion list of posts owed to brands with due dates, platform (TikTok, Instagram, YouTube), a 2 days late warning and a Posted checkbox"
   },
   {
    "id": "tip-fco-03-quote",
@@ -298,6 +298,11 @@
    "angle": "A Notion expense tracker with amount, category, date and linked project"
   },
   {
+   "id": "prop-04-client",
+   "p": "prop",
+   "angle": "A Notion client page showing open value, won value, win rate and the list of quotes sent to that client"
+  },
+  {
    "id": "ccs-46-dashboard",
    "p": "ccs",
    "angle": "A Notion creator dashboard with content, pillars, channels, brand deals and resources"
@@ -316,6 +321,11 @@
    ]
   },
   {
+   "id": "deal-04-money",
+   "p": "deal",
+   "angle": "A Notion deals table with fee, $ per post, posts delivered and money status like Due in 30 days, Paid or 6 days late"
+  },
+  {
    "id": "ccs-15-track5",
    "p": "ccs",
    "angle": "Three pages of a creator Notion template: content board, channels and brand deals"
@@ -324,6 +334,11 @@
    "id": "fco-47-emails",
    "p": "fco",
    "angle": "A Notion page of ready client emails: follow-up after a call, sending a proposal, payment reminder"
+  },
+  {
+   "id": "prop-05-list",
+   "p": "prop",
+   "angle": "A Notion proposals table with status, client, next step, value and win chance for every quote"
   },
   {
    "id": "tip-fco-04-deposit",
@@ -341,6 +356,11 @@
    "id": "fco-15-track5",
    "p": "fco",
    "angle": "Three pages of a freelancer Notion template: clients, invoices and projects"
+  },
+  {
+   "id": "deal-05-brand",
+   "p": "deal",
+   "angle": "A Notion brand page showing money earned, money pending, number of deals and $ per post for each deal"
   },
   {
    "id": "ccs-47-board",
@@ -361,6 +381,11 @@
    ]
   },
   {
+   "id": "prop-06-home",
+   "p": "prop",
+   "angle": "The Proposal Tracker home page in Notion: a Follow up today list and a pipeline board on one page"
+  },
+  {
    "id": "ccs-16-owed",
    "p": "ccs",
    "angle": "Brand deal cards showing fee, posts done out of posts owed and due date"
@@ -369,6 +394,11 @@
    "id": "fco-48-late",
    "p": "fco",
    "angle": "A Notion invoice list showing days overdue and a Late label on unpaid invoices"
+  },
+  {
+   "id": "deal-06-home",
+   "p": "deal",
+   "angle": "The Brand Deal Tracker home page in Notion: a Do this now list and a deal board from Pitched to Paid"
   },
   {
    "id": "tip-fco-05-rate",

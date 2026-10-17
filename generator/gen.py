@@ -175,6 +175,13 @@ def main():
     v2 = json.load(open(os.path.join(ROOT, 'generator', 'pins-v2-spec.json')))
     new = [{'id': sp['id'], 'p': sp['p'], 'angle': sp['angle']} for sp in v2['pins'] if not sp.get('launch')]
     launch = [{'id': sp['id'], 'p': sp['p'], 'angle': sp['angle']} for sp in v2['pins'] if sp.get('launch')]
+    # interleave launch products (prop, deal, prop, deal...) in spec order
+    groups = {}
+    for x in launch: groups.setdefault(x['p'], []).append(x)
+    launch = []
+    while any(groups.values()):
+        for g in groups.values():
+            if g: launch.append(g.pop(0))
     at = v2.get('insert_at', len(old))
     rest, mixed = old[at:], old[:at]
     while new or rest:

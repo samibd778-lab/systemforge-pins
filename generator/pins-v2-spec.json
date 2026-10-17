@@ -927,6 +927,223 @@
    ],
    "angle": "The Proposal Tracker home page in Notion: a Follow up today list and a pipeline board on one page",
    "launch": true
+  },
+  {
+   "id": "deal-01-now",
+   "p": "deal",
+   "shot": "shots/free/deal-home.png",
+   "crop": [
+    580,
+    90,
+    1800,
+    700
+   ],
+   "kicker": "NOTION TEMPLATE FOR CREATORS",
+   "title": [
+    "See what needs",
+    "you today",
+    ""
+   ],
+   "sub": "Posts, payments and <b>next steps.</b>",
+   "callouts": [
+    [
+     "Next step on every deal",
+     910,
+     421
+    ],
+    [
+     "Late posts, counted for you",
+     1560,
+     421
+    ],
+    [
+     "Brand late to pay",
+     1650,
+     462
+    ]
+   ],
+   "angle": "A Notion Do this now table for brand deals: next step on each deal, posts still owed, late posts and a brand that is 6 days late to pay",
+   "launch": true
+  },
+  {
+   "id": "deal-02-board",
+   "p": "deal",
+   "shot": "shots/free/deal-board.png",
+   "crop": [
+    580,
+    0,
+    1800,
+    700
+   ],
+   "kicker": "NOTION TEMPLATE FOR CREATORS",
+   "title": [
+    "Every deal",
+    "from pitch",
+    "to paid"
+   ],
+   "sub": "Pitched, Talking, Signed, <b>Delivered.</b>",
+   "callouts": [
+    [
+     "Fee on every card",
+     640,
+     543
+    ],
+    [
+     "Next step: Post 2 more",
+     1300,
+     576
+    ],
+    [
+     "Drag the card when it moves",
+     1625,
+     428
+    ]
+   ],
+   "angle": "A Notion brand deal board with Pitched, Talking, Signed and Delivered columns; each card shows the brand, fee and next step",
+   "launch": true
+  },
+  {
+   "id": "deal-03-posts",
+   "p": "deal",
+   "shot": "shots/free/deal-posts.png",
+   "crop": [
+    110,
+    40,
+    1420,
+    640
+   ],
+   "kicker": "NOTION TEMPLATE FOR CREATORS",
+   "title": [
+    "Never miss",
+    "a post",
+    "you owe"
+   ],
+   "sub": "Every deliverable, <b>sorted by due date.</b>",
+   "callouts": [
+    [
+     "Late posts turn red",
+     450,
+     306
+    ],
+    [
+     "Platform for every post",
+     920,
+     306
+    ],
+    [
+     "Tick Posted when it's live",
+     1350,
+     306
+    ]
+   ],
+   "angle": "A Notion list of posts owed to brands with due dates, platform (TikTok, Instagram, YouTube), a 2 days late warning and a Posted checkbox",
+   "launch": true
+  },
+  {
+   "id": "deal-04-money",
+   "p": "deal",
+   "shot": "shots/free/deal-db.png",
+   "crop": [
+    600,
+    90,
+    1600,
+    520
+   ],
+   "kicker": "NOTION TEMPLATE FOR CREATORS",
+   "title": [
+    "Know who is",
+    "late to pay",
+    ""
+   ],
+   "sub": "Every brand payment, <b>tracked.</b>",
+   "callouts": [
+    [
+     "Next step: payment reminder",
+     660,
+     366
+    ],
+    [
+     "$ per post on every deal",
+     990,
+     199
+    ],
+    [
+     "6 days late",
+     1295,
+     366
+    ]
+   ],
+   "angle": "A Notion deals table with fee, $ per post, posts delivered and money status like Due in 30 days, Paid or 6 days late",
+   "launch": true
+  },
+  {
+   "id": "deal-05-brand",
+   "p": "deal",
+   "shot": "shots/free/deal-brand.png",
+   "crop": [
+    770,
+    0,
+    1905,
+    470
+   ],
+   "kicker": "NOTION TEMPLATE FOR CREATORS",
+   "title": [
+    "See what each",
+    "brand",
+    "pays you"
+   ],
+   "sub": "Earned, pending and <b>$ per post.</b>",
+   "callouts": [
+    [
+     "Earned from this brand",
+     938,
+     205
+    ],
+    [
+     "$ per post on every deal",
+     1160,
+     355
+    ],
+    [
+     "Pending money",
+     1042,
+     205
+    ]
+   ],
+   "angle": "A Notion brand page showing money earned, money pending, number of deals and $ per post for each deal",
+   "launch": true
+  },
+  {
+   "id": "deal-06-home",
+   "p": "deal",
+   "shot": "shots/free/deal-home-zoom.png",
+   "crop": [
+    480,
+    280,
+    1680,
+    820
+   ],
+   "kicker": "NOTION TEMPLATE FOR CREATORS",
+   "title": [
+    "Your brand deals",
+    "in one",
+    "Notion page"
+   ],
+   "sub": "Do this now and deal board <b>on one page.</b>",
+   "callouts": [
+    [
+     "Do this now list",
+     500,
+     353
+    ],
+    [
+     "Deal board",
+     1060,
+     686
+    ]
+   ],
+   "angle": "The Brand Deal Tracker home page in Notion: a Do this now list and a deal board from Pitched to Paid",
+   "launch": true
   }
  ],
  "insert_at": 15,
