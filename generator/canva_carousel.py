@@ -17,7 +17,7 @@ SPEC = {'prop': {'name': 'Proposal Tracker', 'kicker': 'NOTION TEMPLATE FOR FREE
   {'bg': 'plant', 'title': ['Never forget to', 'follow up', 'again'], 'sub': 'See which quote to chase today, what to say, and if your price is too low.',
    'shot': 'shots/free/prop-home-zoom.png', 'crop': [470, 60, 1680, 790], 'pills': [('🔔', 'Follow-ups'), ('🗂', 'Pipeline'), ('✅', 'Price check')], 'cover': True},
   {'bg': 'glasses', 'title': ['Know who to', 'follow up today', ''], 'sub': 'Every quote tells you what to do next, so nothing slips.',
-   'shot': 'shots/free/prop-home.png', 'crop': [580, 330, 1800, 600], 'pills': [('➡️', 'Next step on every quote'), ('⏱', 'Days since you sent it'), ('⏳', 'Warns before it expires')]},
+   'shot': 'shots/free/prop-home.png', 'crop': [580, 230, 1800, 600], 'pills': [('➡️', 'Next step on every quote'), ('⏱', 'Days since you sent it'), ('⏳', 'Warns before it expires')]},
   {'bg': 'mug', 'title': ['Every quote', 'on one board', ''], 'sub': 'Drag a card when a client answers. Value and next step on every card.',
    'shot': 'shots/free/prop-board.png', 'crop': [588, 175, 1785, 753], 'pills': [('📝', 'Draft'), ('📨', 'Sent'), ('🤝', 'Negotiating'), ('🏆', 'Won or Lost')]},
   {'bg': 'espresso', 'title': ['Is your quote', 'too cheap?', ''], 'sub': 'Add your hours and your rate. Price check tells you if the quote is under it.',
@@ -67,7 +67,7 @@ def page(p, i, s, n, tmp):
     for t, it in lines:
         out.append(text(70, y, 940, t, fs, BR if it else INK, 700, "'Source Serif 4',serif", 1.05, italic=it))
         y += round(fs * 1.08)
-    y += 18
+    y += 34
     out.append(text(70, y, 880, s['sub'], 30, MUT, 500, lh=1.4))
     y += 44 * (2 if len(s['sub']) > 52 else 1) + 40
     if 'shot' in s:
