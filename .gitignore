@@ -2,3 +2,4 @@ generator/.cache/
 __pycache__/
 generator/png/
 etsy/**/*.pdf
+shots/phone-draft/
