@@ -6,7 +6,7 @@ Usage: python3 generator/carousel_reel.py [ids...]
 import json, os, subprocess, sys, tempfile
 from PIL import Image, ImageDraw, ImageFilter
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import gen, reels, music
+import gen, reels, music2
 from scipy.io import wavfile
 
 ROOT = gen.ROOT
@@ -49,8 +49,7 @@ def build(c):
         durs.append(2.4 if t == 'cover' else 3.2 if t == 'tip' else 2.6)
     total = sum(durs) + XF
     wav = os.path.join(work, 'm.wav')
-    wavfile.write(wav, music.SR, music.make(total + 0.5, shift=0 if c['p'] == 'fco' else 5,
-                                            variant=sum(map(ord, c['id'])) % 2))
+    music2.write_for(c['id'], total + 0.5, wav)
     args = ['ffmpeg', '-y', '-loglevel', 'error']
     for p, du in zip(imgs, durs):
         args += ['-loop', '1', '-t', f'{du + XF:.2f}', '-i', p]
@@ -67,7 +66,7 @@ def build(c):
     out = os.path.join(ROOT, 'videos', c['id'] + '.mp4')
     args += ['-filter_complex', ';'.join(f), '-map', f'[{last}]', '-map', '[a]',
              '-c:v', 'libx264', '-preset', 'slow', '-b:v', '10M', '-maxrate', '14M', '-bufsize', '20M', '-pix_fmt', 'yuv420p', '-r', str(FPS),
-             '-c:a', 'aac', '-b:a', '128k', '-shortest', '-movflags', '+faststart', out]
+             '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', out]
     subprocess.run(args, check=True)
     return out
 

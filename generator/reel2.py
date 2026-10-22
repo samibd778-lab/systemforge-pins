@@ -62,16 +62,15 @@ def build(spec, outdir):
     total = sum(d for _, d in parts) - 0.25 * (len(parts) - 1)
     music = spec.get('music')
     if music == 'auto':
-        import music as m
-        from scipy.io import wavfile
+        import music2
         music = os.path.join(work, 'm.wav')
-        wavfile.write(music, m.SR, m.make(total + 0.5, shift=0 if spec['p'] == 'fco' else 5, variant=sum(map(ord, spec['id'])) % 2))
+        music2.write_for(spec['id'], total + 0.5, music)
     if music:
         args += ['-i', music]
         f.append(f'[{len(parts)}:a]atrim=0:{total:.2f},afade=t=out:st={total-1:.2f}:d=1,volume=0.8[a]')
     args += ['-filter_complex', ';'.join(f), '-map', f'[{last}]']
     if music:
-        args += ['-map', '[a]', '-c:a', 'aac', '-b:a', '160k']
+        args += ['-map', '[a]', '-c:a', 'aac', '-b:a', '192k']
     out = os.path.join(outdir, spec['id'] + ('' if music else '-nosound') + '.mp4')
     args += ['-c:v', 'libx264', '-b:v', '10M', '-maxrate', '14M', '-bufsize', '20M', '-preset', 'slow', '-profile:v', 'high', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', out]
     subprocess.run(args, check=True)

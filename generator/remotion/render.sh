@@ -18,9 +18,8 @@ SECS=$(python3 -c "import json;d=json.load(open('$SPEC'));print(int(sum(s['dur']
 python3 - "$ID" "$SECS" <<'EOF'
 import sys, os
 sys.path.insert(0, os.path.abspath('..'))
-import music as m
-from scipy.io import wavfile
-wavfile.write('public/music.wav', m.SR, m.make(float(sys.argv[2]), shift=0, variant=sum(map(ord, sys.argv[1])) % 2))
+import music2
+music2.write_for(sys.argv[1], float(sys.argv[2]), 'public/music.wav')
 EOF
 npx remotion render src/index.ts Reel "out/$ID.mp4" --props="$SPEC" --codec=h264 --crf=16 --browser-executable="$BROWSER" --log=error
 cp "out/$ID.mp4" "../../videos/$ID.mp4"

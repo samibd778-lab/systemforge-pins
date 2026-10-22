@@ -81,11 +81,9 @@ def build(v):
     for p, d in zip(imgs, durs):
         args += ['-loop', '1', '-t', f'{d + XF:.2f}', '-i', p]
     total = sum(durs) + XF
-    import music
-    from scipy.io import wavfile
+    import music2
     wav = os.path.join(work, 'music.wav')
-    wavfile.write(wav, music.SR, music.make(total + 0.5, shift=0 if v['p'] == 'fco' else 5,
-                                             variant=sum(map(ord, v['id'])) % 2))
+    music2.write_for(v['id'], total + 0.5, wav)
     args += ['-i', wav]
     f = []
     for i, d in enumerate(durs):  # slow push-in on every scene
@@ -98,7 +96,7 @@ def build(v):
         last = f'x{i}'
     args += ['-filter_complex', ';'.join(f), '-map', f'[{last}]', '-map', f'{len(durs)}:a',
              '-c:v', 'libx264', '-preset', 'slow', '-b:v', '10M', '-maxrate', '14M', '-bufsize', '20M', '-pix_fmt', 'yuv420p', '-r', str(FPS),
-             '-c:a', 'aac', '-b:a', '64k', '-shortest', '-movflags', '+faststart',
+             '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart',
              os.path.join(OUT, v['id'] + '.mp4')]
     subprocess.run(args, check=True)
     Image.open(imgs[0]).resize((540, 960)).save(os.path.join(OUT, v['id'] + '-cover.jpg'), quality=85)

@@ -6,7 +6,7 @@ python3 generator/clip.py SRC OUT START END X0 Y0 X1 Y1 PRODUCT "HOOK<br>TEXT" [
 """
 import os, sys, subprocess, tempfile
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import gen, reels, music
+import gen, reels, music2
 from scipy.io import wavfile
 
 src, out, start, end = sys.argv[1], sys.argv[2], float(sys.argv[3]), float(sys.argv[4])
@@ -30,13 +30,13 @@ reels.render_png(reels.scene_html({'type': 'end'}, theme, product), endp)
 dur = end - start
 total = dur + 2.6
 wav = os.path.join(work, 'm.wav')
-wavfile.write(wav, music.SR, music.make(total + 0.5, shift=0 if product == 'fco' else 5, variant=1))
+music2.write_for(os.path.splitext(os.path.basename(out))[0], total + 0.5, wav)
 fc = (f"[0:v]crop={x1 - x0}:{y1 - y0}:{x0}:{y0},scale={VW}:{vh},setsar=1[c];"
       f"[1:v][c]overlay=42:{top + 332}:shortest=1,fps=30,format=yuv420p[a];"
       f"[2:v]scale={W}:{H},fps=30,format=yuv420p[e];"
       f"[a][e]xfade=transition=fade:duration=0.3:offset={dur - 0.3:.2f}[v]")
 subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-ss', str(start), '-t', str(dur), '-i', src,
                 '-loop', '1', '-t', str(dur), '-i', bgp, '-loop', '1', '-t', '2.9', '-i', endp, '-i', wav,
-                '-filter_complex', fc, '-map', '[v]', '-map', '3:a', '-c:v', 'libx264', '-crf', '20', '-preset', 'medium',
-                '-c:a', 'aac', '-b:a', '128k', '-shortest', '-movflags', '+faststart', out], check=True)
+                '-filter_complex', fc, '-map', '[v]', '-map', '3:a', '-c:v', 'libx264', '-crf', '16', '-preset', 'slow',
+                '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', out], check=True)
 print('ok', out)
