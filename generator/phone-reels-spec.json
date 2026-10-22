@@ -1,0 +1,10 @@
+{"videos": [
+ {"id": "draft-fco-phone", "p": "fco", "theme": "cream", "end": "Get paid on time",
+  "scenes": [
+   {"text": "Every invoice,<br>sorted for you", "shot": "shots/phone-draft/fco-invoices.jpg", "top": 300, "bottom": 2110, "dur": 3.6},
+   {"text": "Proposals + clients<br>in one place", "shot": "shots/phone-draft/fco-proposals.jpg", "top": 270, "bottom": 2110, "dur": 3.6, "theme": "sage"}]},
+ {"id": "draft-ccs-phone", "p": "ccs", "theme": "clay", "end": "Plan it. Post it. See what works.",
+  "scenes": [
+   {"text": "See what you<br>already posted", "shot": "shots/phone-draft/ccs-posted.jpg", "top": 230, "bottom": 2110, "dur": 3.6},
+   {"text": "Every channel,<br>one weekly goal", "shot": "shots/phone-draft/ccs-channels.jpg", "top": 240, "bottom": 2110, "dur": 3.6, "theme": "cream"}]}
+]}

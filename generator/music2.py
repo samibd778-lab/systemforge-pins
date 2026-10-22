@@ -253,7 +253,7 @@ def write_for(video_id, seconds, path):
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     try:
         ids = [v['id'] for v in json.load(open(os.path.join(root, 'videos.json')))['videos']]
-        idx = ids.index(video_id) if video_id in ids else len(ids)
+        idx = ids.index(video_id) if video_id in ids else len(ids) + sum(map(ord, video_id))
     except Exception:
         idx = sum(map(ord, video_id))
     style, shift, seed = pick(idx, video_id)
