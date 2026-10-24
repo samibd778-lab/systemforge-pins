@@ -280,6 +280,306 @@
   "board": "deal"
  },
  {
+  "id": "v3-ccs-desk",
+  "product": "ccs",
+  "name": "Content Creator Studio",
+  "kind": "lifestyle",
+  "angle": "A laptop and phone on a wooden desk showing the Content Creator Studio Notion template. Headline: Content Planner",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/01-v3-ccs-desk.jpg",
+  "link": "https://www.etsy.com/listing/4595688129/content-creator-notion-template-content",
+  "board": "ccs"
+ },
+ {
+  "id": "v3-wcp-desk",
+  "product": "wcp",
+  "name": "Weekly Content Planner",
+  "kind": "lifestyle",
+  "angle": "A laptop and phone on a wooden desk showing the Weekly Content Planner Notion template. Headline: Weekly Planner",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/06-v3-wcp-desk.jpg",
+  "link": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template",
+  "board": "wcp"
+ },
+ {
+  "id": "v3-fco-hand",
+  "product": "fco",
+  "name": "Freelancer Client OS",
+  "kind": "lifestyle",
+  "angle": "A hand holding a phone in a cozy cafe showing the Freelancer Client OS Notion template. Headline: See who still owes you.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/11-v3-fco-hand.jpg",
+  "link": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
+  "board": "fco"
+ },
+ {
+  "id": "v3-fit-hand",
+  "product": "fit",
+  "name": "Freelance Invoice Tracker",
+  "kind": "lifestyle",
+  "angle": "A hand holding a phone in a cozy cafe showing the Freelance Invoice Tracker Notion template. Headline: Who owes you money?",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/16-v3-fit-hand.jpg",
+  "link": "https://www.etsy.com/listing/4596053610/freelance-invoice-tracker-notion",
+  "board": "fit"
+ },
+ {
+  "id": "v3-prop-desk",
+  "product": "prop",
+  "name": "Proposal Tracker",
+  "kind": "lifestyle",
+  "angle": "A laptop and phone on a wooden desk showing the Proposal Tracker Notion template. Headline: Proposal Tracker",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/21-v3-prop-desk.jpg",
+  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
+  "board": "prop"
+ },
+ {
+  "id": "v3-deal-zoom",
+  "product": "deal",
+  "name": "Brand Deal Tracker",
+  "kind": "lifestyle",
+  "angle": "Zoomed cards from the Brand Deal Tracker Notion template. Headline: Know which brand owes you.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/26-v3-deal-zoom.jpg",
+  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
+  "board": "deal"
+ },
+ {
+  "id": "v3-ccs-zoom",
+  "product": "ccs",
+  "name": "Content Creator Studio",
+  "kind": "lifestyle",
+  "angle": "Zoomed cards from the Content Creator Studio Notion template. Headline: Know what to post next.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/02-v3-ccs-zoom.jpg",
+  "link": "https://www.etsy.com/listing/4595688129/content-creator-notion-template-content",
+  "board": "ccs"
+ },
+ {
+  "id": "v3-wcp-zoom",
+  "product": "wcp",
+  "name": "Weekly Content Planner",
+  "kind": "lifestyle",
+  "angle": "Zoomed cards from the Weekly Content Planner Notion template. Headline: Hit your posting goal every week.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/07-v3-wcp-zoom.jpg",
+  "link": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template",
+  "board": "wcp"
+ },
+ {
+  "id": "v3-fco-desk",
+  "product": "fco",
+  "name": "Freelancer Client OS",
+  "kind": "lifestyle",
+  "angle": "A laptop and phone on a wooden desk showing the Freelancer Client OS Notion template. Headline: Freelancer OS",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/12-v3-fco-desk.jpg",
+  "link": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
+  "board": "fco"
+ },
+ {
+  "id": "v3-fit-zoom",
+  "product": "fit",
+  "name": "Freelance Invoice Tracker",
+  "kind": "lifestyle",
+  "angle": "Zoomed cards from the Freelance Invoice Tracker Notion template. Headline: Chase these first.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/17-v3-fit-zoom.jpg",
+  "link": "https://www.etsy.com/listing/4596053610/freelance-invoice-tracker-notion",
+  "board": "fit"
+ },
+ {
+  "id": "v3-prop-zoom",
+  "product": "prop",
+  "name": "Proposal Tracker",
+  "kind": "lifestyle",
+  "angle": "Zoomed cards from the Proposal Tracker Notion template. Headline: Never forget a follow-up.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/22-v3-prop-zoom.jpg",
+  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
+  "board": "prop"
+ },
+ {
+  "id": "v3-deal-studio",
+  "product": "deal",
+  "name": "Brand Deal Tracker",
+  "kind": "lifestyle",
+  "angle": "A laptop on a sage studio background showing the Brand Deal Tracker Notion template. Headline: Every brand deal, pitch to paid",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/27-v3-deal-studio.jpg",
+  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
+  "board": "deal"
+ },
+ {
+  "id": "v3-ccs-flat",
+  "product": "ccs",
+  "name": "Content Creator Studio",
+  "kind": "lifestyle",
+  "angle": "A laptop and iPad on a marble desk showing the Content Creator Studio Notion template. Headline: Every post, every platform, one calm page.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/03-v3-ccs-flat.jpg",
+  "link": "https://www.etsy.com/listing/4595688129/content-creator-notion-template-content",
+  "board": "ccs"
+ },
+ {
+  "id": "v3-wcp-hand",
+  "product": "wcp",
+  "name": "Weekly Content Planner",
+  "kind": "lifestyle",
+  "angle": "A hand holding a phone in a cozy cafe showing the Weekly Content Planner Notion template. Headline: What do I post today?",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/08-v3-wcp-hand.jpg",
+  "link": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template",
+  "board": "wcp"
+ },
+ {
+  "id": "v3-fco-zoom",
+  "product": "fco",
+  "name": "Freelancer Client OS",
+  "kind": "lifestyle",
+  "angle": "Zoomed cards from the Freelancer Client OS Notion template. Headline: Every project, every invoice.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/13-v3-fco-zoom.jpg",
+  "link": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
+  "board": "fco"
+ },
+ {
+  "id": "v3-fit-studio",
+  "product": "fit",
+  "name": "Freelance Invoice Tracker",
+  "kind": "lifestyle",
+  "angle": "A laptop on a sage studio background showing the Freelance Invoice Tracker Notion template. Headline: Know when you get paid",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/18-v3-fit-studio.jpg",
+  "link": "https://www.etsy.com/listing/4596053610/freelance-invoice-tracker-notion",
+  "board": "fit"
+ },
+ {
+  "id": "v3-prop-studio",
+  "product": "prop",
+  "name": "Proposal Tracker",
+  "kind": "lifestyle",
+  "angle": "A laptop on a sage studio background showing the Proposal Tracker Notion template. Headline: Your proposal pipeline",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/23-v3-prop-studio.jpg",
+  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
+  "board": "prop"
+ },
+ {
+  "id": "v3-deal-flat",
+  "product": "deal",
+  "name": "Brand Deal Tracker",
+  "kind": "lifestyle",
+  "angle": "A laptop and iPad on a marble desk showing the Brand Deal Tracker Notion template. Headline: Your rate card, ready to send.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/28-v3-deal-flat.jpg",
+  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
+  "board": "deal"
+ },
+ {
+  "id": "v3-ccs-studio",
+  "product": "ccs",
+  "name": "Content Creator Studio",
+  "kind": "lifestyle",
+  "angle": "A laptop on a sage studio background showing the Content Creator Studio Notion template. Headline: Brand deals, pitch to paid",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/04-v3-ccs-studio.jpg",
+  "link": "https://www.etsy.com/listing/4595688129/content-creator-notion-template-content",
+  "board": "ccs"
+ },
+ {
+  "id": "v3-wcp-studio",
+  "product": "wcp",
+  "name": "Weekly Content Planner",
+  "kind": "lifestyle",
+  "angle": "A laptop on a sage studio background showing the Weekly Content Planner Notion template. Headline: Your content calendar",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/09-v3-wcp-studio.jpg",
+  "link": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template",
+  "board": "wcp"
+ },
+ {
+  "id": "v3-fco-studio",
+  "product": "fco",
+  "name": "Freelancer Client OS",
+  "kind": "lifestyle",
+  "angle": "A laptop on a sage studio background showing the Freelancer Client OS Notion template. Headline: Get paid on time",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/14-v3-fco-studio.jpg",
+  "link": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
+  "board": "fco"
+ },
+ {
+  "id": "v3-fit-flat",
+  "product": "fit",
+  "name": "Freelance Invoice Tracker",
+  "kind": "lifestyle",
+  "angle": "A laptop and iPad on a marble desk showing the Freelance Invoice Tracker Notion template. Headline: Stop chasing payments in your head.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/19-v3-fit-flat.jpg",
+  "link": "https://www.etsy.com/listing/4596053610/freelance-invoice-tracker-notion",
+  "board": "fit"
+ },
+ {
+  "id": "v3-prop-flat",
+  "product": "prop",
+  "name": "Proposal Tracker",
+  "kind": "lifestyle",
+  "angle": "A laptop and iPad on a marble desk showing the Proposal Tracker Notion template. Headline: Know which quote to chase today.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/24-v3-prop-flat.jpg",
+  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
+  "board": "prop"
+ },
+ {
+  "id": "v3-deal-desk",
+  "product": "deal",
+  "name": "Brand Deal Tracker",
+  "kind": "lifestyle",
+  "angle": "A laptop and phone on a wooden desk showing the Brand Deal Tracker Notion template. Headline: Brand Deal Tracker",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/29-v3-deal-desk.jpg",
+  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
+  "board": "deal"
+ },
+ {
+  "id": "v3-ccs-steps",
+  "product": "ccs",
+  "name": "Content Creator Studio",
+  "kind": "lifestyle",
+  "angle": "Four numbered screenshots of the Content Creator Studio Notion template. Headline: Your whole creator business on one page",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/05-v3-ccs-steps.jpg",
+  "link": "https://www.etsy.com/listing/4595688129/content-creator-notion-template-content",
+  "board": "ccs"
+ },
+ {
+  "id": "v3-wcp-steps",
+  "product": "wcp",
+  "name": "Weekly Content Planner",
+  "kind": "lifestyle",
+  "angle": "Four numbered screenshots of the Weekly Content Planner Notion template. Headline: Plan a week of content in 15 minutes",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/10-v3-wcp-steps.jpg",
+  "link": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template",
+  "board": "wcp"
+ },
+ {
+  "id": "v3-fco-steps",
+  "product": "fco",
+  "name": "Freelancer Client OS",
+  "kind": "lifestyle",
+  "angle": "Four numbered screenshots of the Freelancer Client OS Notion template. Headline: Run your freelance business from one page",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/15-v3-fco-steps.jpg",
+  "link": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
+  "board": "fco"
+ },
+ {
+  "id": "v3-fit-steps",
+  "product": "fit",
+  "name": "Freelance Invoice Tracker",
+  "kind": "lifestyle",
+  "angle": "Four numbered screenshots of the Freelance Invoice Tracker Notion template. Headline: Get paid faster in 2 minutes a day",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/20-v3-fit-steps.jpg",
+  "link": "https://www.etsy.com/listing/4596053610/freelance-invoice-tracker-notion",
+  "board": "fit"
+ },
+ {
+  "id": "v3-prop-steps",
+  "product": "prop",
+  "name": "Proposal Tracker",
+  "kind": "lifestyle",
+  "angle": "Four numbered screenshots of the Proposal Tracker Notion template. Headline: Send a quote. Follow up. Win.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/25-v3-prop-steps.jpg",
+  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
+  "board": "prop"
+ },
+ {
+  "id": "v3-deal-steps",
+  "product": "deal",
+  "name": "Brand Deal Tracker",
+  "kind": "lifestyle",
+  "angle": "Four numbered screenshots of the Brand Deal Tracker Notion template. Headline: From pitch to paid, one deal at a time",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins-v3/30-v3-deal-steps.jpg",
+  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
+  "board": "deal"
+ },
+ {
   "id": "ccs-5-feature",
   "product": "ccs",
   "name": "Content Creator Studio",
