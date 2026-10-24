@@ -1,0 +1,37 @@
+[
+ {"id":"v3-ccs-desk","p":"ccs","style":"desk","screens":["ccs-lap","ph-ccs-pipeline-posted.jpg"],"title":"Content Planner","sub":"Plan every post. Every platform.","chips":["Idea → Posted","Content calendar","11 platforms"]},
+ {"id":"v3-ccs-zoom","p":"ccs","style":"zoom","screens":["ccs-lap","ph-ccs-pipeline-posted.jpg"],"kicker":"NOTION TEMPLATE FOR CREATORS","title":"Know what to<br>post next.","label":"Counts down for you","cards":[["📅 Coming up","ccs-coming"],["📡 Weekly goal per platform","ccs-channels"]]},
+ {"id":"v3-ccs-flat","p":"ccs","style":"flat","screens":["lapA.png","ccs-channels"],"kicker":"NOTION TEMPLATE FOR CONTENT CREATORS","title":["Every post,<br>every platform,","one calm page."]},
+ {"id":"v3-ccs-studio","p":"ccs","style":"studio","screens":["ccs-deals"],"title":"Brand deals,<br>pitch to paid","sub":"Every deal, fee and due date in Notion","chips":["Days late","Posts owed","Pitch scripts"]},
+ {"id":"v3-ccs-steps","p":"ccs","style":"steps","scene":"studio","title":"Your whole creator<br>business on one page","sub":"Plan, post, track results and get paid by brands.","steps":[["Content calendar","ccs-cal"],["Weekly goals","ccs-channels"],["Top posts","ccs-top"],["Brand deals","ccs-deals"]]},
+
+ {"id":"v3-wcp-desk","p":"wcp","style":"desk","screens":["wcp-pipe","ph-wcp-pipeline.jpg"],"title":"Weekly Planner","sub":"Plan your week of content in 15 minutes.","chips":["Pipeline","Weekly goals","30 ideas"],"size":96},
+ {"id":"v3-wcp-zoom","p":"wcp","style":"zoom","screens":["wcp-cal","ph-wcp-goals-next7.jpg"],"kicker":"NOTION CONTENT CALENDAR","title":"Hit your posting<br>goal every week.","label":"Fills up as you post","cards":[["🎯 This week's goals","wcp-goals"],["📅 Next 7 days","wcp-next7"]]},
+ {"id":"v3-wcp-hand","p":"wcp","style":"hand","screens":["ph-wcp-goals-next7.jpg"],"kicker":"FOR CREATORS","title":"What do I<br>post today?","sub":"Your goals and next 7 days, on your phone.<br>Weekly Content Planner · Notion template"},
+ {"id":"v3-wcp-studio","p":"wcp","style":"studio","screens":["wcp-cal"],"title":"Your content<br>calendar","sub":"Every post on its publish date, in Notion","chips":["Calendar","Idea bank","Next 7 days"]},
+ {"id":"v3-wcp-steps","p":"wcp","style":"steps","scene":"desk","title":"Plan a week of content<br>in 15 minutes","sub":"A calm Sunday routine, all in one Notion page.","steps":[["Set weekly goals","wcp-goals"],["See the next 7 days","wcp-next7"],["Move cards to Posted","wcp-pipe"],["Check the calendar","wcp-cal"]]},
+
+ {"id":"v3-fco-hand","p":"fco","style":"hand","screens":["ph-fco-invoices-board.jpg"],"kicker":"FOR FREELANCERS","title":"See who still<br>owes you.","sub":"Invoices that count the days late, on your phone.<br>Freelancer Client OS · Notion template"},
+ {"id":"v3-fco-desk","p":"fco","style":"desk","screens":["fco-projects","ph-fco-invoices-board.jpg"],"title":"Freelancer OS","sub":"Clients, projects and invoices in one place.","chips":["Projects","Invoices","8 client emails"]},
+ {"id":"v3-fco-zoom","p":"fco","style":"zoom","screens":["fco-board","ph-fco-invoices-board.jpg"],"kicker":"NOTION TEMPLATE FOR FREELANCERS","title":"Every project,<br>every invoice.","label":"Late invoices flag themselves","cards":[["📁 Projects","fco-projects"],["💰 Unpaid invoices","fco-unpaid"]]},
+ {"id":"v3-fco-studio","p":"fco","style":"studio","screens":["fco-board"],"title":"Get paid<br>on time","sub":"Draft, sent, paid: every invoice in view","chips":["Days late","Next step","Reminder emails"]},
+ {"id":"v3-fco-steps","p":"fco","style":"steps","scene":"hand","title":"Run your freelance<br>business from one page","sub":"Clients, proposals, projects and invoices, all connected.","steps":[["Projects on track","fco-projects"],["Invoices to chase","fco-unpaid"],["Money flow","fco-board"],["10-min weekly review","fco-review"]]},
+
+ {"id":"v3-fit-hand","p":"fit","style":"hand","screens":["ph-fit-clients-invoices.jpg"],"kicker":"FOR FREELANCERS","title":"Who owes<br>you money?","sub":"Every client and invoice, on your phone.<br>Freelance Invoice Tracker · Notion template"},
+ {"id":"v3-fit-zoom","p":"fit","style":"zoom","screens":["fit-all","ph-fit-clients-invoices.jpg"],"kicker":"NOTION INVOICE TRACKER","title":"Chase these<br>first.","label":"Tells you the next step","cards":[["⚠️ Late invoices","fit-chase"],["🧑‍💼 Who owes you","fit-owes"]]},
+ {"id":"v3-fit-studio","p":"fit","style":"studio","screens":["fit-all"],"title":"Know when<br>you get paid","sub":"Every invoice, its due date and its status","chips":["Late?","Due in","Paid"]},
+ {"id":"v3-fit-flat","p":"fit","style":"flat","screens":["fit-owes","ph-fit-clients-invoices.jpg"],"kicker":"NOTION INVOICE TRACKER","title":["Stop chasing<br>payments","in your head."]},
+ {"id":"v3-fit-steps","p":"fit","style":"steps","scene":"studio","title":"Get paid faster in<br>2 minutes a day","sub":"A small Notion invoice tracker that tells you what to do.","steps":[["Chase these first","fit-chase"],["Who owes you","fit-owes"],["Send the right email","fit-emails"],["All invoices","fit-all"]]},
+
+ {"id":"v3-prop-desk","p":"prop","style":"desk","screens":["prop-pipe","prop-col"],"title":"Proposal Tracker","sub":"Follow up on every quote you send.","chips":["Follow up #1-3","Expiry warning","Price check"],"size":92},
+ {"id":"v3-prop-zoom","p":"prop","style":"zoom","screens":["prop-table","prop-col"],"kicker":"NOTION TEMPLATE FOR FREELANCERS","title":"Never forget<br>a follow-up.","label":"Next step on every quote","cards":[["🔔 Follow up today","prop-follow"],["📋 Price check","prop-table"]]},
+ {"id":"v3-prop-studio","p":"prop","style":"studio","screens":["prop-pipe"],"title":"Your proposal<br>pipeline","sub":"Draft, sent, negotiating, won or lost","chips":["Win chance","Weighted value","6 emails"]},
+ {"id":"v3-prop-flat","p":"prop","style":"flat","screens":["prop-follow","prop-col"],"kicker":"NOTION PROPOSAL TRACKER","title":["Know which<br>quote to chase","today."]},
+ {"id":"v3-prop-steps","p":"prop","style":"steps","scene":"desk","title":"Send a quote.<br>Follow up. Win.","sub":"A simple Notion proposal tracker for freelancers.","steps":[["Follow up today","prop-follow"],["Pipeline board","prop-pipe"],["Price check","prop-table"],["Next step on each quote","prop-col"]]},
+
+ {"id":"v3-deal-zoom","p":"deal","style":"zoom","screens":["deal-board","deal-rate"],"kicker":"NOTION TEMPLATE FOR CREATORS","title":"Know which<br>brand owes you.","label":"Counts the days late","cards":[["🔥 Do this now","deal-now"],["🎬 Posts you owe","deal-owe"]]},
+ {"id":"v3-deal-studio","p":"deal","style":"studio","screens":["deal-board"],"title":"Every brand deal,<br>pitch to paid","sub":"Pitched, talking, signed, delivered, paid","chips":["Next step","$ per post","6 scripts"]},
+ {"id":"v3-deal-flat","p":"deal","style":"flat","screens":["deal-now","deal-rate"],"kicker":"BRAND DEAL TRACKER FOR CREATORS","title":["Your rate card,<br>ready to","send."]},
+ {"id":"v3-deal-desk","p":"deal","style":"desk","screens":["deal-owe-all","deal-rate"],"title":"Brand Deal Tracker","sub":"For creators, influencers and UGC creators.","chips":["Posts you owe","Rate card","Media kit"],"size":86},
+ {"id":"v3-deal-steps","p":"deal","style":"steps","scene":"studio","title":"From pitch to paid,<br>one deal at a time","sub":"A Notion brand deal tracker for creators.","steps":[["Do this now","deal-now"],["Deal board","deal-board"],["Posts you owe","deal-owe-all"],["Rate card","deal-rate"]]}
+]
