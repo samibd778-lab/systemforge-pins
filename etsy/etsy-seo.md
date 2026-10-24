@@ -1,13 +1,13 @@
 # Etsy SEO: titles + 13 tags (copy-paste)
 
-Keywords from Google/YouTube/Bing autocomplete (2026-10-22). Title max 140 characters, each tag max 20 characters, 13 tags.
+Keywords from Google/YouTube/Bing autocomplete (2026-10-22). Short readable titles (main keyword first), tags carry the rest. Title max 140 characters, each tag max 20 characters, 13 tags.
 
 ## Freelancer Client OS
 
 **Title**:
 
 ```
-Freelancer Notion Template, Client Tracker, Notion CRM, Proposal and Invoice Tracker, Freelance Business Planner, Freelance Dashboard
+Freelancer Notion Template | Client Tracker, Notion CRM, Proposal and Invoice Tracker | Freelance Dashboard
 ```
 
 **Tags** (13):
@@ -21,7 +21,7 @@ freelancer notion, notion crm template, client tracker, freelance planner, notio
 **Title**:
 
 ```
-Notion Invoice Tracker Template, Client Payment Tracker, Freelance Invoice Tracker, Late Payment Reminder Emails, Small Business Notion
+Notion Invoice Tracker Template | Client Payment Tracker, Late Invoice Reminders | Freelance Invoice Tracker
 ```
 
 **Tags** (13):
@@ -35,7 +35,7 @@ notion invoice, invoice tracker, payment tracker, freelance invoice, client paym
 **Title**:
 
 ```
-Notion Content Calendar Template, Weekly Content Planner, Social Media Content Calendar, Instagram Content Planner, Notion Planner
+Notion Content Calendar Template | Weekly Content Planner, Social Media Content Calendar | Instagram Planner
 ```
 
 **Tags** (13):
@@ -49,7 +49,7 @@ content calendar, notion content, content planner, social media planner, weekly 
 **Title**:
 
 ```
-Notion Template for Content Creators, Content Planner, Content Calendar, Brand Deal Tracker, YouTube Content Planner, Social Media Planner
+Notion Template for Content Creators | Content Planner, Content Calendar, Brand Deal Tracker | YouTube Planner
 ```
 
 **Tags** (13):
@@ -63,7 +63,7 @@ content creator, notion template, content planner, content calendar, brand deal 
 **Title**:
 
 ```
-Notion Proposal Tracker Template, Freelance Proposal and Quote Tracker, Sales Pipeline Notion, Client Follow Up Emails, Freelancer Notion
+Notion Proposal Tracker Template | Freelance Proposal and Quote Tracker, Sales Pipeline | Client Follow Up Emails
 ```
 
 **Tags** (13):
@@ -77,7 +77,7 @@ proposal tracker, notion proposal, quote tracker, sales pipeline, freelance prop
 **Title**:
 
 ```
-Brand Deal Tracker Notion Template, UGC Creator Tracker, Influencer Sponsorship Tracker, Rate Card and Media Kit Pages, Content Creator
+Brand Deal Tracker Notion Template | UGC Creator and Influencer Sponsorship Tracker | Rate Card, Media Kit
 ```
 
 **Tags** (13):
