@@ -25,12 +25,12 @@ CROPS = {
     'ccs-channels': ('ccs-home-full', (80, 350, 770, 478)),
     'ccs-lap':      ('ccs-home-full', (78, 490, 930, 1030)),
     'ccs-top':      ('ccs-top-posts', (163, 405, 1660, 860)),
-    'ccs-cal':      ('ccs-calendar', (145, 370, 1855, 1250)),
+    'ccs-cal':      ('ccs-calendar', (145, 930, 1855, 1250)),
     'ccs-deals':    ('ccs-calendar-deals', (163, 905, 1945, 1215)),
     'wcp-goals':    ('wcp-goals', (163, 870, 1850, 1150)),
     'wcp-next7':    ('wcp-next7-pipeline', (163, 360, 1840, 515)),
     'wcp-pipe':     ('wcp-next7-pipeline', (163, 745, 1940, 1240)),
-    'wcp-cal':      ('wcp-calendar', (145, 410, 1855, 1250)),
+    'wcp-cal':      ('wcp-calendar', (145, 965, 1855, 1250)),
     'fco-board':    ('fco-money-flow', (145, 250, 1330, 900)),
     'fco-projects': ('fco-projects-invoices', (145, 280, 1930, 430)),
     'fco-unpaid':   ('fco-projects-invoices', (145, 710, 1930, 860)),
@@ -52,9 +52,21 @@ CROPS = {
 _cache = {}
 
 
+COMPOSITE = {'prop-price': ('prop-proposals-table', (295, 700), [(145, 420), (1565, 1825)])}
+
+
 def crop(name):
     if name in _cache:
         return _cache[name]
+    if name in COMPOSITE:
+        srcf, (y0, y1), cols = COMPOSITE[name]
+        im = Image.open(os.path.join(HD, srcf + '.png')).convert('RGB'); k = im.width / 2000
+        parts = [im.crop((int(a * k), int(y0 * k), int(b * k), int(y1 * k))) for a, b in cols]
+        c = Image.new('RGB', (sum(x.width for x in parts), parts[0].height), 'white'); x = 0
+        for q in parts:
+            c.paste(q, (x, 0)); x += q.width
+        pth = os.path.join(OUT, 'crops', name + '.png'); c.save(pth); _cache[name] = pth
+        return pth
     src, (x0, y0, x1, y1) = CROPS[name]
     im = Image.open(os.path.join(HD, src + '.png')).convert('RGB')
     k = im.width / 2000
@@ -67,7 +79,7 @@ def crop(name):
 
 def src(name):
     """crop name, or a file in generator/v3"""
-    return crop(name) if name in CROPS else os.path.join(HERE, name)
+    return crop(name) if (name in CROPS or name in COMPOSITE) else os.path.join(HERE, name)
 
 
 # ---------- 2. backgrounds ----------
@@ -138,14 +150,16 @@ def bg_flat(lap, tab, out):
     bg.convert('RGB').save(out, quality=92)
 
 
-def fit(name, w, h, tag):
-    """crop a screenshot to the exact w:h aspect (top-left anchored) for Canva <img> boxes"""
+def fit(name, w, maxh, tag):
+    """scale a screenshot to width w; if taller than maxh, keep the top part. Returns (url, height)."""
     im = Image.open(src(name)).convert('RGB')
-    ar = w / h; W, H = im.size
-    im = im.crop((0, 0, int(H * ar), H)) if W / H > ar else im.crop((0, 0, W, int(W / ar)))
+    W, H = im.size
+    h = H * w / W
+    if h > maxh:
+        im = im.crop((0, 0, W, int(maxh * W / w))); h = maxh
     p = os.path.join(OUT, 'crops', f'{name}-{tag}.png')
     im.save(p)
-    return RAW + 'crops/' + os.path.basename(p)
+    return RAW + 'crops/' + os.path.basename(p), int(round(h))
 
 
 # ---------- 3. page templates (Canva HTML) ----------
@@ -169,7 +183,7 @@ def page(label, bgfile, inner, color='#F6F1E9'):
 
 
 def card(l, t, w, title, name, img_h, tag):
-    url = fit(name, w, img_h, tag)
+    url, img_h = fit(name, w, img_h, tag)
     return (f'<div style="position:absolute;left:{l}px;top:{t}px;width:{w}px;height:{img_h + 66}px;background:#FFFFFF;'
             f'border-radius:22px;overflow:hidden">{P(26, 16, w - 52, title, 28, f"font-weight:700;color:{INK}")}'
             f'<img src="{url}" style="position:absolute;left:0;top:66px;width:{w}px;height:{img_h}px"></div>')
@@ -196,7 +210,7 @@ def t_zoom(p):
     return (P(0, 60, 1000, p['kicker'], 24, f'text-align:center;font-weight:700;letter-spacing:5px;color:{MUT}')
             + P(0, 100, 1000, p['title'], 92, f'text-align:center;line-height:1.02;color:{INK};{SER}')
             + card(40, 430, 920, t1, c1, 250, 'z1')
-            + P(600, 392, 0, p['label'], 26, f'padding:12px 22px;border-radius:999px;background:{CLAY};color:{PAP};font-weight:700')
+            + P(960 - (15 * len(p['label']) + 44), 392, 15 * len(p['label']) + 44, p['label'], 26, f'padding:12px 0;text-align:center;white-space:nowrap;border-radius:999px;background:{CLAY};color:{PAP};font-weight:700')
             + card(120, 1010, 840, t2, c2, 170, 'z2')
             + pill(250, 1380, 500, p['name'], PAP, INK, 26))
 
@@ -228,11 +242,11 @@ def t_steps(p):
            + P(60, 70 + 82 * (p['title'].count('<br>') + 1) + 14, 880, p['sub'], 30, 'font-weight:500;color:#4A433B'))
     pos = [(40, 470), (510, 470), (40, 930), (510, 930)]
     for i, ((lab, c), (x, y)) in enumerate(zip(p['steps'], pos)):
-        url = fit(c, 410, 300, f's{i}')
+        url, ih = fit(c, 410, 300, f's{i}')
         out += (f'<div style="position:absolute;left:{x}px;top:{y}px;width:450px;height:420px;background:#FFFFFF;border-radius:20px;overflow:hidden">'
                 f'<p style="position:absolute;left:20px;top:18px;width:50px;margin:0;padding:8px 0;text-align:center;border-radius:999px;background:#2F4A3A;color:{PAP};font-size:26px;font-weight:700">{i + 1}</p>'
                 + P(84, 26, 350, lab, 28, f'font-weight:700;color:{INK}')
-                + f'<img src="{url}" style="position:absolute;left:20px;top:96px;width:410px;height:300px"></div>')
+                + f'<img src="{url}" style="position:absolute;left:20px;top:{96 + (300 - ih) // 2}px;width:410px;height:{ih}px"></div>')
     out += P(40, 1390, 0, '⬇ Instant download', 26, f'padding:14px 26px;border-radius:999px;background:{PAP};color:{INK};font-weight:700')
     out += P(560, 1390, 400, p['name'], 26, f'padding:14px 0;text-align:center;border-radius:999px;background:#2F4A3A;color:{PAP};font-weight:700')
     return out
