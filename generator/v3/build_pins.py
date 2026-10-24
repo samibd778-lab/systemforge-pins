@@ -38,6 +38,7 @@ CROPS = {
     'fit-chase':    ('fit-chase-owes', (145, 315, 1930, 410)),
     'fit-owes':     ('fit-chase-owes', (145, 630, 1870, 830)),
     'fit-all':      ('fit-chase-owes', (145, 1050, 1930, 1250)),
+    'fit-page':     ('fit-chase-owes', (145, 190, 1930, 1250)),
     'fit-emails':   ('fit-reminder-emails', (450, 840, 1540, 1070)),
     'prop-follow':  ('prop-followup-pipeline', (145, 325, 1930, 575)),
     'prop-pipe':    ('prop-followup-pipeline', (145, 860, 1990, 1250)),
@@ -52,19 +53,48 @@ CROPS = {
 _cache = {}
 
 
-COMPOSITE = {'prop-price': ('prop-proposals-table', (295, 700), [(145, 420), (1565, 1825)])}
+# readable card crops: (screenshot, row ranges, column ranges) on the 2000-wide scale
+COMPOSITE = {
+    'prop-price':   ('prop-proposals-table', [(295, 345), (345, 395), (650, 700)], [(145, 420), (1565, 1825)]),
+    'c-fco-projects': ('fco-projects-invoices', [(280, 430)], [(145, 530), (810, 1090)]),
+    'c-fco-unpaid': ('fco-projects-invoices', [(710, 860)], [(145, 530), (1645, 1920)]),
+    'c-fco-paid':   ('fco-money-flow', [(250, 900)], [(545, 930)]),
+    'c-fco-review': ('fco-home-menu', [(800, 1050)], [(640, 1300)]),
+    'c-fit-chase':  ('fit-chase-owes', [(315, 410)], [(145, 450), (1365, 1645)]),
+    'c-fit-owes':   ('fit-chase-owes', [(630, 830)], [(145, 530), (810, 1090)]),
+    'c-fit-all':    ('fit-chase-owes', [(1050, 1250)], [(145, 530), (1365, 1645)]),
+    'c-fit-emails': ('fit-reminder-emails', [(840, 1070)], [(450, 1000)]),
+    'c-prop-follow': ('prop-followup-pipeline', [(325, 525)], [(145, 465), (465, 735), (1010, 1150)]),
+    'c-prop-sent':  ('prop-followup-pipeline', [(860, 1250)], [(545, 930)]),
+    'c-deal-now':   ('deal-do-now-board', [(300, 510)], [(145, 535), (535, 810)]),
+    'c-deal-col':   ('deal-do-now-board', [(840, 1160)], [(145, 530)]),
+    'c-deal-owe':   ('deal-posts-owe', [(445, 600)], [(145, 535), (535, 810)]),
+    'c-deal-owe-all': ('deal-posts-owe', [(720, 1130)], [(145, 535), (535, 810)]),
+    'c-wcp-goals':  ('wcp-goals', [(870, 1150)], [(163, 500), (910, 1150), (1385, 1600)]),
+    'c-wcp-goals2': ('wcp-goals', [(870, 1150)], [(163, 500), (1385, 1600)]),
+    'c-wcp-next7':  ('wcp-next7-pipeline', [(360, 515)], [(163, 560), (1700, 1840)]),
+    'c-wcp-col':    ('wcp-next7-pipeline', [(745, 1240)], [(163, 593)]),
+    'c-wcp-cal':    ('wcp-calendar', [(965, 1250)], [(635, 1365)]),
+    'c-ccs-cal':    ('ccs-calendar', [(930, 1250)], [(390, 1120)]),
+    'c-ccs-top':    ('ccs-top-posts', [(405, 860)], [(163, 600), (600, 755)]),
+    'c-ccs-deal':   ('ccs-calendar-deals', [(905, 1215)], [(163, 593)]),
+    'c-ccs-ch2':    ('ccs-home-full', [(350, 478)], [(80, 540)]),
+}
 
 
 def crop(name):
     if name in _cache:
         return _cache[name]
     if name in COMPOSITE:
-        srcf, (y0, y1), cols = COMPOSITE[name]
+        srcf, rows, cols = COMPOSITE[name]
         im = Image.open(os.path.join(HD, srcf + '.png')).convert('RGB'); k = im.width / 2000
-        parts = [im.crop((int(a * k), int(y0 * k), int(b * k), int(y1 * k))) for a, b in cols]
-        c = Image.new('RGB', (sum(x.width for x in parts), parts[0].height), 'white'); x = 0
-        for q in parts:
-            c.paste(q, (x, 0)); x += q.width
+        W = sum(int(b * k) - int(a * k) for a, b in cols); H = sum(int(b * k) - int(a * k) for a, b in rows)
+        c = Image.new('RGB', (W, H), 'white'); y = 0
+        for r0, r1 in rows:
+            x = 0
+            for a, b in cols:
+                q = im.crop((int(a * k), int(r0 * k), int(b * k), int(r1 * k))); c.paste(q, (x, y)); x += q.width
+            y += int(r1 * k) - int(r0 * k)
         pth = os.path.join(OUT, 'crops', name + '.png'); c.save(pth); _cache[name] = pth
         return pth
     src, (x0, y0, x1, y1) = CROPS[name]
@@ -209,9 +239,9 @@ def t_zoom(p):
     (t1, c1), (t2, c2) = p['cards']
     return (P(0, 60, 1000, p['kicker'], 24, f'text-align:center;font-weight:700;letter-spacing:5px;color:{MUT}')
             + P(0, 100, 1000, p['title'], 92, f'text-align:center;line-height:1.02;color:{INK};{SER}')
-            + card(40, 430, 920, t1, c1, 250, 'z1')
+            + card(40, 430, 920, t1, c1, 290, 'z1')
             + P(960 - (15 * len(p['label']) + 44), 392, 15 * len(p['label']) + 44, p['label'], 26, f'padding:12px 0;text-align:center;white-space:nowrap;border-radius:999px;background:{CLAY};color:{PAP};font-weight:700')
-            + card(120, 1010, 840, t2, c2, 170, 'z2')
+            + card(120, 1000, 840, t2, c2, 210, 'z2')
             + pill(250, 1380, 500, p['name'], PAP, INK, 26))
 
 
