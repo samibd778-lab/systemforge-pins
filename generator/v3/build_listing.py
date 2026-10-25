@@ -133,7 +133,7 @@ def main_bg(p, out):
     base = (40, 28, 20) if p.get('dark') else (246, 241, 233)
     arr[..., :3] = base
     for x in range(W * 2):
-        t = x / (W * 2); a = 0.93 if t < 0.36 else max(0.0, 0.93 * (1 - (t - 0.36) / 0.16))
+        t = x / (W * 2); a = 0.97 if t < 0.46 else max(0.0, 0.97 * (1 - (t - 0.46) / 0.06))
         arr[:, x, 3] = int(255 * a * (0.78 if p.get('dark') else 1))
     bg.alpha_composite(Image.fromarray(arr))
     bg.convert('RGB').save(out, quality=92)
@@ -160,18 +160,21 @@ def build(pk, base_url):
     d = p.get('dark'); fg = PAP if d else INK; sub = '#F1E7DC' if d else MUT
     # 1. main
     main = f'{pk}-1-main.jpg'; main_bg(p, os.path.join(OUT, pk, main))
-    inner = (T(70, 80, 600, p['kicker'], 20, f'font-weight:700;letter-spacing:4px;color:{"#E8D6C3" if d else "#7A6A58"}')
-             + T(70, 120, 640, p['name'].replace(' ', '<br>', 1), 72 if len(p['name']) > 18 else 84, f'line-height:1.0;white-space:nowrap;color:{fg};{SER}')
-             + T(70, 330, 600, p['sub'], 30, f'line-height:1.3;color:{sub}'))
+    # everything inside the centre square (x 169-1181) so the Etsy square thumbnail keeps it all
+    X = 205
+    inner = (T(X, 95, 560, p['kicker'], 17, f'font-weight:700;letter-spacing:3px;color:{"#E8D6C3" if d else "#7A6A58"}')
+             + T(X, 135, 470, p['name'].replace(' ', '<br>', 1), 56 if len(p['name']) > 18 else 64, f'line-height:1.02;white-space:nowrap;color:{fg};{SER}')
+             + T(X, 300, 430, p['sub'], 25, f'line-height:1.3;color:{sub}'))
     for i, f in enumerate(p['features']):
-        inner += (f'<p style="position:absolute;left:70px;top:{470 + i * 70}px;width:40px;margin:0;padding:4px 0;text-align:center;border-radius:999px;'
-                  f'background:{p["accent"]};color:{PAP};font-size:22px;font-weight:700">✓</p>' + T(128, 470 + i * 70, 520, f, 29, f'font-weight:500;color:{fg}'))
+        inner += (f'<p style="position:absolute;left:{X}px;top:{420 + i * 62}px;width:34px;margin:0;padding:3px 0;text-align:center;border-radius:999px;'
+                  f'background:{p["accent"]};color:{PAP};font-size:19px;font-weight:700">✓</p>' + T(X + 48, 420 + i * 62, 380, f, 24, f'font-weight:500;color:{fg}'))
     t0, _, c0 = p['cards'][0]
-    url0, ih0 = B.fit(c0, 640, 230, 'm1'); url0 = url0.replace(B.RAW + 'crops/', base_url + 'crops/')
-    inner += (f'<div style="position:absolute;left:660px;top:{H - ih0 - 120}px;width:640px;height:{ih0 + 62}px;background:#FFFFFF;border-radius:20px;overflow:hidden">'
-              + T(22, 14, 600, t0, 24, f'font-weight:700;color:{INK}')
-              + f'<img src="{url0}" style="position:absolute;left:0;top:56px;width:640px;height:{ih0}px"></div>')
-    inner += T(70, 890, 0, 'INSTANT DOWNLOAD', 21, f'padding:14px 30px;border-radius:999px;background:{PAP if d else INK};color:{INK if d else PAP};font-weight:700;letter-spacing:2px')
+    CW = 480
+    url0, ih0 = B.fit(c0, CW, 230, 'm1'); url0 = url0.replace(B.RAW + 'crops/', base_url + 'crops/')
+    inner += (f'<div style="position:absolute;left:{1160 - CW}px;top:{H - ih0 - 140}px;width:{CW}px;height:{ih0 + 56}px;background:#FFFFFF;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.12)">'
+              + T(18, 12, CW - 30, t0, 21, f'font-weight:700;color:{INK}')
+              + f'<img src="{url0}" style="position:absolute;left:0;top:50px;width:{CW}px;height:{ih0}px"></div>')
+    inner += T(X, 860, 0, 'INSTANT DOWNLOAD', 19, f'padding:13px 26px;border-radius:999px;background:{PAP if d else INK};color:{INK if d else PAP};font-weight:700;letter-spacing:2px')
     pages.append(page(f'{pk}-1-main', inner, f'{base_url}{pk}/{main}'))
     # 2-5. features
     for i, (title, desc, crop) in enumerate(p['cards'], 2):
