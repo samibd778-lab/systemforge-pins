@@ -10,276 +10,6 @@
   "board": "ccs"
  },
  {
-  "id": "fit-1-hero",
-  "product": "fit",
-  "name": "Freelance Invoice Tracker",
-  "kind": "hero",
-  "angle": "Invoice Tracker",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fit-1-hero.png",
-  "link": "https://www.etsy.com/listing/4596053610/freelance-invoice-tracker-notion",
-  "board": "fit"
- },
- {
-  "id": "wcp-1-hero",
-  "product": "wcp",
-  "name": "Weekly Content Planner",
-  "kind": "hero",
-  "angle": "Content Calendar",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/wcp-1-hero.png",
-  "link": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template",
-  "board": "wcp"
- },
- {
-  "id": "fco-2-feature",
-  "product": "fco",
-  "name": "Freelancer Client OS",
-  "kind": "feature",
-  "angle": "Know who to chase, and when. Every invoice tells you its next step: send it, wait, remind, or done.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fco-2-feature.png",
-  "link": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
-  "board": "fco"
- },
- {
-  "id": "ccs-2-feature",
-  "product": "ccs",
-  "name": "Content Creator Studio",
-  "kind": "feature",
-  "angle": "Always know what to post next. Every post counts down: today, tomorrow, in 3 days, or missed.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/ccs-2-feature.png",
-  "link": "https://www.etsy.com/listing/4595688129/content-creator-notion-template-content",
-  "board": "ccs"
- },
- {
-  "id": "prop-1-hero",
-  "product": "prop",
-  "name": "Freelance Proposal Tracker",
-  "kind": "hero",
-  "angle": "Proposal Tracker",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/prop-1-hero.png",
-  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
-  "board": "prop"
- },
- {
-  "id": "fit-2-feature",
-  "product": "fit",
-  "name": "Freelance Invoice Tracker",
-  "kind": "feature",
-  "angle": "See who is late, at a glance. Every invoice shows its status, due date and how many days late it is.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fit-2-feature.png",
-  "link": "https://www.etsy.com/listing/4596053610/freelance-invoice-tracker-notion",
-  "board": "fit"
- },
- {
-  "id": "deal-1-hero",
-  "product": "deal",
-  "name": "Brand Deal Tracker",
-  "kind": "hero",
-  "angle": "Brand Deal Tracker",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/deal-1-hero.png",
-  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
-  "board": "deal"
- },
- {
-  "id": "wcp-2-feature",
-  "product": "wcp",
-  "name": "Weekly Content Planner",
-  "kind": "feature",
-  "angle": "Move every idea to Posted. One list for all your posts: format, hook, publish date and stage.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/wcp-2-feature.png",
-  "link": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template",
-  "board": "wcp"
- },
- {
-  "id": "prop-2-feature",
-  "product": "prop",
-  "name": "Freelance Proposal Tracker",
-  "kind": "feature",
-  "angle": "Know who to follow up today. Next step tells you what to do: send it, follow up #1, #2, #3, or send a new quote.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/prop-2-feature.png",
-  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
-  "board": "prop"
- },
- {
-  "id": "fco-3-feature",
-  "product": "fco",
-  "name": "Freelancer Client OS",
-  "kind": "feature",
-  "angle": "Win more proposals. See every quote, its value and its win chance at a glance.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fco-3-feature.png",
-  "link": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
-  "board": "fco"
- },
- {
-  "id": "deal-2-feature",
-  "product": "deal",
-  "name": "Brand Deal Tracker",
-  "kind": "feature",
-  "angle": "Know what to do today. Next step tells you: follow up, post, send your invoice or chase a late payment.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/deal-2-feature.png",
-  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
-  "board": "deal"
- },
- {
-  "id": "ccs-3-feature",
-  "product": "ccs",
-  "name": "Content Creator Studio",
-  "kind": "feature",
-  "angle": "A weekly goal for every channel. TikTok, Instagram, YouTube, newsletter and more, side by side.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/ccs-3-feature.png",
-  "link": "https://www.etsy.com/listing/4595688129/content-creator-notion-template-content",
-  "board": "ccs"
- },
- {
-  "id": "prop-3-feature",
-  "product": "prop",
-  "name": "Freelance Proposal Tracker",
-  "kind": "feature",
-  "angle": "Drag a card when a client answers. See every proposal from Draft to Won, with its value and next step.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/prop-3-feature.png",
-  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
-  "board": "prop"
- },
- {
-  "id": "fit-3-feature",
-  "product": "fit",
-  "name": "Freelance Invoice Tracker",
-  "kind": "feature",
-  "angle": "Know which email to send next. Next step tells you: send the invoice, send a reminder, or done.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fit-3-feature.png",
-  "link": "https://www.etsy.com/listing/4596053610/freelance-invoice-tracker-notion",
-  "board": "fit"
- },
- {
-  "id": "deal-3-feature",
-  "product": "deal",
-  "name": "Brand Deal Tracker",
-  "kind": "feature",
-  "angle": "Every deal from pitch to paid. Drag a card when a deal moves. Fee and next step on every card.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/deal-3-feature.png",
-  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
-  "board": "deal"
- },
- {
-  "id": "wcp-3-feature",
-  "product": "wcp",
-  "name": "Weekly Content Planner",
-  "kind": "feature",
-  "angle": "Never miss a posting date. Every post tells you: today, in 2 days, live, or missed date.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/wcp-3-feature.png",
-  "link": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template",
-  "board": "wcp"
- },
- {
-  "id": "prop-4-feature",
-  "product": "prop",
-  "name": "Freelance Proposal Tracker",
-  "kind": "feature",
-  "angle": "Know if your price is too low. Add your hours and your rate. Price check tells you if the quote is under your rate.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/prop-4-feature.png",
-  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
-  "board": "prop"
- },
- {
-  "id": "fco-4-feature",
-  "product": "fco",
-  "name": "Freelancer Client OS",
-  "kind": "feature",
-  "angle": "Deliver projects on time. Progress bars and project status keep every deadline in view.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fco-4-feature.png",
-  "link": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
-  "board": "fco"
- },
- {
-  "id": "deal-4-feature",
-  "product": "deal",
-  "name": "Brand Deal Tracker",
-  "kind": "feature",
-  "angle": "Never miss a post you owe. Every promised post with its due date, platform and days late.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/deal-4-feature.png",
-  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
-  "board": "deal"
- },
- {
-  "id": "ccs-4-feature",
-  "product": "ccs",
-  "name": "Content Creator Studio",
-  "kind": "feature",
-  "angle": "Track brand deals until you get paid. Fees, posts you still owe, due dates and late payments.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/ccs-4-feature.png",
-  "link": "https://www.etsy.com/listing/4595688129/content-creator-notion-template-content",
-  "board": "ccs"
- },
- {
-  "id": "prop-5-feature",
-  "product": "prop",
-  "name": "Freelance Proposal Tracker",
-  "kind": "feature",
-  "angle": "See what each client is worth. Open value, won value and win rate on every client page.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/prop-5-feature.png",
-  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
-  "board": "prop"
- },
- {
-  "id": "fit-4-feature",
-  "product": "fit",
-  "name": "Freelance Invoice Tracker",
-  "kind": "feature",
-  "angle": "See who owes you money. Each client shows what they owe, what they paid, and if they pay on time.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fit-4-feature.png",
-  "link": "https://www.etsy.com/listing/4596053610/freelance-invoice-tracker-notion",
-  "board": "fit"
- },
- {
-  "id": "deal-5-feature",
-  "product": "deal",
-  "name": "Brand Deal Tracker",
-  "kind": "feature",
-  "angle": "See your money on every deal. Fee, money per post, content progress and payment status for every brand deal.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/deal-5-feature.png",
-  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
-  "board": "deal"
- },
- {
-  "id": "wcp-4-feature",
-  "product": "wcp",
-  "name": "Weekly Content Planner",
-  "kind": "feature",
-  "angle": "A weekly goal for every platform. Set a goal for TikTok, Instagram, YouTube and more. Progress fills up as you post.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/wcp-4-feature.png",
-  "link": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template",
-  "board": "wcp"
- },
- {
-  "id": "prop-6-inside",
-  "product": "prop",
-  "name": "Freelance Proposal Tracker",
-  "kind": "inside",
-  "angle": "What's inside: Proposals, Next step, Expires, Price check, Clients, Follow-up emails, Proposal Writing Guide, Weekly review",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/prop-6-inside.png",
-  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
-  "board": "prop"
- },
- {
-  "id": "fco-5-feature",
-  "product": "fco",
-  "name": "Freelancer Client OS",
-  "kind": "feature",
-  "angle": "Never write the awkward email again. 8 ready-to-send client emails, from follow-up to final notice.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fco-5-feature.png",
-  "link": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
-  "board": "fco"
- },
- {
-  "id": "deal-6-inside",
-  "product": "deal",
-  "name": "Brand Deal Tracker",
-  "kind": "inside",
-  "angle": "What's inside: Deals, Next step, Posts you owe, Money, Brands, Brand email scripts, Rate card + Media kit, Weekly review",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/deal-6-inside.png",
-  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
-  "board": "deal"
- },
- {
   "id": "v3-ccs-desk",
   "product": "ccs",
   "name": "Content Creator Studio",
@@ -576,6 +306,276 @@
   "kind": "lifestyle",
   "angle": "Four numbered screenshots of the Brand Deal Tracker Notion template. Headline: From pitch to paid, one deal at a time",
   "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-deal-steps.png",
+  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
+  "board": "deal"
+ },
+ {
+  "id": "fit-1-hero",
+  "product": "fit",
+  "name": "Freelance Invoice Tracker",
+  "kind": "hero",
+  "angle": "Invoice Tracker",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fit-1-hero.png",
+  "link": "https://www.etsy.com/listing/4596053610/freelance-invoice-tracker-notion",
+  "board": "fit"
+ },
+ {
+  "id": "wcp-1-hero",
+  "product": "wcp",
+  "name": "Weekly Content Planner",
+  "kind": "hero",
+  "angle": "Content Calendar",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/wcp-1-hero.png",
+  "link": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template",
+  "board": "wcp"
+ },
+ {
+  "id": "fco-2-feature",
+  "product": "fco",
+  "name": "Freelancer Client OS",
+  "kind": "feature",
+  "angle": "Know who to chase, and when. Every invoice tells you its next step: send it, wait, remind, or done.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fco-2-feature.png",
+  "link": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
+  "board": "fco"
+ },
+ {
+  "id": "ccs-2-feature",
+  "product": "ccs",
+  "name": "Content Creator Studio",
+  "kind": "feature",
+  "angle": "Always know what to post next. Every post counts down: today, tomorrow, in 3 days, or missed.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/ccs-2-feature.png",
+  "link": "https://www.etsy.com/listing/4595688129/content-creator-notion-template-content",
+  "board": "ccs"
+ },
+ {
+  "id": "prop-1-hero",
+  "product": "prop",
+  "name": "Freelance Proposal Tracker",
+  "kind": "hero",
+  "angle": "Proposal Tracker",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/prop-1-hero.png",
+  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
+  "board": "prop"
+ },
+ {
+  "id": "fit-2-feature",
+  "product": "fit",
+  "name": "Freelance Invoice Tracker",
+  "kind": "feature",
+  "angle": "See who is late, at a glance. Every invoice shows its status, due date and how many days late it is.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fit-2-feature.png",
+  "link": "https://www.etsy.com/listing/4596053610/freelance-invoice-tracker-notion",
+  "board": "fit"
+ },
+ {
+  "id": "deal-1-hero",
+  "product": "deal",
+  "name": "Brand Deal Tracker",
+  "kind": "hero",
+  "angle": "Brand Deal Tracker",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/deal-1-hero.png",
+  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
+  "board": "deal"
+ },
+ {
+  "id": "wcp-2-feature",
+  "product": "wcp",
+  "name": "Weekly Content Planner",
+  "kind": "feature",
+  "angle": "Move every idea to Posted. One list for all your posts: format, hook, publish date and stage.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/wcp-2-feature.png",
+  "link": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template",
+  "board": "wcp"
+ },
+ {
+  "id": "prop-2-feature",
+  "product": "prop",
+  "name": "Freelance Proposal Tracker",
+  "kind": "feature",
+  "angle": "Know who to follow up today. Next step tells you what to do: send it, follow up #1, #2, #3, or send a new quote.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/prop-2-feature.png",
+  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
+  "board": "prop"
+ },
+ {
+  "id": "fco-3-feature",
+  "product": "fco",
+  "name": "Freelancer Client OS",
+  "kind": "feature",
+  "angle": "Win more proposals. See every quote, its value and its win chance at a glance.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fco-3-feature.png",
+  "link": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
+  "board": "fco"
+ },
+ {
+  "id": "deal-2-feature",
+  "product": "deal",
+  "name": "Brand Deal Tracker",
+  "kind": "feature",
+  "angle": "Know what to do today. Next step tells you: follow up, post, send your invoice or chase a late payment.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/deal-2-feature.png",
+  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
+  "board": "deal"
+ },
+ {
+  "id": "ccs-3-feature",
+  "product": "ccs",
+  "name": "Content Creator Studio",
+  "kind": "feature",
+  "angle": "A weekly goal for every channel. TikTok, Instagram, YouTube, newsletter and more, side by side.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/ccs-3-feature.png",
+  "link": "https://www.etsy.com/listing/4595688129/content-creator-notion-template-content",
+  "board": "ccs"
+ },
+ {
+  "id": "prop-3-feature",
+  "product": "prop",
+  "name": "Freelance Proposal Tracker",
+  "kind": "feature",
+  "angle": "Drag a card when a client answers. See every proposal from Draft to Won, with its value and next step.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/prop-3-feature.png",
+  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
+  "board": "prop"
+ },
+ {
+  "id": "fit-3-feature",
+  "product": "fit",
+  "name": "Freelance Invoice Tracker",
+  "kind": "feature",
+  "angle": "Know which email to send next. Next step tells you: send the invoice, send a reminder, or done.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fit-3-feature.png",
+  "link": "https://www.etsy.com/listing/4596053610/freelance-invoice-tracker-notion",
+  "board": "fit"
+ },
+ {
+  "id": "deal-3-feature",
+  "product": "deal",
+  "name": "Brand Deal Tracker",
+  "kind": "feature",
+  "angle": "Every deal from pitch to paid. Drag a card when a deal moves. Fee and next step on every card.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/deal-3-feature.png",
+  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
+  "board": "deal"
+ },
+ {
+  "id": "wcp-3-feature",
+  "product": "wcp",
+  "name": "Weekly Content Planner",
+  "kind": "feature",
+  "angle": "Never miss a posting date. Every post tells you: today, in 2 days, live, or missed date.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/wcp-3-feature.png",
+  "link": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template",
+  "board": "wcp"
+ },
+ {
+  "id": "prop-4-feature",
+  "product": "prop",
+  "name": "Freelance Proposal Tracker",
+  "kind": "feature",
+  "angle": "Know if your price is too low. Add your hours and your rate. Price check tells you if the quote is under your rate.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/prop-4-feature.png",
+  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
+  "board": "prop"
+ },
+ {
+  "id": "fco-4-feature",
+  "product": "fco",
+  "name": "Freelancer Client OS",
+  "kind": "feature",
+  "angle": "Deliver projects on time. Progress bars and project status keep every deadline in view.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fco-4-feature.png",
+  "link": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
+  "board": "fco"
+ },
+ {
+  "id": "deal-4-feature",
+  "product": "deal",
+  "name": "Brand Deal Tracker",
+  "kind": "feature",
+  "angle": "Never miss a post you owe. Every promised post with its due date, platform and days late.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/deal-4-feature.png",
+  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
+  "board": "deal"
+ },
+ {
+  "id": "ccs-4-feature",
+  "product": "ccs",
+  "name": "Content Creator Studio",
+  "kind": "feature",
+  "angle": "Track brand deals until you get paid. Fees, posts you still owe, due dates and late payments.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/ccs-4-feature.png",
+  "link": "https://www.etsy.com/listing/4595688129/content-creator-notion-template-content",
+  "board": "ccs"
+ },
+ {
+  "id": "prop-5-feature",
+  "product": "prop",
+  "name": "Freelance Proposal Tracker",
+  "kind": "feature",
+  "angle": "See what each client is worth. Open value, won value and win rate on every client page.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/prop-5-feature.png",
+  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
+  "board": "prop"
+ },
+ {
+  "id": "fit-4-feature",
+  "product": "fit",
+  "name": "Freelance Invoice Tracker",
+  "kind": "feature",
+  "angle": "See who owes you money. Each client shows what they owe, what they paid, and if they pay on time.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fit-4-feature.png",
+  "link": "https://www.etsy.com/listing/4596053610/freelance-invoice-tracker-notion",
+  "board": "fit"
+ },
+ {
+  "id": "deal-5-feature",
+  "product": "deal",
+  "name": "Brand Deal Tracker",
+  "kind": "feature",
+  "angle": "See your money on every deal. Fee, money per post, content progress and payment status for every brand deal.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/deal-5-feature.png",
+  "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
+  "board": "deal"
+ },
+ {
+  "id": "wcp-4-feature",
+  "product": "wcp",
+  "name": "Weekly Content Planner",
+  "kind": "feature",
+  "angle": "A weekly goal for every platform. Set a goal for TikTok, Instagram, YouTube and more. Progress fills up as you post.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/wcp-4-feature.png",
+  "link": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template",
+  "board": "wcp"
+ },
+ {
+  "id": "prop-6-inside",
+  "product": "prop",
+  "name": "Freelance Proposal Tracker",
+  "kind": "inside",
+  "angle": "What's inside: Proposals, Next step, Expires, Price check, Clients, Follow-up emails, Proposal Writing Guide, Weekly review",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/prop-6-inside.png",
+  "link": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
+  "board": "prop"
+ },
+ {
+  "id": "fco-5-feature",
+  "product": "fco",
+  "name": "Freelancer Client OS",
+  "kind": "feature",
+  "angle": "Never write the awkward email again. 8 ready-to-send client emails, from follow-up to final notice.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/fco-5-feature.png",
+  "link": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
+  "board": "fco"
+ },
+ {
+  "id": "deal-6-inside",
+  "product": "deal",
+  "name": "Brand Deal Tracker",
+  "kind": "inside",
+  "angle": "What's inside: Deals, Next step, Posts you owe, Money, Brands, Brand email scripts, Rate card + Media kit, Weekly review",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/etsy-pins/deal-6-inside.png",
   "link": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
   "board": "deal"
  },

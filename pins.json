@@ -11,6 +11,106 @@
    "angle": "The Freelancer Client OS dashboard in Notion: client, proposal, project, invoice, paid"
   },
   {
+   "id": "v3/v3-ccs-desk",
+   "p": "ccs",
+   "angle": "A laptop and phone on a wooden desk showing the Content Creator Studio Notion template. Headline: Content Planner"
+  },
+  {
+   "id": "v3/v3-fco-hand",
+   "p": "fco",
+   "angle": "A hand holding a phone in a cozy cafe showing the Freelancer Client OS Notion template. Headline: See who still owes you."
+  },
+  {
+   "id": "v3/v3-prop-desk",
+   "p": "prop",
+   "angle": "A laptop and phone on a wooden desk showing the Proposal Tracker Notion template. Headline: Proposal Tracker"
+  },
+  {
+   "id": "v3/v3-deal-zoom",
+   "p": "deal",
+   "angle": "Zoomed cards from the Brand Deal Tracker Notion template. Headline: Know which brand owes you."
+  },
+  {
+   "id": "v3/v3-ccs-zoom",
+   "p": "ccs",
+   "angle": "Zoomed cards from the Content Creator Studio Notion template. Headline: Know what to post next."
+  },
+  {
+   "id": "v3/v3-fco-desk",
+   "p": "fco",
+   "angle": "A laptop and phone on a wooden desk showing the Freelancer Client OS Notion template. Headline: Freelancer OS"
+  },
+  {
+   "id": "v3/v3-prop-zoom",
+   "p": "prop",
+   "angle": "Zoomed cards from the Proposal Tracker Notion template. Headline: Never forget a follow-up."
+  },
+  {
+   "id": "v3/v3-deal-studio",
+   "p": "deal",
+   "angle": "A laptop on a sage studio background showing the Brand Deal Tracker Notion template. Headline: Every brand deal, pitch to paid"
+  },
+  {
+   "id": "v3/v3-ccs-flat",
+   "p": "ccs",
+   "angle": "A laptop and iPad on a marble desk showing the Content Creator Studio Notion template. Headline: Every post, every platform, one calm page."
+  },
+  {
+   "id": "v3/v3-fco-zoom",
+   "p": "fco",
+   "angle": "Zoomed cards from the Freelancer Client OS Notion template. Headline: Every project, every invoice."
+  },
+  {
+   "id": "v3/v3-prop-studio",
+   "p": "prop",
+   "angle": "A laptop on a sage studio background showing the Proposal Tracker Notion template. Headline: Your proposal pipeline"
+  },
+  {
+   "id": "v3/v3-deal-flat",
+   "p": "deal",
+   "angle": "A laptop and iPad on a marble desk showing the Brand Deal Tracker Notion template. Headline: Your rate card, ready to send."
+  },
+  {
+   "id": "v3/v3-ccs-studio",
+   "p": "ccs",
+   "angle": "A laptop on a sage studio background showing the Content Creator Studio Notion template. Headline: Brand deals, pitch to paid"
+  },
+  {
+   "id": "v3/v3-fco-studio",
+   "p": "fco",
+   "angle": "A laptop on a sage studio background showing the Freelancer Client OS Notion template. Headline: Get paid on time"
+  },
+  {
+   "id": "v3/v3-prop-flat",
+   "p": "prop",
+   "angle": "A laptop and iPad on a marble desk showing the Proposal Tracker Notion template. Headline: Know which quote to chase today."
+  },
+  {
+   "id": "v3/v3-deal-desk",
+   "p": "deal",
+   "angle": "A laptop and phone on a wooden desk showing the Brand Deal Tracker Notion template. Headline: Brand Deal Tracker"
+  },
+  {
+   "id": "v3/v3-ccs-steps",
+   "p": "ccs",
+   "angle": "Four numbered screenshots of the Content Creator Studio Notion template. Headline: Your whole creator business on one page"
+  },
+  {
+   "id": "v3/v3-fco-steps",
+   "p": "fco",
+   "angle": "Four numbered screenshots of the Freelancer Client OS Notion template. Headline: Run your freelance business from one page"
+  },
+  {
+   "id": "v3/v3-prop-steps",
+   "p": "prop",
+   "angle": "Four numbered screenshots of the Proposal Tracker Notion template. Headline: Send a quote. Follow up. Win."
+  },
+  {
+   "id": "v3/v3-deal-steps",
+   "p": "deal",
+   "angle": "Four numbered screenshots of the Brand Deal Tracker Notion template. Headline: From pitch to paid, one deal at a time"
+  },
+  {
    "id": "ccs-2-repurpose",
    "p": "ccs",
    "angle": "Content cards on the Notion phone app, each linked to the platforms it goes to"
@@ -389,106 +489,6 @@
    "id": "ccs-16-owed",
    "p": "ccs",
    "angle": "Brand deal cards showing fee, posts done out of posts owed and due date"
-  },
-  {
-   "id": "v3/v3-ccs-desk",
-   "p": "ccs",
-   "angle": "A laptop and phone on a wooden desk showing the Content Creator Studio Notion template. Headline: Content Planner"
-  },
-  {
-   "id": "v3/v3-fco-hand",
-   "p": "fco",
-   "angle": "A hand holding a phone in a cozy cafe showing the Freelancer Client OS Notion template. Headline: See who still owes you."
-  },
-  {
-   "id": "v3/v3-prop-desk",
-   "p": "prop",
-   "angle": "A laptop and phone on a wooden desk showing the Proposal Tracker Notion template. Headline: Proposal Tracker"
-  },
-  {
-   "id": "v3/v3-deal-zoom",
-   "p": "deal",
-   "angle": "Zoomed cards from the Brand Deal Tracker Notion template. Headline: Know which brand owes you."
-  },
-  {
-   "id": "v3/v3-ccs-zoom",
-   "p": "ccs",
-   "angle": "Zoomed cards from the Content Creator Studio Notion template. Headline: Know what to post next."
-  },
-  {
-   "id": "v3/v3-fco-desk",
-   "p": "fco",
-   "angle": "A laptop and phone on a wooden desk showing the Freelancer Client OS Notion template. Headline: Freelancer OS"
-  },
-  {
-   "id": "v3/v3-prop-zoom",
-   "p": "prop",
-   "angle": "Zoomed cards from the Proposal Tracker Notion template. Headline: Never forget a follow-up."
-  },
-  {
-   "id": "v3/v3-deal-studio",
-   "p": "deal",
-   "angle": "A laptop on a sage studio background showing the Brand Deal Tracker Notion template. Headline: Every brand deal, pitch to paid"
-  },
-  {
-   "id": "v3/v3-ccs-flat",
-   "p": "ccs",
-   "angle": "A laptop and iPad on a marble desk showing the Content Creator Studio Notion template. Headline: Every post, every platform, one calm page."
-  },
-  {
-   "id": "v3/v3-fco-zoom",
-   "p": "fco",
-   "angle": "Zoomed cards from the Freelancer Client OS Notion template. Headline: Every project, every invoice."
-  },
-  {
-   "id": "v3/v3-prop-studio",
-   "p": "prop",
-   "angle": "A laptop on a sage studio background showing the Proposal Tracker Notion template. Headline: Your proposal pipeline"
-  },
-  {
-   "id": "v3/v3-deal-flat",
-   "p": "deal",
-   "angle": "A laptop and iPad on a marble desk showing the Brand Deal Tracker Notion template. Headline: Your rate card, ready to send."
-  },
-  {
-   "id": "v3/v3-ccs-studio",
-   "p": "ccs",
-   "angle": "A laptop on a sage studio background showing the Content Creator Studio Notion template. Headline: Brand deals, pitch to paid"
-  },
-  {
-   "id": "v3/v3-fco-studio",
-   "p": "fco",
-   "angle": "A laptop on a sage studio background showing the Freelancer Client OS Notion template. Headline: Get paid on time"
-  },
-  {
-   "id": "v3/v3-prop-flat",
-   "p": "prop",
-   "angle": "A laptop and iPad on a marble desk showing the Proposal Tracker Notion template. Headline: Know which quote to chase today."
-  },
-  {
-   "id": "v3/v3-deal-desk",
-   "p": "deal",
-   "angle": "A laptop and phone on a wooden desk showing the Brand Deal Tracker Notion template. Headline: Brand Deal Tracker"
-  },
-  {
-   "id": "v3/v3-ccs-steps",
-   "p": "ccs",
-   "angle": "Four numbered screenshots of the Content Creator Studio Notion template. Headline: Your whole creator business on one page"
-  },
-  {
-   "id": "v3/v3-fco-steps",
-   "p": "fco",
-   "angle": "Four numbered screenshots of the Freelancer Client OS Notion template. Headline: Run your freelance business from one page"
-  },
-  {
-   "id": "v3/v3-prop-steps",
-   "p": "prop",
-   "angle": "Four numbered screenshots of the Proposal Tracker Notion template. Headline: Send a quote. Follow up. Win."
-  },
-  {
-   "id": "v3/v3-deal-steps",
-   "p": "deal",
-   "angle": "Four numbered screenshots of the Brand Deal Tracker Notion template. Headline: From pitch to paid, one deal at a time"
   },
   {
    "id": "fco-48-late",
