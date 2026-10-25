@@ -232,7 +232,7 @@ def t_desk(p):
             + P(0, 90, 1000, p['title'], p.get('size', 100), f'text-align:center;line-height:1.05;color:{INK};{SER}')
             + P(0, 215, 1000, p['sub'], 40, f'text-align:center;color:#4A433B;{SER}')
             + chips3(p['chips'], 300)
-            + pill(330, 1370, 340, 'NOTION TEMPLATE', PAP, INK, 24))
+            + pill(270, 1360, 460, 'Get the template  →', INK, PAP, 32))
 
 
 def t_zoom(p):
@@ -242,7 +242,7 @@ def t_zoom(p):
             + card(40, 430, 920, t1, c1, 290, 'z1')
             + P(960 - (15 * len(p['label']) + 44), 392, 15 * len(p['label']) + 44, p['label'], 26, f'padding:12px 0;text-align:center;white-space:nowrap;border-radius:999px;background:{CLAY};color:{PAP};font-weight:700')
             + card(120, 1000, 840, t2, c2, 210, 'z2')
-            + pill(250, 1380, 500, p['name'], PAP, INK, 26))
+            + pill(270, 1370, 460, 'Get the template  →', INK, PAP, 32))
 
 
 def t_flat(p):
@@ -250,21 +250,23 @@ def t_flat(p):
     return (P(80, 90, 840, p['kicker'], 24, 'font-weight:700;letter-spacing:5px;color:#8A7F72')
             + P(80, 160, 840, l1, 88, 'line-height:1.02;font-weight:700;color:#1F1C19')
             + P(80, 160 + 92 * l1.count('<br>') + 92, 840, l2, 88, f'line-height:1.02;font-weight:700;color:{SAGE}')
-            + P(80, 160 + 92 * (l1.count('<br>') + 2) + 30, 840, p['name'] + ' · by SystemForge', 30, 'font-weight:500;color:#5C554C'))
+            + P(80, 160 + 92 * (l1.count('<br>') + 2) + 30, 840, p['name'] + ' · by SystemForge', 30, 'font-weight:500;color:#5C554C')
+            + pill(80, 160 + 92 * (l1.count('<br>') + 2) + 95, 420, 'Get the template  →', INK, PAP, 30))
 
 
 def t_hand(p):
     return (f'<img src="{RAW}shade-top.png" style="position:absolute;left:0;top:0;width:1000px;height:1500px">'
             + P(70, 100, 0, p['kicker'], 24, f'padding:10px 20px;border-radius:8px;background:{CLAY};color:{PAP};font-weight:700;letter-spacing:3px')
             + P(70, 180, 860, p['title'], 100, f'line-height:1.02;color:{PAP};{SER}')
-            + P(70, 420, 860, p['sub'], 32, 'line-height:1.35;font-weight:500;color:#F6EDE4'))
+            + P(70, 420, 860, p['sub'], 32, 'line-height:1.35;font-weight:500;color:#F6EDE4')
+            + pill(270, 1370, 460, 'Get the template  →', PAP, INK, 32))
 
 
 def t_studio(p):
     return (P(0, 120, 1000, p['title'], 104, f'text-align:center;line-height:1.02;color:{PAP};{SER}')
             + P(0, 360, 1000, p['sub'], 34, f'text-align:center;font-weight:500;color:{PAP}')
             + P(0, 430, 1000, '&nbsp;&nbsp;&nbsp;'.join('✓ ' + c for c in p['chips']), 27, f'text-align:center;font-weight:700;color:{PAP}')
-            + pill(330, 1360, 340, 'NOTION TEMPLATE', PAP, INK, 26))
+            + pill(270, 1360, 460, 'Get the template  →', PAP, INK, 32))
 
 
 def t_steps(p):
@@ -278,7 +280,7 @@ def t_steps(p):
                 + P(84, 26, 350, lab, 28, f'font-weight:700;color:{INK}')
                 + f'<img src="{url}" style="position:absolute;left:20px;top:{96 + (300 - ih) // 2}px;width:410px;height:{ih}px"></div>')
     out += P(40, 1390, 0, '⬇ Instant download', 26, f'padding:14px 26px;border-radius:999px;background:{PAP};color:{INK};font-weight:700')
-    out += P(560, 1390, 400, p['name'], 26, f'padding:14px 0;text-align:center;border-radius:999px;background:#2F4A3A;color:{PAP};font-weight:700')
+    out += P(560, 1390, 400, 'Get the template  →', 26, f'padding:14px 0;text-align:center;border-radius:999px;background:#2F4A3A;color:{PAP};font-weight:700')
     return out
 
 
