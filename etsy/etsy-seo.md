@@ -41,7 +41,7 @@ Notion Content Calendar Template | Social Media Content Planner | Weekly Content
 **Tags** (13):
 
 ```
-content calendar, notion content, content planner, social media planner, social media content, instagram planner, notion template, tiktok planner, content creator, notion planner, social media manager, content ideas, social media plan
+social media content, content calendar, content planner, creator planner, youtube planner, content ideas, social media manager, tiktok planner, notion planner, instagram planner, notion template, social media planner, content creator
 ```
 
 ## Content Creator Studio
