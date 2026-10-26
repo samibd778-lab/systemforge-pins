@@ -69,7 +69,7 @@ Proposal Tracker Notion Template | Client Tracker, Quote Tracker, Sales Pipeline
 **Tags** (13):
 
 ```
-proposal tracker, project management, quote tracker, sales pipeline, freelance proposal, client follow up, notion template, freelancer notion, notion crm, proposal template, small business, client proposal, client tracker
+project quotes, client tracker, small business crm, proposal tracker, follow up tracker, client pipeline, freelance template, sales pipeline, quote tracker, freelancer crm, notion template, project management, freelance proposal
 ```
 
 ## Brand Deal Tracker
