@@ -27,7 +27,7 @@ Notion Invoice Tracker Template | Client Payment Tracker, Late Invoice Reminders
 **Tags** (13):
 
 ```
-notion invoice, invoice tracker, payment tracker, freelance invoice, client payments, notion template, small business, get paid faster, client tracker, freelancer notion, income tracker, late payment, freelance tracker
+invoice tracker, freelance invoice, payment tracker, freelancer notion, notion invoice, client tracker, small business, billing tracker, late payments, income tracker, notion template, client payments, get paid faster
 ```
 
 ## Weekly Content Planner
