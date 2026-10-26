@@ -55,7 +55,7 @@ Notion Template for Content Creators | Content Creator Planner, Social Media Con
 **Tags** (13):
 
 ```
-content creator, notion template, content planner, content calendar, brand deal tracker, youtube planner, social media planner, creator dashboard, tiktok planner, influencer planner, social media content, content pillars, ugc creator
+content creator, notion template, creator planner, brand deal tracker, youtube planner, tiktok planner, instagram planner, social media content, content calendar, content planner, social media planner, creator dashboard, ugc creator
 ```
 
 ## Proposal Tracker
