@@ -3,44 +3,217 @@
   "fco": {
     "name": "Freelancer Client OS",
     "primary": "freelancer Notion template",
-    "keywords": ["freelancer Notion template", "Notion CRM template", "client tracker Notion", "Notion freelancer dashboard", "freelance business Notion template", "freelance tracker Notion", "client management template", "freelancer CRM Notion template", "Notion freelance OS"],
-    "hashtags": ["#notiontemplate", "#freelancer", "#freelancetips", "#notioncrm", "#clientmanagement", "#freelancebusiness", "#freelancelife"]
+    "keywords": [
+      "freelancer Notion template",
+      "Notion CRM template",
+      "client tracker Notion",
+      "Notion freelancer dashboard",
+      "freelance business Notion template",
+      "freelance tracker Notion",
+      "client management template",
+      "freelancer CRM Notion template",
+      "Notion freelance OS",
+      "expense tracker",
+      "client tracker"
+    ],
+    "hashtags": [
+      "#notiontemplate",
+      "#freelancer",
+      "#freelancetips",
+      "#notioncrm",
+      "#clientmanagement",
+      "#freelancebusiness",
+      "#freelancelife"
+    ]
   },
   "fit": {
     "name": "Freelance Invoice Tracker",
     "primary": "Notion invoice tracker",
-    "keywords": ["Notion invoice tracker", "invoice tracker template", "client payment tracker", "freelance invoice tracker", "Notion invoice tracker template", "freelance income tracker", "payment tracker template"],
-    "hashtags": ["#notiontemplate", "#invoicetracker", "#freelancer", "#getpaid", "#freelancetips", "#smallbusinesstips"]
+    "keywords": [
+      "Notion invoice tracker",
+      "invoice tracker template",
+      "client payment tracker",
+      "freelance invoice tracker",
+      "Notion invoice tracker template",
+      "freelance income tracker",
+      "payment tracker template",
+      "client tracker"
+    ],
+    "hashtags": [
+      "#notiontemplate",
+      "#invoicetracker",
+      "#freelancer",
+      "#getpaid",
+      "#freelancetips",
+      "#smallbusinesstips"
+    ]
   },
   "wcp": {
     "name": "Weekly Content Planner",
     "primary": "Notion content calendar",
-    "keywords": ["Notion content calendar", "content calendar template", "weekly content planner", "Notion content planner", "social media content calendar", "content planner template", "Instagram content planner", "social media planner"],
-    "hashtags": ["#notiontemplate", "#contentcalendar", "#contentplanner", "#socialmediaplanner", "#contentcreator", "#contentplanning"]
+    "keywords": [
+      "Notion content calendar",
+      "content calendar template",
+      "weekly content planner",
+      "Notion content planner",
+      "social media content calendar",
+      "content planner template",
+      "Instagram content planner",
+      "social media planner",
+      "social media content planner",
+      "notion content planner"
+    ],
+    "hashtags": [
+      "#notiontemplate",
+      "#contentcalendar",
+      "#contentplanner",
+      "#socialmediaplanner",
+      "#contentcreator",
+      "#contentplanning"
+    ]
   },
   "ccs": {
     "name": "Content Creator Studio",
     "primary": "Notion template for content creators",
-    "keywords": ["Notion template for content creators", "Notion content planner", "content creator planner", "Notion content creator dashboard", "YouTube content planner", "Notion social media planner", "TikTok content planner", "content calendar Notion"],
-    "hashtags": ["#notiontemplate", "#contentcreator", "#contentplanner", "#contentcalendar", "#creatortips", "#socialmediaplanner", "#youtubecreator"]
+    "keywords": [
+      "Notion template for content creators",
+      "Notion content planner",
+      "content creator planner",
+      "Notion content creator dashboard",
+      "YouTube content planner",
+      "Notion social media planner",
+      "TikTok content planner",
+      "content calendar Notion",
+      "social media content planner",
+      "notion content planner"
+    ],
+    "hashtags": [
+      "#notiontemplate",
+      "#contentcreator",
+      "#contentplanner",
+      "#contentcalendar",
+      "#creatortips",
+      "#socialmediaplanner",
+      "#youtubecreator"
+    ]
   },
   "prop": {
     "name": "Proposal Tracker",
     "primary": "Notion proposal tracker",
-    "keywords": ["Notion proposal tracker", "proposal tracker template", "Notion client proposal template", "freelance proposal template", "sales pipeline Notion template", "quote tracker template"],
-    "hashtags": ["#notiontemplate", "#freelancer", "#freelancetips", "#proposals", "#salespipeline", "#clientwork"]
+    "keywords": [
+      "Notion proposal tracker",
+      "proposal tracker template",
+      "Notion client proposal template",
+      "freelance proposal template",
+      "sales pipeline Notion template",
+      "quote tracker template",
+      "client tracker",
+      "quote tracker"
+    ],
+    "hashtags": [
+      "#notiontemplate",
+      "#freelancer",
+      "#freelancetips",
+      "#proposals",
+      "#salespipeline",
+      "#clientwork"
+    ]
   },
   "deal": {
     "name": "Brand Deal Tracker",
     "primary": "brand deal tracker",
-    "keywords": ["brand deal tracker", "Notion brand deal tracker", "brand deal tracker template", "UGC deal tracker", "UGC tracker Notion", "influencer tracker template", "sponsorship tracker template", "rate card template for influencers", "media kit template for content creators"],
-    "hashtags": ["#notiontemplate", "#branddeals", "#ugccreator", "#influencertips", "#brandpartnerships", "#contentcreator", "#ugc"]
+    "keywords": [
+      "brand deal tracker",
+      "Notion brand deal tracker",
+      "brand deal tracker template",
+      "UGC deal tracker",
+      "UGC tracker Notion",
+      "influencer tracker template",
+      "sponsorship tracker template",
+      "rate card template for influencers",
+      "media kit template for content creators"
+    ],
+    "hashtags": [
+      "#notiontemplate",
+      "#branddeals",
+      "#ugccreator",
+      "#influencertips",
+      "#brandpartnerships",
+      "#contentcreator",
+      "#ugc"
+    ]
   },
   "topics": {
-    "invoice": {"keywords": ["Notion invoice tracker", "client payment tracker", "freelance invoice tracker"], "hashtags": ["#notiontemplate", "#invoicetracker", "#freelancer", "#getpaid", "#freelancetips"]},
-    "proposal": {"keywords": ["Notion proposal tracker", "freelance proposal template", "sales pipeline Notion template"], "hashtags": ["#notiontemplate", "#freelancer", "#proposals", "#salespipeline", "#freelancetips"]},
-    "client": {"keywords": ["client tracker Notion", "Notion CRM template", "freelancer Notion template"], "hashtags": ["#notiontemplate", "#freelancer", "#notioncrm", "#clientmanagement", "#freelancetips"]},
-    "content": {"keywords": ["Notion content calendar", "Notion content planner", "Notion template for content creators"], "hashtags": ["#notiontemplate", "#contentcalendar", "#contentplanner", "#contentcreator", "#socialmediaplanner"]},
-    "brand": {"keywords": ["brand deal tracker", "Notion brand deal tracker", "UGC deal tracker"], "hashtags": ["#notiontemplate", "#branddeals", "#ugccreator", "#contentcreator", "#influencertips"]}
-  }
+    "invoice": {
+      "keywords": [
+        "Notion invoice tracker",
+        "client payment tracker",
+        "freelance invoice tracker"
+      ],
+      "hashtags": [
+        "#notiontemplate",
+        "#invoicetracker",
+        "#freelancer",
+        "#getpaid",
+        "#freelancetips"
+      ]
+    },
+    "proposal": {
+      "keywords": [
+        "Notion proposal tracker",
+        "freelance proposal template",
+        "sales pipeline Notion template"
+      ],
+      "hashtags": [
+        "#notiontemplate",
+        "#freelancer",
+        "#proposals",
+        "#salespipeline",
+        "#freelancetips"
+      ]
+    },
+    "client": {
+      "keywords": [
+        "client tracker Notion",
+        "Notion CRM template",
+        "freelancer Notion template"
+      ],
+      "hashtags": [
+        "#notiontemplate",
+        "#freelancer",
+        "#notioncrm",
+        "#clientmanagement",
+        "#freelancetips"
+      ]
+    },
+    "content": {
+      "keywords": [
+        "Notion content calendar",
+        "Notion content planner",
+        "Notion template for content creators"
+      ],
+      "hashtags": [
+        "#notiontemplate",
+        "#contentcalendar",
+        "#contentplanner",
+        "#contentcreator",
+        "#socialmediaplanner"
+      ]
+    },
+    "brand": {
+      "keywords": [
+        "brand deal tracker",
+        "Notion brand deal tracker",
+        "UGC deal tracker"
+      ],
+      "hashtags": [
+        "#notiontemplate",
+        "#branddeals",
+        "#ugccreator",
+        "#contentcreator",
+        "#influencertips"
+      ]
+    }
+  },
+  "_etsy": "Etsy Marketplace Insights 2026-10-25 (searches/month): expense tracker 1.7k (high conversion), social media content planner 951 (high), client tracker 875, notion planner template 612, content calendar template 418, content creator planner 416, notion content planner 254 (high), notion content calendar 150, notion invoice tracker 75, freelancer notion template 74, brand deal tracker 24 (rising), notion proposal tracker 1."
 }
