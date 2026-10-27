@@ -24,6 +24,10 @@ music2.write_for(sys.argv[1], float(sys.argv[2]), 'public/music.wav')
 EOF
 [ "$COMP" = ReelPro ] && python3 sfx.py "$SPEC" "public/sfx-$ID.wav"
 npx remotion render src/index.ts "$COMP" "out/$ID.mp4" --props="$SPEC" --codec=h264 --crf=16 --browser-executable="$BROWSER" --log=error
+# universal MP4: yuv420p (plays on Windows/Mac/phones), High@4.1, 10 Mbps (platforms downgrade < 5 Mbps), AAC 48k, faststart
+ffmpeg -y -loglevel error -i "out/$ID.mp4" -c:v libx264 -preset slow -profile:v high -level:v 4.1 -pix_fmt yuv420p -color_range tv \
+  -b:v 10M -maxrate 12M -bufsize 20M -r 30 -c:a aac -b:a 192k -ar 48000 -ac 2 -movflags +faststart "out/$ID-web.mp4"
+mv "out/$ID-web.mp4" "out/$ID.mp4"
 cp "out/$ID.mp4" "../../videos/$ID.mp4"
 mkdir -p ../../clips
 ffmpeg -y -loglevel error -i "out/$ID.mp4" -c:v copy -an "../../clips/$ID-nosound.mp4"
