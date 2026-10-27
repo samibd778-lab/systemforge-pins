@@ -29,14 +29,77 @@ PROD = {
 
 # cover id -> (product, title, subtitle, screens [one per blank screen in the scene, left to right])
 B.CROPS.update({
-    'cv-fco-paid': ('fco-money-flow', (548, 250, 935, 950)),
-    'cv-ccs-cal':  ('ccs-calendar', (145, 330, 1855, 1250)),
+    'cv-fco-paid':   ('fco-money-flow', (548, 250, 935, 950)),
+    'cv-fco-menu':   ('fco-home-menu', (147, 587, 533, 1067)),
+    'cv-fco-proj':   ('fco-projects-invoices', (145, 250, 800, 1250)),
+    'cv-fco-week':   ('fco-money-flow', (145, 250, 700, 1250)),
+    'cv-fco-review': ('fco-home-menu', (640, 540, 1300, 1250)),
+    'cv-ccs-cal':    ('ccs-calendar', (145, 330, 1855, 1250)),
+    'cv-ccs-home':   ('ccs-home-full', (78, 350, 930, 900)),
+    'cv-ccs-deals':  ('ccs-calendar-deals', (163, 780, 1300, 1250)),
+    'cv-ccs-top':    ('ccs-top-posts', (163, 380, 1500, 1200)),
+    'cv-fit-inv':    ('fit-chase-owes', (145, 190, 1010, 1250)),
+    'cv-fit-cli':    ('fit-chase-owes', (145, 560, 1010, 1250)),
+    'cv-fit-mail':   ('fit-reminder-emails', (380, 330, 1300, 1250)),
+    'cv-prop-top':   ('prop-followup-pipeline', (145, 150, 1700, 1150)),
+    'cv-prop-pipe':  ('prop-pipeline', (145, 150, 1900, 1100)),
+    'cv-prop-table': ('prop-proposals-table', (145, 150, 1700, 1100)),
+    'cv-deal-now':   ('deal-do-now-board', (145, 150, 1700, 1100)),
+    'cv-deal-board': ('deal-do-now-board', (145, 800, 1700, 1250)),
+    'cv-deal-owe':   ('deal-posts-owe', (145, 250, 1700, 1250)),
+    'cv-deal-rate':  ('deal-rate-card', (420, 150, 1500, 1100)),
 })
+PH_CCS = 'ph-ccs-pipeline-posted.jpg'
+PH_W1, PH_W2 = 'ph-wcp-pipeline.jpg', 'ph-wcp-goals-next7.jpg'
 
+# cover id -> (product, title, subtitle, screens [one per blank screen in the scene, left to right])
 COVERS = {
-    'fco-invoices': ('fco', 'Invoices', 'Draft, sent, paid. Late ones count the days.', ['cv-fco-paid']),
-    'ccs-content':  ('ccs', 'Content', 'Every post from idea to posted, on one calendar.', ['cv-ccs-cal', 'ph-ccs-pipeline-posted.jpg']),
-    'deal-rate':    ('deal', 'Rate Card', 'Write your prices once. Paste them into every pitch.', ['deal-rate']),
+    # Freelancer Client OS (phone)
+    'fco-clients':    ('fco', 'Clients', 'Every client, where they came from and when to follow up.', ['cv-fco-menu']),
+    'fco-proposals':  ('fco', 'Proposals', 'Value, win chance and expiry date on every quote.', ['cv-fco-review']),
+    'fco-projects':   ('fco', 'Projects', 'Deadline, progress and health on every project.', ['cv-fco-proj']),
+    'fco-tasks':      ('fco', 'Tasks', 'See what is overdue and what is due this week.', ['cv-fco-week']),
+    'fco-invoices':   ('fco', 'Invoices', 'Draft, sent, paid. Late ones count the days.', ['cv-fco-paid']),
+    'fco-expenses':   ('fco', 'Expenses', 'Linked to projects, so you see your real profit.', ['cv-fco-proj']),
+    'fco-emails':     ('fco', 'Email Scripts', '8 client emails, ready to copy and send.', ['cv-fco-menu']),
+    'fco-onboarding': ('fco', 'Client Onboarding', 'A calm checklist for every new client.', ['cv-fco-review']),
+    # Freelance Invoice Tracker (tablet)
+    'fit-invoices':   ('fit', 'Invoices', 'Every invoice, how late it is and the next step.', ['cv-fit-inv']),
+    'fit-clients':    ('fit', 'Clients', 'What each client owes you, and if they pay on time.', ['cv-fit-cli']),
+    'fit-emails':     ('fit', 'Reminder Emails', 'Friendly, second and final reminders, ready to send.', ['cv-fit-mail']),
+    'fit-kit':        ('fit', 'Get Paid Faster Kit', 'Simple habits so clients pay on time.', ['cv-fit-inv']),
+    # Weekly Content Planner (two phones)
+    'wcp-content':    ('wcp', 'Content', 'Every idea from Idea to Posted.', [PH_W1, PH_W2]),
+    'wcp-channels':   ('wcp', 'Channels', 'A weekly goal for every platform.', [PH_W2, PH_W1]),
+    'wcp-hooks':      ('wcp', 'Hook Starters', 'Write the first line first.', [PH_W1, PH_W2]),
+    'wcp-ideas':      ('wcp', '30 Content Ideas', 'Plus a map to repurpose every post.', [PH_W2, PH_W1]),
+    # Content Creator Studio (laptop + phone)
+    'ccs-content':    ('ccs', 'Content', 'Every post from idea to posted, on one calendar.', ['cv-ccs-cal', PH_CCS]),
+    'ccs-pillars':    ('ccs', 'Content Pillars', 'See which topic brings the most reach.', ['cv-ccs-top', PH_CCS]),
+    'ccs-channels':   ('ccs', 'Channels', 'Every platform with its own weekly goal.', ['cv-ccs-home', PH_CCS]),
+    'ccs-deals':      ('ccs', 'Brand Deals', 'From pitch to paid, with the posts you still owe.', ['cv-ccs-deals', PH_CCS]),
+    'ccs-scripts':    ('ccs', 'Brand Deal Scripts', 'Emails for pitching, following up and getting paid.', ['cv-ccs-deals', PH_CCS]),
+    'ccs-hooks':      ('ccs', 'Hook Library', 'Strong first lines for every type of post.', ['cv-ccs-home', PH_CCS]),
+    'ccs-review':     ('ccs', 'Weekly Review', 'What worked this week, and what to post next.', ['cv-ccs-top', PH_CCS]),
+    'ccs-ideas':      ('ccs', '30 Content Ideas', 'Plus a map to repurpose every post.', ['cv-ccs-cal', PH_CCS]),
+    # Proposal Tracker (laptop)
+    'prop-start':     ('prop', 'Start here', 'Set it up in a few minutes.', ['cv-prop-top']),
+    'prop-pipeline':  ('prop', 'Pipeline', 'Draft, sent, negotiating, won or lost.', ['cv-prop-pipe']),
+    'prop-clients':   ('prop', 'Clients', 'Open value, won value and win rate per client.', ['cv-prop-table']),
+    'prop-proposals': ('prop', 'Proposals', 'Every quote with its next step.', ['cv-prop-table']),
+    'prop-emails':    ('prop', 'Follow-up Emails', 'Ready messages for every follow-up.', ['cv-prop-top']),
+    'prop-guide':     ('prop', 'Proposal Writing Guide', 'Write quotes that clients say yes to.', ['cv-prop-table']),
+    'prop-review':    ('prop', 'Weekly Review', 'Five minutes to keep every quote moving.', ['cv-prop-pipe']),
+    'prop-form':      ('prop', 'Client Inquiry Form', 'New leads land in your tracker.', ['cv-prop-top']),
+    # Brand Deal Tracker (laptop)
+    'deal-start':     ('deal', 'Start here', 'Set it up in a few minutes.', ['cv-deal-now']),
+    'deal-deals':     ('deal', 'Deals', 'Pitched, talking, signed, delivered, paid.', ['cv-deal-board']),
+    'deal-owe':       ('deal', 'Posts you owe', 'Every deliverable with its due date.', ['cv-deal-owe']),
+    'deal-brands':    ('deal', 'Brands', 'What each brand paid you, and what is pending.', ['cv-deal-now']),
+    'deal-emails':    ('deal', 'Brand Email Scripts', 'Pitch, follow up and get paid.', ['cv-deal-now']),
+    'deal-rate':      ('deal', 'Rate Card', 'Write your prices once. Paste them into every pitch.', ['cv-deal-rate']),
+    'deal-media':     ('deal', 'Media Kit', 'Your numbers and audience on one page.', ['cv-deal-rate']),
+    'deal-review':    ('deal', 'Weekly Review', 'Five minutes to keep every deal moving.', ['cv-deal-board']),
 }
 
 
@@ -98,7 +161,7 @@ def warp_bg(prod, screens):
         cx = sum(a for a, _ in qq) / 4; cy = sum(b for _, b in qq) / 4; cy_all.append(cy)
         qq = [(cx + (x - cx) * 1.07, cy + (y - cy) * 1.05) for x, y in qq]
         c = Image.open(B.src(s)).convert('RGB')
-        is_phone = mk.sum() and (np.ptp(np.nonzero(mk)[1]) < np.ptp(np.nonzero(mk)[0]))
+        is_phone = mk.sum() and (np.ptp(np.nonzero(mk)[0]) > 1.6 * np.ptp(np.nonzero(mk)[1]))
         if is_phone and not s.startswith('ph-'):
             c = mobile(c)
         sw = ((qq[1][0] - qq[0][0]) ** 2 + (qq[1][1] - qq[0][1]) ** 2) ** .5
