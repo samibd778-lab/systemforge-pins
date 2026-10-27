@@ -40,6 +40,7 @@ export type Seg = {
   caption: string[]; // 1 or 2 lines: big line, then smaller line
   cams: {t: number; cam: Cam}[]; // keyframes, t = seconds from the start of this segment
   ring?: {from: number; x: number; y: number; w: number; h: number}; // highlight box, recording pixels
+  chip?: {from: number; text: string; tone?: 'bad' | 'good' | 'info'}; // big result pill under the card (bold style)
 };
 export type ReelSpec = {
   id: string;
@@ -50,11 +51,14 @@ export type ReelSpec = {
   music?: string; // file in public/, our own synthesized track
   segments: Seg[];
   end: {title: string[]; sub: string[]; cta: string};
+  style?: 'classic' | 'bold'; // bold = big screen, marker words, result chip, punchy zooms
 };
 
-const CARD_W = 1000;
-const CARD_H = 620;
-const AR = CARD_H / CARD_W;
+const LAYOUT = {
+  classic: {cardW: 1000, cardH: 620, cardTop: 690, capTop: 330, cap1: 72, cap2: 60},
+  bold: {cardW: 1040, cardH: 880, cardTop: 470, capTop: 170, cap1: 76, cap2: 52},
+};
+const lay = (spec: {style?: string}) => (spec.style === 'bold' ? LAYOUT.bold : LAYOUT.classic);
 const FADE = 9;
 
 const segStarts = (spec: ReelSpec) => {
@@ -69,33 +73,39 @@ const segStarts = (spec: ReelSpec) => {
 export const END_SECONDS = 3.8;
 export const totalFrames = (spec: ReelSpec) => segStarts(spec).endStart + s(END_SECONDS);
 
-const camAt = (cams: Seg['cams'], t: number): Cam => {
+const camAt = (cams: Seg['cams'], t: number, punch = false): Cam => {
   if (cams.length === 1 || t <= cams[0].t) return cams[0].cam;
   for (let i = 1; i < cams.length; i++) {
     const a = cams[i - 1];
     const b = cams[i];
     if (t <= b.t) {
-      const p = interpolate(t, [a.t, b.t], [0, 1], {easing: Easing.bezier(0.65, 0, 0.35, 1)});
+      const p = interpolate(t, [a.t, b.t], [0, 1], {easing: punch ? Easing.bezier(0.8, 0, 0.15, 1) : Easing.bezier(0.65, 0, 0.35, 1)});
       return {cx: a.cam.cx + (b.cam.cx - a.cam.cx) * p, cy: a.cam.cy + (b.cam.cy - a.cam.cy) * p, w: a.cam.w + (b.cam.w - a.cam.w) * p};
     }
   }
   return cams[cams.length - 1].cam;
 };
 
-const Caption: React.FC<{lines: string[]}> = ({lines}) => {
+const Caption: React.FC<{lines: string[]; style?: string; instant?: boolean}> = ({lines, style, instant}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
+  const L = lay({style});
+  const bold = style === 'bold';
   let idx = 0;
   return (
-    <div style={{position: 'absolute', top: 330, left: 60, right: 60, textAlign: 'center'}}>
+    <div style={{position: 'absolute', top: L.capTop, left: 50, right: 50, textAlign: 'center'}}>
       {lines.map((line, li) => (
-        <div key={li} style={{fontFamily: 'Fraunces', fontWeight: 600, fontSize: li === 0 ? 72 : 60, lineHeight: 1.12, color: li === 0 ? INK : MUT, letterSpacing: -1.5}}>
-          {line.split(' ').map((w, wi) => {
+        <div key={li} style={{fontFamily: li === 0 || !bold ? 'Fraunces' : 'InterW', fontWeight: li === 0 || !bold ? 600 : 500, fontSize: li === 0 ? L.cap1 : L.cap2, lineHeight: 1.12, color: li === 0 ? INK : MUT, letterSpacing: li === 0 ? -1.5 : 0, marginTop: li === 0 ? 0 : 14}}>
+          {line.split(' ').map((raw, wi) => {
             const k = idx++;
-            const p = spring({frame: frame - 4 - k * 3.5, fps, config: {damping: 14, stiffness: 160}});
+            const mark = raw.startsWith('*') && raw.endsWith('*');
+            const w = raw.replace(/\*/g, '');
+            const p = instant ? 1 : spring({frame: frame - 2 - k * 2.5, fps, config: {damping: 14, stiffness: 180}});
+            const m = spring({frame: frame - 12 - k * 2.5, fps, config: {damping: 18}});
             return (
-              <span key={wi} style={{display: 'inline-block', marginRight: 18, opacity: p, transform: `translateY(${(1 - p) * 26}px)`}}>
-                {w}
+              <span key={wi} style={{position: 'relative', display: 'inline-block', marginRight: 16, opacity: p, transform: `translateY(${(1 - p) * 26}px)`}}>
+                {mark ? <span style={{position: 'absolute', left: -8, right: -8, bottom: 6, height: '42%', background: '#F3C9A6', borderRadius: 8, transformOrigin: 'left', transform: `scaleX(${m})`, zIndex: -1}} /> : null}
+                <span style={{position: 'relative'}}>{w}</span>
               </span>
             );
           })}
@@ -105,16 +115,36 @@ const Caption: React.FC<{lines: string[]}> = ({lines}) => {
   );
 };
 
-const Clip: React.FC<{g: Seg; spec: ReelSpec}> = ({g, spec}) => {
+const Chip: React.FC<{chip: NonNullable<Seg['chip']>; top: number}> = ({chip, top}) => {
+  const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const p = spring({frame: frame - s(chip.from), fps, config: {damping: 11, stiffness: 170}});
+  if (frame < s(chip.from)) return null;
+  const tone = chip.tone ?? 'info';
+  const bg = tone === 'bad' ? '#F6D9CF' : tone === 'good' ? '#DCE8D4' : PAP;
+  const fg = tone === 'bad' ? '#9A3B22' : tone === 'good' ? '#3D5A2E' : INK;
+  return (
+    <div style={{position: 'absolute', top, left: 0, right: 0, display: 'flex', justifyContent: 'center'}}>
+      <div style={{padding: '22px 46px', borderRadius: 60, background: bg, color: fg, fontFamily: 'InterW', fontWeight: 700, fontSize: 50, boxShadow: '0 18px 40px rgba(46,42,37,.14)', opacity: p, transform: `scale(${0.6 + 0.4 * p})`}}>{chip.text}</div>
+    </div>
+  );
+};
+
+const Clip: React.FC<{g: Seg; spec: ReelSpec; first?: boolean}> = ({g, spec, first}) => {
   const frame = useCurrentFrame();
   const {fps} = useVideoConfig();
   const t = frame / fps;
-  const cam = camAt(g.cams, t);
+  const L = lay(spec);
+  const CARD_W = L.cardW;
+  const CARD_H = L.cardH;
+  const AR = CARD_H / CARD_W;
+  const bold = spec.style === 'bold';
+  const cam = camAt(g.cams, t, bold);
   const scale = CARD_W / cam.w;
   const h = cam.w * AR;
   const left = -(cam.cx - cam.w / 2) * scale;
   const top = -(cam.cy - h / 2) * scale;
-  const fadeIn = interpolate(frame, [0, FADE], [0, 1], {extrapolateRight: 'clamp'});
+  const fadeIn = first && bold ? 1 : interpolate(frame, [0, FADE], [0, 1], {extrapolateRight: 'clamp'});
   const pop = spring({frame: frame - 6, fps, config: {damping: 16}});
 
   let ring: React.ReactNode = null;
@@ -141,12 +171,12 @@ const Clip: React.FC<{g: Seg; spec: ReelSpec}> = ({g, spec}) => {
 
   return (
     <AbsoluteFill style={{opacity: fadeIn}}>
-      <Caption lines={g.caption} />
+      <Caption lines={g.caption} style={spec.style} instant={first && bold} />
       <div
         style={{
           position: 'absolute',
           left: (1080 - CARD_W) / 2,
-          top: 690,
+          top: L.cardTop,
           width: CARD_W,
           height: CARD_H + 54,
           borderRadius: 30,
@@ -173,6 +203,7 @@ const Clip: React.FC<{g: Seg; spec: ReelSpec}> = ({g, spec}) => {
           {ring}
         </div>
       </div>
+      {g.chip ? <Chip chip={g.chip} top={L.cardTop + CARD_H + 54 + 36} /> : null}
     </AbsoluteFill>
   );
 };
@@ -229,12 +260,14 @@ export const Reel: React.FC<ReelSpec> = (spec) => {
       <Background />
       {spec.segments.map((g, i) => (
         <Sequence key={i} from={starts[i]} durationInFrames={s(g.dur)}>
-          <Clip g={g} spec={spec} />
+          <Clip g={g} spec={spec} first={i === 0} />
         </Sequence>
       ))}
-      <Sequence from={0} durationInFrames={endStart}>
-        <Footer />
-      </Sequence>
+      {spec.style === 'bold' ? null : (
+        <Sequence from={0} durationInFrames={endStart}>
+          <Footer />
+        </Sequence>
+      )}
       <Sequence from={endStart}>
         <EndCard end={spec.end} />
       </Sequence>

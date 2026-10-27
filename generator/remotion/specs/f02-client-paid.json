@@ -1,0 +1,206 @@
+{
+ "id": "f02-client-paid",
+ "style": "bold",
+ "video": "rec-test1.mp4",
+ "videoW": 1920,
+ "videoH": 1080,
+ "windowTitle": "Freelancer Client OS · Invoices",
+ "music": "music.wav",
+ "segments": [
+  {
+   "src": 44.0,
+   "dur": 5.0,
+   "caption": [
+    "This client is *26* *days* late",
+    "My Notion tracker caught it"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 1600,
+      "cy": 600,
+      "w": 640
+     }
+    },
+    {
+     "t": 1.4,
+     "cam": {
+      "cx": 1600,
+      "cy": 600,
+      "w": 640
+     }
+    },
+    {
+     "t": 2.1,
+     "cam": {
+      "cx": 1660,
+      "cy": 600,
+      "w": 520
+     }
+    }
+   ],
+   "ring": {
+    "from": 2.2,
+    "x": 1590,
+    "y": 566,
+    "w": 330,
+    "h": 38
+   },
+   "chip": {
+    "from": 2.5,
+    "text": "⚠️ 26 days late",
+    "tone": "bad"
+   }
+  },
+  {
+   "src": 54.2,
+   "dur": 5.0,
+   "caption": [
+    "Client paid? Set it to *Paid*",
+    "Pick it from the list"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 450,
+      "cy": 600,
+      "w": 760
+     }
+    },
+    {
+     "t": 1.5,
+     "cam": {
+      "cx": 450,
+      "cy": 600,
+      "w": 760
+     }
+    },
+    {
+     "t": 2.2,
+     "cam": {
+      "cx": 360,
+      "cy": 600,
+      "w": 560
+     }
+    }
+   ],
+   "ring": {
+    "from": 1.6,
+    "x": 86,
+    "y": 563,
+    "w": 126,
+    "h": 44
+   },
+   "chip": {
+    "from": 1.8,
+    "text": "✅ Paid",
+    "tone": "good"
+   }
+  },
+  {
+   "src": 56.6,
+   "dur": 4.2,
+   "caption": [
+    "Late days back to *0*",
+    "and the next step updates itself"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 360,
+      "cy": 600,
+      "w": 560
+     }
+    },
+    {
+     "t": 1.2,
+     "cam": {
+      "cx": 360,
+      "cy": 600,
+      "w": 560
+     }
+    },
+    {
+     "t": 1.9,
+     "cam": {
+      "cx": 1660,
+      "cy": 600,
+      "w": 520
+     }
+    }
+   ],
+   "ring": {
+    "from": 2.0,
+    "x": 1680,
+    "y": 566,
+    "w": 240,
+    "h": 38
+   },
+   "chip": {
+    "from": 2.1,
+    "text": "📅 Next: add the payment date",
+    "tone": "info"
+   }
+  },
+  {
+   "src": 72.0,
+   "dur": 4.6,
+   "caption": [
+    "No more chasing *payments*",
+    "in your head"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 1160,
+      "cy": 600,
+      "w": 700
+     }
+    },
+    {
+     "t": 1.4,
+     "cam": {
+      "cx": 1160,
+      "cy": 600,
+      "w": 700
+     }
+    },
+    {
+     "t": 2.1,
+     "cam": {
+      "cx": 1220,
+      "cy": 600,
+      "w": 560
+     }
+    }
+   ],
+   "ring": {
+    "from": 2.2,
+    "x": 1135,
+    "y": 566,
+    "w": 245,
+    "h": 38
+   },
+   "chip": {
+    "from": 2.3,
+    "text": "✅ Late? says Paid",
+    "tone": "good"
+   }
+  }
+ ],
+ "end": {
+  "title": [
+   "Freelancer",
+   "Client OS"
+  ],
+  "sub": [
+   "A Notion template that tracks",
+   "who owes you, and what to do."
+  ],
+  "cta": "Link in bio"
+ }
+}
