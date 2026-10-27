@@ -1,6 +1,6 @@
 {
  "id": "f02-client-paid",
- "style": "bold",
+ "style": "pro",
  "video": "rec-test1.mp4",
  "videoW": 1920,
  "videoH": 1080,
@@ -11,15 +11,15 @@
    "src": 44.0,
    "dur": 5.0,
    "caption": [
-    "This client is *26* *days* late",
-    "My Notion tracker caught it"
+    "This client is *26* days late",
+    "My Notion invoice tracker caught it"
    ],
    "cams": [
     {
      "t": 0,
      "cam": {
       "cx": 1600,
-      "cy": 600,
+      "cy": 615,
       "w": 640
      }
     },
@@ -27,7 +27,7 @@
      "t": 1.4,
      "cam": {
       "cx": 1600,
-      "cy": 600,
+      "cy": 615,
       "w": 640
      }
     },
@@ -35,7 +35,7 @@
      "t": 2.1,
      "cam": {
       "cx": 1660,
-      "cy": 600,
+      "cy": 615,
       "w": 520
      }
     }
@@ -57,15 +57,15 @@
    "src": 54.2,
    "dur": 5.0,
    "caption": [
-    "Client paid? Set it to *Paid*",
-    "Pick it from the list"
+    "They paid? Set it to *Paid*",
+    "Pick it in the Status column"
    ],
    "cams": [
     {
      "t": 0,
      "cam": {
       "cx": 450,
-      "cy": 600,
+      "cy": 615,
       "w": 760
      }
     },
@@ -73,7 +73,7 @@
      "t": 1.5,
      "cam": {
       "cx": 450,
-      "cy": 600,
+      "cy": 615,
       "w": 760
      }
     },
@@ -81,7 +81,7 @@
      "t": 2.2,
      "cam": {
       "cx": 360,
-      "cy": 600,
+      "cy": 615,
       "w": 560
      }
     }
@@ -103,15 +103,15 @@
    "src": 56.6,
    "dur": 4.2,
    "caption": [
-    "Late days back to *0*",
-    "and the next step updates itself"
+    "Late days reset to *0*",
+    "The next step updates by itself"
    ],
    "cams": [
     {
      "t": 0,
      "cam": {
       "cx": 360,
-      "cy": 600,
+      "cy": 615,
       "w": 560
      }
     },
@@ -119,7 +119,7 @@
      "t": 1.2,
      "cam": {
       "cx": 360,
-      "cy": 600,
+      "cy": 615,
       "w": 560
      }
     },
@@ -127,7 +127,7 @@
      "t": 1.9,
      "cam": {
       "cx": 1660,
-      "cy": 600,
+      "cy": 615,
       "w": 520
      }
     }
@@ -141,7 +141,7 @@
    },
    "chip": {
     "from": 2.1,
-    "text": "📅 Next: add the payment date",
+    "text": "📅 Next step: add payment date",
     "tone": "info"
    }
   },
@@ -149,15 +149,15 @@
    "src": 72.0,
    "dur": 4.6,
    "caption": [
-    "No more chasing *payments*",
-    "in your head"
+    "Stop chasing in your *head*",
+    "Every invoice, one calm list"
    ],
    "cams": [
     {
      "t": 0,
      "cam": {
       "cx": 1160,
-      "cy": 600,
+      "cy": 615,
       "w": 700
      }
     },
@@ -165,7 +165,7 @@
      "t": 1.4,
      "cam": {
       "cx": 1160,
-      "cy": 600,
+      "cy": 615,
       "w": 700
      }
     },
@@ -173,7 +173,7 @@
      "t": 2.1,
      "cam": {
       "cx": 1220,
-      "cy": 600,
+      "cy": 615,
       "w": 560
      }
     }
@@ -198,9 +198,10 @@
    "Client OS"
   ],
   "sub": [
-   "A Notion template that tracks",
-   "who owes you, and what to do."
+   "The Notion template that tracks",
+   "who owes you, and what to do next."
   ],
   "cta": "Link in bio"
- }
+ },
+ "sfx": "sfx-f02-client-paid.wav"
 }

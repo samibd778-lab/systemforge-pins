@@ -6,11 +6,12 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 ID="$1"; SPEC="specs/$ID.json"
+COMP=$(python3 -c "import json;print('ReelPro' if json.load(open('$SPEC')).get('style')=='pro' else 'Reel')")
 BROWSER="${BROWSER:-/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell}"
 [ -d node_modules ] || npm install --silent
 mkdir -p out
 if [ "${2:-}" = "still" ]; then
-  npx remotion still src/index.ts Reel "out/$ID-${3:-60}.png" --props="$SPEC" --frame="${3:-60}" --browser-executable="$BROWSER" --log=error
+  npx remotion still src/index.ts "$COMP" "out/$ID-${3:-60}.png" --props="$SPEC" --frame="${3:-60}" --browser-executable="$BROWSER" --log=error
   echo "out/$ID-${3:-60}.png"; exit 0
 fi
 # our own synthesized music, long enough for the reel
@@ -21,7 +22,8 @@ sys.path.insert(0, os.path.abspath('..'))
 import music2
 music2.write_for(sys.argv[1], float(sys.argv[2]), 'public/music.wav')
 EOF
-npx remotion render src/index.ts Reel "out/$ID.mp4" --props="$SPEC" --codec=h264 --crf=16 --browser-executable="$BROWSER" --log=error
+[ "$COMP" = ReelPro ] && python3 sfx.py "$SPEC" "public/sfx-$ID.wav"
+npx remotion render src/index.ts "$COMP" "out/$ID.mp4" --props="$SPEC" --codec=h264 --crf=16 --browser-executable="$BROWSER" --log=error
 cp "out/$ID.mp4" "../../videos/$ID.mp4"
 mkdir -p ../../clips
 ffmpeg -y -loglevel error -i "out/$ID.mp4" -c:v copy -an "../../clips/$ID-nosound.mp4"
