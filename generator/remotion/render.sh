@@ -6,7 +6,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 ID="$1"; SPEC="specs/$ID.json"
-COMP=$(python3 -c "import json;print('ReelPro' if json.load(open('$SPEC')).get('style')=='pro' else 'Reel')")
+COMP=$(python3 -c "import json;print({'pro':'ReelPro','native':'ReelNative'}.get(json.load(open('$SPEC')).get('style'),'Reel'))")
 BROWSER="${BROWSER:-/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell}"
 [ -d node_modules ] || npm install --silent
 mkdir -p out
@@ -16,13 +16,16 @@ if [ "${2:-}" = "still" ]; then
 fi
 # our own synthesized music, long enough for the reel
 SECS=$(python3 -c "import json;d=json.load(open('$SPEC'));print(int(sum(s['dur'] for s in d['segments'])+6))")
-python3 - "$ID" "$SECS" <<'EOF'
-import sys, os
+python3 - "$ID" "$SECS" "$SPEC" <<'EOF'
+import sys, os, json
 sys.path.insert(0, os.path.abspath('..'))
 import music2
-music2.write_for(sys.argv[1], float(sys.argv[2]), 'public/music.wav')
+from scipy.io import wavfile
+m = json.load(open(sys.argv[3])).get('musicStyle')  # optional: [style, shift, seed] to force a different track per reel
+if m: wavfile.write('public/music.wav', music2.SR, music2.make(float(sys.argv[2]), *m))
+else: music2.write_for(sys.argv[1], float(sys.argv[2]), 'public/music.wav')
 EOF
-[ "$COMP" = ReelPro ] && python3 sfx.py "$SPEC" "public/sfx-$ID.wav"
+[ "$COMP" != Reel ] && python3 sfx.py "$SPEC" "public/sfx-$ID.wav"
 npx remotion render src/index.ts "$COMP" "out/$ID.mp4" --props="$SPEC" --codec=h264 --crf=16 --browser-executable="$BROWSER" --log=error
 # universal MP4: yuv420p (plays on Windows/Mac/phones), High@4.1, 10 Mbps (platforms downgrade < 5 Mbps), AAC 48k, faststart
 ffmpeg -y -loglevel error -i "out/$ID.mp4" -c:v libx264 -preset slow -profile:v high -level:v 4.1 -pix_fmt yuv420p -color_range tv \

@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080, height=1920" />
+<script src="assets/gsap.min.js"></script>
+<style>
+  :root { --cream:#F6F1E9; --ink:#2E2A25; --mut:#5C554C; --sage:#7A8B6F; --sagel:#E3E8DC; --clay:#EFDCCB; --acc:#D9A07B; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { width:1080px; height:1920px; overflow:hidden; background:var(--cream); }
+  #root { position:relative; width:1080px; height:1920px; overflow:hidden; background:var(--cream); font-family:Inter, sans-serif; color:var(--ink); }
+  .blob { position:absolute; border-radius:50%; }
+  #blobA { width:900px; height:900px; left:-420px; top:-360px; background:var(--sagel); }
+  #blobB { width:1000px; height:1000px; right:-480px; bottom:-380px; background:var(--clay); }
+  /* hook */
+  #hookLine { position:absolute; top:300px; left:0; right:0; text-align:center; font:700 54px Inter; color:var(--mut); }
+  .word { position:absolute; left:0; right:0; top:520px; text-align:center; font-family:'Archivo Black', sans-serif; font-size:190px; letter-spacing:-4px; line-height:1; }
+  .word span { display:inline-block; padding:24px 44px 34px; border-radius:40px; }
+  #hookSub { position:absolute; top:880px; left:0; right:0; text-align:center; font:700 60px Inter; color:var(--ink); }
+  /* screen */
+  #frame { position:absolute; left:40px; top:500px; width:1000px; height:760px; border-radius:34px; overflow:hidden; background:#fff; box-shadow:0 40px 90px rgba(46,42,37,.22); }
+  .cam { position:absolute; left:0; top:0; width:1920px; height:1080px; transform-origin:0 0; }
+  .cam video { position:absolute; left:0; top:0; width:1920px; height:1080px; }
+  .cap { position:absolute; top:215px; left:60px; right:60px; text-align:center; font-family:'Archivo Black', sans-serif; font-size:74px; line-height:1.05; letter-spacing:-1px; }
+  .cap em { font-style:normal; color:var(--sage); }
+  #chipWrap { position:absolute; top:395px; left:0; right:0; display:flex; justify-content:center; }
+  .chip { position:absolute; top:0; padding:14px 34px; border-radius:60px; font:700 44px Inter; }
+  #ring { position:absolute; border:7px solid var(--acc); border-radius:22px; box-shadow:0 0 0 14px rgba(217,160,123,.25); }
+  /* features */
+  #featTitle { position:absolute; top:330px; left:0; right:0; text-align:center; font-family:'Archivo Black', sans-serif; font-size:96px; }
+  .feat { position:absolute; left:130px; right:110px; height:150px; display:flex; align-items:center; gap:34px; background:#fff; border-radius:34px; padding:0 40px; box-shadow:0 20px 50px rgba(46,42,37,.10); font:700 52px Inter; }
+  .feat b { flex:none; width:84px; height:84px; border-radius:50%; background:var(--sage); color:#fff; display:grid; place-items:center; font-size:48px; }
+  /* end */
+  #endTitle { position:absolute; top:520px; left:0; right:0; text-align:center; font-family:'Archivo Black', sans-serif; font-size:120px; line-height:1.0; letter-spacing:-3px; }
+  #endSub { position:absolute; top:810px; left:0; right:0; text-align:center; font:700 50px Inter; color:var(--mut); }
+  #endCta { position:absolute; top:960px; left:0; right:0; display:flex; justify-content:center; }
+  #endCta span { padding:30px 70px; border-radius:90px; background:var(--ink); color:var(--cream); font:900 56px Inter; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="22" data-width="1080" data-height="1920">
+  <div id="blobA" class="blob"></div>
+  <div id="blobB" class="blob"></div>
+
+  <!-- HOOK 0-2.7 -->
+  <div id="hook" class="clip" data-start="0" data-duration="2.7" data-track-index="1">
+    <div id="hookLine">How a post moves in my Notion</div>
+    <div id="w1" class="word"><span style="background:#ECE5F3;color:#6A4C93">IDEA</span></div>
+    <div id="w2" class="word"><span style="background:#F7EBC9;color:#8A6A1F">DRAFT</span></div>
+    <div id="w3" class="word"><span style="background:#F6DCCF;color:#9A4A2A">CREATE</span></div>
+    <div id="w4" class="word"><span style="background:#F5D9E6;color:#8E3B63">EDIT</span></div>
+    <div id="w5" class="word"><span style="background:#DCEBD5;color:#3D6B2E">POSTED</span></div>
+    <div id="hookSub">One board. One drag.</div>
+  </div>
+
+  <!-- SCREEN 2.7-15.7 -->
+  <div id="screen">
+    <div id="c1" class="cap">Drag the card when<br>the post <em>moves</em></div>
+    <div id="c2" class="cap">Every stage is<br><em>one drag</em></div>
+    <div id="c3" class="cap">Live? It sits in<br><em>Posted</em></div>
+    <div id="chipWrap">
+      <div id="k1" class="chip" style="background:#ECE5F3;color:#6A4C93">💡 Idea</div>
+      <div id="k2" class="chip" style="background:#F6DCCF;color:#9A4A2A">🎬 Create</div>
+      <div id="k3" class="chip" style="background:#F7EBC9;color:#8A6A1F">✏️ Draft</div>
+      <div id="k4" class="chip" style="background:#DCEBD5;color:#3D6B2E">✅ Posted</div>
+    </div>
+    <div id="frame" data-layout-allow-overflow>
+      <div id="cam1" class="cam"><video id="v1" class="clip" src="assets/rec.mp4" muted data-start="2.7" data-duration="5" data-media-start="45.5" data-track-index="3"></video></div>
+      <div id="cam2" class="cam"><video id="v2" class="clip" src="assets/rec.mp4" muted data-start="7.7" data-duration="4.4" data-media-start="53.0" data-track-index="4"></video></div>
+      <div id="cam3" class="cam"><video id="v3" class="clip" src="assets/rec.mp4" muted data-start="12.1" data-duration="3.6" data-media-start="73.0" data-track-index="5"></video></div>
+      <div id="ring"></div>
+    </div>
+  </div>
+
+  <!-- FEATURES 15.7-19.2 -->
+  <div id="feats" class="clip" data-start="15.7" data-duration="3.5" data-track-index="6">
+    <div id="featTitle">Also inside</div>
+    <div id="f1" class="feat" style="top:560px"><b>✓</b>Content calendar</div>
+    <div id="f2" class="feat" style="top:750px"><b>✓</b>Weekly goal per platform</div>
+    <div id="f3" class="feat" style="top:940px"><b>✓</b>Brand deal tracker</div>
+  </div>
+
+  <!-- END 19.2-22 -->
+  <div id="end" class="clip" data-start="19.2" data-duration="2.8" data-track-index="7">
+    <div id="endTitle">Content<br>Creator Studio</div>
+    <div id="endSub">A Notion template for creators</div>
+    <div id="endCta"><span>Link in bio →</span></div>
+  </div>
+
+  <audio id="bgm" class="clip" src="assets/mix.wav" data-start="0" data-duration="22" data-track-index="9"></audio>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  const S = (sel, v) => tl.set(sel, v, 0);
+  // camera helper: crop rect (cx, cy, w) of the 1920x1080 recording into the 1000x760 frame
+  const FW = 1000, FH = 760;
+  const cam = (cx, cy, w) => { const s = FW / w, h = w * FH / FW; return { x: -(cx - w / 2) * s, y: -(cy - h / 2) * s, scale: s }; };
+  const ringAt = (x, y, w, h, c) => { const s = FW / c[2], hh = c[2] * FH / FW, ox = c[0] - c[2] / 2, oy = c[1] - hh / 2; return { left: (x - ox) * s - 10, top: (y - oy) * s - 10, width: w * s + 20, height: h * s + 20 }; };
+
+  // ---- hook: words slam in one after another (frame 0 already shows IDEA)
+  const words = ['#w1', '#w2', '#w3', '#w4', '#w5'];
+  words.forEach((w, i) => S(w, { opacity: i === 0 ? 1 : 0, scale: 1 }));
+  S('#hookSub', { opacity: 0, y: 30 });
+  words.forEach((w, i) => {
+    if (i === 0) return;
+    const t = 0.32 + i * 0.36;
+    tl.set(words[i - 1], { opacity: 0 }, t);
+    tl.fromTo(w, { opacity: 1, scale: 1.35, rotation: i % 2 ? -4 : 4 }, { scale: 1, rotation: 0, duration: 0.22, ease: 'back.out(3)' }, t);
+  });
+  tl.fromTo('#w5', { y: 0 }, { y: -40, duration: 0.3, ease: 'power3.out' }, 2.0);
+  tl.to("#hookSub", { opacity: 1, y: 0, duration: 0.3, ease: "power3.out" }, 0.9);
+
+  // ---- screen entrance
+  S('#frame', { x: 0, y: 140, scale: 0.9, rotationX: 18, opacity: 0, transformPerspective: 1600 });
+  tl.to('#frame', { y: 0, scale: 1, rotationX: 0, opacity: 1, duration: 0.6, ease: 'expo.out' }, 2.7);
+  // captions
+  ['#c1', '#c2', '#c3'].forEach(c => S(c, { opacity: 0 }));
+  const capIn = (c, t, out) => { tl.fromTo(c, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.35, ease: 'back.out(2)' }, t); tl.to(c, { opacity: 0, y: -30, duration: 0.2 }, out); };
+  capIn('#c1', 2.75, 7.6); capIn('#c2', 7.75, 12.0); capIn('#c3', 12.15, 15.5);
+  // stage chip morph (flip): Idea -> Create -> Draft -> Posted, timed to the real drops
+  ['#k1', '#k2', '#k3', '#k4'].forEach((k, i) => S(k, { opacity: 0, rotationX: 90, transformPerspective: 600 }));
+  const chip = (k, t, prev) => { if (prev) tl.to(prev, { rotationX: -90, opacity: 0, duration: 0.18, ease: 'power2.in' }, t); tl.to(k, { rotationX: 0, opacity: 1, duration: 0.3, ease: 'back.out(2.4)' }, t + 0.16); };
+  chip('#k1', 2.9);
+  chip('#k2', 2.7 + (49.3 - 45.5), '#k1');       // drop into Create
+  chip('#k3', 7.7 + (55.6 - 53.0), '#k2');       // drop into Draft
+  chip('#k4', 12.25, '#k3');                     // in Posted
+  tl.to('#k4', { opacity: 0, duration: 0.2 }, 15.5);
+
+  // ---- cameras (each recording clip shows only during its own time window)
+  const C1a = [1560, 440, 780], C1b = [1500, 470, 640];
+  const C2a = [1200, 440, 780], C2b = [1040, 470, 640];
+  const C3a = [700, 560, 760], C3b = [660, 600, 560];
+  S('#cam1', cam(...C1a)); S('#cam2', cam(...C2a)); S('#cam3', cam(...C3a));
+  tl.to('#cam1', { ...cam(...C1b), duration: 0.8, ease: 'power3.inOut' }, 2.7 + 3.9);
+  tl.to('#cam2', { ...cam(...C2b), duration: 0.8, ease: 'power3.inOut' }, 7.7 + 2.9);
+  tl.to('#cam3', { ...cam(...C3b), duration: 0.7, ease: 'power3.inOut' }, 12.1 + 0.6);
+  // whip transitions between clips
+  tl.to('#frame', { x: -40, duration: 0.08, ease: 'power2.inOut' }, 7.62); tl.to('#frame', { x: 0, duration: 0.1, ease: 'power2.out' }, 7.7);
+  tl.to('#frame', { x: 40, duration: 0.08, ease: 'power2.inOut' }, 12.02); tl.to('#frame', { x: 0, duration: 0.1, ease: 'power2.out' }, 12.1);
+  // ring on the moved card
+  S('#ring', { opacity: 0 });
+  tl.set('#ring', ringAt(1218, 462, 324, 166, C1b), 6.75);
+  tl.fromTo('#ring', { opacity: 0, scale: 1.25 }, { opacity: 1, scale: 1, duration: 0.3, ease: 'back.out(2)' }, 6.75);
+  tl.to('#ring', { opacity: 0, duration: 0.15 }, 7.6);
+  tl.set('#ring', ringAt(860, 480, 320, 150, C2b), 11.0);
+  tl.fromTo('#ring', { opacity: 0, scale: 1.25 }, { opacity: 1, scale: 1, duration: 0.3, ease: 'back.out(2)' }, 11.0);
+  tl.to('#ring', { opacity: 0, duration: 0.15 }, 12.0);
+  tl.set('#ring', ringAt(495, 612, 330, 165, C3b), 13.4);
+  tl.fromTo('#ring', { opacity: 0, scale: 1.25 }, { opacity: 1, scale: 1, duration: 0.3, ease: 'back.out(2)' }, 13.4);
+  tl.to('#frame', { y: 60, opacity: 0, scale: 0.94, duration: 0.3, ease: 'power2.in' }, 15.4);
+
+  // ---- features: pop one by one
+  S('#featTitle', { opacity: 0, y: 40 });
+  ['#f1', '#f2', '#f3'].forEach(f => S(f, { opacity: 0, x: -80 }));
+  tl.to('#featTitle', { opacity: 1, y: 0, duration: 0.35, ease: 'back.out(2)' }, 15.75);
+  ['#f1', '#f2', '#f3'].forEach((f, i) => tl.to(f, { opacity: 1, x: 0, duration: 0.4, ease: 'back.out(1.8)' }, 16.05 + i * 0.45));
+  ['#f1 b', '#f2 b', '#f3 b'].forEach((f, i) => tl.fromTo(f, { scale: 0 }, { scale: 1, duration: 0.35, ease: 'back.out(3)' }, 16.2 + i * 0.45));
+
+  // ---- end lockup
+  S('#endTitle', { opacity: 0, scale: 0.8 }); S('#endSub', { opacity: 0, y: 30 }); S('#endCta', { opacity: 0, scale: 0.6 });
+  tl.to('#endTitle', { opacity: 1, scale: 1, duration: 0.45, ease: 'expo.out' }, 19.25);
+  tl.to('#endSub', { opacity: 1, y: 0, duration: 0.35, ease: 'power3.out' }, 19.5);
+  tl.to('#endCta', { opacity: 1, scale: 1, duration: 0.4, ease: 'back.out(2.5)' }, 19.75);
+  tl.to('#endCta', { scale: 1.06, duration: 0.35, ease: 'sine.inOut', yoyo: true, repeat: 3 }, 20.3);
+  // background drift
+  tl.fromTo('#blobA', { x: 0, y: 0 }, { x: 60, y: 40, duration: 22, ease: 'none' }, 0);
+  tl.fromTo('#blobB', { x: 0, y: 0 }, { x: -50, y: -40, duration: 22, ease: 'none' }, 0);
+
+  window.__timelines = window.__timelines || {};
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

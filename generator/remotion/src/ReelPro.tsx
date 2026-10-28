@@ -5,10 +5,12 @@ import React from 'react';
 import {AbsoluteFill, Audio, Easing, OffthreadVideo, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import type {ReelSpec, Seg, Cam} from './Reel';
 
-const BG1 = '#16130F';
-const BG2 = '#2A211A';
-const ACC = '#F2A97E';
-const ACC2 = '#FFD9BF';
+// theme can be overridden per reel with spec.theme (set at the top of ReelPro, read by children in the same render)
+let BG1 = '#16130F';
+let BG2 = '#2A211A';
+let ACC = '#F2A97E';
+let ACC2 = '#FFD9BF';
+let GLOW = 'rgba(242,169,126,';
 const WHITE = '#FFFDF9';
 const SOFT = '#CFC5B8';
 
@@ -22,8 +24,8 @@ const FONTS = `
 const FPS = 30;
 const s = (sec: number) => Math.round(sec * FPS);
 const CARD_W = 1000;
-const CARD_H = 760;
-const CARD_TOP = 620;
+const CARD_H = 720;
+const CARD_TOP = 480; // card + badge stay inside the vertical safe band (168..1330)
 const AR = CARD_H / CARD_W;
 export const PRO_END = 3.6;
 
@@ -66,7 +68,7 @@ const Caption: React.FC<{lines: string[]; instant: boolean}> = ({lines, instant}
   const {fps} = useVideoConfig();
   let k = 0;
   return (
-    <div style={{position: 'absolute', top: 270, left: 60, right: 60, textAlign: 'center'}}>
+    <div style={{position: 'absolute', top: 200, left: 60, right: 60, textAlign: 'center'}}>
       {lines.map((line, li) => (
         <div key={li} style={{fontFamily: li === 0 ? 'MontX' : 'InterW', fontWeight: li === 0 ? 900 : 500, fontSize: li === 0 ? 66 : 40, lineHeight: li === 0 ? 1.08 : 1.25, color: li === 0 ? WHITE : SOFT, letterSpacing: li === 0 ? -1 : 0, marginTop: li === 0 ? 0 : 22}}>
           {line.split(' ').map((raw, wi) => {
@@ -100,8 +102,8 @@ const Badge: React.FC<{chip: NonNullable<Seg['chip']>}> = ({chip}) => {
   const bg = tone === 'bad' ? '#FFE1D6' : tone === 'good' ? '#DDF0D2' : WHITE;
   const fg = tone === 'bad' ? '#A3391C' : tone === 'good' ? '#2F5A22' : '#2E2A25';
   return (
-    <div style={{position: 'absolute', top: CARD_TOP + CARD_H + 34, left: 0, right: 0, display: 'flex', justifyContent: 'center'}}>
-      <div style={{padding: '24px 48px', borderRadius: 70, background: bg, color: fg, fontFamily: 'MontX', fontWeight: 800, fontSize: 48, boxShadow: '0 24px 60px rgba(0,0,0,.45)', opacity: p, transform: `translateY(${(1 - p) * 40}px) scale(${0.7 + 0.3 * p}) rotate(${(1 - p) * -4}deg)`}}>
+    <div style={{position: 'absolute', top: CARD_TOP + CARD_H + 24, left: 0, right: 0, display: 'flex', justifyContent: 'center'}}>
+      <div style={{padding: '20px 44px', borderRadius: 70, background: bg, color: fg, fontFamily: 'MontX', fontWeight: 800, fontSize: 48, boxShadow: '0 24px 60px rgba(0,0,0,.45)', opacity: p, transform: `translateY(${(1 - p) * 40}px) scale(${0.7 + 0.3 * p}) rotate(${(1 - p) * -4}deg)`}}>
         {chip.text}
       </div>
     </div>
@@ -137,7 +139,7 @@ const Clip: React.FC<{g: Seg; spec: ReelSpec; first: boolean}> = ({g, spec, firs
     if (t >= g.ring.from) {
       const rp = spring({frame: frame - s(g.ring.from), fps, config: {damping: 12, stiffness: 160}});
       ring = (
-        <div style={{position: 'absolute', left: left + (r.x - 8) * scale, top: top + (r.y - 6) * scale, width: (r.w + 16) * scale, height: (r.h + 12) * scale, border: `5px solid ${ACC}`, borderRadius: 16, boxShadow: `0 0 0 ${12 * rp}px rgba(242,169,126,.25), 0 0 40px rgba(242,169,126,.5)`, opacity: rp, transform: `scale(${1.3 - 0.3 * rp})`}} />
+        <div style={{position: 'absolute', left: left + (r.x - 8) * scale, top: top + (r.y - 6) * scale, width: (r.w + 16) * scale, height: (r.h + 12) * scale, border: `5px solid ${ACC}`, borderRadius: 16, boxShadow: `0 0 0 ${12 * rp}px ${GLOW}.25), 0 0 40px ${GLOW}.5)`, opacity: rp, transform: `scale(${1.3 - 0.3 * rp})`}} />
       );
     }
   }
@@ -189,14 +191,17 @@ const End: React.FC<{end: ReelSpec['end']}> = ({end}) => {
           <div key={i}>{l}</div>
         ))}
       </div>
-      <div style={{opacity: c, transform: `scale(${(0.7 + 0.3 * c) * pulse})`, marginTop: 70, padding: '28px 64px', borderRadius: 80, background: ACC, color: BG1, fontFamily: 'MontX', fontWeight: 900, fontSize: 48, boxShadow: '0 20px 60px rgba(242,169,126,.35)'}}>{end.cta} →</div>
+      <div style={{opacity: c, transform: `scale(${(0.7 + 0.3 * c) * pulse})`, marginTop: 70, padding: '28px 64px', borderRadius: 80, background: ACC, color: BG1, fontFamily: 'MontX', fontWeight: 900, fontSize: 48, boxShadow: `0 20px 60px ${GLOW}.35)`}}>{end.cta} →</div>
       <div style={{position: 'absolute', bottom: 360, fontFamily: 'InterW', fontWeight: 700, fontSize: 30, color: ACC2, letterSpacing: 4, opacity: b}}>SYSTEMFORGE</div>
     </AbsoluteFill>
   );
 };
 
-export const ReelPro: React.FC<ReelSpec & {sfx?: string}> = (spec) => {
+type Theme = {bg1: string; bg2: string; acc: string; acc2: string; glow: string};
+export const ReelPro: React.FC<ReelSpec & {sfx?: string; theme?: Theme}> = (spec) => {
   const frame = useCurrentFrame();
+  const th = spec.theme ?? {bg1: '#16130F', bg2: '#2A211A', acc: '#F2A97E', acc2: '#FFD9BF', glow: 'rgba(242,169,126,'};
+  BG1 = th.bg1; BG2 = th.bg2; ACC = th.acc; ACC2 = th.acc2; GLOW = th.glow;
   const {starts: st, endStart} = starts(spec);
   const total = endStart + s(PRO_END);
   return (

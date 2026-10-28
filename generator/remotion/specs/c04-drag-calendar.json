@@ -1,0 +1,146 @@
+{
+ "id": "c04-drag-calendar",
+ "style": "native",
+ "video": "rec-n4.mp4",
+ "videoW": 1920,
+ "videoH": 1080,
+ "windowTitle": "Content Creator Studio · Content calendar",
+ "music": "music.wav",
+ "musicStyle": [
+  3,
+  5,
+  7
+ ],
+ "segments": [
+  {
+   "src": 22.6,
+   "dur": 4.6,
+   "caption": [
+    "Plans changed?",
+    "*Drag* the post to its new day"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 950,
+      "cy": 575,
+      "w": 480
+     }
+    },
+    {
+     "t": 0.5,
+     "cam": {
+      "cx": 950,
+      "cy": 575,
+      "w": 480
+     }
+    },
+    {
+     "t": 2.6,
+     "cam": {
+      "cx": 1420,
+      "cy": 575,
+      "w": 480
+     }
+    }
+   ],
+   "ring": {
+    "from": 3.0,
+    "x": 1305,
+    "y": 640,
+    "w": 228,
+    "h": 105
+   },
+   "chip": {
+    "from": 3.1,
+    "text": "📅 Now on Fri 23",
+    "tone": "good"
+   }
+  },
+  {
+   "src": 32.4,
+   "dur": 3.9,
+   "caption": [
+    "Missed a day?",
+    "*Move* it. No retyping dates"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 720,
+      "cy": 575,
+      "w": 480
+     }
+    },
+    {
+     "t": 0.5,
+     "cam": {
+      "cx": 720,
+      "cy": 575,
+      "w": 480
+     }
+    },
+    {
+     "t": 1.8,
+     "cam": {
+      "cx": 950,
+      "cy": 575,
+      "w": 480
+     }
+    }
+   ],
+   "ring": {
+    "from": 2.1,
+    "x": 840,
+    "y": 640,
+    "w": 225,
+    "h": 105
+   },
+   "chip": {
+    "from": 2.2,
+    "text": "✅ Moved to Wed 21",
+    "tone": "good"
+   }
+  },
+  {
+   "src": 37.4,
+   "dur": 3.4,
+   "caption": [
+    "Every platform,",
+    "in *one* calendar"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 420,
+      "cy": 520,
+      "w": 520
+     }
+    },
+    {
+     "t": 3.4,
+     "cam": {
+      "cx": 1150,
+      "cy": 520,
+      "w": 520
+     }
+    }
+   ]
+  }
+ ],
+ "end": {
+  "title": [
+   "Content",
+   "Creator Studio"
+  ],
+  "sub": [
+   "Plan, film and post,",
+   "all in one Notion template."
+  ],
+  "cta": "Link in bio"
+ },
+ "sfx": "sfx-c04-drag-calendar.wav"
+}
