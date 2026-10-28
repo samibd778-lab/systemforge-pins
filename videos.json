@@ -148,6 +148,20 @@
    "tags": "#notion #notiontemplate #freelancer #invoicetracker #smallbusiness"
   },
   {
+   "id": "q01-behind-week",
+   "p": "ccs",
+   "title": "Are you behind on your posting goal this week? #shorts",
+   "caption": "Every platform shows its weekly goal and how many posts are done. Behind on TikTok? You see it right away. Ready idea? Drag the card to Create.",
+   "tags": "#notion #notiontemplate #contentcreator #contentplanner #creatortips"
+  },
+  {
+   "id": "r10-creator-hq",
+   "p": "ccs",
+   "title": "Your whole creator business in one Notion workspace #shorts",
+   "caption": "Content board, channels and brand deals, all linked in one calm Notion workspace.",
+   "tags": "#notion #notiontemplate #contentcreator #contentplanner #creatortips"
+  },
+  {
    "id": "c03-idea-to-posted",
    "p": "ccs",
    "title": "How a post moves from idea to posted in my Notion #shorts",
@@ -155,10 +169,24 @@
    "tags": "#notion #notiontemplate #contentcreator #contentplanner #creatortips"
   },
   {
+   "id": "q02-brand-owes",
+   "p": "deal",
+   "title": "Which brand still owes you money? #shorts",
+   "caption": "Every deal shows its next step. Content delivered but not paid? It tells you to send a payment reminder. Deal signed? Drag the card, from pitch to paid on one board.",
+   "tags": "#notion #notiontemplate #ugccreator #branddeals #contentcreator"
+  },
+  {
    "id": "f04-project-health",
    "p": "fco",
    "title": "This project was 37 days late. My Notion caught it #shorts",
    "caption": "See every project's progress in one view. Back on a project? Drag the card to In progress. The Health column turns Overdue by itself when a project is late. Budget, costs, profit, hours and days left are tracked per project.",
+   "tags": "#notion #notiontemplate #freelancer #projectmanagement #freelancetips"
+  },
+  {
+   "id": "q03-real-profit",
+   "p": "fco",
+   "title": "Do you know your real profit per project? #shorts",
+   "caption": "Paid, profit and progress for every project in one table. Back on a project? Drag it to In progress. Late? The Health column says Overdue by itself.",
    "tags": "#notion #notiontemplate #freelancer #projectmanagement #freelancetips"
   },
   {
@@ -169,10 +197,24 @@
    "tags": "#notion #notiontemplate #ugccreator #branddeals #contentcreator"
   },
   {
+   "id": "q04-chase-today",
+   "p": "fco",
+   "title": "Which invoice should you chase today? #shorts",
+   "caption": "Every invoice counts its late days and shows the next step, like send a final notice. Client paid? Drag it to Paid.",
+   "tags": "#notion #notiontemplate #freelancer #invoicetracker #smallbusiness"
+  },
+  {
    "id": "c04-drag-calendar",
    "p": "ccs",
    "title": "Plans changed? Drag the post to its new day (Notion) #shorts",
    "caption": "My content calendar shows every post on its day. Plans changed? Drag the post to the new day, no retyping dates. TikTok, YouTube, Instagram and the newsletter, all in one calendar.",
+   "tags": "#notion #notiontemplate #contentcalendar #contentcreator #socialmediatips"
+  },
+  {
+   "id": "q05-five-platforms",
+   "p": "ccs",
+   "title": "Posting on 5 platforms? One calendar for all of them #shorts",
+   "caption": "See every post on its day, across all your platforms. Plans changed? Drag the post to the new day, no retyping dates.",
    "tags": "#notion #notiontemplate #contentcalendar #contentcreator #socialmediatips"
   },
   {
@@ -202,13 +244,6 @@
    "title": "Brand deals: 5 things to track so you get paid #shorts",
    "caption": "Brand deals: 5 things to track so you stop losing money:\n\n1. Where each deal stands\n2. The posts you still owe\n3. When the money is due\n4. Your next step\n5. Your rates, written once\n\nSave this, and send it to a creator friend who works with brands.\n\nBrand Deal Tracker is a Notion template for creators and UGC creators: deal board, posts you owe, money due and 6 brand email scripts.",
    "tags": "#ugccreator #branddeals #contentcreator #notiontemplate #influencertips"
-  },
-  {
-   "id": "r10-creator-hq",
-   "p": "ccs",
-   "title": "Your whole creator business in one Notion workspace #shorts",
-   "caption": "Content board, channels and brand deals, all linked in one calm Notion workspace.",
-   "tags": "#notion #notiontemplate #contentcreator #contentplanner #creatortips"
   }
  ]
 }
