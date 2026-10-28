@@ -78,6 +78,46 @@
    "caption": "Pick a post date and it counts down the days. Miss a date and it warns you right away. Mark it posted in one click. Plus 30 content ideas ready to use.",
    "tags": "#notion #notiontemplate #contentcreator #contentplanner #creatortips",
    "after": "f01-next-step"
+  },
+  {
+   "id": "f03-drag-to-paid",
+   "p": "fco",
+   "title": "Client paid? Drag the invoice to Paid (Notion) #shorts",
+   "caption": "This invoice was 26 days late and Notion already showed the next step: send a final notice. When the client pays, drag the card to Paid. The late days are gone and the next step changes to adding the payment date.",
+   "tags": "#notion #notiontemplate #freelancer #invoicetracker #smallbusiness",
+   "after": "k06-creator-hq"
+  },
+  {
+   "id": "c03-idea-to-posted",
+   "p": "ccs",
+   "title": "How a post moves from idea to posted in my Notion #shorts",
+   "caption": "Every post sits on one board, from Idea to Posted. When the post moves, drag the card to its new stage. Also inside: a content calendar, a weekly goal per platform and a brand deal tracker.",
+   "tags": "#notion #notiontemplate #contentcreator #contentplanner #creatortips",
+   "after": "f03-drag-to-paid"
+  },
+  {
+   "id": "f04-project-health",
+   "p": "fco",
+   "title": "This project was 37 days late. My Notion caught it #shorts",
+   "caption": "See every project's progress in one view. Back on a project? Drag the card to In progress. The Health column turns Overdue by itself when a project is late. Budget, costs, profit, hours and days left are tracked per project.",
+   "tags": "#notion #notiontemplate #freelancer #projectmanagement #freelancetips",
+   "after": "c03-idea-to-posted"
+  },
+  {
+   "id": "b02-deal-to-paid",
+   "p": "deal",
+   "title": "Track every brand deal from first pitch to paid (Notion) #shorts",
+   "caption": "See every post you still owe a brand and tick it when it is posted. Deal signed? Drag the card. Paid? The next step tells you to pitch them again. Plus a rate card you write once.",
+   "tags": "#notion #notiontemplate #ugccreator #branddeals #contentcreator",
+   "after": "f04-project-health"
+  },
+  {
+   "id": "c04-drag-calendar",
+   "p": "ccs",
+   "title": "Plans changed? Drag the post to its new day (Notion) #shorts",
+   "caption": "My content calendar shows every post on its day. Plans changed? Drag the post to the new day, no retyping dates. TikTok, YouTube, Instagram and the newsletter, all in one calendar.",
+   "tags": "#notion #notiontemplate #contentcalendar #contentcreator #socialmediatips",
+   "after": "b02-deal-to-paid"
   }
  ]
 }
