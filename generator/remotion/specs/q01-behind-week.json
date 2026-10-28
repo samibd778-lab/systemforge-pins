@@ -1,0 +1,107 @@
+{
+ "id": "q01-behind-week",
+ "style": "native",
+ "video": "rec-n3.mp4",
+ "videoW": 1920,
+ "videoH": 1080,
+ "windowTitle": "",
+ "music": "music.wav",
+ "musicStyle": [
+  2,
+  4,
+  71
+ ],
+ "segments": [
+  {
+   "src": 2.6,
+   "dur": 3.4,
+   "caption": [
+    "Are you *behind*",
+    "this week?"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 560,
+      "cy": 520,
+      "w": 640
+     }
+    },
+    {
+     "t": 0.6,
+     "cam": {
+      "cx": 560,
+      "cy": 520,
+      "w": 640
+     }
+    },
+    {
+     "t": 1.2,
+     "cam": {
+      "cx": 600,
+      "cy": 600,
+      "w": 520
+     }
+    }
+   ],
+   "ring": {
+    "from": 1.3,
+    "x": 550,
+    "y": 624,
+    "w": 140,
+    "h": 30
+   },
+   "chip": {
+    "from": 1.5,
+    "text": "🟠 TikTok: 1 of 4 posted",
+    "tone": "bad"
+   }
+  },
+  {
+   "src": 47.8,
+   "dur": 4.6,
+   "caption": [
+    "Idea ready?",
+    "*Drag* it to Create"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 1500,
+      "cy": 470,
+      "w": 600
+     }
+    },
+    {
+     "t": 4.6,
+     "cam": {
+      "cx": 1500,
+      "cy": 470,
+      "w": 600
+     }
+    }
+   ],
+   "ring": {
+    "from": 2.0,
+    "x": 1218,
+    "y": 462,
+    "w": 324,
+    "h": 166
+   }
+  }
+ ],
+ "end": {
+  "title": [
+   "Content",
+   "Creator Studio"
+  ],
+  "sub": [
+   "A weekly goal for",
+   "every platform."
+  ],
+  "cta": "Link in bio"
+ },
+ "sfx": "sfx-q01-behind-week.wav"
+}

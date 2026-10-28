@@ -90,7 +90,7 @@ const Sticker: React.FC<{chip: NonNullable<Seg['chip']>}> = ({chip}) => {
   const p = spring({frame: frame - s(chip.from), fps, config: {damping: 8, stiffness: 220}});
   const wob = Math.sin((frame - s(chip.from)) / 6) * 1.2;
   return (
-    <div style={{position: 'absolute', top: 840, left: 0, right: 0, display: 'flex', justifyContent: 'center'}}>
+    <div style={{position: 'absolute', top: 1180, left: 0, right: 0, display: 'flex', justifyContent: 'center'}}>
       <div style={{padding: '22px 40px', borderRadius: 22, background: '#FFFFFF', color: '#111', fontFamily: 'MontX', fontWeight: 900, fontSize: 50, border: '6px solid #111', boxShadow: '10px 10px 0 #111', transform: `scale(${p}) rotate(${-5 + wob}deg)`}}>{chip.text}</div>
     </div>
   );

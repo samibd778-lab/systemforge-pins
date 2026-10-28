@@ -1,0 +1,127 @@
+{
+ "id": "q02-brand-owes",
+ "style": "pro",
+ "video": "rec-n5.mp4",
+ "videoW": 1920,
+ "videoH": 1080,
+ "windowTitle": "",
+ "music": "music.wav",
+ "musicStyle": [
+  1,
+  7,
+  53
+ ],
+ "segments": [
+  {
+   "src": 86.4,
+   "dur": 3.2,
+   "caption": [
+    "Which brand still *owes* you?",
+    "It counts the late days for you"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 960,
+      "cy": 560,
+      "w": 1500
+     }
+    },
+    {
+     "t": 0.9,
+     "cam": {
+      "cx": 960,
+      "cy": 560,
+      "w": 1500
+     }
+    },
+    {
+     "t": 1.5,
+     "cam": {
+      "cx": 1390,
+      "cy": 570,
+      "w": 640
+     }
+    }
+   ],
+   "ring": {
+    "from": 1.6,
+    "x": 1215,
+    "y": 500,
+    "w": 345,
+    "h": 150
+   },
+   "chip": {
+    "from": 1.8,
+    "text": "💸 Next: send a payment reminder",
+    "tone": "bad"
+   }
+  },
+  {
+   "src": 89.4,
+   "dur": 4.6,
+   "caption": [
+    "Deal signed? *Drag* the card",
+    "Pitched to Paid, one board"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 1000,
+      "cy": 640,
+      "w": 1050
+     }
+    },
+    {
+     "t": 2.0,
+     "cam": {
+      "cx": 1000,
+      "cy": 640,
+      "w": 1050
+     }
+    },
+    {
+     "t": 2.7,
+     "cam": {
+      "cx": 1020,
+      "cy": 730,
+      "w": 660
+     }
+    }
+   ],
+   "ring": {
+    "from": 3.0,
+    "x": 861,
+    "y": 666,
+    "w": 318,
+    "h": 160
+   },
+   "chip": {
+    "from": 3.2,
+    "text": "✍️ Moved to Signed",
+    "tone": "good"
+   }
+  }
+ ],
+ "end": {
+  "title": [
+   "Brand Deal",
+   "Tracker"
+  ],
+  "sub": [
+   "Every deal, from",
+   "first pitch to paid."
+  ],
+  "cta": "Link in bio"
+ },
+ "sfx": "sfx-q02-brand-owes.wav",
+ "theme": {
+  "bg1": "#1A1014",
+  "bg2": "#2E1A22",
+  "acc": "#FF9EB5",
+  "acc2": "#FFD6E0",
+  "glow": "rgba(255,158,181,"
+ }
+}

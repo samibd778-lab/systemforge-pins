@@ -1,0 +1,148 @@
+{
+ "id": "q05-five-platforms",
+ "style": "pro",
+ "video": "rec-n4.mp4",
+ "videoW": 1920,
+ "videoH": 1080,
+ "windowTitle": "",
+ "music": "music.wav",
+ "musicStyle": [
+  5,
+  2,
+  29
+ ],
+ "segments": [
+  {
+   "src": 37.4,
+   "dur": 3.6,
+   "caption": [
+    "Posting on *5 platforms*?",
+    "See them all in one calendar"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 560,
+      "cy": 560,
+      "w": 820
+     }
+    },
+    {
+     "t": 3.6,
+     "cam": {
+      "cx": 1250,
+      "cy": 560,
+      "w": 820
+     }
+    }
+   ]
+  },
+  {
+   "src": 22.6,
+   "dur": 4.6,
+   "caption": [
+    "Plans changed? *Drag* the post",
+    "It moves to the new day"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 950,
+      "cy": 600,
+      "w": 660
+     }
+    },
+    {
+     "t": 0.5,
+     "cam": {
+      "cx": 950,
+      "cy": 600,
+      "w": 660
+     }
+    },
+    {
+     "t": 2.6,
+     "cam": {
+      "cx": 1420,
+      "cy": 600,
+      "w": 660
+     }
+    }
+   ],
+   "ring": {
+    "from": 3.0,
+    "x": 1305,
+    "y": 640,
+    "w": 228,
+    "h": 105
+   },
+   "chip": {
+    "from": 3.1,
+    "text": "📅 Now on Fri 23",
+    "tone": "good"
+   }
+  },
+  {
+   "src": 32.4,
+   "dur": 3.9,
+   "caption": [
+    "Missed a day? *Move* it",
+    "No retyping dates"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 720,
+      "cy": 600,
+      "w": 660
+     }
+    },
+    {
+     "t": 0.5,
+     "cam": {
+      "cx": 720,
+      "cy": 600,
+      "w": 660
+     }
+    },
+    {
+     "t": 1.8,
+     "cam": {
+      "cx": 950,
+      "cy": 600,
+      "w": 660
+     }
+    }
+   ],
+   "ring": {
+    "from": 2.1,
+    "x": 840,
+    "y": 640,
+    "w": 225,
+    "h": 105
+   }
+  }
+ ],
+ "end": {
+  "title": [
+   "Content",
+   "Creator Studio"
+  ],
+  "sub": [
+   "Plan, film and post,",
+   "all in one Notion template."
+  ],
+  "cta": "Link in bio"
+ },
+ "sfx": "sfx-q05-five-platforms.wav",
+ "theme": {
+  "bg1": "#0C121C",
+  "bg2": "#162238",
+  "acc": "#8AB8FF",
+  "acc2": "#D6E6FF",
+  "glow": "rgba(138,184,255,"
+ }
+}

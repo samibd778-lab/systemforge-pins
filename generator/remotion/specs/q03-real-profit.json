@@ -1,0 +1,168 @@
+{
+ "id": "q03-real-profit",
+ "style": "pro",
+ "video": "rec-n2.mp4",
+ "videoW": 1920,
+ "videoH": 1080,
+ "windowTitle": "",
+ "music": "music.wav",
+ "musicStyle": [
+  7,
+  3,
+  61
+ ],
+ "segments": [
+  {
+   "src": 15.0,
+   "dur": 4.6,
+   "caption": [
+    "Do you know your *real* profit?",
+    "Paid, profit and progress per project"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 1000,
+      "cy": 610,
+      "w": 1400
+     }
+    },
+    {
+     "t": 1.3,
+     "cam": {
+      "cx": 1000,
+      "cy": 610,
+      "w": 1400
+     }
+    },
+    {
+     "t": 2.0,
+     "cam": {
+      "cx": 520,
+      "cy": 630,
+      "w": 660
+     }
+    }
+   ],
+   "ring": {
+    "from": 2.2,
+    "x": 350,
+    "y": 560,
+    "w": 250,
+    "h": 135
+   },
+   "chip": {
+    "from": 2.4,
+    "text": "📊 Progress counted for you",
+    "tone": "good"
+   }
+  },
+  {
+   "src": 70.4,
+   "dur": 4.6,
+   "caption": [
+    "Back on a project? *Drag* it",
+    "On hold to In progress"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 670,
+      "cy": 735,
+      "w": 1150
+     }
+    },
+    {
+     "t": 2.7,
+     "cam": {
+      "cx": 670,
+      "cy": 735,
+      "w": 1150
+     }
+    },
+    {
+     "t": 3.3,
+     "cam": {
+      "cx": 420,
+      "cy": 850,
+      "w": 720
+     }
+    }
+   ],
+   "ring": {
+    "from": 3.5,
+    "x": 141,
+    "y": 786,
+    "w": 324,
+    "h": 198
+   }
+  },
+  {
+   "src": 82.5,
+   "dur": 4.0,
+   "caption": [
+    "Late? Health says *Overdue*",
+    "No formula to write"
+   ],
+   "cams": [
+    {
+     "t": 0,
+     "cam": {
+      "cx": 1430,
+      "cy": 600,
+      "w": 1000
+     }
+    },
+    {
+     "t": 0.4,
+     "cam": {
+      "cx": 1430,
+      "cy": 600,
+      "w": 1000
+     }
+    },
+    {
+     "t": 1.1,
+     "cam": {
+      "cx": 1470,
+      "cy": 575,
+      "w": 620
+     }
+    }
+   ],
+   "ring": {
+    "from": 1.3,
+    "x": 1340,
+    "y": 568,
+    "w": 470,
+    "h": 36
+   },
+   "chip": {
+    "from": 1.5,
+    "text": "🔴 37d late",
+    "tone": "bad"
+   }
+  }
+ ],
+ "end": {
+  "title": [
+   "Freelancer",
+   "Client OS"
+  ],
+  "sub": [
+   "Clients, projects and invoices",
+   "in one Notion template."
+  ],
+  "cta": "Link in bio"
+ },
+ "sfx": "sfx-q03-real-profit.wav",
+ "theme": {
+  "bg1": "#16120B",
+  "bg2": "#2B2213",
+  "acc": "#FFB547",
+  "acc2": "#FFE2B0",
+  "glow": "rgba(255,181,71,"
+ }
+}
