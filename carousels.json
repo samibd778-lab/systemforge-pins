@@ -1,88 +1,100 @@
 {
  "carousels": [
   {
+   "id": "k13-late-client",
+   "p": "fco",
+   "slides": 7,
+   "caption": "Client paid late again? Here is what to send, and when:\n\n1. Same day: send the invoice with a due date\n2. 1–3 days late: a friendly nudge\n3. About 10 days late: ask for a payment date\n4. 3+ weeks late: a calm final notice\n5. Let your tracker count the late days\n\nSave this for the next late client, and send it to a freelancer friend who needs it.\n\nFreelancer Client OS is a Notion template with invoices that count their late days and 8 client emails ready to send. Link in bio.\n\n#freelancer #freelancetips #invoicetracker #notiontemplate #smallbusiness"
+  },
+  {
+   "id": "k14-week-20min",
+   "p": "ccs",
+   "slides": 7,
+   "caption": "Plan a week of content in 20 minutes:\n\n1. Look at what worked last week\n2. Pick 3 ideas, not 10\n3. Give every post a date\n4. Batch on one day\n5. Keep brand deals next to your posts\n\nSave this for Sunday, and send it to a creator friend.\n\nContent Creator Studio is a Notion template for creators: content pipeline, calendar and brand deals in one place. Link in bio.\n\n#contentcreator #contentplanner #contentcalendar #notiontemplate #creatortips"
+  },
+  {
+   "id": "k15-quotes-ignored",
+   "p": "prop",
+   "slides": 7,
+   "caption": "Why your quotes get ignored (and what to do instead):\n\n1. You send it and wait: follow up after 3 days, then a week later\n2. No expiry date: add a “valid until” date\n3. Your price is a guess: check hours × your rate\n4. You never ask why you lost\n5. Your pipeline lives in your head\n\nSave this before your next quote, and send it to a freelancer friend.\n\nProposal Tracker is a Notion template that shows the next step on every quote and warns you before one expires. Link in bio.\n\n#freelancer #freelancetips #proposaltracker #notiontemplate #smallbusiness"
+  },
+  {
+   "id": "k16-deal-money",
+   "p": "deal",
+   "slides": 7,
+   "caption": "Brand deals: 5 things to track so you stop losing money:\n\n1. Where each deal stands\n2. The posts you still owe\n3. When the money is due\n4. Your next step\n5. Your rates, written once\n\nSave this, and send it to a creator friend who works with brands.\n\nBrand Deal Tracker is a Notion template for creators and UGC creators: deal board, posts you owe, money due and 6 brand email scripts. Link in bio.\n\n#ugccreator #branddeals #contentcreator #notiontemplate #influencertips"
+  },
+  {
    "id": "k01-get-paid",
    "p": "fco",
    "slides": 5,
-   "caption": "Getting paid shouldn't feel awkward. 3 small habits that help:\n\n1. Ask for a deposit before you start\n2. Track how many days an invoice is late\n3. Keep a friendly reminder email ready\n\nFreelancer Client OS is a freelancer Notion template that does all three for you. Link in bio.\n\n#notiontemplate #invoicetracker #freelancer #getpaid #freelancetips #notion",
-   "topic": "invoice"
+   "caption": "Getting paid shouldn't feel awkward. 3 small habits that help:\n\n1. Ask for a deposit before you start\n2. Track how many days an invoice is late\n3. Keep a friendly reminder email ready\n\nFreelancer Client OS is a Notion template that does all three for you. Link in bio.\n\n#notion #notiontemplate #freelancer #freelancetips #freelancelife #productivity #smallbusiness"
   },
   {
    "id": "k02-content-week",
    "p": "ccs",
    "slides": 5,
-   "caption": "Your weekly content plan in 15 minutes:\n\n1. Dump every idea on one board\n2. Set a weekly goal for each channel\n3. Move each card until it's posted\n\nContent Creator Studio is a Notion template for content creators who post on more than one platform. Link in bio.\n\n#notiontemplate #contentcalendar #contentplanner #contentcreator #socialmediaplanner #notion",
-   "topic": "content"
+   "caption": "Your weekly content plan in 15 minutes:\n\n1. Dump every idea on one board\n2. Set a weekly goal for each channel\n3. Move each card until it's posted\n\nContent Creator Studio is a Notion template built for creators who post on more than one platform. Link in bio.\n\n#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #productivity"
   },
   {
    "id": "k07-chase-invoice",
    "p": "fco",
    "slides": 6,
-   "caption": "Chasing a late invoice doesn't have to feel awkward. A simple plan:\n\nDay 1 late: a friendly reminder\nDay 7: ask if something is blocking it\nDay 21: a final notice with one clear date\n\nSave this so you have the emails ready next time.\n\nWant this done for you? Freelancer Client OS is a freelancer Notion template that shows the next step for every invoice. Link in bio.\n\n#notiontemplate #invoicetracker #freelancer #getpaid #freelancetips #notion",
-   "topic": "invoice"
+   "caption": "Chasing a late invoice doesn't have to feel awkward. A simple plan:\n\nDay 1 late: a friendly reminder\nDay 7: ask if something is blocking it\nDay 21: a final notice with one clear date\n\nSave this so you have the emails ready next time.\n\nWant this done for you? Freelancer Client OS is a Notion template that shows the next step for every invoice. Link in bio.\n\n#notion #notiontemplate #freelancer #freelancetips #freelancelife #invoicing #smallbusiness"
   },
   {
    "id": "k03-freelance-track",
    "p": "fco",
    "slides": 5,
-   "caption": "Stop running your freelance business from your inbox. Track these 3 things:\n\n1. Clients and the next follow-up\n2. Proposals and their win chance\n3. Projects and real profit\n\nAll in one Notion page with Freelancer Client OS. Link in bio.\n\n#notiontemplate #freelancer #notioncrm #clientmanagement #freelancetips #notion",
-   "topic": "client"
+   "caption": "Stop running your freelance business from your inbox. Track these 3 things:\n\n1. Clients and the next follow-up\n2. Proposals and their win chance\n3. Projects and real profit\n\nAll in one Notion page with Freelancer Client OS. Link in bio.\n\n#notion #notiontemplate #freelancer #freelancetips #freelancelife #productivity #smallbusiness"
   },
   {
    "id": "k10-repurpose",
    "p": "ccs",
    "slides": 7,
-   "caption": "Stop making new content for every platform. Turn one video into 5 posts:\n\n1. Reel or TikTok\n2. YouTube Short with a new title\n3. A carousel of the key points\n4. A Pinterest pin\n5. A newsletter story\n\nSave this for your next filming day.\n\nWant this done for you? Content Creator Studio is a Notion template for content creators to plan every post on every platform. Link in bio.\n\n#notiontemplate #contentcalendar #contentplanner #contentcreator #socialmediaplanner #notion",
-   "topic": "content"
+   "caption": "Stop making new content for every platform. Turn one video into 5 posts:\n\n1. Reel or TikTok\n2. YouTube Short with a new title\n3. A carousel of the key points\n4. A Pinterest pin\n5. A newsletter story\n\nSave this for your next filming day.\n\nWant this done for you? Content Creator Studio is a Notion template to plan every post on every platform. Link in bio.\n\n#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #contentstrategy"
   },
   {
    "id": "k04-brand-deals",
    "p": "ccs",
    "slides": 5,
-   "caption": "Working with brands? Keep it simple:\n\n1. Track each deal from pitch to paid\n2. See which brand still owes you\n3. Know which posts you still owe\n\nContent Creator Studio has a brand deal tracker and ready scripts to ask for payment. Link in bio.\n\n#notiontemplate #branddeals #ugccreator #contentcreator #influencertips #notion",
-   "topic": "brand"
+   "caption": "Working with brands? Keep it simple:\n\n1. Track each deal from pitch to paid\n2. See which brand still owes you\n3. Know which posts you still owe\n\nContent Creator Studio has a brand deal tracker and ready scripts to ask for payment. Link in bio.\n\n#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #productivity"
   },
   {
    "id": "k08-before-quote",
    "p": "fco",
    "slides": 7,
-   "caption": "Before you send a price, ask these 5 questions:\n\n1. What does \"done\" look like?\n2. What's the deadline?\n3. How many feedback rounds?\n4. What's the budget range?\n5. Who approves the work?\n\nSave this for your next discovery call.\n\nWant this done for you? Freelancer Client OS is a freelancer Notion template for clients, proposals, projects and invoices. Link in bio.\n\n#notiontemplate #freelancer #proposals #salespipeline #freelancetips #notion",
-   "topic": "proposal"
+   "caption": "Before you send a price, ask these 5 questions:\n\n1. What does \"done\" look like?\n2. What's the deadline?\n3. How many feedback rounds?\n4. What's the budget range?\n5. Who approves the work?\n\nSave this for your next discovery call.\n\nWant this done for you? Freelancer Client OS is a Notion template for clients, proposals, projects and invoices. Link in bio.\n\n#notion #notiontemplate #freelancer #freelancetips #freelancelife #invoicing #smallbusiness"
   },
   {
    "id": "k05-proposal-flow",
    "p": "fco",
    "slides": 5,
-   "caption": "Client → proposal → project → invoice → paid.\n\nFreelancer Client OS links every step in one Notion page, so nothing falls through the cracks. Comes with example data and a 5-minute start guide. Link in bio.\n\n#notiontemplate #freelancer #proposals #salespipeline #freelancetips #notion",
-   "topic": "proposal"
+   "caption": "Client → proposal → project → invoice → paid.\n\nFreelancer Client OS links every step in one Notion page, so nothing falls through the cracks. Comes with example data and a 5-minute start guide. Link in bio.\n\n#notion #notiontemplate #freelancer #freelancetips #freelancelife #productivity #smallbusiness"
   },
   {
    "id": "k11-pitch-brand",
    "p": "ccs",
    "slides": 7,
-   "caption": "A brand pitch doesn't need to be long. 5 lines:\n\n1. Why you like them\n2. Who your audience is\n3. Real proof (only true numbers)\n4. One clear idea\n5. An easy next step\n\nSave this for your next pitch.\n\nWant this done for you? Content Creator Studio has a brand deal tracker and ready pitch scripts in Notion. Link in bio.\n\n#notiontemplate #branddeals #ugccreator #contentcreator #influencertips #notion",
-   "topic": "brand"
+   "caption": "A brand pitch doesn't need to be long. 5 lines:\n\n1. Why you like them\n2. Who your audience is\n3. Real proof (only true numbers)\n4. One clear idea\n5. An easy next step\n\nSave this for your next pitch.\n\nWant this done for you? Content Creator Studio has a brand deal tracker and ready pitch scripts in Notion. Link in bio.\n\n#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #contentstrategy"
   },
   {
    "id": "k06-creator-hq",
    "p": "ccs",
    "slides": 5,
-   "caption": "Everything a creator tracks, in one calm Notion workspace: content, channels and brand deals.\n\nContent Creator Studio comes with example data and a 5-minute start guide. Link in bio.\n\n#notiontemplate #contentcalendar #contentplanner #contentcreator #socialmediaplanner #notion",
-   "topic": "content"
+   "caption": "Everything a creator tracks, in one calm Notion workspace: content, channels and brand deals.\n\nContent Creator Studio comes with example data and a 5-minute start guide. Link in bio.\n\n#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #productivity"
   },
   {
    "id": "k09-real-rate",
    "p": "fco",
    "slides": 7,
-   "caption": "Do you know what you really earn per hour? Quick check:\n\n1. Take what the client paid\n2. Subtract project costs\n3. Count every hour (calls and emails too)\n4. Divide\n5. Compare it to your quote\n\nThe numbers in the slides are an example. Try it with your last project.\n\nWant this done for you? Freelancer Client OS calculates profit and real hourly rate for each project in Notion. Link in bio.\n\n#notiontemplate #freelancer #notioncrm #clientmanagement #freelancetips #notion",
-   "topic": "client"
+   "caption": "Do you know what you really earn per hour? Quick check:\n\n1. Take what the client paid\n2. Subtract project costs\n3. Count every hour (calls and emails too)\n4. Divide\n5. Compare it to your quote\n\nThe numbers in the slides are an example. Try it with your last project.\n\nWant this done for you? Freelancer Client OS calculates profit and real hourly rate for each project in Notion. Link in bio.\n\n#notion #notiontemplate #freelancer #freelancetips #freelancelife #invoicing #smallbusiness"
   },
   {
    "id": "k12-weekly-review",
    "p": "ccs",
    "slides": 6,
-   "caption": "Your 15-minute weekly content review:\n\n1. What got the most saves?\n2. What flopped, and why?\n3. What's next week?\n4. Set a goal per channel\n\nSave this and try it this Sunday.\n\nWant this done for you? Content Creator Studio has a weekly review page and a goal for each channel in Notion. Link in bio.\n\n#notiontemplate #contentcalendar #contentplanner #contentcreator #socialmediaplanner #notion",
-   "topic": "content"
+   "caption": "Your 15-minute weekly content review:\n\n1. What got the most saves?\n2. What flopped, and why?\n3. What's next week?\n4. Set a goal per channel\n\nSave this and try it this Sunday.\n\nWant this done for you? Content Creator Studio has a weekly review page and a goal for each channel in Notion. Link in bio.\n\n#notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #contentstrategy"
   }
  ]
 }

@@ -15,6 +15,13 @@ SW = 960  # slide width on the reel
 
 
 def frame_bg(theme, path):
+    if theme == 'dark':  # v2 carousels (generator/carousel2.py): dark stage matching the slides
+        im = Image.new('RGB', (W, H), (16, 18, 22))
+        g = Image.new('L', (W, H), 0)
+        ImageDraw.Draw(g).ellipse((-300, -500, W + 300, 700), fill=90)
+        im.paste(Image.new('RGB', (W, H), (27, 31, 39)), (0, 0), g.filter(ImageFilter.GaussianBlur(160)))
+        im.save(path)
+        return
     reels.render_png(reels.frame(theme, ''), path)
 
 
@@ -38,7 +45,7 @@ def build(c):
     work = tempfile.mkdtemp()
     d = os.path.join(ROOT, 'carousels', c['id'])
     bgp = os.path.join(work, 'bg.png')
-    frame_bg(c['theme'], bgp)
+    frame_bg(c.get('theme', 'dark'), bgp)
     n = len(c['slides'])
     imgs, durs = [], []
     for i in range(n):
@@ -73,6 +80,7 @@ def build(c):
 
 if __name__ == '__main__':
     spec = json.load(open(os.path.join(ROOT, 'generator', 'carousels-spec.json')))['carousels']
+    spec += json.load(open(os.path.join(ROOT, 'generator', 'carousels2-spec.json')))['carousels']
     only = sys.argv[1:]
     for c in spec:
         if not only or c['id'] in only:
