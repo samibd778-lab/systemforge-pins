@@ -16,6 +16,7 @@ HERE, ROOT = B.HERE, B.ROOT
 OUT = os.path.join(ROOT, 'canva', 'v3', 'etsy')
 os.makedirs(OUT, exist_ok=True)
 W, H = 1350, 1013
+BGOUT = OUT  # where the main background is written (Gumroad mode uses its own folder)
 B.CROPS['deal-lap'] = ('deal-do-now-board', (145, 140, 1870, 1160))
 B.CROPS['prop-lap'] = ('prop-followup-pipeline', (145, 150, 1990, 1250))
 B.COMPOSITE['c-prop-win'] = ('prop-proposals-table', [(295, 700)], [(145, 420), (1205, 1360), (1360, 1565)])
@@ -109,8 +110,11 @@ def screens_of(scene_file, n):
 
 def main_bg(p, out):
     sc = Image.open(os.path.join(HERE, p['scene'])).convert('RGB'); w0, h0 = sc.size
-    k = (H * 2) / h0; Wb = int(w0 * k); ox = max(0, Wb - W * 2)
-    bg = sc.resize((Wb, H * 2), Image.LANCZOS).crop((ox, 0, ox + W * 2, H * 2)).convert('RGBA')
+    k = (H * 2) / h0; Wb = int(w0 * k); ox = Wb - W * 2  # <0: scene narrower than the page, right-aligned
+    base = (40, 28, 20) if p.get('dark') else (246, 241, 233)
+    bg = Image.new('RGBA', (W * 2, H * 2), base + (255,))
+    scr = sc.resize((Wb, H * 2), Image.LANCZOS).convert('RGBA')
+    bg.paste(scr.crop((max(0, ox), 0, Wb, H * 2)), (max(0, -ox), 0))
     for q, s in zip(screens_of(p['scene'], len(p['screens'])), p['screens']):
         S = 2; qq = [((x * k - ox) * S, y * k * S) for x, y in q]
         cx = sum(a for a, _ in qq) / 4; cy = sum(b for _, b in qq) / 4
@@ -133,7 +137,7 @@ def main_bg(p, out):
     base = (40, 28, 20) if p.get('dark') else (246, 241, 233)
     arr[..., :3] = base
     for x in range(W * 2):
-        t = x / (W * 2); a = 0.97 if t < 0.46 else max(0.0, 0.97 * (1 - (t - 0.46) / 0.06))
+        t = x / (1350 * 2); a = 0.97 if t < 0.46 else max(0.0, 0.97 * (1 - (t - 0.46) / 0.06))
         arr[:, x, 3] = int(255 * a * (0.78 if p.get('dark') else 1))
     bg.alpha_composite(Image.fromarray(arr))
     bg.convert('RGB').save(out, quality=92)
@@ -145,12 +149,24 @@ def T(l, t, w, txt, size, extra=''):
 
 
 def page(label, inner, bg_url=None, color='#F6F1E9'):
+    if W != 1350 and not bg_url:  # wide (Gumroad 16:9): corner blobs on the page, content centred
+        inner = (_blobs(ACC['v']) if ACC['v'] else '') + f'<div style="position:absolute;left:{(W - 1350) // 2}px;top:0;width:1350px;height:{H}px">{inner}</div>'
+        ACC['v'] = None
     b = f'<img src="{bg_url}" style="position:absolute;left:0;top:0;width:{W}px;height:{H}px">' if bg_url else ''
     return (f'<div data-document-role="page" data-label="{label}" style="position:relative;width:{W}px;height:{H}px;'
             f'overflow:hidden;background:{color}">{b}{inner}</div>')
 
 
+ACC = {'v': None}
+
+
 def blobs(accent):
+    if W != 1350:
+        ACC['v'] = accent; return ''
+    return _blobs(accent)
+
+
+def _blobs(accent):
     return (f'<div style="position:absolute;left:-180px;top:-200px;width:520px;height:520px;border-radius:50%;background:{accent};opacity:.12"></div>'
             f'<div style="position:absolute;right:-220px;bottom:-260px;width:640px;height:640px;border-radius:50%;background:{accent};opacity:.10"></div>')
 
@@ -159,7 +175,7 @@ def build(pk, base_url, store='etsy'):
     p = P[pk]; pages = []
     d = p.get('dark'); fg = PAP if d else INK; sub = '#F1E7DC' if d else MUT
     # 1. main
-    main = f'{pk}-1-main.jpg'; main_bg(p, os.path.join(OUT, pk, main))
+    main = f'{pk}-1-main.jpg'; main_bg(p, os.path.join(BGOUT, pk, main))
     # everything inside the centre square (x 169-1181) so the Etsy square thumbnail keeps it all
     X = 205
     inner = (T(X, 95, 560, p['kicker'], 17, f'font-weight:700;letter-spacing:3px;color:{"#E8D6C3" if d else "#7A6A58"}')
@@ -171,7 +187,7 @@ def build(pk, base_url, store='etsy'):
     t0, _, c0 = p['cards'][0]
     CW = 480
     url0, ih0 = B.fit(c0, CW, 230, 'm1'); url0 = url0.replace(B.RAW + 'crops/', base_url + 'crops/')
-    inner += (f'<div style="position:absolute;left:{1160 - CW}px;top:{H - ih0 - 140}px;width:{CW}px;height:{ih0 + 56}px;background:#FFFFFF;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.12)">'
+    inner += (f'<div style="position:absolute;left:{1160 - CW + W - 1350}px;top:{H - ih0 - 140}px;width:{CW}px;height:{ih0 + 56}px;background:#FFFFFF;border-radius:18px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,.12)">'
               + T(18, 12, CW - 30, t0, 21, f'font-weight:700;color:{INK}')
               + f'<img src="{url0}" style="position:absolute;left:0;top:50px;width:{CW}px;height:{ih0}px"></div>')
     inner += T(X, 860, 0, 'INSTANT DOWNLOAD', 19, f'padding:13px 26px;border-radius:999px;background:{PAP if d else INK};color:{INK if d else PAP};font-weight:700;letter-spacing:2px')
@@ -198,8 +214,8 @@ def build(pk, base_url, store='etsy'):
         items += (f'<p style="position:absolute;left:{110 + col * 590}px;top:{300 + row * 115}px;width:34px;margin:0;padding:3px 0;text-align:center;'
                   f'border-radius:999px;background:{p["accent"]};color:{PAP};font-size:20px;font-weight:700">✓</p>'
                   + T(162 + col * 590, 298 + row * 115, 500, it, 28, f'font-weight:500;line-height:1.25;color:{INK}'))
-    inner = (blobs(p['accent']) + T(0, 90, W, "What's inside", 76, f'text-align:center;color:{INK};{SER}')
-             + T(0, 195, W, p['name'] + ' · Notion template', 28, f'text-align:center;color:{MUT}')
+    inner = (blobs(p['accent']) + T(0, 90, 1350, "What's inside", 76, f'text-align:center;color:{INK};{SER}')
+             + T(0, 195, 1350, p['name'] + ' · Notion template', 28, f'text-align:center;color:{MUT}')
              + f'<div style="position:absolute;left:70px;top:260px;width:1210px;height:640px;background:#FFFFFF;border-radius:28px"></div>' + items)
     pages.append(page(f'{pk}-6-inside', inner, None, p['color']))
     # 7. how it works (delivery differs per store)
@@ -210,14 +226,14 @@ def build(pk, base_url, store='etsy'):
         steps = [('Download', 'After you buy, download the PDF from your Etsy purchases.'),
                  ('Duplicate', 'Open the link in the PDF and click Duplicate to add the template to your Notion.')]
     steps.append(('Start', 'Open the Start here page. Example data shows how it works. Delete it when ready.'))
-    inner = blobs(p['accent']) + T(0, 90, W, 'How it works', 76, f'text-align:center;color:{INK};{SER}')
+    inner = blobs(p['accent']) + T(0, 90, 1350, 'How it works', 76, f'text-align:center;color:{INK};{SER}')
     for j, (a, b) in enumerate(steps):
         x = 70 + j * 410
         inner += (f'<div style="position:absolute;left:{x}px;top:260px;width:380px;height:520px;background:#FFFFFF;border-radius:26px"></div>'
                   f'<p style="position:absolute;left:{x + 150}px;top:310px;width:80px;margin:0;padding:16px 0;text-align:center;border-radius:999px;background:{p["accent"]};color:{PAP};font-size:38px;font-weight:700">{j + 1}</p>'
                   + T(x, 440, 380, a, 44, f'text-align:center;color:{INK};{SER}')
                   + T(x + 40, 530, 300, b, 26, f'text-align:center;line-height:1.4;color:{MUT}'))
-    inner += T(0, 850, W, 'Digital download · Works on desktop, tablet and phone · No physical item', 24, f'text-align:center;font-weight:500;color:{MUT}')
+    inner += T(0, 850, 1350, 'Digital download · Works on desktop, tablet and phone · No physical item', 24, f'text-align:center;font-weight:500;color:{MUT}')
     pages.append(page(f'{pk}-7-how', inner, None, p['color']))
     return pages
 
@@ -240,10 +256,15 @@ def render_png(page_html, out):
 
 
 if __name__ == '__main__':
-    if sys.argv[1:2] == ['--gumroad']:  # only the delivery page differs on Gumroad
+    if sys.argv[1:2] == ['--gumroad']:  # Gumroad: 16:9 covers (min 1280x720), Gumroad delivery steps
+        W = 1801
+        G = BGOUT = os.path.join(OUT, 'gumroad'); os.makedirs(G, exist_ok=True)
         for pk in sys.argv[2:] or list(P):
-            pg = build(pk, 'file://' + os.path.join(ROOT, 'canva', 'v3') + '/LOCALMARK/', 'gumroad')[-1]
-            render_png(pg.replace('/LOCALMARK/crops/', '/crops/').replace('/LOCALMARK/', '/etsy/'), os.path.join(OUT, 'final', pk, f'{pk}-7-how-gumroad.png'))
+            os.makedirs(os.path.join(G, pk), exist_ok=True)
+            for pg in build(pk, 'file://' + os.path.join(ROOT, 'canva', 'v3') + '/LOCALMARK/', 'gumroad'):
+                pg2 = pg.replace('/LOCALMARK/crops/', '/crops/').replace('/LOCALMARK/', '/etsy/gumroad/')
+                lab = re.search(r'data-label="([^"]+)"', pg2).group(1)
+                render_png(pg2, os.path.join(G, pk, lab + '.png'))
             print('ok gumroad', pk)
         sys.exit()
     prods = sys.argv[1:] or list(P)
