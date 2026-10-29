@@ -155,7 +155,7 @@ def blobs(accent):
             f'<div style="position:absolute;right:-220px;bottom:-260px;width:640px;height:640px;border-radius:50%;background:{accent};opacity:.10"></div>')
 
 
-def build(pk, base_url):
+def build(pk, base_url, store='etsy'):
     p = P[pk]; pages = []
     d = p.get('dark'); fg = PAP if d else INK; sub = '#F1E7DC' if d else MUT
     # 1. main
@@ -202,10 +202,14 @@ def build(pk, base_url):
              + T(0, 195, W, p['name'] + ' · Notion template', 28, f'text-align:center;color:{MUT}')
              + f'<div style="position:absolute;left:70px;top:260px;width:1210px;height:640px;background:#FFFFFF;border-radius:28px"></div>' + items)
     pages.append(page(f'{pk}-6-inside', inner, None, p['color']))
-    # 7. how it works (Etsy delivery)
-    steps = [('Download', 'After you buy, download the PDF from your Etsy purchases.'),
-             ('Duplicate', 'Open the link in the PDF and click Duplicate to add the template to your Notion.'),
-             ('Start', 'Open the Start here page. Example data shows how it works. Delete it when ready.')]
+    # 7. how it works (delivery differs per store)
+    if store == 'gumroad':
+        steps = [('Get it', 'Right after you buy, click the button to open the template.'),
+                 ('Duplicate', 'Click Duplicate at the top right to add the template to your Notion.')]
+    else:
+        steps = [('Download', 'After you buy, download the PDF from your Etsy purchases.'),
+                 ('Duplicate', 'Open the link in the PDF and click Duplicate to add the template to your Notion.')]
+    steps.append(('Start', 'Open the Start here page. Example data shows how it works. Delete it when ready.'))
     inner = blobs(p['accent']) + T(0, 90, W, 'How it works', 76, f'text-align:center;color:{INK};{SER}')
     for j, (a, b) in enumerate(steps):
         x = 70 + j * 410
@@ -236,6 +240,12 @@ def render_png(page_html, out):
 
 
 if __name__ == '__main__':
+    if sys.argv[1:2] == ['--gumroad']:  # only the delivery page differs on Gumroad
+        for pk in sys.argv[2:] or list(P):
+            pg = build(pk, 'file://' + os.path.join(ROOT, 'canva', 'v3') + '/LOCALMARK/', 'gumroad')[-1]
+            render_png(pg.replace('/LOCALMARK/crops/', '/crops/').replace('/LOCALMARK/', '/etsy/'), os.path.join(OUT, 'final', pk, f'{pk}-7-how-gumroad.png'))
+            print('ok gumroad', pk)
+        sys.exit()
     prods = sys.argv[1:] or list(P)
     for pk in prods:
         os.makedirs(os.path.join(OUT, pk), exist_ok=True); os.makedirs(os.path.join(OUT, 'final', pk), exist_ok=True)
