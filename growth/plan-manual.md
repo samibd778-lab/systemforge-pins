@@ -30,7 +30,7 @@
 
 | Time (your time) | Task | Minutes |
 |---|---|---|
-| Evening (US afternoon) | Post 1 TikTok: the `clips/<id>-nosound.mp4` of the day + a trending sound at low volume. Description + hashtags below. | 10 |
+| Evening (US afternoon) | Post 1 TikTok: the full `videos/<id>.mp4` as it is, with our own music. Do not add a TikTok sound (the videos with an added sound got 0 views). Description + hashtags below. | 10 |
 | Evening | Reply to every comment and DM on IG, FB, TikTok (replies boost reach). | 10 |
 | Evening | 1 community post or 3 helpful comments (see D). | 20–30 |
 | Once a week (Sunday) | Send me screenshots: Gumroad Analytics, Etsy Stats, Pinterest Analytics, IG Insights. | 5 |
