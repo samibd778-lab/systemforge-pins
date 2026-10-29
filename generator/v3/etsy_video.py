@@ -9,7 +9,8 @@ SEG, FADE, FPS = 3.3, 0.4, 30
 
 
 def build(p):
-    imgs = [f'{p}-1-main.png', f'{p}-2-feature.png', f'{p}-3-feature.png', f'{p}-4-feature.png']
+    import glob  # first 4 listing images (main + features, or main + included + inside for packs)
+    imgs = [os.path.basename(f) for f in sorted(glob.glob(os.path.join(SRC, p, f'{p}-[1-4]-*.png'))) if 'gumroad' not in f][:4]
     args, fl = [], []
     n = int(SEG * FPS)
     for i, im in enumerate(imgs):
