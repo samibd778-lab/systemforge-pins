@@ -27,13 +27,9 @@ P.append(page(1, "", """
   <div class="tag">Bonus guide · 15-minute read</div>
   <h1>Notion<br><em>for beginners</em></h1>
   <p class="cvlead">Feel at home in Notion and in your Second Brain, without reading a manual.</p>
-  <div class="cvgrid">
-    <div><b>01</b>Get set up</div><div><b>02</b>The 6 things to know</div>
-    <div><b>03</b>Databases, simply</div><div><b>04</b>Your routine</div>
-    <div><b>05</b>Make it yours</div><div><b>06</b>Shortcuts & fixes</div>
-  </div>
 </div>
 <div class="cvbrand"><span class="logo">SF</span>SystemForge</div>
+<div class="shot"><div class="bar"><i></i><i></i><i></i><span>Second Brain OS</span></div><img src="data:image/png;base64,SHOT_B64"></div>
 """, "cover"))
 
 # 2 SET UP
@@ -142,14 +138,19 @@ h2{{font-size:40px;line-height:1}}
 .cover{{background:var(--forest);color:#F3ECE2;padding:.9in .8in}}
 .ring{{position:absolute;border-radius:50%;border:1.5px solid rgba(243,236,226,.13)}}
 .r1{{width:6.5in;height:6.5in;right:-2.6in;top:-1.9in}}.r2{{width:4.6in;height:4.6in;right:-1.65in;top:-.95in}}.r3{{width:2.7in;height:2.7in;right:-.7in;top:0;background:var(--clay);border:none;opacity:.9}}
-.cv{{position:relative;margin-top:1.6in}}
+.cv{{position:relative;margin-top:.75in}}
+.shot{{position:absolute;left:1.15in;right:-.9in;bottom:.6in;background:#fff;border-radius:14px 0 0 14px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.45),0 0 0 1px rgba(255,255,255,.08)}}
+.shot .bar{{height:30px;background:#EDE7DF;display:flex;align-items:center;gap:7px;padding:0 14px}}
+.shot .bar i{{width:10px;height:10px;border-radius:50%;background:#D3C8BB}}.shot .bar i:first-child{{background:#E39A82}}
+.shot .bar span{{margin-left:14px;font-size:10px;font-weight:700;color:#8A7A6C;background:#F7F3EE;border-radius:6px;padding:4px 40px 4px 12px}}
+.shot img{{display:block;width:100%}}
 .tag{{display:inline-block;border:1px solid rgba(243,236,226,.35);border-radius:99px;padding:7px 14px;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#D9E2D2}}
 h1{{font-size:84px;line-height:.95;margin:26px 0 20px}}h1 em{{font-style:italic;color:#E8C3AA}}
 .cvlead{{font-size:17px;color:#D6CCBE;max-width:4.6in;line-height:1.5}}
 .cvgrid{{margin-top:.55in;display:grid;grid-template-columns:1fr 1fr;gap:0 28px;max-width:5.6in}}
 .cvgrid div{{padding:12px 0;border-top:1px solid rgba(243,236,226,.18);font-size:14px;font-weight:500;color:#F3ECE2}}
 .cvgrid b{{font-family:'DMS',serif;font-weight:400;color:#E8C3AA;margin-right:12px;font-size:16px}}
-.cvbrand{{position:absolute;left:.8in;bottom:.7in;display:flex;align-items:center;gap:10px;font-weight:700;font-size:14px;color:#D9E2D2}}
+.cvbrand{{position:absolute;left:.8in;top:.7in;display:flex;align-items:center;gap:10px;font-weight:700;font-size:14px;color:#D9E2D2}}
 .logo{{width:38px;height:38px;border-radius:50%;background:#F3ECE2;color:var(--forest);display:flex;align-items:center;justify-content:center;font-size:13px}}
 /* setup timeline */
 .tl{{position:relative;margin-left:8px}}.tl::before{{content:'';position:absolute;left:19px;top:20px;bottom:40px;width:2px;background:var(--line)}}
@@ -223,6 +224,9 @@ p{{font-size:14.5px}}h4{{font-size:17px!important;margin-bottom:6px}}
 .d4{{min-height:2.95in}}.r6{{padding:24px 16px}}.g3+.duo{{margin-top:44px}}.g3+.duo>div{{padding:30px 26px}}
 .kr{{padding:11px 0}}.keys+.duo{{margin-top:22px}}.end{{margin-top:22px;padding:26px 28px}}.end h3{{font-size:27px}}
 """
+shot = base64.b64encode((ROOT / "brand/shots/sb_home_top.png").read_bytes()).decode()
+P[0] = P[0].replace("SHOT_B64", shot)
+css += ".cover h1{font-size:76px;margin:22px 0 16px}.cover .cvgrid{margin-top:.4in}.cover .cvgrid div{padding:10px 0}"
 html = f"<!doctype html><html><head><meta charset='utf-8'><style>{css}</style></head><body>{''.join(P)}</body></html>"
 hp = OUT / "guide.html"; hp.write_text(html)
 pdf = OUT / "Notion-Beginner-Guide.pdf"
