@@ -33,10 +33,11 @@ body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSys
 <div class="thought"><div class="label" style="white-space:nowrap">✦ Thought for today</div><div class="q serif" id="q"></div></div>
 <script>
 const Q=["Small steps every day add up to big change.","Write it down. Your mind is for ideas, not for holding them.","Done is better than perfect.","Focus on the next step, not the whole staircase.","A clear page makes a clear mind.","Start where you are. Use what you have.","You don't need more time. You need fewer things.","Rest is part of the work.","One thing at a time. Then the next.","Plans are guesses. Review them every week.","Protect your mornings.","Your future self will thank you for today's notes.","Make it easy to start.","Progress, not pressure.","What gets reviewed gets done.","Say no to most things so you can say yes to what matters.","Capture first. Sort later.","Slow is smooth. Smooth is fast.","Small habits, big life.","Choose the one task that makes everything else easier.","Clear the inbox, clear the head.","Ideas are cheap. Saved ideas are gold.","Be kind to yourself on slow days.","Finish what you start this week.","The best system is the one you use.","Less, but better.","Take the first step now. Fix it later.","Good days are built, not found.","Your goals need a calendar, not a wish.","Keep going. You're closer than you think.","Today counts."];
+let H24=true;try{const v=localStorage.getItem('sf_h24');if(v!==null)H24=v==='1';}catch(e){}
 function render(){
  const d=new Date(),h=d.getHours(),y=d.getFullYear(),mo=d.getMonth();
  document.getElementById('greet').textContent=h<12?'Good morning':h<18?'Good afternoon':'Good evening';
- document.getElementById('time').textContent=d.toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
+ document.getElementById('time').textContent=d.toLocaleTimeString([],H24?{hour:'2-digit',minute:'2-digit',hourCycle:'h23'}:{hour:'numeric',minute:'2-digit',hour12:true});
  document.getElementById('date').textContent=d.toLocaleDateString([],{weekday:'long',month:'long',day:'numeric'});
  const dayS=new Date(y,mo,d.getDate()),dayP=(d-dayS)/864e5;
  const wd=(d.getDay()+6)%7,wkS=new Date(y,mo,d.getDate()-wd),wkP=(d-wkS)/(7*864e5);
@@ -57,4 +58,6 @@ function render(){
  document.getElementById('q').innerHTML='<b>“</b>'+Q[doy%Q.length]+'<b>”</b>';
 }
 render();setInterval(render,30000);
+document.getElementById('time').title='Click to switch 12h / 24h';document.getElementById('time').style.cursor='pointer';
+document.getElementById('time').addEventListener('click',()=>{H24=!H24;try{localStorage.setItem('sf_h24',H24?'1':'0');}catch(e){}render();});
 </script></body></html>
