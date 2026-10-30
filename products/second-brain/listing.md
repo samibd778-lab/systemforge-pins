@@ -111,7 +111,7 @@ Second Brain Notion Template | Notion Life Planner, Habit Tracker, Goal Planner,
 **Tags** (13)
 
 ```
-notion template, second brain, notion planner, life planner, habit tracker, goal planner, notion dashboard, digital planner, daily journal, para method, reading tracker, weekly planner, adhd planner
+notion template, second brain, notion planner, life planner, habit tracker, goal planner, notion dashboard, digital planner, daily journal, para method, reading tracker, weekly planner, productivity
 ```
 
 **Description**
