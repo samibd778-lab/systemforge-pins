@@ -1,0 +1,60 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Today</title><style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#F7F3EE;--ink:#3B2F26;--muted:#8A7A6C;--accent:#4A6B4F;--line:#E6DDD2;--soft:#EFE8DF}
+@media (prefers-color-scheme: dark){:root{--bg:#25211E;--ink:#F1E9DF;--muted:#B3A595;--accent:#8DB492;--line:#433B34;--soft:#2F2A26}}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif;display:flex;flex-direction:column;justify-content:center;padding:22px 26px;gap:16px;border-radius:14px}
+.serif{font-family:Georgia,"Times New Roman",serif}
+.label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.row{display:grid;grid-template-columns:1.05fr 1.3fr .95fr;gap:26px;align-items:center}
+.clock .time{font-size:52px;line-height:1.05;margin:8px 0 4px;font-variant-numeric:tabular-nums}
+.clock .date{font-size:15px;color:var(--muted)}
+.bars{display:flex;flex-direction:column;gap:11px}
+.bar-top{display:flex;justify-content:space-between;font-size:13px;margin-bottom:5px}
+.bar-top span:last-child{color:var(--muted);font-variant-numeric:tabular-nums}
+.track{height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.fill{height:100%;border-radius:99px;background:var(--accent)}
+.cal table{width:100%;border-collapse:collapse;font-size:12px;text-align:center;font-variant-numeric:tabular-nums}
+.cal th{color:var(--muted);font-weight:600;font-size:10px;padding-bottom:5px}
+.cal td{padding:3px 0;color:var(--ink)}
+.cal td.o{color:transparent}
+.cal td.t span{display:inline-block;width:22px;height:22px;line-height:22px;border-radius:50%;background:var(--accent);color:#fff;font-weight:700}
+.cal .m{margin-bottom:8px}
+.thought{border-top:1px solid var(--line);padding-top:14px;display:flex;gap:12px;align-items:baseline}
+.thought .q{font-size:19px}
+.thought .q b{color:var(--accent);font-weight:400}
+@media (max-width:760px){.row{grid-template-columns:1fr}.cal{display:none}body{padding:18px}}
+</style></head><body>
+<div class="row">
+  <div class="clock"><div class="label" id="greet">Hello</div><div class="time serif" id="time">--:--</div><div class="date" id="date"></div></div>
+  <div class="bars" id="bars"></div>
+  <div class="cal"><div class="label m" id="month"></div><table id="cal"></table></div>
+</div>
+<div class="thought"><div class="label" style="white-space:nowrap">✦ Thought for today</div><div class="q serif" id="q"></div></div>
+<script>
+const Q=["Small steps every day add up to big change.","Write it down. Your mind is for ideas, not for holding them.","Done is better than perfect.","Focus on the next step, not the whole staircase.","A clear page makes a clear mind.","Start where you are. Use what you have.","You don't need more time. You need fewer things.","Rest is part of the work.","One thing at a time. Then the next.","Plans are guesses. Review them every week.","Protect your mornings.","Your future self will thank you for today's notes.","Make it easy to start.","Progress, not pressure.","What gets reviewed gets done.","Say no to most things so you can say yes to what matters.","Capture first. Sort later.","Slow is smooth. Smooth is fast.","Small habits, big life.","Choose the one task that makes everything else easier.","Clear the inbox, clear the head.","Ideas are cheap. Saved ideas are gold.","Be kind to yourself on slow days.","Finish what you start this week.","The best system is the one you use.","Less, but better.","Take the first step now. Fix it later.","Good days are built, not found.","Your goals need a calendar, not a wish.","Keep going. You're closer than you think.","Today counts."];
+function render(){
+ const d=new Date(),h=d.getHours(),y=d.getFullYear(),mo=d.getMonth();
+ document.getElementById('greet').textContent=h<12?'Good morning':h<18?'Good afternoon':'Good evening';
+ document.getElementById('time').textContent=d.toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
+ document.getElementById('date').textContent=d.toLocaleDateString([],{weekday:'long',month:'long',day:'numeric'});
+ const dayS=new Date(y,mo,d.getDate()),dayP=(d-dayS)/864e5;
+ const wd=(d.getDay()+6)%7,wkS=new Date(y,mo,d.getDate()-wd),wkP=(d-wkS)/(7*864e5);
+ const mS=new Date(y,mo,1),mE=new Date(y,mo+1,1),mP=(d-mS)/(mE-mS);
+ const yS=new Date(y,0,1),yE=new Date(y+1,0,1),yP=(d-yS)/(yE-yS);
+ const left=n=>n+(n==1?' day left':' days left');
+ const B=[["Today",dayP,Math.round(dayP*100)+'%'],["This week",wkP,left(7-wd-1+1-1+ (1))],["This month",mP,left(Math.ceil((mE-d)/864e5))],[y+"",yP,left(Math.ceil((yE-d)/864e5))]];
+ B[1][2]=left(7-wd);
+ document.getElementById('bars').innerHTML=B.map(b=>`<div><div class="bar-top"><span>${b[0]}</span><span>${Math.floor(b[1]*100)}% · ${b[2]}</span></div><div class="track"><div class="fill" style="width:${(b[1]*100).toFixed(1)}%"></div></div></div>`).join('');
+ B[0][2]='';document.querySelector('#bars .bar-top span:last-child').textContent=Math.floor(dayP*100)+'%';
+ document.getElementById('month').textContent=d.toLocaleDateString([],{month:'long',year:'numeric'});
+ const first=(mS.getDay()+6)%7,days=new Date(y,mo+1,0).getDate();
+ let html='<tr>'+['M','T','W','T','F','S','S'].map(x=>`<th>${x}</th>`).join('')+'</tr><tr>';
+ for(let i=0;i<first;i++)html+='<td class="o">.</td>';
+ for(let n=1;n<=days;n++){const c=(first+n-1)%7;html+=`<td class="${n==d.getDate()?'t':''}"><span>${n}</span></td>`;if(c==6&&n<days)html+='</tr><tr>';}
+ document.getElementById('cal').innerHTML=html+'</tr>';
+ const doy=Math.floor((d-new Date(y,0,0))/864e5);
+ document.getElementById('q').innerHTML='<b>“</b>'+Q[doy%Q.length]+'<b>”</b>';
+}
+render();setInterval(render,30000);
+</script></body></html>
