@@ -9,7 +9,7 @@ B.CROPS.update({
     'sb-lap': ('sb-home', (95, 0, 1945, 1100)),
     'c-sb-widget': ('sb-home', (166, 968, 1382, 1456)),
     'c-sb-goals': ('sb-goals', (180, 330, 1330, 850)),
-    'c-sb-journal': ('sb-journal', (180, 330, 820, 1000)),
+    'c-sb-journal': ('sb-journal', (180, 345, 820, 672)),
     'sb-scr-widget': ('sb-home', (95, 330, 1945, 1460)),
     'sb-scr-goals': ('sb-goals', (150, 60, 1945, 1220)),
     'sb-scr-projects': ('sb-projects', (150, 330, 1990, 1220)),
@@ -31,11 +31,11 @@ L.P['sb'] = dict(name='Second Brain OS', kicker='NOTION LIFE PLANNER · PARA MET
             'Reading list + weekly, monthly, yearly reviews', 'Bonus PDF: Notion for beginners'])
 import numpy as np
 from PIL import Image, ImageDraw
-W, H = L.W, L.H
 
 
 def life_bg(scene, screen, out, text_side='right', dark=False):
     """scene scaled to page height, real screenshot warped into the blank screen, soft panel on the text side"""
+    W, H = L.W, L.H
     sc = Image.open(os.path.join(L.HERE, scene)).convert('RGB'); w0, h0 = sc.size
     k = (H * 2) / h0; Wb = int(w0 * k)
     ox = 0 if text_side == 'right' else Wb - W * 2
@@ -81,9 +81,11 @@ LIFE = [  # (n, title, desc, scene, screen crop, card crop, text side, dark)
 ]
 
 PH = os.path.join(B.HD)
+PHLIFE = [  # (n, title, desc, scene, phone shot, desktop card, text side)
+    (4, 'Small habits, every day', 'Tick what you did on your phone or computer. Your score from 1 to 5 fills in by itself.', 's-sbph.png', 'sbph-habits', 'c-sb-habits', 'left'),
+    (5, 'A 2-minute daily journal', 'Mood, one win and one thank you before bed. Your latest entries on the home page.', 's-sbph-m.png', 'sbph-journal', 'c-sb-journal', 'right'),
+]
 PHONES = [  # (n, title, desc, [phone screenshots])
-    (4, 'Small habits, every day', 'One row per day. Tick what you did, and see your score from 1 to 5. Rename the 5 habits to fit your life.', ['sbph-habits']),
-    (5, 'A 2-minute daily journal', 'Mood, one win and one thank you before bed. Capture ideas on the go and sort them later.', ['sbph-journal', 'sbph-capture']),
     (6, 'Your Second Brain on your phone', 'A light Mobile home page: today, your next 7 days, habits and journal, one tap away.', ['sbph-mhome', 'sbph-tasks']),
 ]
 
@@ -110,6 +112,20 @@ def phone_page(n, title, desc, shots, base_url):
     return L.page(lab, inner, None, p['color'])
 
 
+def phone_life_page(n, title, desc, scene, shot, card, side, base_url):
+    p = L.P['sb']; lab = f'sb-{n + 1}-feature'; bgf = lab + '.jpg'
+    life_bg(scene, os.path.join(B.HD, shot + '.png'), os.path.join(L.OUT, 'sb', bgf), 'right' if side == 'right' else 'left')
+    X = 110 if side == 'left' else 790 + L.W - 1350
+    inner = (f'<p style="position:absolute;left:{X}px;top:110px;width:64px;margin:0;padding:12px 0;text-align:center;border-radius:999px;background:{p["accent"]};color:{L.PAP};font-size:30px;font-weight:700">{n}</p>'
+             + L.T(X, 200, 460, title, 56, f'line-height:1.05;color:{L.INK};{L.SER}')
+             + L.T(X, 360, 440, desc, 25, f'line-height:1.4;color:{L.MUT}'))
+    CW = 450
+    url, ih = B.fit(card, CW, 330, f'p{n}'); url = url.replace(B.RAW + 'crops/', base_url + 'crops/')
+    inner += (f'<div style="position:absolute;left:{X}px;top:{L.H - ih - 90}px;width:{CW}px;height:{ih + 24}px;background:#FFFFFF;border-radius:18px;overflow:hidden;box-shadow:0 12px 34px rgba(0,0,0,.14)">'
+              f'<img src="{url}" style="position:absolute;left:0;top:12px;width:{CW}px;height:{ih}px"></div>')
+    return L.page(lab, inner, f'{base_url}sb/{bgf}')
+
+
 def bonus_page(base_url):
     p = L.P['sb']; g = ['file://' + os.path.join(L.ROOT, 'canva', 'v3', 'crops', f'sbguide-{i}.png') for i in (1, 2, 3)]
     sh = 'box-shadow:0 28px 60px rgba(46,42,37,.28);border-radius:10px'
@@ -128,30 +144,39 @@ def life_page(n, title, desc, scene, screen, card, side, dark, base_url):
     p = L.P['sb']; fg = L.PAP if dark else L.INK; sub = '#F1E7DC' if dark else L.MUT
     lab = f'sb-{n + 1}-feature'; bgf = lab + '.jpg'
     life_bg(scene, screen, os.path.join(L.OUT, 'sb', bgf), side, dark)
-    X = 790 if side == 'right' else 110
+    dx = L.W - 1350
+    X = 790 + dx if side == 'right' else 110
     inner = (f'<p style="position:absolute;left:{X}px;top:120px;width:64px;margin:0;padding:12px 0;text-align:center;border-radius:999px;background:{p["accent"]};color:{L.PAP};font-size:30px;font-weight:700">{n}</p>'
              + L.T(X, 215, 460, title, 58, f'line-height:1.05;color:{fg};{L.SER}')
              + L.T(X, 400, 430, desc, 26, f'line-height:1.4;color:{sub}')
              + L.T(X, 900, 0, 'Second Brain OS', 21, f'font-weight:700;letter-spacing:1px;color:{p["accent"]}'))
     CW = 560
     url, ih = B.fit(card, CW, 300, f'l{n}'); url = url.replace(B.RAW + 'crops/', base_url + 'crops/')
-    cx = 130 if side == 'right' else 1350 - 130 - CW
-    inner += (f'<div style="position:absolute;left:{cx}px;top:{H - ih - 120}px;width:{CW}px;height:{ih + 30}px;background:#FFFFFF;border-radius:20px;overflow:hidden;box-shadow:0 14px 40px rgba(0,0,0,.18)">'
+    cx = 130 if side == 'right' else L.W - 130 - CW
+    inner += (f'<div style="position:absolute;left:{cx}px;top:{L.H - ih - 120}px;width:{CW}px;height:{ih + 30}px;background:#FFFFFF;border-radius:20px;overflow:hidden;box-shadow:0 14px 40px rgba(0,0,0,.18)">'
               f'<img src="{url}" style="position:absolute;left:0;top:15px;width:{CW}px;height:{ih}px"></div>')
     return L.page(lab, inner, f'{base_url}sb/{bgf}')
 
 
 if __name__ == '__main__':
     want = sys.argv[1:]
-    os.makedirs(os.path.join(L.OUT, 'sb'), exist_ok=True); os.makedirs(os.path.join(L.OUT, 'final', 'sb'), exist_ok=True)
+    store = 'etsy'; sub = 'etsy'; final = os.path.join(L.OUT, 'final', 'sb')
+    if want[:1] == ['--gumroad']:  # 16:9 covers, Gumroad delivery steps, nothing about Etsy
+        want = want[1:]; store = 'gumroad'; sub = 'etsy/gumroad'
+        L.W = 1801; L.BGOUT = os.path.join(L.OUT, 'gumroad'); final = os.path.join(L.OUT, 'gumroad', 'sb')
+    os.makedirs(os.path.join(L.BGOUT, 'sb'), exist_ok=True); os.makedirs(final, exist_ok=True)
+    _lb = life_bg
+    def life_bg(scene, screen, out, side='right', dark=False):  # write backgrounds next to the store's pages
+        return _lb(scene, screen, os.path.join(L.BGOUT, 'sb', os.path.basename(out)), side, dark)
+    globals()['life_bg'] = life_bg
     base = 'file://' + os.path.join(L.ROOT, 'canva', 'v3') + '/LOCALMARK/'
-    pages = L.build('sb', base)
-    life = [life_page(*row, base) for row in LIFE] + [phone_page(*row, base) for row in PHONES]
+    pages = L.build('sb', base, store)
+    life = [life_page(*row, base) for row in LIFE] + [phone_life_page(*row, base) for row in PHLIFE] + [phone_page(*row, base) for row in PHONES]
     inside = pages[5].replace('sb-6-inside', 'sb-8-inside'); how = pages[6].replace('sb-7-how', 'sb-9-how')
     pages = [pages[0]] + life + [inside, how, bonus_page(base)]
     for pg in pages:
-        pg2 = pg.replace('/LOCALMARK/crops/', '/crops/').replace('/LOCALMARK/', '/etsy/')
+        pg2 = pg.replace('/LOCALMARK/crops/', '/crops/').replace('/LOCALMARK/', '/' + sub + '/')
         lab = re.search(r'data-label="([^"]+)"', pg2).group(1)
         if want and not any(w in lab for w in want):
             continue
-        L.render_png(pg2, os.path.join(L.OUT, 'final', 'sb', lab + '.png')); print('ok', lab)
+        L.render_png(pg2, os.path.join(final, lab + '.png')); print('ok', lab)
