@@ -43,7 +43,7 @@ h1{{font-family:DMS;font-weight:400;font-size:48px;line-height:1;margin-top:14px
 .shot .bar span{{margin-left:10px;font-size:8.5px;font-weight:700;color:#8A7A6C;background:#F7F3EE;border-radius:5px;padding:3px 30px 3px 10px}}
 .shot .vp{{overflow:hidden}}.shot img{{display:block;width:100%;margin-top:-11%}}
 .w{{padding:0 .7in}}
-a.btn{{display:flex;justify-content:space-between;align-items:center;margin-top:20px;position:relative;background:#C98B6B;color:#fff;text-decoration:none;border-radius:16px;padding:16px 24px;font-weight:700;font-size:19px;box-shadow:0 12px 26px rgba(120,70,40,.25)}}
+a.btn{{display:flex;justify-content:space-between;align-items:center;margin-top:20px;position:relative;background:#4A6B4F;color:#fff;text-decoration:none;border-radius:16px;padding:16px 24px;font-weight:700;font-size:19px;box-shadow:0 12px 26px rgba(31,51,36,.28)}}
 a.btn span{{width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.22);display:flex;align-items:center;justify-content:center;font-size:20px}}
 .u{{margin-top:9px;text-align:center;font-weight:500;font-size:8.5px;color:#6F665B;line-height:1.6}}.u a{{color:#2E2A25}}
 .lbl{{margin:18px 0 9px;font-weight:700;font-size:10px;letter-spacing:.16em;color:#7A8B6F}}
