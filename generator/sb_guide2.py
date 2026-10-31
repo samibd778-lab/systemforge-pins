@@ -139,7 +139,7 @@ h2{{font-size:40px;line-height:1}}
 .ring{{position:absolute;border-radius:50%;border:1.5px solid rgba(243,236,226,.13)}}
 .r1{{width:6.5in;height:6.5in;right:-2.6in;top:-1.9in}}.r2{{width:4.6in;height:4.6in;right:-1.65in;top:-.95in}}.r3{{width:2.7in;height:2.7in;right:-.7in;top:0;background:var(--clay);border:none;opacity:.9}}
 .cv{{position:relative;margin-top:.75in}}
-.shot{{position:absolute;left:1.15in;right:-.9in;bottom:.6in;background:#fff;border-radius:14px 0 0 14px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.45),0 0 0 1px rgba(255,255,255,.08)}}
+.shot{{position:absolute;left:.95in;right:-.35in;bottom:.6in;background:#fff;border-radius:14px 0 0 14px;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.45),0 0 0 1px rgba(255,255,255,.08)}}
 .shot .bar{{height:30px;background:#EDE7DF;display:flex;align-items:center;gap:7px;padding:0 14px}}
 .shot .bar i{{width:10px;height:10px;border-radius:50%;background:#D3C8BB}}.shot .bar i:first-child{{background:#E39A82}}
 .shot .bar span{{margin-left:14px;font-size:10px;font-weight:700;color:#8A7A6C;background:#F7F3EE;border-radius:6px;padding:4px 40px 4px 12px}}
