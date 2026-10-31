@@ -1,5 +1,7 @@
 # Second Brain OS: Etsy listing (fill the form top to bottom)
 
+**Live:** https://www.etsy.com/listing/4607192750 (published 2026-10-31, featured)
+
 Everything is in `etsy/sb/`. Etsy only: no Gumroad links anywhere.
 
 ## 1. Photos (in this order)
