@@ -9,6 +9,8 @@ Every feature below is in the template (checked 2026-10-30). Gumroad copy has on
 
 ## Gumroad
 
+**Live:** https://getsystemforge.gumroad.com/l/second-brain-os ($19, published 2026-10-31). Name on Gumroad: "Second Brain OS — Notion Life Planner Template". Covers: 8 max (01-08 from dl/sb). Bonus PDF linked from dl/sb (raw GitHub). Category: Self Improvement > Productivity.
+
 **Name**
 
 ```
