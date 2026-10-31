@@ -11,7 +11,7 @@ video.mp4 (12 s, silent, 1920x1440)
 
 ## 3. Title
 ```
-Second Brain Notion Template | Notion Life Planner, Habit Tracker, Goal Planner, Journal | PARA Dashboard
+Second Brain Notion Template | Notion Planner Dashboard, Digital Life Planner, Habit Tracker, Goal Planner, Journal
 ```
 
 ## 4. About this listing
@@ -28,7 +28,7 @@ Attributes (if asked): Primary color **Green**, Secondary color **Beige**. Leave
 
 ## 6. Description
 ```
-Your whole life in one calm Notion page: goals, projects, notes, habits, journal and books. Set up in 5 minutes.
+This Second Brain Notion template is an all-in-one digital life planner: goals, projects, notes, a habit tracker, a daily journal and a reading list in one calm Notion dashboard. Set up in 5 minutes.
 
 WHAT'S INSIDE
 🏠 Home dashboard with a Today widget: clock, day/week/month/year progress, mini calendar and a thought for the day
@@ -75,7 +75,7 @@ Off.
 
 ## 10. Tags (13)
 ```
-notion template, second brain, notion planner, life planner, habit tracker, goal planner, notion dashboard, digital planner, daily journal, para method, reading tracker, weekly planner, productivity
+notion template, notion planner, digital planner, second brain, notion dashboard, habit tracker, goal planner, life planner, notion journal, para method, productivity planner, weekly planner, notion book tracker
 ```
 
 ## 11. Materials
