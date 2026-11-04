@@ -1,5 +1,65 @@
 [
  {
+  "id": "sb-desk-layout",
+  "product": "sb",
+  "name": "Second Brain OS",
+  "kind": "lifestyle",
+  "angle": "Laptop and phone on a wooden desk showing a calm Notion homepage. Headline: Notion Layout Ideas, one calm page for your whole life. Chips: Goals, Habits, Journal. Use the keyword \"Notion layout ideas\".",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v3sb/sb-desk-layout.jpg",
+  "link": "https://www.etsy.com/listing/4607192750",
+  "board": "sb",
+  "board_id": "1102607989961653016",
+  "board_name": "Notion Layout Ideas"
+ },
+ {
+  "id": "sb-hand-habits",
+  "product": "sb",
+  "name": "Second Brain OS",
+  "kind": "lifestyle",
+  "angle": "A hand holding a phone in a cozy cafe with the Notion habit tracker open. Headline: The habit tracker I finally stuck to. Tick it on your phone in 10 seconds, the score fills in by itself. Use the keyword \"habit tracker ideas\".",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v3sb/sb-hand-habits.jpg",
+  "link": "https://www.etsy.com/listing/4607192750",
+  "board": "sb",
+  "board_id": "1102607989961656300",
+  "board_name": "Habit Tracker Ideas"
+ },
+ {
+  "id": "sb-flat-ideas",
+  "product": "sb",
+  "name": "Second Brain OS",
+  "kind": "lifestyle",
+  "angle": "Top-down marble desk with a laptop and a habit tracker card. Headline: Notion template ideas for your whole life. Use the keyword \"Notion template ideas\".",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v3sb/sb-flat-ideas.jpg",
+  "link": "https://www.etsy.com/listing/4607192750",
+  "board": "sb",
+  "board_id": "1102607989961656311",
+  "board_name": "Notion Template Ideas"
+ },
+ {
+  "id": "sb-hand-journal",
+  "product": "sb",
+  "name": "Second Brain OS",
+  "kind": "lifestyle",
+  "angle": "A hand holding a phone in a cozy cafe with the Notion daily journal open. Headline: A 2-minute bedtime journal. Mood, one win and one thank you, on your phone. Use the keyword \"journal ideas\" or \"digital planner\".",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v3sb/sb-hand-journal.jpg",
+  "link": "https://www.etsy.com/listing/4607192750",
+  "board": "sb",
+  "board_id": "1102607989961656306",
+  "board_name": "Digital Planner Ideas"
+ },
+ {
+  "id": "sb-studio-template",
+  "product": "sb",
+  "name": "Second Brain OS",
+  "kind": "lifestyle",
+  "angle": "Laptop on a sage green background showing the Second Brain OS homepage. Headline: Second Brain Notion Template. Chips: PARA method, Habit tracker, Journal. Use the keyword \"second brain Notion template\".",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v3sb/sb-studio-template.jpg",
+  "link": "https://www.etsy.com/listing/4607192750",
+  "board": "sb",
+  "board_id": "1102607989961656311",
+  "board_name": "Notion Template Ideas"
+ },
+ {
   "id": "ccs-1-hero",
   "product": "ccs",
   "name": "Content Creator Studio",
