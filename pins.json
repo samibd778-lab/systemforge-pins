@@ -1,6 +1,41 @@
 {
  "pins": [
   {
+   "id": "pins/v3sb/sb-zoom-homepage",
+   "p": "sb",
+   "kind": "lifestyle",
+   "angle": "Two big cards over a wooden desk scene: the Today widget (your day at a glance) and goals with progress bars that fill up. Headline: Steal this Notion layout. Use the keyword \"aesthetic Notion homepage\" or \"Notion layout ideas\".",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v3sb/sb-studio-productive",
+   "p": "sb",
+   "kind": "lifestyle",
+   "angle": "Laptop on a sage green background with the Second Brain OS dashboard. Headline: Productive aesthetic. Goals, projects and habits in one Notion page. Use the keyword \"productive aesthetic\".",
+   "board_id": "1134836874794954345"
+  },
+  {
+   "id": "pins/v3sb/sb-steps-secondbrain",
+   "p": "sb",
+   "kind": "lifestyle",
+   "angle": "Four numbered cards with real template screens: start your day, set a goal, plan the project, track the habit. Headline: Build a second brain in Notion. Use the keyword \"second brain Notion\".",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v3sb/sb-desk-digital",
+   "p": "sb",
+   "kind": "lifestyle",
+   "angle": "Laptop and phone on a wooden desk showing the Next 7 days tasks. Headline: Digital Planner, I switched from paper to this. Use the keyword \"digital planner\".",
+   "board_id": "1134836874794954345"
+  },
+  {
+   "id": "pins/v3sb/sb-zoom-week",
+   "p": "sb",
+   "kind": "lifestyle",
+   "angle": "Two big cards: projects with progress bars and habits this week. Headline: Plan your week in 15 minutes. Use the keyword \"time management\" or \"weekly planner\".",
+   "board_id": "1134836874794954345"
+  },
+  {
    "id": "ccs-1-pipeline",
    "p": "ccs",
    "angle": "A Notion content board on a laptop and phone: every post moves from Idea to Posted"
