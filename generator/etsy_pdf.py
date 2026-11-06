@@ -7,7 +7,7 @@ ROOT = os.path.dirname(HERE)
 sys.path.insert(0, os.path.join(HERE, 'styles'))
 from pins_v2 import FONT_CSS  # noqa: E402
 
-CHROME = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
+CHROME = next((p for p in ['/opt/pw-browsers/chromium-1194/chrome-linux/chrome', '/opt/pw-browsers/chromium-1243/chrome-linux64/chrome'] if os.path.exists(p)), 'chromium')
 name, url, step4, out = sys.argv[1:5]
 shot = sys.argv[5] if len(sys.argv) > 5 else None
 dm = base64.b64encode(open(os.path.join(ROOT, 'brand/fonts/dmserif.woff2'), 'rb').read()).decode()
