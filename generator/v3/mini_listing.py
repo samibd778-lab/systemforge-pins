@@ -72,7 +72,7 @@ PROD = {
    screens={'lap': ['budget-categories', 'budget-bills'], 's1': ['budget-categories'], 's2': ['budget-bills'], 's3': ['budget-transactions'], 's4': ['budget-savings', 'budget-debt']},
    cards=[('See what is left', 'Every category shows what you spent this month, what is left and if you are on track.', ('budget-categories', 0, 0, 1388, 540)),
           ('Never miss a bill', 'Every bill with its due day. Paid, due soon or late, at a glance.', ('budget-bills', 0, 0, 1000, 430)),
-          ('Every dollar, in and out', 'Expenses show with a minus. Pick a category and the budget updates.', ('budget-transactions', 0, 0, 1100, 587)),
+          ('Every dollar, in and out', 'Expenses show with a minus. Pick a category and the budget updates.', ('budget-transactions', 0, 0, 1100, 330)),
           ('Savings goals with a deadline', 'See how much to save each month to hit your goal on time.', ('budget-savings', 0, 0, 1000, 297)),
           ('Your debt-free date', 'Highest interest first. Add an extra payment and see the date move closer.', ('budget-debt', 0, 0, 1380, 285)),
           ('How much you saved', 'Income, spending, what is left over and how much of your income you saved.', ('budget-overview', 0, 0, 1290, 245))],
