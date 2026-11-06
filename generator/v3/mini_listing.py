@@ -81,10 +81,10 @@ PROD = {
            '50/30/20 guide + 25 ways to spend less', 'Bonus PDF: Money Reset in 7 Days'],
    bonus=('Money Reset in 7 Days', 'A 6-page PDF: a 7-day plan, how to pick a budget style, paying off debt faster, a safety cushion and a printable worksheet.')),
 }
-SCENES = {  # main scene, then 4 lifestyle scenes (scene, text side)
- 'habit': ('s-sb.png', [('s-sb-m.png', 'right'), ('s-sb2-m.png', 'left'), ('s-sb2.png', 'right'), ('s-sb.png', 'left')]),
- 'journal': ('s-sb2-m.png', [('s-sb2.png', 'right'), ('s-sb.png', 'left'), ('s-sb-m.png', 'right'), ('s-sb2-m.png', 'left')]),
- 'budget': ('s-sb-r.png', [('s-sb-m.png', 'right'), ('s-sb.png', 'left'), ('s-sb2.png', 'right'), ('s-sb2-m.png', 'left')]),
+SCENES = {  # main scene (laptop right), then 4 lifestyle scenes (scene, text side)
+ 'habit': ('n-habit-a.png', [('n-habit-b.png', 'right'), ('n-habit-b-m.png', 'left'), ('n-habit-a-m.png', 'right'), ('n-habit-a.png', 'left')]),
+ 'journal': ('n-journal-a.png', [('n-journal-b.png', 'right'), ('n-journal-b-m.png', 'left'), ('n-journal-a-m.png', 'right'), ('n-journal-a.png', 'left')]),
+ 'budget': ('n-budget-a.png', [('n-budget-b.png', 'right'), ('n-budget-b-m.png', 'left'), ('n-budget-a-m.png', 'right'), ('n-budget-a.png', 'left')]),
 }
 
 
