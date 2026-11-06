@@ -30,7 +30,7 @@ Left out on purpose: "budget spreadsheet" (it is a Notion template, not a spread
 
 ## 1. Habit Tracker
 
-**Etsy title (115 chars)**
+**Etsy title (118 chars)**
 Habit Tracker Notion Template | Daily Habit Tracker, Monthly Progress Bars, Habit Calendar | Digital Planner for Goals
 
 **13 tags**
@@ -66,7 +66,7 @@ A Notion daily journal template with a gratitude journal, a mood tracker and a n
 
 ## 3. Budget Planner
 
-**Etsy title (120 chars)**
+**Etsy title (118 chars)**
 Budget Planner Notion Template | Budget Tracker, Bill Tracker, Savings + Debt Payoff Tracker | 50 30 20 Digital Budget
 
 **13 tags**
