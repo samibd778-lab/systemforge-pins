@@ -15,7 +15,7 @@ ROOT = os.path.dirname(os.path.dirname(HERE))
 HD = os.path.join(ROOT, 'shots', 'hd')
 OUT = os.path.join(ROOT, 'canva', 'v3')
 RAW = 'https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/canva/v3/'
-CHROME = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'
+CHROME = next((p for p in ['/opt/pw-browsers/chromium-1194/chrome-linux/chrome', '/opt/pw-browsers/chromium-1243/chrome-linux64/chrome'] if os.path.exists(p)), 'chromium')
 os.makedirs(os.path.join(OUT, 'crops'), exist_ok=True)
 os.makedirs(os.path.join(OUT, 'bg'), exist_ok=True)
 
