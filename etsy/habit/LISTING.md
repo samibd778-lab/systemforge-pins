@@ -29,7 +29,7 @@ A Notion habit tracker template and digital planner: tick your daily habits, and
 WHAT'S INSIDE
 🏠 Home page with a live Today widget: clock, week, month and year progress, and a habit thought for the day
 ✔️ Daily check-in: 6 habits you can rename, one row per day
-⭐ Your score and day type fill in by themselves (and Perfect days get a star)
+⭐ Your score and day type fill in by themselves
 📊 Monthly progress: a bar for every habit, your best habit and your perfect days
 📅 Habit calendar: your score on every day of the month
 🌱 My habit plan: why it matters, the cue that starts it, the tiny version for busy days and your reward
