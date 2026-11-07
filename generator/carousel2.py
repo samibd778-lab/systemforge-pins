@@ -15,8 +15,8 @@ FONTS = os.path.join(ROOT, 'generator', 'remotion', 'public')
 W, H = 1080, 1350
 TMP = tempfile.mkdtemp(prefix='car2-')
 
-PRODUCTS = {'fco': 'Freelancer Client OS', 'ccs': 'Content Creator Studio', 'prop': 'Proposal Tracker', 'deal': 'Brand Deal Tracker'}
-ACCENT = {'fco': '#7FE0B0', 'ccs': '#FFB547', 'prop': '#8AB8FF', 'deal': '#FF9EB5'}
+PRODUCTS = {'fco': 'Freelancer Client OS', 'ccs': 'Content Creator Studio', 'prop': 'Proposal Tracker', 'deal': 'Brand Deal Tracker', 'habit': 'Habit Tracker', 'journal': 'Daily Journal', 'budget': 'Budget Planner', 'sb': 'Second Brain OS', 'fit': 'Freelance Invoice Tracker'}
+ACCENT = {'fco': '#7FE0B0', 'ccs': '#FFB547', 'prop': '#8AB8FF', 'deal': '#FF9EB5', 'habit': '#9BE08A', 'journal': '#C9A8FF', 'budget': '#6FD6C8', 'sb': '#F2C14E', 'fit': '#7FE0B0'}
 BG1, BG2, INK, MUT = '#101216', '#1B1F27', '#F6F4EF', '#A9B0BC'
 
 CSS = f'''

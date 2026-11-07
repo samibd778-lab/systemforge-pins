@@ -430,6 +430,460 @@
     }
    ],
    "caption": "Brand deals: 5 things to track so you stop losing money:\n\n1. Where each deal stands\n2. The posts you still owe\n3. When the money is due\n4. Your next step\n5. Your rates, written once\n\nSave this, and send it to a creator friend who works with brands.\n\nBrand Deal Tracker is a Notion template for creators and UGC creators: deal board, posts you owe, money due and 6 brand email scripts. Link in bio.\n\n#ugccreator #branddeals #contentcreator #notiontemplate #influencertips"
+  },
+  {
+   "id": "k17-habits-break",
+   "p": "habit",
+   "caption": "Why your habits keep breaking (and 5 small fixes):\n\n1. Start tiny\n2. Tie it to something you already do\n3. Plan the busy days\n4. Never miss twice\n5. Watch the month, not the day\n\nSave this for your next fresh start, and send it to a friend who's building a habit.\n\nHabit Tracker is a Notion template: tick 6 habits a day and your score, monthly bars and habit calendar fill in by themselves. Link in bio.\n\n#habittracker #habits #selfimprovement #notiontemplate #productivity",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "HABIT TIPS",
+     "title": "Why your<br>habits keep<br><mark>breaking</mark>",
+     "sub": "5 small fixes that work.",
+     "shot": {
+      "src": "shots/hd/habit-week.jpg",
+      "box": [
+       0,
+       0,
+       1380,
+       683
+      ]
+     }
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "Start tiny",
+     "text": "Make it so small you can’t say no. One page, one glass of water, two minutes.",
+     "label": "EXAMPLE",
+     "box": "“Read 1 page before bed.”"
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "Tie it to<br>a cue",
+     "text": "Stack it on something you already do every day.",
+     "label": "TRY THIS",
+     "box": "“After my coffee, I stretch.”"
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "Plan the<br>busy days",
+     "text": "Write the tiny version now, so a bad day is still a done day.",
+     "shot": {
+      "src": "shots/hd/habit-plan.jpg",
+      "box": [
+       0,
+       0,
+       1380,
+       614
+      ]
+     },
+     "max_h": 470
+    },
+    {
+     "type": "tip",
+     "num": "04",
+     "title": "Never<br>miss twice",
+     "text": "Missing one day is normal. Missing two days is how a habit fades.",
+     "label": "REMEMBER",
+     "box": "Missed today? Tomorrow is the one that counts."
+    },
+    {
+     "type": "tip",
+     "num": "05",
+     "title": "Watch the month,<br>not the day",
+     "text": "A monthly bar shows progress that one day never can.",
+     "shot": {
+      "src": "shots/hd/habit-monthly.jpg",
+      "box": [
+       0,
+       0,
+       1380,
+       605
+      ]
+     },
+     "max_h": 470
+    },
+    {
+     "type": "cta",
+     "bullets": [
+      "Tick 6 habits a day, the score fills in by itself",
+      "A progress bar for every habit, every month",
+      "Bonus: 30-Day Habit Reset (PDF)"
+     ],
+     "send": "a friend who wants a fresh start"
+    }
+   ]
+  },
+  {
+   "id": "k18-journal-2min",
+   "p": "journal",
+   "caption": "Journal in 2 minutes a day:\n\n1. How do I feel? (1 to 5)\n2. One win, even a small one\n3. One thank you\n4. On Sunday, look back at your week\n\nSave this and try it tonight.\n\nDaily Journal is a Notion template: mood, one win and one thank you every day, and your week and month fill in by themselves. Link in bio.\n\n#journaling #dailyjournal #gratitudejournal #notiontemplate #selfcare",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "JOURNAL TIPS",
+     "title": "Journal in<br><mark>2 minutes</mark><br>a day",
+     "sub": "4 questions. That’s it.",
+     "shot": {
+      "src": "shots/hd/journal-entries.jpg",
+      "box": [
+       0,
+       0,
+       1380,
+       583
+      ]
+     }
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "How do<br>I feel?",
+     "text": "Rate your mood from 1 to 5. After a month you’ll see patterns you never noticed."
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "One win",
+     "text": "Write one thing that went well today, even a small one.",
+     "label": "EXAMPLE",
+     "box": "“I finished the report before lunch.”"
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "One<br>thank you",
+     "text": "Name one thing you’re grateful for. On hard days, read the old ones.",
+     "shot": {
+      "src": "shots/hd/journal-gratitude.jpg",
+      "box": [
+       0,
+       0,
+       1380,
+       512
+      ]
+     },
+     "max_h": 470
+    },
+    {
+     "type": "tip",
+     "num": "04",
+     "title": "Look back<br>on Sunday",
+     "text": "Your average mood for the week tells the real story of your week.",
+     "shot": {
+      "src": "shots/hd/journal-weekly.jpg",
+      "box": [
+       0,
+       0,
+       1380,
+       251
+      ]
+     },
+     "max_h": 330
+    },
+    {
+     "type": "cta",
+     "bullets": [
+      "Mood, energy, one win and one thank you every day",
+      "Weekly and monthly mood fill in by themselves",
+      "60 journal prompts + a journaling guide (PDF)"
+     ],
+     "send": "a friend who wants to start journaling"
+    }
+   ]
+  },
+  {
+   "id": "k19-budget-503020",
+   "p": "budget",
+   "caption": "The 50/30/20 budget in 5 minutes:\n\n50% Needs: rent, groceries, bills\n30% Wants: eating out, shopping, trips\n20% Savings: emergency fund, goals, extra debt payments\n\nThen check what's left in every category each week.\n\nThe numbers in the slides are an example. Try it with your own pay.\n\nBudget Planner is a Notion template with the 50/30/20 method built in: budget per category, bills, savings goals and a debt-free date. Link in bio.\n\n#budgeting #budgetplanner #503020 #personalfinance #notiontemplate",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "MONEY TIPS",
+     "title": "The <mark>50/30/20</mark><br>budget in<br>5 minutes",
+     "sub": "The easiest way to split your pay.",
+     "shot": {
+      "src": "shots/hd/budget-categories.jpg",
+      "box": [
+       0,
+       0,
+       1388,
+       540
+      ]
+     }
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "50% Needs",
+     "text": "Rent, groceries, bills, transport. The things you must pay.",
+     "label": "EXAMPLE: $3,000 PAY",
+     "box": "Needs: $1,500"
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "30% Wants",
+     "text": "Eating out, shopping, trips, streaming. The fun part, guilt-free.",
+     "label": "EXAMPLE: $3,000 PAY",
+     "box": "Wants: $900"
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "20% Savings",
+     "text": "Emergency fund, savings goals, extra debt payments. Pay this part first.",
+     "label": "EXAMPLE: $3,000 PAY",
+     "box": "Savings: $600"
+    },
+    {
+     "type": "tip",
+     "num": "04",
+     "title": "Check<br>what’s left",
+     "text": "Every category shows what you spent and what is left this month.",
+     "shot": {
+      "src": "shots/hd/budget-categories.jpg",
+      "box": [
+       0,
+       0,
+       1388,
+       540
+      ]
+     },
+     "max_h": 470
+    },
+    {
+     "type": "cta",
+     "bullets": [
+      "Budget per category: spent, left and a status",
+      "Bills with a due day: Paid, Due soon, Late",
+      "Savings goals and your debt-free date"
+     ],
+     "send": "a friend who wants to save more"
+    }
+   ]
+  },
+  {
+   "id": "k20-budget-bills",
+   "p": "budget",
+   "caption": "Never miss a bill again. 4 habits that stop late fees:\n\n1. List every bill once, with its due day\n2. Check your subscriptions every month\n3. Mark which bills are on autopay\n4. Every Sunday, look 7 days ahead\n\nSave this, and send it to a friend who hates late fees.\n\nBudget Planner is a Notion template with a bills + subscriptions list that shows Paid, Due soon or Late. Link in bio.\n\n#budgeting #billtracker #personalfinance #moneytips #notiontemplate",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "MONEY TIPS",
+     "title": "Never miss<br>a <mark>bill</mark> again",
+     "sub": "4 habits that stop late fees.",
+     "shot": {
+      "src": "shots/hd/budget-bills.jpg",
+      "box": [
+       0,
+       0,
+       1380,
+       420
+      ]
+     }
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "List every<br>bill once",
+     "text": "Rent, phone, streaming, insurance. Write the due day next to each one."
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "Check your<br>subscriptions",
+     "text": "Once a month, look at every subscription you pay for.",
+     "label": "QUICK RULE",
+     "box": "Used it last month? Keep it. No? Cancel it."
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "Mark<br>autopay",
+     "text": "Know which bills pay themselves, so you only watch the rest."
+    },
+    {
+     "type": "tip",
+     "num": "04",
+     "title": "Look 7 days<br>ahead",
+     "text": "Every Sunday, check what is due this week.",
+     "shot": {
+      "src": "shots/hd/budget-bills.jpg",
+      "box": [
+       0,
+       0,
+       1380,
+       420
+      ]
+     },
+     "max_h": 440
+    },
+    {
+     "type": "cta",
+     "bullets": [
+      "Bills + subscriptions: Paid, Due soon, Late",
+      "Every dollar in and out in one list",
+      "Bonus: Money Reset in 7 Days (PDF)"
+     ],
+     "send": "a friend who hates late fees"
+    }
+   ]
+  },
+  {
+   "id": "k21-sb-para",
+   "p": "sb",
+   "caption": "Where should this note go? The PARA method in 4 folders:\n\nProjects: things with a finish line\nAreas: things you keep up forever\nResources: topics you're curious about\nArchive: anything done\n\nAnd the rule that makes it work: capture first, sort later.\n\nSave this, and send it to a friend with 500 messy notes.\n\nSecond Brain OS is a Notion template built on PARA: goals, projects, tasks, notes, habits and journal in one place. Link in bio.\n\n#secondbrain #notion #notiontemplate #productivity #notetaking",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "NOTION TIPS",
+     "title": "Where does<br>this note <mark>go</mark>?",
+     "sub": "The PARA method in 4 folders.",
+     "shot": {
+      "src": "shots/hd/sb-projects.png",
+      "box": [
+       0,
+       0,
+       2170,
+       1325
+      ]
+     }
+    },
+    {
+     "type": "tip",
+     "num": "P",
+     "title": "Projects",
+     "text": "Things with a finish line.",
+     "label": "EXAMPLES",
+     "box": "Launch the website · Plan the trip"
+    },
+    {
+     "type": "tip",
+     "num": "A",
+     "title": "Areas",
+     "text": "Things you keep up forever, with no finish line.",
+     "label": "EXAMPLES",
+     "box": "Health · Money · Home · Work"
+    },
+    {
+     "type": "tip",
+     "num": "R",
+     "title": "Resources",
+     "text": "Topics you’re curious about and want to keep.",
+     "label": "EXAMPLES",
+     "box": "Recipes · Design · Marketing"
+    },
+    {
+     "type": "tip",
+     "num": "A",
+     "title": "Archive",
+     "text": "Anything done or not needed now. Out of sight, still easy to find."
+    },
+    {
+     "type": "tip",
+     "num": "✓",
+     "title": "Capture first,<br>sort later",
+     "text": "Drop it in the inbox now. Sort it in your weekly review.",
+     "shot": {
+      "src": "shots/hd/sb-home.png",
+      "box": [
+       0,
+       0,
+       2170,
+       2565
+      ]
+     },
+     "max_h": 470
+    },
+    {
+     "type": "cta",
+     "bullets": [
+      "Goals, projects and tasks with progress bars",
+      "Notes inbox + quick capture, sorted with PARA",
+      "Habits, journal and weekly reviews in one place"
+     ],
+     "send": "a friend with 500 messy notes"
+    }
+   ]
+  },
+  {
+   "id": "k22-fit-owes",
+   "p": "fit",
+   "caption": "Freelancers: 3 questions to ask every Friday:\n\n1. Who owes me money?\n2. Which invoices are late, and by how many days?\n3. What is the next step for each one?\n\nThen send the reminder, kindly.\n\nSave this for Friday, and send it to a freelancer friend.\n\nFreelance Invoice Tracker is a free Notion template that answers all three for you, with 5 reminder emails. Link in bio.\n\n#freelancer #freelancetips #invoicetracker #notiontemplate #smallbusiness",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "FREELANCE TIPS",
+     "title": "3 questions<br>to ask every<br><mark>Friday</mark>",
+     "sub": "So you always get paid.",
+     "shot": {
+      "src": "shots/hd/fit-chase-owes.png",
+      "box": [
+       0,
+       0,
+       4320,
+       2699
+      ]
+     }
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "Who owes<br>me money?",
+     "text": "Add up every unpaid invoice, client by client."
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "What’s late,<br>and by how much?",
+     "text": "Count late days from the due date. Drafts you never sent don’t count."
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "What’s the<br>next step?",
+     "text": "Every late invoice needs one: wait, a friendly reminder, or a final notice.",
+     "shot": {
+      "src": "shots/hd/fit-chase-owes.png",
+      "box": [
+       0,
+       0,
+       4320,
+       2699
+      ]
+     },
+     "max_h": 470
+    },
+    {
+     "type": "tip",
+     "num": "04",
+     "title": "Send it,<br>kindly",
+     "text": "Most late invoices are just forgotten. A short, friendly email works.",
+     "shot": {
+      "src": "shots/hd/fit-reminder-emails.png",
+      "box": [
+       0,
+       0,
+       3840,
+       2400
+      ]
+     },
+     "max_h": 470
+    },
+    {
+     "type": "cta",
+     "bullets": [
+      "Free Notion template",
+      "Days overdue and a next step on every invoice",
+      "5 reminder emails ready to copy"
+     ],
+     "send": "a freelancer friend"
+    }
+   ]
   }
  ]
 }
