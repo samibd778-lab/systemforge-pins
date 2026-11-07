@@ -1,5 +1,7 @@
 # Budget Planner: Etsy listing (fill the form top to bottom)
 
+**Live:** https://www.etsy.com/listing/4611612842 (published 2026-11-06, featured)
+
 Everything is in `etsy/budget/`. Etsy only: no Gumroad links anywhere.
 
 ## 1. Photos (in this order)

@@ -1,5 +1,7 @@
 # Habit Tracker: Etsy listing (fill the form top to bottom)
 
+**Live:** https://www.etsy.com/listing/4611609200 (published 2026-11-06, featured)
+
 Everything is in `etsy/habit/`. Etsy only: no Gumroad links anywhere.
 
 ## 1. Photos (in this order)
