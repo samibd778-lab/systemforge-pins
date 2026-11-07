@@ -35,7 +35,7 @@ WHAT'S INSIDE
 📊 Monthly mood: average mood, great days and low days for every month
 🗓️ Mood calendar: your month at a glance
 ⭐ Favorite days: tick Favorite to keep a day
-🫙 Gratitude jar: every thank you you wrote, in one place
+🍯 Gratitude jar: every thank you you wrote, in one place
 🌅 Daily questions + 💡 60 journal prompts
 📘 Start here guide
 
