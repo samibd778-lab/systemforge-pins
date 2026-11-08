@@ -1,11 +1,11 @@
 # Facebook groups: SystemForge posting log
 
-Account: Sami Boud, in the "Sami US" Chrome only (US IP). Rule: one product per group per week, a different text in every group, UTM on every link.
+Account: Sami Boud, in the "Sami US" Chrome only (US IP). Rule: check each post again 10+ minutes later (a post can show "Just now" to you and still be auto-declined). One product per group per week, a different text in every group, UTM on every link.
 
 ## Groups (checked 2026-11-06)
 | Group | ID / slug | Members | Rules | Promo OK? |
 |---|---|---|---|---|
-| Free Notion Templates | 480149109768047 | 28.5K | none listed | yes (free products fit best) |
+| Free Notion Templates | 480149109768047 | 28.5K | auto-declines posts with a link or reshared content (2026-11-07) | NO link in the post: image + text, link in the first comment or "comment X and I'll send it" |
 | Notion Community | thenotioncommunity | 14.9K | none listed | yes (others post Gumroad links) |
 | Gumroad Products [ Promote FREELY! ] | 1261277034854721 | 7.3K | promotion is the purpose | yes, admin approval |
 | Notion Templates Community | notiontemplatescommunity | 4.8K | rule 3: no self-promotion | NO |
@@ -18,6 +18,6 @@ Account: Sami Boud, in the "Sami US" Chrome only (US IP). Rule: one product per 
 ## Posts
 | Date | Group | Product | UTM campaign | Status |
 |---|---|---|---|---|
-| 2026-11-06 | Free Notion Templates | free-invoice-tracker | free-notion-templates | live |
+| 2026-11-06 | Free Notion Templates | free-invoice-tracker | free-notion-templates | DECLINED automatically (link in post) |
 | 2026-11-06 | Notion Community | free-invoice-tracker | notion-community | live |
 | 2026-11-06 | Gumroad Products [Promote FREELY!] | free-invoice-tracker | gumroad-promote | pending admin approval |
