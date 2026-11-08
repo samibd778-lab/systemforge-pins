@@ -1,7 +1,7 @@
 # Notion Marketplace (profile @getsystemforge)
 
 Submitted for review 2026-11-07. Paid listings use a Preview page as Template link (no Duplicate) and the Gumroad page as Purchase URL (utm_source=notion&utm_medium=marketplace).
-Direct selling with Notion (Stripe) needs an application from Settings > Sell templates with Notion (Morocco is eligible, review can take months).
+Direct selling with Notion (Stripe): application submitted 2026-11-07 (business location Morocco), in review. When approved: Settings > Get started > Stripe onboarding, then switch each paid listing from the Gumroad Purchase URL to Notion checkout.
 
 | Template | Price | Category | Status |
 |---|---|---|---|
