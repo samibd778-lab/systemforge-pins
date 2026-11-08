@@ -19,5 +19,6 @@ Account: Sami Boud, in the "Sami US" Chrome only (US IP). Rule: check each post 
 | Date | Group | Product | UTM campaign | Status |
 |---|---|---|---|---|
 | 2026-11-06 | Free Notion Templates | free-invoice-tracker | free-notion-templates | DECLINED automatically (link in post) |
-| 2026-11-06 | Notion Community | free-invoice-tracker | notion-community | live |
+| 2026-11-06 | Notion Community | free-invoice-tracker | notion-community | pending admin approval |
 | 2026-11-06 | Gumroad Products [Promote FREELY!] | free-invoice-tracker | gumroad-promote | pending admin approval |
+| 2026-11-07 | Free Notion Templates | free-invoice-tracker (3 images, no link, "Comment INVOICE") | - | posted, re-check after 10 min |
