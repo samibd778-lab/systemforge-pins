@@ -78,3 +78,6 @@ packing list, trip planner, notion template, itinerary template, digital planner
 ## 10. Other settings
 - Renewal: **Automatic**
 - Feature this listing: **ON**
+- How created: **Created by me**
+
+

@@ -78,3 +78,6 @@ job application, notion template, digital planner, job tracker, job search track
 ## 10. Other settings
 - Renewal: **Automatic**
 - Feature this listing: **ON**
+- How created: **Created by me**
+
+

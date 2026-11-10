@@ -78,3 +78,6 @@ meal planner, grocery list, weekly meal planner, notion template, digital planne
 ## 10. Other settings
 - Renewal: **Automatic**
 - Feature this listing: **ON**
+- How created: **Created by me**
+
+

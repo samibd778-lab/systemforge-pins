@@ -78,3 +78,6 @@ vision board, notion template, digital planner, life wheel, life goals, life pla
 ## 10. Other settings
 - Renewal: **Automatic**
 - Feature this listing: **ON**
+- How created: **Created by me**
+
+
