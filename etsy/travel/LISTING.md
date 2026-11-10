@@ -80,4 +80,5 @@ packing list, trip planner, notion template, itinerary template, digital planner
 - Feature this listing: **ON**
 - How created: **Created by me**
 
-
+## Live
+Published 2026-11-10: https://www.etsy.com/listing/4614286430

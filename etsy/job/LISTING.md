@@ -80,4 +80,5 @@ job application, notion template, digital planner, job tracker, job search track
 - Feature this listing: **ON**
 - How created: **Created by me**
 
-
+## Live
+Published 2026-11-10: https://www.etsy.com/listing/4614280376

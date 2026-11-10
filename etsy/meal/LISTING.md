@@ -80,4 +80,5 @@ meal planner, grocery list, weekly meal planner, notion template, digital planne
 - Feature this listing: **ON**
 - How created: **Created by me**
 
-
+## Live
+Published 2026-11-10: https://www.etsy.com/listing/4614269627

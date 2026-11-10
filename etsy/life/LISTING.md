@@ -80,4 +80,5 @@ vision board, notion template, digital planner, life wheel, life goals, life pla
 - Feature this listing: **ON**
 - How created: **Created by me**
 
-
+## Live
+Published 2026-11-10: https://www.etsy.com/listing/4614275673
