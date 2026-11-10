@@ -1,0 +1,16 @@
+job-1 86504
+job-2 114078
+job-3 139040
+job-cover 167791
+meal-1 279876
+meal-2 176979
+meal-3 228284
+meal-cover 767954
+travel-1 255563
+travel-2 83474
+travel-3 224231
+travel-cover 700888
+life-1 145148
+life-2 164132
+life-3 81746
+life-cover 195379
