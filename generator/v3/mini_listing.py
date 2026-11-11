@@ -145,7 +145,7 @@ SCENES = {  # main scene (laptop right), then 4 lifestyle scenes (scene, text si
  'job': ('n-job-a.png', [('n-job-b.png', 'right'), ('n-job-b-m.png', 'left'), ('n-job-a-m.png', 'right'), ('n-job-a.png', 'left')]),
  'meal': ('n-meal-a.png', [('n-meal-b.png', 'right'), ('n-meal-b-m.png', 'left'), ('n-meal-a-m.png', 'right'), ('n-meal-a.png', 'left')]),
  'travel': ('n-travel-a.png', [('n-travel-b.png', 'right'), ('n-travel-b-m.png', 'left'), ('n-travel-a-m.png', 'right'), ('n-travel-a.png', 'left')]),
- 'life': ('n-life-a.png', [('n-life-a-m.png', 'right'), ('n-life-a.png', 'left'), ('n-life-a-m.png', 'right'), ('n-life-a.png', 'left')]),
+ 'life': ('n-life-a.png', [('n-life-b-m.png', 'right'), ('n-life-b.png', 'left'), ('n-life-a-m.png', 'right'), ('n-life-a.png', 'left')]),
 }
 
 
