@@ -14,6 +14,7 @@ jobs:
           cd photos
           while read -r name url; do
             [ -z "$name" ] && continue
+            [ -f "$name.jpg" ] && continue
             curl -sSL --retry 3 -o "$name.jpg" "$url" || echo "FAILED $name" >> log.txt
             echo "$name $(stat -c %s "$name.jpg")" >> log.txt
           done < list.txt

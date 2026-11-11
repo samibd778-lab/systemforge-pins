@@ -14,3 +14,4 @@ life-1 https://images.unsplash.com/photo-1490682143684-14369e18dce8?fm=jpg&q=70&
 life-2 https://images.unsplash.com/photo-1774354669545-6265156237d4?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 life-3 https://images.unsplash.com/photo-1768055105012-4c53791b2877?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 life-cover https://images.unsplash.com/photo-1506905925346-21bda4d32df4?fm=jpg&q=70&w=1500
+life-b-scene https://export-download.canva.com/nyUEk/DAHap5nyUEk/-1/0/0001-1574529959319932592.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH4R7NKVBA%2F20261111%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261111T205418Z&X-Amz-Expires=15411&X-Amz-Signature=b80e9f20fddcfe3bac6890be5928b9f457452aeda80f2db21dc5f36d993cef9f&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Thu%2C%2012%20Nov%202026%2001%3A11%3A09%20GMT
