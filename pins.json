@@ -1,6 +1,265 @@
 {
  "pins": [
   {
+   "id": "pins/v4/habit-1",
+   "p": "habit",
+   "kind": "lifestyle",
+   "angle": "The habit tracker I finally stuck to. Tick it every day. Your score fills in by itself. Keyword on the image: habit tracker ideas.",
+   "board_id": "1134836874795080738"
+  },
+  {
+   "id": "pins/v4/budget-1",
+   "p": "budget",
+   "kind": "lifestyle",
+   "angle": "Know what is left every month. See what is left, never miss a bill, watch your debt go down. Keyword on the image: budget planner.",
+   "board_id": "1134836874795080740"
+  },
+  {
+   "id": "pins/v4/life-1",
+   "p": "life",
+   "kind": "lifestyle",
+   "angle": "Big dreams, small steps you can finish. Goals, milestones and a vision board on one page. Keyword on the image: life planner.",
+   "board_id": "1134836874795080745"
+  },
+  {
+   "id": "pins/v4/meal-1",
+   "p": "meal",
+   "kind": "lifestyle",
+   "angle": "No more \"what is for dinner?\". Plan the week, cook what you love, shop with one list. Keyword on the image: meal planner.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/journal-1",
+   "p": "journal",
+   "kind": "lifestyle",
+   "angle": "A 2-minute journal you will actually keep. Your mood, one win and one thank you. Keyword on the image: journal ideas.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/travel-1",
+   "p": "travel",
+   "kind": "lifestyle",
+   "angle": "Every trip on one page. Dates, plans, bookings, budget and packing. Keyword on the image: travel planner.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/job-1",
+   "p": "job",
+   "kind": "lifestyle",
+   "angle": "Track every job application. Every job, interview and follow-up in one place. Keyword on the image: job application tracker.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/list-ideas",
+   "p": "shop",
+   "kind": "listicle",
+   "angle": "8 Notion template ideas to organize your life: habit tracker, budget planner, daily journal, life planner, meal planner, travel planner, job tracker, second brain.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/habit-2",
+   "p": "habit",
+   "kind": "lifestyle",
+   "angle": "Six habits, one row a day. Your score and day type show up by themselves. Keyword on the image: daily habit tracker.",
+   "board_id": "1134836874795080738"
+  },
+  {
+   "id": "pins/v4/budget-2",
+   "p": "budget",
+   "kind": "lifestyle",
+   "angle": "See what is left in every category. What you spent, what is left and if you are on track. Keyword on the image: monthly budget planner.",
+   "board_id": "1134836874795080740"
+  },
+  {
+   "id": "pins/v4/life-2",
+   "p": "life",
+   "kind": "lifestyle",
+   "angle": "Goals that fill up as you go. Tick a milestone and the bar fills by itself. Keyword on the image: notion life planner.",
+   "board_id": "1134836874795080745"
+  },
+  {
+   "id": "pins/v4/meal-2",
+   "p": "meal",
+   "kind": "lifestyle",
+   "angle": "Plan the whole week. Breakfast, lunch, dinner and snacks, each linked to a recipe. Keyword on the image: weekly meal planner.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/journal-2",
+   "p": "journal",
+   "kind": "lifestyle",
+   "angle": "One entry a day. Mood, energy, one win and one thing you are grateful for. Keyword on the image: daily journal.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/travel-2",
+   "p": "travel",
+   "kind": "lifestyle",
+   "angle": "A countdown for every trip. Days to go, budget left and how much is packed. Keyword on the image: travel planner template.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/job-2",
+   "p": "job",
+   "kind": "lifestyle",
+   "angle": "One board for every job. From Wishlist to Offer, with the next step on each card. Keyword on the image: job search organization.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/habit-3",
+   "p": "habit",
+   "kind": "lifestyle",
+   "angle": "A bar for every habit. Your best habit and your perfect days, every month. Keyword on the image: monthly habit tracker.",
+   "board_id": "1134836874795080738"
+  },
+  {
+   "id": "pins/v4/budget-3",
+   "p": "budget",
+   "kind": "lifestyle",
+   "angle": "Never miss a bill again. Every bill with its due day: paid, due soon or late. Keyword on the image: budget planner template.",
+   "board_id": "1134836874795080740"
+  },
+  {
+   "id": "pins/v4/life-3",
+   "p": "life",
+   "kind": "lifestyle",
+   "angle": "Every dream with a photo. And the date you want it by. Keyword on the image: vision board.",
+   "board_id": "1134836874795080745"
+  },
+  {
+   "id": "pins/v4/meal-3",
+   "p": "meal",
+   "kind": "lifestyle",
+   "angle": "All your recipes in one place. Time, rating and tags on every card. Favorites first. Keyword on the image: meal planner template.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/journal-3",
+   "p": "journal",
+   "kind": "lifestyle",
+   "angle": "A jar for every thank you. Every thank you you wrote, in one place. Keyword on the image: gratitude journal.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/travel-3",
+   "p": "travel",
+   "kind": "lifestyle",
+   "angle": "Never forget to book. Plans not booked yet, with the date and the cost. Keyword on the image: travel itinerary planner.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/job-3",
+   "p": "job",
+   "kind": "lifestyle",
+   "angle": "Follow up on time. Jobs with no answer after 7 days show up here. Keyword on the image: job application tracker.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/list-aesthetic",
+   "p": "shop",
+   "kind": "listicle",
+   "angle": "Aesthetic Notion templates for every part of your life: vision board, meal calendar, monthly habits, savings goals, gratitude jar, packing list, interview prep, daily journal.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/habit-4",
+   "p": "habit",
+   "kind": "lifestyle",
+   "angle": "Your month at a glance. A calendar with your score on every day. Keyword on the image: habit tracker template.",
+   "board_id": "1134836874795080738"
+  },
+  {
+   "id": "pins/v4/budget-4",
+   "p": "budget",
+   "kind": "lifestyle",
+   "angle": "Every dollar, in and out. Pick a category and the budget updates. Keyword on the image: budget planner ideas.",
+   "board_id": "1134836874795080740"
+  },
+  {
+   "id": "pins/v4/life-4",
+   "p": "life",
+   "kind": "lifestyle",
+   "angle": "Never miss a step. Steps due this month, with Late and This week flags. Keyword on the image: life planner organization.",
+   "board_id": "1134836874795080745"
+  },
+  {
+   "id": "pins/v4/meal-4",
+   "p": "meal",
+   "kind": "lifestyle",
+   "angle": "A grocery list sorted by aisle. Quantity, price and the recipe that needs each item. Keyword on the image: notion meal planner.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/journal-4",
+   "p": "journal",
+   "kind": "lifestyle",
+   "angle": "See how your month felt. Average mood, great days and low days for every month. Keyword on the image: mood tracker.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/travel-4",
+   "p": "travel",
+   "kind": "lifestyle",
+   "angle": "One page per trip. Budget left, packing bar and the itinerary with confirmation numbers. Keyword on the image: notion travel planner.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/job-4",
+   "p": "job",
+   "kind": "lifestyle",
+   "angle": "Walk in prepared. A prep checklist and the STAR method, with a real example. Keyword on the image: interview prep.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/habit-5",
+   "p": "habit",
+   "kind": "lifestyle",
+   "angle": "How to make a habit stick. The cue, the tiny version for busy days and your reward. Keyword on the image: notion habit tracker.",
+   "board_id": "1134836874795080738"
+  },
+  {
+   "id": "pins/v4/budget-5",
+   "p": "budget",
+   "kind": "lifestyle",
+   "angle": "Savings goals with a deadline. See how much to save each month to hit your goal on time. Keyword on the image: notion budget template.",
+   "board_id": "1134836874795080740"
+  },
+  {
+   "id": "pins/v4/life-5",
+   "p": "life",
+   "kind": "lifestyle",
+   "angle": "Score 8 areas of your life. Check in with your life and see where to grow. Keyword on the image: life planner ideas.",
+   "board_id": "1134836874795080745"
+  },
+  {
+   "id": "pins/v4/meal-5",
+   "p": "meal",
+   "kind": "lifestyle",
+   "angle": "The next 7 days, planned. Tick Cooked when it is done. Plan leftovers too. Keyword on the image: meal prep planner.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/journal-5",
+   "p": "journal",
+   "kind": "lifestyle",
+   "angle": "Your mood calendar. See your month at a glance and keep your favorite days. Keyword on the image: notion journal template.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/travel-5",
+   "p": "travel",
+   "kind": "lifestyle",
+   "angle": "Pack smarter. A packing list grouped by type. Tick Packed as you go. Keyword on the image: packing list.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v4/job-5",
+   "p": "job",
+   "kind": "lifestyle",
+   "angle": "Follow-up emails ready to copy. Change the words in brackets, send it, done. Keyword on the image: job search tips.",
+   "board_id": "1134836874794954336"
+  },
+  {
    "id": "pins/v3sb/sb-zoom-homepage",
    "p": "sb",
    "kind": "lifestyle",
