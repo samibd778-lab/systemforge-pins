@@ -14,3 +14,4 @@ life-1 https://images.unsplash.com/photo-1490682143684-14369e18dce8?fm=jpg&q=70&
 life-2 https://images.unsplash.com/photo-1774354669545-6265156237d4?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 life-3 https://images.unsplash.com/photo-1768055105012-4c53791b2877?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 life-cover https://images.unsplash.com/photo-1506905925346-21bda4d32df4?fm=jpg&q=70&w=1500
+habit-cover2 https://images.unsplash.com/photo-1422433555807-2559a27433bd?fm=jpg&q=70&w=1500
