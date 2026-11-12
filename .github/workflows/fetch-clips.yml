@@ -21,7 +21,7 @@ jobs:
           mkdir -p raw
           for id in $(echo "${{ inputs.ids }}" | tr ',' ' '); do
             gdown "https://drive.google.com/uc?id=$id" -O "tmp_$id.mp4" || { echo "DOWNLOAD FAILED $id"; continue; }
-            ffmpeg -loglevel error -y -i "tmp_$id.mp4" -vf "scale=1920:-2,fps=30" -c:v libx264 -crf 24 -preset veryfast -an "raw/$id.mp4"
+            ffmpeg -loglevel error -y -i "tmp_$id.mp4" -vf "scale='if(gt(iw,ih),1920,-2)':'if(gt(iw,ih),-2,1920)',fps=30" -c:v libx264 -crf 24 -preset veryfast -an "raw/$id.mp4"
             rm "tmp_$id.mp4"
             ls -la "raw/$id.mp4"
           done
