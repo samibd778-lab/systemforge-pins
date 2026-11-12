@@ -1,0 +1,170 @@
+[
+ {
+  "id": "habit-pov",
+  "music": 0,
+  "seed": 3,
+  "segments": [
+   {
+    "src": "raw/14_SzHDb6t7K2g67mM3x6vjTFWl-W3anP.mp4",
+    "t0": 0.3,
+    "t1": 4.5,
+    "speed": 1.4,
+    "crop": [
+     0,
+     120,
+     864,
+     1536
+    ],
+    "texts": [
+     {
+      "text": "POV: you finally stuck\nto your habits",
+      "y": 150,
+      "size": 72
+     }
+    ]
+   },
+   {
+    "src": "raw/14_SzHDb6t7K2g67mM3x6vjTFWl-W3anP.mp4",
+    "t0": 19,
+    "t1": 46.5,
+    "speed": 3.5,
+    "crop": [
+     92,
+     450,
+     680,
+     1208
+    ],
+    "texts": [
+     {
+      "text": "Tick what you did today",
+      "y": 90,
+      "size": 62,
+      "to": 3.8
+     },
+     {
+      "text": "Your score fills in by itself",
+      "y": 90,
+      "size": 62,
+      "from": 3.8
+     }
+    ]
+   },
+   {
+    "src": "raw/14_SzHDb6t7K2g67mM3x6vjTFWl-W3anP.mp4",
+    "t0": 46.5,
+    "t1": 48,
+    "speed": 1,
+    "hold": 2.8,
+    "crop": [
+     92,
+     450,
+     680,
+     1208
+    ],
+    "texts": [
+     {
+      "text": "6/6 = Perfect day",
+      "y": 90,
+      "size": 66
+     },
+     {
+      "text": "Comment HABIT\nand I'll send it",
+      "y": 1700,
+      "size": 64,
+      "from": 0.8
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "budget-pov",
+  "music": 0,
+  "seed": 7,
+  "segments": [
+   {
+    "src": "raw/17WvuwSi4Xo6oPulR3ZU3JcEj_uAQsJxk.mp4",
+    "t0": 0.3,
+    "t1": 4,
+    "speed": 1.4,
+    "crop": [
+     0,
+     120,
+     864,
+     1536
+    ],
+    "texts": [
+     {
+      "text": "POV: you finally know\nwhere your money goes",
+      "y": 150,
+      "size": 70
+     }
+    ]
+   },
+   {
+    "src": "raw/17WvuwSi4Xo6oPulR3ZU3JcEj_uAQsJxk.mp4",
+    "t0": 36,
+    "t1": 48,
+    "speed": 3,
+    "crop": [
+     72,
+     330,
+     720,
+     1280
+    ],
+    "texts": [
+     {
+      "text": "What is left in every category",
+      "y": 70,
+      "size": 56
+     }
+    ]
+   },
+   {
+    "src": "raw/17WvuwSi4Xo6oPulR3ZU3JcEj_uAQsJxk.mp4",
+    "t0": 52,
+    "t1": 64,
+    "speed": 3,
+    "crop": [
+     144,
+     330,
+     720,
+     1280
+    ],
+    "texts": [
+     {
+      "text": "Never miss a bill again",
+      "y": 70,
+      "size": 60
+     }
+    ]
+   },
+   {
+    "src": "raw/17WvuwSi4Xo6oPulR3ZU3JcEj_uAQsJxk.mp4",
+    "t0": 95,
+    "t1": 96.5,
+    "speed": 1,
+    "hold": 3,
+    "crop": [
+     72,
+     210,
+     720,
+     1280
+    ],
+    "texts": [
+     {
+      "text": "Savings goals with a deadline",
+      "y": 70,
+      "size": 56
+     },
+     {
+      "text": "Comment BUDGET\nand I'll send it",
+      "y": 1700,
+      "size": 64,
+      "from": 0.8
+     }
+    ]
+   }
+  ]
+ }
+]
