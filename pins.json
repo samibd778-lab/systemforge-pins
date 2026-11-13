@@ -106,6 +106,69 @@
    "board_id": "1134836874795080745"
   },
   {
+   "id": "pins/v5/meal-c1",
+   "p": "meal",
+   "kind": "page",
+   "angle": "Easy weekly meal ideas: overnight oats, sheet-pan chicken, salmon rice bowl, chickpea veggie bowl, each with its time, in a Notion meal planner. Keyword: meal plan ideas.",
+   "board_id": "1134836874795080750"
+  },
+  {
+   "id": "pins/v5/journal-c1",
+   "p": "journal",
+   "kind": "page",
+   "angle": "What to write in a daily journal: how you feel, your energy, one win and one thank you, in a Notion journal. Keyword: journal ideas.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/life-c1",
+   "p": "life",
+   "kind": "page",
+   "angle": "Goals to set for 2027: learn to play guitar, get promoted at work, a weekly date night, each with a progress bar in a Notion life planner. Keyword: 2027 goals.",
+   "board_id": "1134836874795080745"
+  },
+  {
+   "id": "pins/v5/meal-a2",
+   "p": "meal",
+   "kind": "page",
+   "angle": "Recipe organizer in Notion: time, rating and tags on every recipe card, favorites first. Keyword: recipe organizer.",
+   "board_id": "1134836874795080750"
+  },
+  {
+   "id": "pins/v5/journal-a2",
+   "p": "journal",
+   "kind": "page",
+   "angle": "Monthly mood tracker in Notion: average mood, great days and low days, fills in by itself. Keyword: mood tracker.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/life-a2",
+   "p": "life",
+   "kind": "page",
+   "angle": "Goal setting in Notion: every goal with its own progress bar that fills as you tick steps. Keyword: goal setting.",
+   "board_id": "1134836874795080745"
+  },
+  {
+   "id": "pins/v5/meal-b2",
+   "p": "meal",
+   "kind": "page",
+   "angle": "Meal Prep Planner for Notion: the next 7 days planned, tick Cooked when done. Bonus PDF Eat Well, Stress Less. Keyword: meal prep planner.",
+   "board_id": "1134836874795080750"
+  },
+  {
+   "id": "pins/v5/journal-b2",
+   "p": "journal",
+   "kind": "page",
+   "angle": "Daily Journal for Notion: mood, energy, one win and one thank you for every day. Bonus PDF Journaling guide. Keyword: daily journal.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/life-b2",
+   "p": "life",
+   "kind": "page",
+   "angle": "Goal Tracker for Notion: not started, in progress, done, every goal at a glance. Bonus PDF 90-Day Goal Workbook. Keyword: goal tracker.",
+   "board_id": "1134836874795080745"
+  },
+  {
    "id": "pins/v4/habit-1",
    "p": "habit",
    "kind": "lifestyle",

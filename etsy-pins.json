@@ -165,6 +165,105 @@
   "board_name": ""
  },
  {
+  "id": "v5-meal-c1",
+  "product": "meal",
+  "name": "Meal Planner",
+  "kind": "page",
+  "angle": "Easy weekly meal ideas: overnight oats, sheet-pan chicken, salmon rice bowl, chickpea veggie bowl, each with its time, in a Notion meal planner. Keyword: meal plan ideas.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/meal-c1.png",
+  "link": "https://www.etsy.com/listing/4614269627",
+  "board_id": "1102607989961677617",
+  "board_name": ""
+ },
+ {
+  "id": "v5-journal-c1",
+  "product": "journal",
+  "name": "Daily Journal",
+  "kind": "page",
+  "angle": "What to write in a daily journal: how you feel, your energy, one win and one thank you, in a Notion journal. Keyword: journal ideas.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/journal-c1.png",
+  "link": "https://www.etsy.com/listing/4611611706",
+  "board_id": "1102607989961677619",
+  "board_name": ""
+ },
+ {
+  "id": "v5-life-c1",
+  "product": "life",
+  "name": "Life Planner",
+  "kind": "page",
+  "angle": "Goals to set for 2027: learn to play guitar, get promoted at work, a weekly date night, each with a progress bar in a Notion life planner. Keyword: 2027 goals.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/life-c1.png",
+  "link": "https://www.etsy.com/listing/4614275673",
+  "board_id": "1102607989961677614",
+  "board_name": ""
+ },
+ {
+  "id": "v5-meal-a2",
+  "product": "meal",
+  "name": "Meal Planner",
+  "kind": "page",
+  "angle": "Recipe organizer in Notion: time, rating and tags on every recipe card, favorites first. Keyword: recipe organizer.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/meal-a2.png",
+  "link": "https://www.etsy.com/listing/4614269627",
+  "board_id": "1102607989961677617",
+  "board_name": ""
+ },
+ {
+  "id": "v5-journal-a2",
+  "product": "journal",
+  "name": "Daily Journal",
+  "kind": "page",
+  "angle": "Monthly mood tracker in Notion: average mood, great days and low days, fills in by itself. Keyword: mood tracker.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/journal-a2.png",
+  "link": "https://www.etsy.com/listing/4611611706",
+  "board_id": "1102607989961677619",
+  "board_name": ""
+ },
+ {
+  "id": "v5-life-a2",
+  "product": "life",
+  "name": "Life Planner",
+  "kind": "page",
+  "angle": "Goal setting in Notion: every goal with its own progress bar that fills as you tick steps. Keyword: goal setting.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/life-a2.png",
+  "link": "https://www.etsy.com/listing/4614275673",
+  "board_id": "1102607989961677614",
+  "board_name": ""
+ },
+ {
+  "id": "v5-meal-b2",
+  "product": "meal",
+  "name": "Meal Planner",
+  "kind": "page",
+  "angle": "Meal Prep Planner for Notion: the next 7 days planned, tick Cooked when done. Bonus PDF Eat Well, Stress Less. Keyword: meal prep planner.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/meal-b2.png",
+  "link": "https://www.etsy.com/listing/4614269627",
+  "board_id": "1102607989961677617",
+  "board_name": ""
+ },
+ {
+  "id": "v5-journal-b2",
+  "product": "journal",
+  "name": "Daily Journal",
+  "kind": "page",
+  "angle": "Daily Journal for Notion: mood, energy, one win and one thank you for every day. Bonus PDF Journaling guide. Keyword: daily journal.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/journal-b2.png",
+  "link": "https://www.etsy.com/listing/4611611706",
+  "board_id": "1102607989961677619",
+  "board_name": ""
+ },
+ {
+  "id": "v5-life-b2",
+  "product": "life",
+  "name": "Life Planner",
+  "kind": "page",
+  "angle": "Goal Tracker for Notion: not started, in progress, done, every goal at a glance. Bonus PDF 90-Day Goal Workbook. Keyword: goal tracker.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/life-b2.png",
+  "link": "https://www.etsy.com/listing/4614275673",
+  "board_id": "1102607989961677614",
+  "board_name": ""
+ },
+ {
   "id": "v4-habit-1",
   "product": "habit",
   "name": "Habit Tracker",
