@@ -45,6 +45,43 @@ SETS = {'mjl': {
  'vb-b1': dict(p='life', style='b', title='DIGITAL VISION BOARD', kicker='for Notion',
                sub='Your dreams, your goals and the next small step, on one page.', badge='Bonus PDF:\n90-Day Goal\nWorkbook',
                crops=[('life-vision', (0, 0, 1345, 600)), ('life-goals', (0, 0, 1536, 973))]),
+},
+'more': {
+ 'meal-c1': dict(p='meal', style='c', kicker='EASY MEAL IDEAS', title='Easy weekly meals<br>to plan this week',
+                 foot='Every recipe with its time and your rating, in one Notion meal planner.',
+                 tiles=[('meal-recipes', (16, 273, 432, 503), 'Overnight oats with berries ·&nbsp;5&nbsp;min'),
+                        ('meal-recipes', (464, 273, 880, 503), 'Sheet-pan chicken and veggies ·&nbsp;40&nbsp;min'),
+                        ('meal-recipes', (912, 273, 1328, 503), 'Salmon rice bowl ·&nbsp;25&nbsp;min'),
+                        ('meal-recipes', (16, 783, 432, 1013), 'Chickpea veggie bowl ·&nbsp;15&nbsp;min')]),
+ 'meal-a2': dict(p='meal', style='a', kicker='RECIPE ORGANIZER', title='My Recipes',
+                 sub='Time, rating and tags on every card. Favorites first.',
+                 crops=[('meal-recipes', (0, 0, 1345, 1228))]),
+ 'meal-b2': dict(p='meal', style='b', title='MEAL PREP PLANNER', kicker='for Notion',
+                 sub='The next 7 days, planned. Tick Cooked when it is done.', badge='Bonus PDF:\nEat Well,\nStress Less',
+                 crops=[('meal-next7', (0, 0, 1160, 1208))]),
+ 'journal-c1': dict(p='journal', style='c', kicker='JOURNAL IDEAS', title='What to write<br>in a daily journal',
+                    foot='Four small lines a day. Your Notion journal keeps them all.',
+                    tiles=[('journal-entries', (16, 302, 432, 506), 'How you feel today'),
+                           ('journal-entries', (464, 302, 880, 506), 'Your energy level'),
+                           ('journal-entries', (912, 302, 1328, 506), 'One win, even a small one'),
+                           ('journal-entries', (16, 910, 432, 1112), 'One thing you are thankful for')]),
+ 'journal-a2': dict(p='journal', style='a', kicker='MOOD TRACKER', title='Monthly Mood',
+                    sub='Your average mood, great days and low days. It fills in by itself.',
+                    crops=[('journal-monthly', (0, 0, 1345, 983))]),
+ 'journal-b2': dict(p='journal', style='b', title='DAILY JOURNAL', kicker='for Notion',
+                    sub='Mood, energy, one win and one thank you for every day.', badge='Bonus PDF:\nJournaling\nguide',
+                    crops=[('journal-entries', (0, 0, 1345, 1198))]),
+ 'life-c1': dict(p='life', style='c', kicker='2027 GOAL IDEAS', title='Goals to set<br>for 2027',
+                 foot='Each goal with its progress bar and a date, in one Notion life planner.',
+                 tiles=[('life-goals', (32, 373, 552, 638), 'Learn to play guitar'),
+                        ('life-goals', (608, 373, 1128, 638), 'Get promoted at work'),
+                        ('life-goals', (1184, 373, 1536, 638), 'A weekly date night')]),
+ 'life-a2': dict(p='life', style='a', kicker='GOAL SETTING', title='My Goals',
+                 sub='Every goal with its own progress bar. Tick a step and it fills up.',
+                 crops=[('life-goals', (0, 0, 1536, 973))]),
+ 'life-b2': dict(p='life', style='b', title='GOAL TRACKER', kicker='for Notion',
+                 sub='Not started, in progress, done. See every goal at a glance.', badge='Bonus PDF:\n90-Day Goal\nWorkbook',
+                 crops=[('life-goals', (0, 0, 1536, 973))]),
 }}
 
 
@@ -63,11 +100,13 @@ def layout(s):
     out = []
     if s['style'] == 'c':
         for i, (n, b, _) in enumerate(s['tiles']):
-            w = 460; h = round((b[3] - b[1]) * w / (b[2] - b[0]))
-            out.append((n, b, 60, 385 + i * 235, w, h))
+            k = len(s['tiles']); step = 950 // k; ratio = (b[2] - b[0]) / (b[3] - b[1])
+            w = min(460, round((step - 26) * ratio)); h = round(w / ratio)
+            out.append((n, b, 60 + (460 - w) // 2, 380 + i * step + (step - 26 - h) // 2, w, h))
         return out
     if s['style'] == 'a':
         y, room, w, x = 400, 1500 - 400 - 100, 900, 50
+        if len(s['crops']) == 1: w, x = 1000, 0
     else:
         y, room, w, x = 660, 1500 - 660 - 100, 1000, 0
     for n, b in s['crops']:
