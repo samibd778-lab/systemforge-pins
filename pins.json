@@ -1,6 +1,48 @@
 {
  "pins": [
   {
+   "id": "pins/v5/habit-a1",
+   "p": "habit",
+   "kind": "page",
+   "angle": "Habit Tracker Notion template: one row a day, tick what you did and your score fills in by itself. Keyword: habit tracker.",
+   "board_id": "1134836874795080738"
+  },
+  {
+   "id": "pins/v5/budget-a1",
+   "p": "budget",
+   "kind": "page",
+   "angle": "Monthly Budget Notion template: see what you spent, what is left and if you are on track, plus every bill. Keyword: monthly budget planner.",
+   "board_id": "1134836874795080740"
+  },
+  {
+   "id": "pins/v5/habit-b1",
+   "p": "habit",
+   "kind": "page",
+   "angle": "Monthly Habit Tracker for Notion: a bar for every habit, your best habit and your perfect days. Bonus PDF 30-Day Habit Reset. Keyword: monthly habit tracker.",
+   "board_id": "1134836874795080738"
+  },
+  {
+   "id": "pins/v5/budget-b1",
+   "p": "budget",
+   "kind": "page",
+   "angle": "Monthly Budget Planner for Notion: every category, every bill, every savings goal. Bonus PDF Money Reset in 7 Days. Keyword: budget planner.",
+   "board_id": "1134836874795080740"
+  },
+  {
+   "id": "pins/v5/habit-a2",
+   "p": "habit",
+   "kind": "page",
+   "angle": "Never miss twice: daily habit tracker in Notion with a habit plan and the tiny version for busy days. Keyword: daily habit tracker.",
+   "board_id": "1134836874795080738"
+  },
+  {
+   "id": "pins/v5/budget-a2",
+   "p": "budget",
+   "kind": "page",
+   "angle": "Savings goals in a Notion budget planner: each goal shows how much to save every month to hit it on time. Keyword: budget planner template.",
+   "board_id": "1134836874795080740"
+  },
+  {
    "id": "pins/v4/habit-1",
    "p": "habit",
    "kind": "lifestyle",

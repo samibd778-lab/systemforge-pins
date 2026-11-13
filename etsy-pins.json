@@ -1,5 +1,71 @@
 [
  {
+  "id": "v5-habit-a1",
+  "product": "habit",
+  "name": "Habit Tracker",
+  "kind": "page",
+  "angle": "Habit Tracker Notion template: one row a day, tick what you did and your score fills in by itself. Keyword: habit tracker.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/habit-a1.png",
+  "link": "https://www.etsy.com/listing/4611609200",
+  "board_id": "1102607989961656300",
+  "board_name": "Habit Tracker Ideas"
+ },
+ {
+  "id": "v5-budget-a1",
+  "product": "budget",
+  "name": "Budget Planner",
+  "kind": "page",
+  "angle": "Monthly Budget Notion template: see what you spent, what is left and if you are on track, plus every bill. Keyword: monthly budget planner.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/budget-a1.png",
+  "link": "https://www.etsy.com/listing/4611612842",
+  "board_id": "1102607989961677610",
+  "board_name": "Budget Planner Ideas"
+ },
+ {
+  "id": "v5-habit-b1",
+  "product": "habit",
+  "name": "Habit Tracker",
+  "kind": "page",
+  "angle": "Monthly Habit Tracker for Notion: a bar for every habit, your best habit and your perfect days. Bonus PDF 30-Day Habit Reset. Keyword: monthly habit tracker.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/habit-b1.png",
+  "link": "https://www.etsy.com/listing/4611609200",
+  "board_id": "1102607989961656300",
+  "board_name": "Habit Tracker Ideas"
+ },
+ {
+  "id": "v5-budget-b1",
+  "product": "budget",
+  "name": "Budget Planner",
+  "kind": "page",
+  "angle": "Monthly Budget Planner for Notion: every category, every bill, every savings goal. Bonus PDF Money Reset in 7 Days. Keyword: budget planner.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/budget-b1.png",
+  "link": "https://www.etsy.com/listing/4611612842",
+  "board_id": "1102607989961677610",
+  "board_name": "Budget Planner Ideas"
+ },
+ {
+  "id": "v5-habit-a2",
+  "product": "habit",
+  "name": "Habit Tracker",
+  "kind": "page",
+  "angle": "Never miss twice: daily habit tracker in Notion with a habit plan and the tiny version for busy days. Keyword: daily habit tracker.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/habit-a2.png",
+  "link": "https://www.etsy.com/listing/4611609200",
+  "board_id": "1102607989961656300",
+  "board_name": "Habit Tracker Ideas"
+ },
+ {
+  "id": "v5-budget-a2",
+  "product": "budget",
+  "name": "Budget Planner",
+  "kind": "page",
+  "angle": "Savings goals in a Notion budget planner: each goal shows how much to save every month to hit it on time. Keyword: budget planner template.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/budget-a2.png",
+  "link": "https://www.etsy.com/listing/4611612842",
+  "board_id": "1102607989961677610",
+  "board_name": "Budget Planner Ideas"
+ },
+ {
   "id": "v4-habit-1",
   "product": "habit",
   "name": "Habit Tracker",
