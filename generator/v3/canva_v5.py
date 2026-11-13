@@ -82,6 +82,73 @@ SETS = {'mjl': {
  'life-b2': dict(p='life', style='b', title='GOAL TRACKER', kicker='for Notion',
                  sub='Not started, in progress, done. See every goal at a glance.', badge='Bonus PDF:\n90-Day Goal\nWorkbook',
                  crops=[('life-goals', (0, 0, 1536, 973))]),
+},
+'b2': {
+ 'habit-a1': dict(p='habit', style='a', kicker='NOTION TEMPLATE', title='Habit Tracker',
+                  sub='A bar for every habit, your best habit and your perfect days.',
+                  crops=[('habit-monthly', (0, 0, 1000, 935))]),
+ 'habit-b1': dict(p='habit', style='b', title='MONTHLY HABIT TRACKER', kicker='for Notion',
+                  sub='Every habit gets a bar for the month. Your score fills in by itself.', badge='Bonus PDF:\n30-Day\nHabit Reset',
+                  crops=[('habit-monthly', (0, 0, 1000, 935))]),
+ 'budget-a1': dict(p='budget', style='a', kicker='NOTION BUDGET TEMPLATE', title='Monthly Budget',
+                   sub='Your budget per category, what you spent and what is left.',
+                   crops=[('budget-cats', (0, 0, 1150, 865))]),
+ 'budget-b1': dict(p='budget', style='b', title='MONTHLY BUDGET PLANNER', kicker='for Notion',
+                   sub='Every bill with its due day: paid, due soon or late.', badge='Bonus PDF:\nMoney Reset\nin 7 Days',
+                   crops=[('budget-bills', (0, 0, 1150, 635)), ('budget-cats', (0, 0, 1150, 865))]),
+ 'budget-a2': dict(p='budget', style='a', kicker='SAVINGS TRACKER', title='Savings Goals',
+                   sub='How much to save each month to hit every goal on time.',
+                   crops=[('budget-savings', (0, 0, 1000, 730))]),
+ 'budget-a3': dict(p='budget', style='a', kicker='BILL TRACKER', title='Bill Tracker',
+                   sub='Every bill and subscription with its due day. Tick Paid when it is done.',
+                   crops=[('budget-bills', (0, 0, 1150, 635))]),
+ 'budget-b2': dict(p='budget', style='b', title='BUDGET PLANNER TEMPLATE', kicker='for Notion',
+                   sub='Categories, bills, savings goals and a debt payoff plan on one page.', badge='Bonus PDF:\nMoney Reset\nin 7 Days',
+                   crops=[('budget-savings', (0, 0, 1000, 730))]),
+ 'travel-a1': dict(p='travel', style='a', kicker='NOTION TEMPLATE', title='Travel Planner',
+                   sub='Countdown, budget left and packing progress for every trip.',
+                   crops=[('travel-trips', (0, 0, 1000, 730))]),
+ 'travel-b1': dict(p='travel', style='b', title='TRAVEL ITINERARY PLANNER', kicker='for Notion',
+                   sub='Plans not booked yet, with the date. Tick Booked and they leave the list.',
+                   crops=[('travel-book', (0, 0, 1150, 635))]),
+ 'travel-b2': dict(p='travel', style='b', title='VACATION PLANNER', kicker='for Notion',
+                   sub='Every trip with its countdown, budget left and packing bar.',
+                   crops=[('travel-trips', (0, 0, 1000, 730))]),
+ 'job-a1': dict(p='job', style='a', kicker='JOB APPLICATION TRACKER', title='Job Tracker',
+                sub='Every job from Wishlist to Offer, with the next step on each card.',
+                crops=[('job-pipeline', (0, 0, 920, 815))]),
+ 'job-b1': dict(p='job', style='b', title='JOB SEARCH TRACKER', kicker='for Notion',
+                sub='Drag a card when a company answers. The next step shows on every job.',
+                crops=[('job-pipeline', (0, 0, 920, 815))]),
+ 'sb-a1': dict(p='sb', style='a', kicker='NOTION TEMPLATE', title='Second Brain',
+               sub='Goals, projects, tasks and notes in one Notion workspace.',
+               crops=[('sb-projects', (0, 0, 920, 635)), ('sb-goals', (0, 0, 1150, 685))]),
+ 'sb-a2': dict(p='sb', style='a', kicker='PROJECT TRACKER', title='My Projects',
+               sub='Drag a card when a project moves. The bar fills up as you tick its tasks.',
+               crops=[('sb-projects', (0, 0, 920, 635))]),
+ 'sb-b1': dict(p='sb', style='b', title='ALL-IN-ONE DASHBOARD', kicker='for Notion',
+               sub='Goals with progress bars, projects and tasks, linked together.',
+               crops=[('sb-goals', (0, 0, 1150, 685))]),
+ 'life-a3': dict(p='life', style='a', kicker='NOTION TEMPLATE', title='Life Planner',
+                 sub='Goals with progress bars and a vision board on one page.',
+                 crops=[('life-goals', (0, 0, 1536, 973)), ('life-vision', (0, 0, 1345, 600))]),
+ 'meal-a3': dict(p='meal', style='a', kicker='MEAL PLAN IDEAS', title='Weekly Meal Plan', tsize=112,
+                 sub='Breakfast, lunch and dinner for the next 7 days. Tick Cooked when it is done.',
+                 crops=[('meal-next7', (0, 0, 1160, 1208))]),
+ 'shop-c1': dict(p='shop', style='c', kicker='NOTION TEMPLATE IDEAS', title='Notion template ideas<br>for 2027',
+                 foot='Simple Notion templates for every part of your life.',
+                 tiles=[('habit-monthly', (12, 238, 490, 472), 'Habit Tracker'),
+                        ('budget-savings', (12, 240, 490, 472), 'Budget Planner'),
+                        ('meal-recipes', (16, 273, 432, 503), 'Meal Planner'),
+                        ('travel-trips', (12, 238, 490, 472), 'Travel Planner'),
+                        ('job-pipeline', (25, 295, 441, 532), 'Job Tracker')]),
+ 'shop-c2': dict(p='shop', style='c', kicker='AESTHETIC NOTION TEMPLATES', title='Aesthetic Notion<br>templates to try',
+                 foot='Real pages, real photos. Duplicate and start in minutes.',
+                 tiles=[('life-vision', (16, 302, 658, 596), 'Vision board'),
+                        ('journal-entries', (16, 302, 432, 506), 'Daily journal'),
+                        ('travel-trips', (515, 238, 993, 472), 'Trip countdown'),
+                        ('sb-projects', (25, 295, 441, 532), 'Project board'),
+                        ('habit-monthly', (515, 238, 993, 472), 'Monthly habits')]),
 }}
 
 
@@ -123,7 +190,7 @@ def p(x, y, w, size, text, color, extra=''):
 
 
 def page(pid, s, sha):
-    pr = M.PROD[s['p']]; c, acc = pr['color'], pr['accent']
+    pr = M.PROD.get(s['p'], {'sb': {'color': '#EDE7DD', 'accent': '#6B5B4B'}, 'shop': {'color': '#F1E9DE', 'accent': '#A0643C'}}.get(s['p'])); c, acc = pr['color'], pr['accent']
     imgs = ''.join(f'<img src="{RAW.format(sha=sha, f=cname(n, box))}" style="position:absolute;left:{x}px;top:{y}px;width:{w}px;height:{h}px">'
                    for n, box, x, y, w, h in layout(s))
     foot = p(0, 1440, 1000, 22, 'SYSTEMFORGE · INSTANT DOWNLOAD', MUT, 'font-weight:700;letter-spacing:3px')
@@ -142,10 +209,10 @@ def page(pid, s, sha):
         imgs += p(80, 1338, 840, 29, s['foot'], MUT, 'line-height:1.35')
     else:
         head = (f'<div style="position:absolute;left:0;top:0;width:1000px;height:520px;background:{acc}"></div>'
-                + p(60, 70, 880, 104, s['title'], '#FFFFFF', "font-family:'Playfair Display',serif;font-weight:700;line-height:1.02")
+                + p(60, 70 if len(s['title']) <= 18 else 60, 880, 104 if len(s['title']) <= 18 else 80, s['title'], '#FFFFFF', "font-family:'Playfair Display',serif;font-weight:700;line-height:1.02")
                 + p(0, 390, 1000, 84, s['kicker'], '#FFFFFF', "font-family:'Great Vibes',cursive")
                 + p(60, 560, 880, 33, s['sub'], INK, 'line-height:1.3'))
-        badge = (f'<div style="position:absolute;left:740px;top:1150px;width:220px;height:220px;border-radius:110px;background:{c}"></div>'
+        badge = '' if not s.get('badge') else (f'<div style="position:absolute;left:740px;top:1150px;width:220px;height:220px;border-radius:110px;background:{c}"></div>'
                  + p(740, 1210, 220, 25, s['badge'].replace('\n', '<br>'), INK, 'font-weight:700;line-height:1.25'))
         imgs += badge
     return (f'<div data-document-role="page" data-label="{pid}" style="position:relative;width:1000px;height:1500px;overflow:hidden;background:{BG}">'
