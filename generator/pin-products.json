@@ -1,35 +1,114 @@
 {
  "_note": "Read by the Pinterest workflows (n8n). Per product: Etsy link, Gumroad link, default board on each account, and the only facts the AI may use. Add a product here, no n8n change needed.",
  "products": {
-  "fco": {"name": "Freelancer Client OS", "etsy": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client", "gumroad": "https://getsystemforge.gumroad.com/l/freelancer-client-os", "etsy_board": "1102607989961572200",
-   "facts": "Freelancer Client OS, a Notion template for freelancers.\n- Clients: contact info, where they came from, next follow-up date\n- Proposals: value, win chance, expiry date; mark Won and turn into a project\n- Projects: deadline, progress bar, health (On track, At risk, Overdue, Done)\n- Tasks: due dates, hours, priority; see overdue and due this week\n- Invoices: next step on every invoice, days late, paid and outstanding\n- Expenses linked to projects; profit and real hourly rate are calculated\n- 8 ready-to-send client emails (follow-up, proposal, kickoff, invoice, reminder, final notice)\n- Client onboarding checklist, example data and a \"Start here\" guide"},
-  "ccs": {"name": "Content Creator Studio", "etsy": "https://www.etsy.com/listing/4595688129/content-creator-notion-template-content", "gumroad": "https://getsystemforge.gumroad.com/l/content-creator-studio", "etsy_board": "1102607989961572208",
-   "facts": "Content Creator Studio, a Notion template for creators.\n- Content pipeline: Idea, Draft, Create, Edit, Scheduled, Posted, with board, calendar and gallery views\n- Every post counts down: today, tomorrow, in X days, or a missed date warning\n- Channels: 11 platforms (TikTok, Instagram, YouTube, newsletter and more), each with a weekly goal\n- Post results: views, likes, comments, shares, saves; engagement % calculated\n- Content pillars: shows which topic brings the most reach\n- Brand deals: from pitch to paid, fee, posts still owed, due dates, days late\n- Brand deal scripts, hook library, 30 content ideas, repurpose map and a weekly review page"},
-  "fit": {"name": "Freelance Invoice Tracker", "etsy": "https://www.etsy.com/listing/4596053610/freelance-invoice-tracker-notion", "etsy_board": "1102607989961572214",
-   "facts": "Freelance Invoice Tracker, a small Notion template for freelancers.\n- Invoices: amount, client, due date, status Draft, Sent or Paid\n- \"Late?\" shows on track, late X days, or paid X days late\n- \"Next step\" says what to do: send the invoice, wait, friendly reminder, second reminder or final notice\n- \"Due in\" counts down the days before each invoice is due\n- Clients: what each client owes you, lifetime paid, and if they usually pay on time\n- A \"Chase these first\" view, reminder emails, a Get Paid Faster kit and a 2-minute daily check"},
-  "wcp": {"name": "Weekly Content Planner", "etsy": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template", "etsy_board": "1102607989961572220",
-   "facts": "Weekly Content Planner, a small Notion template for creators.\n- Content list: channels, format, hook, publish date and stage\n- Pipeline board: drag cards from Idea to Draft, Create, Edit and Posted\n- Date check: today, in 2 days, tomorrow, live, or a missed date warning\n- Channels: a weekly goal for each platform, with a progress bar that fills up as you post\n- Views: Calendar, Idea bank, Next 7 days, By pillar\n- Content pillars, Hook Starters, 30 content ideas, a repurpose map and a 15-minute Sunday plan"},
-  "prop": {"name": "Proposal Tracker", "etsy": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template", "gumroad": "https://getsystemforge.gumroad.com/l/proposal-tracker", "etsy_board": "1102607989961572200",
-   "facts": "Proposal Tracker, a Notion template for freelancers who send quotes.\n- Follow up today: the quotes that need you now, on one page\n- Next step on every proposal: Send it, Follow up #1, #2, #3, or Send a new quote\n- Shows how many days since you sent the quote, and warns before a quote expires\n- Pipeline board: Draft, Sent, Negotiating, Won, Lost\n- Win chance and weighted value: what open quotes are really worth\n- Price check: hours x your rate tells you if you priced too low\n- Clients: open value, won value and win rate for each client\n- 6 follow-up emails, a Proposal Writing Guide, a weekly review and a client inquiry form"},
-  "deal": {"name": "Brand Deal Tracker", "etsy": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template", "gumroad": "https://getsystemforge.gumroad.com/l/brand-deal-tracker", "etsy_board": "1102607989961572208",
-   "facts": "Brand Deal Tracker, a Notion template for content creators, influencers and UGC creators.\n- Do this now: everything that needs you today\n- Next step on every deal: follow up, agree on terms, post, send your invoice or a payment reminder\n- Deal board: Pitched, Talking, Signed, Delivered, Paid, Lost\n- Posts you owe: every deliverable with its due date and days late\n- Money: due in X days, X days late, or paid; $ per post on every deal\n- Brands: earned, pending and number of deals\n- 6 brand email scripts, a rate card and media kit pages, and a weekly review checklist"},
-  "sb": {"name": "Second Brain OS", "etsy": "https://www.etsy.com/listing/4607192750", "gumroad": "https://getsystemforge.gumroad.com/l/second-brain-os", "etsy_board": "1102607989961656311",
-   "facts": "Second Brain OS, an all-in-one Notion life planner (second brain, PARA method). Set up in 5 minutes.\n- Home dashboard with a Today widget: clock, day/week/month/year progress, mini calendar, thought for the day\n- Goals with a progress bar that fills up as projects are done\n- Projects board and Tasks with progress bars, days left and a Next 7 days view\n- Notes inbox with a Quick capture form, favorites and key takeaways\n- Habit tracker: 5 habits you can rename, a daily score, this week view; tick it on your phone\n- Daily journal: mood, energy, one win, gratitude; a mood chart for the month fills in by itself\n- Reading list bookshelf with a progress bar and rating\n- Weekly, monthly and yearly review pages, a mobile home page, and beginner guides (PARA, note taking)\n- Bonus: a Notion for beginners PDF guide"},
-  "habit": {"name": "Habit Tracker", "etsy": "https://www.etsy.com/listing/4611609200", "gumroad": "https://getsystemforge.gumroad.com/l/habit-tracker", "etsy_board": "1102607989961656300",
-   "facts": "Habit Tracker, a Notion habit tracker template.\n- Daily check-in: 6 habits you can rename, one row per day; your score and day type fill in by themselves\n- Monthly progress: a bar for every habit, your best habit and your perfect days\n- Habit calendar: your score on every day of the month\n- My habit plan: why it matters, the cue that starts it, the tiny version for busy days and your reward\n- Year in review: overall score, perfect days, days logged and habits done\n- Home page with a live Today widget: clock, week, month and year progress and a habit thought\n- Start here, How to make a habit stick, 50 habit ideas\n- Bonus: 30-Day Habit Reset (PDF, with a printable tracker)"},
-  "budget": {"name": "Budget Planner", "etsy": "https://www.etsy.com/listing/4611612842", "gumroad": "https://getsystemforge.gumroad.com/l/budget-planner", "etsy_board": "1102607989961677610",
-   "facts": "Budget Planner, a Notion budget planner template.\n- Budget per category: what you spent this month, what is left and if you are on track\n- Bills with their due day: paid, due soon or late\n- Transactions: expenses show with a minus; pick a category and the budget updates\n- Savings goals with a deadline: how much to save each month to hit the goal on time\n- Debt payoff: highest interest first; add an extra payment and see the debt-free date move closer\n- Monthly overview: income, spending, what is left over and how much of your income you saved\n- Bonus: Money Reset in 7 Days (PDF)"},
-  "journal": {"name": "Daily Journal", "etsy": "https://www.etsy.com/listing/4611611706", "gumroad": "https://getsystemforge.gumroad.com/l/daily-journal", "etsy_board": "1102607989961677619",
-   "facts": "Daily Journal, a Notion journal template.\n- One entry a day: mood, energy, one win and one thing you are grateful for, with a photo on every card\n- Gratitude jar: every thank you you wrote, in one place\n- Monthly mood: average mood, great days and low days for every month\n- Mood calendar: see your month at a glance and keep your favorite days\n- Weekly review: average mood and days written fill in by themselves\n- Live Today widget with a new journal prompt each day\n- Bonus: Journaling guide (PDF)"},
-  "life": {"name": "Life Planner", "etsy": "https://www.etsy.com/listing/4614275673", "gumroad": "https://getsystemforge.gumroad.com/l/life-planner", "etsy_board": "1102607989961677614",
-   "facts": "Life Planner, a Notion life planner and goal planner template.\n- Goals board with a progress bar on every goal\n- Milestones with due dates; tick one and the bar fills\n- Next steps: late, this week or later\n- Digital vision board with a photo for every dream and when you want it\n- Life Wheel: score 8 areas of your life\n- Weekly Check-in and Quarterly Review\n- Why it matters and a reward for every goal\n- Bonus: The 90-Day Goal Workbook (PDF, with a printable 90-day plan)"},
-  "meal": {"name": "Meal Planner", "etsy": "https://www.etsy.com/listing/4614269627", "gumroad": "https://getsystemforge.gumroad.com/l/meal-planner", "etsy_board": "1102607989961677617",
-   "facts": "Meal Planner, a Notion meal planner template.\n- Meal Plan calendar: breakfast, lunch, dinner and snacks, each linked to a recipe\n- Next 7 days board; tick Cooked when it is done\n- Recipes with prep time, rating, tags and favorites; ingredients as a checklist in every recipe\n- Grocery List sorted by aisle, with quantity, price and the recipe that needs each item\n- Staples you buy every week and leftovers planning\n- Home page with a 15-minute Sunday checklist\n- Bonus: Eat Well, Stress Less (PDF)"},
-  "travel": {"name": "Travel Planner", "etsy": "https://www.etsy.com/listing/4614286430", "gumroad": "https://getsystemforge.gumroad.com/l/travel-planner", "etsy_board": "1102607989961677618",
-   "facts": "Travel Planner, a Notion travel planner template.\n- Trips with a countdown, status, photo and budget left (red when you go over)\n- Itinerary with dates, costs and confirmation numbers\n- Still to book: plans that are not booked yet\n- Expenses linked to each trip, so the budget updates\n- Packing list grouped by type, with a progress bar\n- Before You Go Checklist, Packing Checklist and a Travel Budget Guide\n- Bonus: Plan Trips Like a Pro (PDF, with a printable trip sheet)"},
-  "job": {"name": "Job Application Tracker", "etsy": "https://www.etsy.com/listing/4614280376", "gumroad": "https://getsystemforge.gumroad.com/l/job-application-tracker", "etsy_board": "1102607989961656311",
-   "facts": "Job Application Tracker, a Notion job search template.\n- Job pipeline board: Wishlist, Applied, Interviewing, Offer, Rejected, Ghosted\n- A Next step for every job: wait, follow up, prep or negotiate\n- Follow up today: jobs with no answer after 7 days\n- Interviews to prep or thank, with days left; prep checklist and the STAR method\n- Companies and Contacts linked to every job, and a Story Bank for interview answers\n- Follow-up email scripts ready to copy, Resume Checklist and Salary Negotiation Script\n- Weekly review with a Why I got rejected board\n- Bonus: 30-Day Job Search Playbook (PDF)"},
-  "shop": {"name": "SystemForge", "etsy": "https://www.etsy.com/shop/GetSystemForge", "gumroad": "https://getsystemforge.gumroad.com", "etsy_board": "1102607989961656311",
-   "facts": "SystemForge, a small shop of aesthetic Notion templates (instant download).\n- Habit Tracker: daily check-in, monthly progress bars, habit calendar\n- Budget Planner: budget per category, bills, savings goals, debt payoff\n- Daily Journal: mood, wins, gratitude jar, mood calendar\n- Life Planner: goals with progress bars, milestones, vision board, Life Wheel\n- Meal Planner: weekly meal calendar, recipes, grocery list by aisle\n- Travel Planner: trip countdown, itinerary, budget, packing list\n- Job Application Tracker: job pipeline, follow-ups, interview prep\n- Second Brain OS: an all-in-one Notion life planner"}
+  "fco": {
+   "name": "Freelancer Client OS",
+   "etsy": "https://www.etsy.com/listing/4595701133/freelancer-notion-template-client",
+   "gumroad": "https://getsystemforge.gumroad.com/l/freelancer-client-os",
+   "etsy_board": "1102607989961572200",
+   "facts": "Freelancer Client OS, a Notion template for freelancers.\n- Clients: contact info, where they came from, next follow-up date\n- Proposals: value, win chance, expiry date; mark Won and turn into a project\n- Projects: deadline, progress bar, health (On track, At risk, Overdue, Done)\n- Tasks: due dates, hours, priority; see overdue and due this week\n- Invoices: next step on every invoice, days late, paid and outstanding\n- Expenses linked to projects; profit and real hourly rate are calculated\n- 8 ready-to-send client emails (follow-up, proposal, kickoff, invoice, reminder, final notice)\n- Client onboarding checklist, example data and a \"Start here\" guide"
+  },
+  "ccs": {
+   "name": "Content Creator Studio",
+   "etsy": "https://www.etsy.com/listing/4595688129/content-creator-notion-template-content",
+   "gumroad": "https://getsystemforge.gumroad.com/l/content-creator-studio",
+   "etsy_board": "1102607989961572208",
+   "facts": "Content Creator Studio, a Notion template for creators.\n- Content pipeline: Idea, Draft, Create, Edit, Scheduled, Posted, with board, calendar and gallery views\n- Every post counts down: today, tomorrow, in X days, or a missed date warning\n- Channels: 11 platforms (TikTok, Instagram, YouTube, newsletter and more), each with a weekly goal\n- Post results: views, likes, comments, shares, saves; engagement % calculated\n- Content pillars: shows which topic brings the most reach\n- Brand deals: from pitch to paid, fee, posts still owed, due dates, days late\n- Brand deal scripts, hook library, 30 content ideas, repurpose map and a weekly review page"
+  },
+  "fit": {
+   "name": "Freelance Invoice Tracker",
+   "etsy": "https://www.etsy.com/listing/4596053610/freelance-invoice-tracker-notion",
+   "etsy_board": "1102607989961572214",
+   "facts": "Freelance Invoice Tracker, a small Notion template for freelancers.\n- Invoices: amount, client, due date, status Draft, Sent or Paid\n- \"Late?\" shows on track, late X days, or paid X days late\n- \"Next step\" says what to do: send the invoice, wait, friendly reminder, second reminder or final notice\n- \"Due in\" counts down the days before each invoice is due\n- Clients: what each client owes you, lifetime paid, and if they usually pay on time\n- A \"Chase these first\" view, reminder emails, a Get Paid Faster kit and a 2-minute daily check"
+  },
+  "wcp": {
+   "name": "Weekly Content Planner",
+   "etsy": "https://www.etsy.com/listing/4595995539/weekly-content-planner-notion-template",
+   "etsy_board": "1102607989961572220",
+   "facts": "Weekly Content Planner, a small Notion template for creators.\n- Content list: channels, format, hook, publish date and stage\n- Pipeline board: drag cards from Idea to Draft, Create, Edit and Posted\n- Date check: today, in 2 days, tomorrow, live, or a missed date warning\n- Channels: a weekly goal for each platform, with a progress bar that fills up as you post\n- Views: Calendar, Idea bank, Next 7 days, By pillar\n- Content pillars, Hook Starters, 30 content ideas, a repurpose map and a 15-minute Sunday plan"
+  },
+  "prop": {
+   "name": "Proposal Tracker",
+   "etsy": "https://www.etsy.com/listing/4596961562/proposal-tracker-notion-template",
+   "gumroad": "https://getsystemforge.gumroad.com/l/proposal-tracker",
+   "etsy_board": "1102607989961572200",
+   "facts": "Proposal Tracker, a Notion template for freelancers who send quotes.\n- Follow up today: the quotes that need you now, on one page\n- Next step on every proposal: Send it, Follow up #1, #2, #3, or Send a new quote\n- Shows how many days since you sent the quote, and warns before a quote expires\n- Pipeline board: Draft, Sent, Negotiating, Won, Lost\n- Win chance and weighted value: what open quotes are really worth\n- Price check: hours x your rate tells you if you priced too low\n- Clients: open value, won value and win rate for each client\n- 6 follow-up emails, a Proposal Writing Guide, a weekly review and a client inquiry form"
+  },
+  "deal": {
+   "name": "Brand Deal Tracker",
+   "etsy": "https://www.etsy.com/listing/4596950665/brand-deal-tracker-notion-template",
+   "gumroad": "https://getsystemforge.gumroad.com/l/brand-deal-tracker",
+   "etsy_board": "1102607989961572208",
+   "facts": "Brand Deal Tracker, a Notion template for content creators, influencers and UGC creators.\n- Do this now: everything that needs you today\n- Next step on every deal: follow up, agree on terms, post, send your invoice or a payment reminder\n- Deal board: Pitched, Talking, Signed, Delivered, Paid, Lost\n- Posts you owe: every deliverable with its due date and days late\n- Money: due in X days, X days late, or paid; $ per post on every deal\n- Brands: earned, pending and number of deals\n- 6 brand email scripts, a rate card and media kit pages, and a weekly review checklist"
+  },
+  "sb": {
+   "name": "Second Brain OS",
+   "etsy": "https://www.etsy.com/listing/4607192750",
+   "gumroad": "https://getsystemforge.gumroad.com/l/second-brain-os",
+   "etsy_board": "1102607989961656311",
+   "facts": "Second Brain OS, an all-in-one Notion life planner (second brain, PARA method). Set up in 5 minutes.\n- Home dashboard with a Today widget: clock, day/week/month/year progress, mini calendar, thought for the day\n- Goals with a progress bar that fills up as projects are done\n- Projects board and Tasks with progress bars, days left and a Next 7 days view\n- Notes inbox with a Quick capture form, favorites and key takeaways\n- Habit tracker: 5 habits you can rename, a daily score, this week view; tick it on your phone\n- Daily journal: mood, energy, one win, gratitude; a mood chart for the month fills in by itself\n- Reading list bookshelf with a progress bar and rating\n- Weekly, monthly and yearly review pages, a mobile home page, and beginner guides (PARA, note taking)\n- Bonus: a Notion for beginners PDF guide"
+  },
+  "habit": {
+   "name": "Habit Tracker",
+   "etsy": "https://www.etsy.com/listing/4611609200",
+   "gumroad": "https://getsystemforge.gumroad.com/l/habit-tracker",
+   "etsy_board": "1102607989961656300",
+   "facts": "Habit Tracker, a Notion habit tracker template.\n- Daily check-in: 6 habits you can rename, one row per day; your score and day type fill in by themselves\n- Monthly progress: a bar for every habit, your best habit and your perfect days\n- Habit calendar: your score on every day of the month\n- My habit plan: why it matters, the cue that starts it, the tiny version for busy days and your reward\n- Year in review: overall score, perfect days, days logged and habits done\n- Home page with a live Today widget: clock, week, month and year progress and a habit thought\n- Start here, How to make a habit stick, 50 habit ideas\n- Bonus: 30-Day Habit Reset (PDF, with a printable tracker)"
+  },
+  "budget": {
+   "name": "Budget Planner",
+   "etsy": "https://www.etsy.com/listing/4611612842",
+   "gumroad": "https://getsystemforge.gumroad.com/l/budget-planner",
+   "etsy_board": "1102607989961677610",
+   "facts": "Budget Planner, a Notion budget planner template.\n- Budget per category: what you spent this month, what is left and if you are on track\n- Bills with their due day: paid, due soon or late\n- Transactions: expenses show with a minus; pick a category and the budget updates\n- Savings goals with a deadline: how much to save each month to hit the goal on time\n- Debt payoff: highest interest first; add an extra payment and see the debt-free date move closer\n- Monthly overview: income, spending, what is left over and how much of your income you saved\n- Bonus: Money Reset in 7 Days (PDF)"
+  },
+  "journal": {
+   "name": "Daily Journal",
+   "etsy": "https://www.etsy.com/listing/4611611706",
+   "gumroad": "https://getsystemforge.gumroad.com/l/daily-journal",
+   "etsy_board": "1102607989961677619",
+   "facts": "Daily Journal, a Notion journal template.\n- One entry a day: mood, energy, one win and one thing you are grateful for, with a photo on every card\n- Gratitude jar: every thank you you wrote, in one place\n- Monthly mood: average mood, great days and low days for every month\n- Mood calendar: see your month at a glance and keep your favorite days\n- Weekly review: average mood and days written fill in by themselves\n- Live Today widget with a new journal prompt each day\n- Bonus: Journaling guide (PDF)"
+  },
+  "life": {
+   "name": "Life Planner",
+   "etsy": "https://www.etsy.com/listing/4614275673",
+   "gumroad": "https://getsystemforge.gumroad.com/l/life-planner",
+   "etsy_board": "1102607989961677614",
+   "facts": "Life Planner, a Notion life planner and goal planner template.\n- Goals board with a progress bar on every goal\n- Milestones with due dates; tick one and the bar fills\n- Next steps: late, this week or later\n- Digital vision board with a photo for every dream and when you want it\n- Life Wheel: score 8 areas of your life\n- Weekly Check-in and Quarterly Review\n- Why it matters and a reward for every goal\n- Bonus: The 90-Day Goal Workbook (PDF, with a printable 90-day plan)"
+  },
+  "meal": {
+   "name": "Meal Planner",
+   "etsy": "https://www.etsy.com/listing/4614269627",
+   "gumroad": "https://getsystemforge.gumroad.com/l/meal-planner",
+   "etsy_board": "1102607989961677617",
+   "facts": "Meal Planner, a Notion meal planner template.\n- Meal Plan calendar: breakfast, lunch, dinner and snacks, each linked to a recipe\n- Next 7 days board; tick Cooked when it is done\n- Recipes with prep time, rating, tags and favorites; ingredients as a checklist in every recipe\n- Grocery List sorted by aisle, with quantity, price and the recipe that needs each item\n- Staples you buy every week and leftovers planning\n- Home page with a 15-minute Sunday checklist\n- Bonus: Eat Well, Stress Less (PDF)"
+  },
+  "travel": {
+   "name": "Travel Planner",
+   "etsy": "https://www.etsy.com/listing/4614286430",
+   "gumroad": "https://getsystemforge.gumroad.com/l/travel-planner",
+   "etsy_board": "1102607989961677618",
+   "facts": "Travel Planner, a Notion travel planner template.\n- Trips with a countdown, status, photo and budget left (red when you go over)\n- Itinerary with dates, costs and confirmation numbers\n- Still to book: plans that are not booked yet\n- Expenses linked to each trip, so the budget updates\n- Packing list grouped by type, with a progress bar\n- Before You Go Checklist, Packing Checklist and a Travel Budget Guide\n- Bonus: Plan Trips Like a Pro (PDF, with a printable trip sheet)"
+  },
+  "job": {
+   "name": "Job Application Tracker",
+   "etsy": "https://www.etsy.com/listing/4614280376",
+   "gumroad": "https://getsystemforge.gumroad.com/l/job-application-tracker",
+   "etsy_board": "1102607989961656311",
+   "facts": "Job Application Tracker, a Notion job search template.\n- Job pipeline board: Wishlist, Applied, Interviewing, Offer, Rejected, Ghosted\n- A Next step for every job: wait, follow up, prep or negotiate\n- Follow up today: jobs with no answer after 7 days\n- Interviews to prep or thank, with days left; prep checklist and the STAR method\n- Companies and Contacts linked to every job, and a Story Bank for interview answers\n- Follow-up email scripts ready to copy, Resume Checklist and Salary Negotiation Script\n- Weekly review with a Why I got rejected board\n- Bonus: 30-Day Job Search Playbook (PDF)"
+  },
+  "shop": {
+   "name": "SystemForge",
+   "etsy": "https://www.etsy.com/shop/GetSystemForge",
+   "gumroad": "https://getsystemforge.gumroad.com",
+   "etsy_board": "1102607989961656311",
+   "facts": "SystemForge, a small shop of aesthetic Notion templates (instant download).\n- Habit Tracker: daily check-in, monthly progress bars, habit calendar\n- Budget Planner: budget per category, bills, savings goals, debt payoff\n- Daily Journal: mood, wins, gratitude jar, mood calendar\n- Life Planner: goals with progress bars, milestones, vision board, Life Wheel\n- Meal Planner: weekly meal calendar, recipes, grocery list by aisle\n- Travel Planner: trip countdown, itinerary, budget, packing list\n- Job Application Tracker: job pipeline, follow-ups, interview prep\n- Second Brain OS: an all-in-one Notion life planner"
+  },
+  "bundle": {
+   "name": "Life Bundle",
+   "etsy": "https://www.etsy.com/listing/4616776496",
+   "etsy_board": "1102607989961656311",
+   "facts": "Life Bundle, 8 Notion templates in one Notion dashboard, plus 7 bonus PDF guides.\n- Habit Tracker: tick 6 habits a day, your score fills in by itself, monthly bars and perfect days\n- Budget Planner: budget per category, bills with due days, savings goals, debt payoff plan\n- Meal Planner: the next 7 days, your recipes, a grocery list sorted by aisle\n- Daily Journal: mood, energy, one win and one thank you, weekly review, monthly mood\n- Life Planner: goals with progress bars, milestones with dates, a vision board\n- Travel Planner: countdown, budget left, bookings and packing for every trip\n- Job Application Tracker: every job from Wishlist to Offer, follow-up emails, interview prep\n- Second Brain OS: goals, projects, tasks and notes linked together, weekly reviews\n- One home page with a menu to every template and a 3-step start\n- 7 bonus PDF guides: 30-Day Habit Reset, Money Reset in 7 Days, Eat Well Stress Less, Journaling guide, The 90-Day Goal Workbook, Plan Trips Like a Pro, 30-Day Job Search Playbook"
+  }
  }
 }
