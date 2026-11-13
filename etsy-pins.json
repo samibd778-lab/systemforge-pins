@@ -44,17 +44,6 @@
   "board_name": "Budget Planner Ideas"
  },
  {
-  "id": "v5-habit-a2",
-  "product": "habit",
-  "name": "Habit Tracker",
-  "kind": "page",
-  "angle": "Never miss twice: daily habit tracker in Notion with a habit plan and the tiny version for busy days. Keyword: daily habit tracker.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/habit-a2.png",
-  "link": "https://www.etsy.com/listing/4611609200",
-  "board_id": "1102607989961656300",
-  "board_name": "Habit Tracker Ideas"
- },
- {
   "id": "v5-budget-a2",
   "product": "budget",
   "name": "Budget Planner",
@@ -261,6 +250,160 @@
   "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/life-b2.png",
   "link": "https://www.etsy.com/listing/4614275673",
   "board_id": "1102607989961677614",
+  "board_name": ""
+ },
+ {
+  "id": "v5-budget-a3",
+  "product": "budget",
+  "name": "Budget Planner",
+  "kind": "page",
+  "angle": "Bill tracker in Notion: every bill and subscription with its due day, tick Paid when it is done. Keyword: bill tracker.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/budget-a3.png",
+  "link": "https://www.etsy.com/listing/4611612842",
+  "board_id": "1102607989961677610",
+  "board_name": ""
+ },
+ {
+  "id": "v5-travel-a1",
+  "product": "travel",
+  "name": "Travel Planner",
+  "kind": "page",
+  "angle": "Travel Planner Notion template: countdown, budget left and packing progress for every trip. Keyword: travel planner.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/travel-a1.png",
+  "link": "https://www.etsy.com/listing/4614286430",
+  "board_id": "1102607989961677618",
+  "board_name": ""
+ },
+ {
+  "id": "v5-job-a1",
+  "product": "job",
+  "name": "Job Application Tracker",
+  "kind": "page",
+  "angle": "Job Application Tracker in Notion: every job from Wishlist to Offer with the next step on each card. Keyword: job application tracker.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/job-a1.png",
+  "link": "https://www.etsy.com/listing/4614280376",
+  "board_id": "1102607989961656311",
+  "board_name": ""
+ },
+ {
+  "id": "v5-sb-a1",
+  "product": "sb",
+  "name": "Second Brain OS",
+  "kind": "page",
+  "angle": "Second Brain Notion template: goals, projects, tasks and notes in one workspace. Keyword: notion second brain.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/sb-a1.png",
+  "link": "https://www.etsy.com/listing/4607192750",
+  "board_id": "1102607989961656311",
+  "board_name": ""
+ },
+ {
+  "id": "v5-shop-c1",
+  "product": "shop",
+  "name": "SystemForge",
+  "kind": "listicle",
+  "angle": "Notion template ideas for 2027: habit tracker, budget planner, meal planner, travel planner and job tracker. Keyword: notion template ideas.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/shop-c1.png",
+  "link": "https://www.etsy.com/shop/GetSystemForge",
+  "board_id": "1102607989961656311",
+  "board_name": ""
+ },
+ {
+  "id": "v5-meal-a3",
+  "product": "meal",
+  "name": "Meal Planner",
+  "kind": "page",
+  "angle": "Weekly meal plan in Notion: breakfast, lunch and dinner for the next 7 days, tick Cooked when done. Keyword: weekly meal plan.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/meal-a3.png",
+  "link": "https://www.etsy.com/listing/4614269627",
+  "board_id": "1102607989961677617",
+  "board_name": ""
+ },
+ {
+  "id": "v5-budget-b2",
+  "product": "budget",
+  "name": "Budget Planner",
+  "kind": "page",
+  "angle": "Budget Planner Template for Notion: categories, bills, savings goals and a debt payoff plan on one page. Bonus PDF Money Reset in 7 Days. Keyword: budget planner template.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/budget-b2.png",
+  "link": "https://www.etsy.com/listing/4611612842",
+  "board_id": "1102607989961677610",
+  "board_name": ""
+ },
+ {
+  "id": "v5-travel-b1",
+  "product": "travel",
+  "name": "Travel Planner",
+  "kind": "page",
+  "angle": "Travel Itinerary Planner for Notion: plans not booked yet with the date, tick Booked and they leave the list. Keyword: travel itinerary planner.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/travel-b1.png",
+  "link": "https://www.etsy.com/listing/4614286430",
+  "board_id": "1102607989961677618",
+  "board_name": ""
+ },
+ {
+  "id": "v5-sb-a2",
+  "product": "sb",
+  "name": "Second Brain OS",
+  "kind": "page",
+  "angle": "Project tracker in Notion: drag a card when a project moves, the bar fills as you tick tasks. Keyword: project tracker.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/sb-a2.png",
+  "link": "https://www.etsy.com/listing/4607192750",
+  "board_id": "1102607989961656311",
+  "board_name": ""
+ },
+ {
+  "id": "v5-life-a3",
+  "product": "life",
+  "name": "Life Planner",
+  "kind": "page",
+  "angle": "Life Planner Notion template: goals with progress bars and a vision board on one page. Keyword: life planner.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/life-a3.png",
+  "link": "https://www.etsy.com/listing/4614275673",
+  "board_id": "1102607989961677614",
+  "board_name": ""
+ },
+ {
+  "id": "v5-job-b1",
+  "product": "job",
+  "name": "Job Application Tracker",
+  "kind": "page",
+  "angle": "Job Search Tracker for Notion: drag a card when a company answers, the next step shows on every job. Keyword: job search organization.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/job-b1.png",
+  "link": "https://www.etsy.com/listing/4614280376",
+  "board_id": "1102607989961656311",
+  "board_name": ""
+ },
+ {
+  "id": "v5-travel-b2",
+  "product": "travel",
+  "name": "Travel Planner",
+  "kind": "page",
+  "angle": "Vacation Planner for Notion: every trip with its countdown, budget left and packing bar. Keyword: vacation planner.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/travel-b2.png",
+  "link": "https://www.etsy.com/listing/4614286430",
+  "board_id": "1102607989961677618",
+  "board_name": ""
+ },
+ {
+  "id": "v5-sb-b1",
+  "product": "sb",
+  "name": "Second Brain OS",
+  "kind": "page",
+  "angle": "All-in-one Notion dashboard: goals with progress bars, projects and tasks linked together. Keyword: notion dashboard.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/sb-b1.png",
+  "link": "https://www.etsy.com/listing/4607192750",
+  "board_id": "1102607989961656311",
+  "board_name": ""
+ },
+ {
+  "id": "v5-shop-c2",
+  "product": "shop",
+  "name": "SystemForge",
+  "kind": "listicle",
+  "angle": "Aesthetic Notion templates to try: vision board, daily journal, trip countdown, project board, monthly habits. Keyword: aesthetic notion template.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/shop-c2.png",
+  "link": "https://www.etsy.com/shop/GetSystemForge",
+  "board_id": "1102607989961656311",
   "board_name": ""
  },
  {
