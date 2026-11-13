@@ -1,5 +1,7 @@
 # Life Bundle: Etsy listing (fill the form top to bottom)
 
+Live: https://www.etsy.com/listing/4616776496 (published 2026-11-13, How created: Created by me)
+
 Everything is in `etsy/bundle/`. Etsy only: no Gumroad links anywhere.
 The delivery PDF (`Life-Bundle-Notion-Templates.pdf`) is git-ignored (it holds the Notion link): use the copy sent in chat.
 
