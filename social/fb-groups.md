@@ -27,6 +27,9 @@ Account: Sami Boud (check the avatar menu: Chrome can be switched to the SystemF
 | 2026-11-08 | Free Notion Templates | free-invoice-tracker | - | published, 0 comments after 23 h |
 | 2026-11-08 | Notion Templates, Tips And Tricks | free-content-planner (tip style) | notion-tips-tricks | PUBLISHED (Just now) |
 | 2026-11-08 | Be NotionSmart | free-content-planner (free + bullets) | be-notionsmart | PUBLISHED (Just now) |
+| 2026-11-12 | Notion Templates, Tips And Tricks | habit-tracker (tip: never miss twice) | notion-tips-tricks | PUBLISHED, visible in group search |
+| 2026-11-12 | Be NotionSmart | budget-planner (bullets) | be-notionsmart | PUBLISHED (Just now) |
+| 2026-11-12 | Gumroad Products [Promote FREELY!] | budget-planner (short promo) | gumroad-promote | pending admin approval |
 
 ## Check 2026-11-12
 - All 5 live posts: 0 reactions, 0 comments (Free Notion Templates "Comment INVOICE" post: 0 comments).
