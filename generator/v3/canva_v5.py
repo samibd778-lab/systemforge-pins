@@ -53,6 +53,7 @@ def layout(s):
         y, room, w, x = 660, 1500 - 660 - 100, 1000, 0
     for n, b in s['crops']:
         box, h = fit(n, b, w, room)
+        if out and h < 230: break  # a thin strip looks cut off
         out.append((n, box, x, y, w, h)); y += h + 22; room -= h + 22
         if room < 120: break
     return out
