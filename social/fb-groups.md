@@ -22,8 +22,14 @@ Account: Sami Boud (check the avatar menu: Chrome can be switched to the SystemF
 | 2026-11-06 | Notion Community | free-invoice-tracker | notion-community | pending admin approval |
 | 2026-11-06 | Gumroad Products [Promote FREELY!] | free-invoice-tracker | gumroad-promote | pending admin approval |
 | 2026-11-07 | Free Notion Templates | free-invoice-tracker (3 images, no link, "Comment INVOICE") | - | PUBLISHED (checked after 12 min in Your content) |
-| 2026-11-08 | Notion Community | free-invoice-tracker | notion-community | still pending (checked 2026-11-08) |
-| 2026-11-08 | Gumroad Products [Promote FREELY!] | free-invoice-tracker | gumroad-promote | still pending (checked 2026-11-08) |
+| 2026-11-08 | Notion Community | free-invoice-tracker | notion-community | APPROVED, live; 0 reactions, 0 comments (checked 2026-11-12) |
+| 2026-11-08 | Gumroad Products [Promote FREELY!] | free-invoice-tracker | gumroad-promote | APPROVED, live; 0 reactions (checked 2026-11-12) |
 | 2026-11-08 | Free Notion Templates | free-invoice-tracker | - | published, 0 comments after 23 h |
 | 2026-11-08 | Notion Templates, Tips And Tricks | free-content-planner (tip style) | notion-tips-tricks | PUBLISHED (Just now) |
 | 2026-11-08 | Be NotionSmart | free-content-planner (free + bullets) | be-notionsmart | PUBLISHED (Just now) |
+
+## Check 2026-11-12
+- All 5 live posts: 0 reactions, 0 comments (Free Notion Templates "Comment INVOICE" post: 0 comments).
+- Tips And Tricks + Be NotionSmart posts don't show in "Your content" (posted Nov 9); find them with the group search (`/groups/<id>/search/?q=...`).
+- Gumroad Analytics, last 30 days: Facebook 33 + m.facebook.com 17 = 50 views, 0 sales; Instagram 22 views; Pinterest 1. 4 free downloads total (2 from Morocco = tests).
+- Direct /my_pending_content URLs often stay on the Facebook splash: use the group search instead.
