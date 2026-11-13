@@ -31,6 +31,20 @@ SETS = {'mjl': {
  'life-b1': dict(p='life', style='b', title='LIFE PLANNER', kicker='for Notion',
                  sub='Goals that fill up as you go. Tick a milestone and the bar moves.', badge='Bonus PDF:\n90-Day Goal\nWorkbook',
                  crops=[('life-goals', (0, 0, 1536, 973))]),
+},
+'vb': {
+ 'vb-a1': dict(p='life', style='a', kicker='NOTION TEMPLATE', title='2027&nbsp; Vision Board', tsize=118,
+               sub='Every dream with a photo, and the date you want it by.',
+               crops=[('life-vision', (0, 0, 1345, 1198))]),
+ 'vb-c1': dict(p='life', style='c', kicker='VISION BOARD IDEAS', title='Vision board ideas<br>for your 2027',
+               foot='All in one Notion vision board, with a date for every dream.',
+               tiles=[('life-vision', (16, 302, 658, 596), 'Slow mornings, every day'),
+                      ('life-vision', (686, 302, 1328, 596), 'Watch a sunrise from a mountain top'),
+                      ('life-vision', (16, 772, 658, 1064), 'Hike in the Alps'),
+                      ('life-vision', (686, 772, 1328, 1064), 'Road trip with old friends')]),
+ 'vb-b1': dict(p='life', style='b', title='DIGITAL VISION BOARD', kicker='for Notion',
+               sub='Your dreams, your goals and the next small step, on one page.', badge='Bonus PDF:\n90-Day Goal\nWorkbook',
+               crops=[('life-vision', (0, 0, 1345, 600)), ('life-goals', (0, 0, 1536, 973))]),
 }}
 
 
@@ -47,6 +61,11 @@ def fit(n, b, w, maxh):
 def layout(s):
     """list of (box, x, y, w, h) per image"""
     out = []
+    if s['style'] == 'c':
+        for i, (n, b, _) in enumerate(s['tiles']):
+            w = 460; h = round((b[3] - b[1]) * w / (b[2] - b[0]))
+            out.append((n, b, 60, 385 + i * 235, w, h))
+        return out
     if s['style'] == 'a':
         y, room, w, x = 400, 1500 - 400 - 100, 900, 50
     else:
@@ -72,8 +91,16 @@ def page(pid, s, sha):
     if s['style'] == 'a':
         head = (f'<div style="position:absolute;left:0;top:0;width:1000px;height:430px;background:{c}"></div>'
                 + p(0, 58, 1000, 24, s['kicker'], acc, 'font-weight:700;letter-spacing:5px')
-                + p(0, 92, 1000, 140, s['title'], INK, "font-family:'Great Vibes',cursive;line-height:1.1")
+                + p(0, 92 + (140 - s.get('tsize', 140)) // 2, 1000, s.get('tsize', 140), s['title'], INK, "font-family:'Great Vibes',cursive;line-height:1.1")
                 + p(90, 268, 820, 31, s['sub'], MUT, 'line-height:1.35'))
+    elif s['style'] == 'c':
+        L = layout(s)
+        head = (f'<div style="position:absolute;left:0;top:0;width:1000px;height:350px;background:{c}"></div>'
+                + p(0, 56, 1000, 24, s['kicker'], acc, 'font-weight:700;letter-spacing:5px')
+                + p(60, 100, 880, 76, s['title'], INK, "font-family:'Playfair Display',serif;font-weight:700;line-height:1.1"))
+        imgs += ''.join(p(555, y + h // 2 - 46, 390, 34, f'{i + 1}. {lab}', INK, "text-align:left;font-family:'Playfair Display',serif;font-weight:700;line-height:1.2")
+                        for i, ((n, box, x, y, w, h), (_, _, lab)) in enumerate(zip(L, s['tiles'])))
+        imgs += p(80, 1338, 840, 29, s['foot'], MUT, 'line-height:1.35')
     else:
         head = (f'<div style="position:absolute;left:0;top:0;width:1000px;height:520px;background:{acc}"></div>'
                 + p(60, 70, 880, 104, s['title'], '#FFFFFF', "font-family:'Playfair Display',serif;font-weight:700;line-height:1.02")
@@ -87,16 +114,16 @@ def page(pid, s, sha):
 
 
 if __name__ == '__main__':
-    mode = sys.argv[1]; S = SETS['mjl']
+    mode, name = sys.argv[1], sys.argv[2]; S = SETS[name]
     if mode == 'crops':
         for pid, s in S.items():
             for n, box, *_ in layout(s):
                 Image.open(os.path.join(HD, n + '.jpg')).convert('RGB').crop(box).save(os.path.join(IMG, cname(n, box)), quality=95)
         print(sorted(os.listdir(IMG)))
     else:
-        sha = sys.argv[2]
+        sha = sys.argv[3]
         html = ('<!doctype html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700'
                 '&family=Great+Vibes&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">'
                 '<style>body{margin:0}div,span,p{font-family:Inter,Arial,sans-serif}</style></head><body>'
                 + '\n'.join(page(pid, s, sha) for pid, s in S.items()) + '</body></html>')
-        out = os.path.join(ROOT, 'canva', 'v5', 'pins-mjl.html'); open(out, 'w').write(html); print(out, len(html))
+        out = os.path.join(ROOT, 'canva', 'v5', f'pins-{name}.html'); open(out, 'w').write(html); print(out, len(html))
