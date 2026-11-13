@@ -1,6 +1,111 @@
 {
  "pins": [
   {
+   "id": "pins/v5/habit-a3",
+   "p": "habit",
+   "kind": "page",
+   "angle": "Daily habit tracker in Notion: tick 6 habits a day and your score fills in by itself. Keyword: daily habit tracker.",
+   "board_id": "1134836874795080738"
+  },
+  {
+   "id": "pins/v5/meal-a4",
+   "p": "meal",
+   "kind": "page",
+   "angle": "Grocery list Notion template: sorted by aisle with quantity and price, tick Got it and it leaves the list. Keyword: grocery list.",
+   "board_id": "1134836874795080750"
+  },
+  {
+   "id": "pins/v5/budget-a4",
+   "p": "budget",
+   "kind": "page",
+   "angle": "Expense tracker Notion template: every expense and income newest first, with its category. Keyword: expense tracker.",
+   "board_id": "1134836874795080740"
+  },
+  {
+   "id": "pins/v5/life-a4",
+   "p": "life",
+   "kind": "page",
+   "angle": "Goal planner Notion template: every goal broken into small steps with a date, late steps first. Keyword: goal planner.",
+   "board_id": "1134836874795080745"
+  },
+  {
+   "id": "pins/v5/travel-a2",
+   "p": "travel",
+   "kind": "page",
+   "angle": "Travel packing list in Notion: sorted by type, linked to your trip, tick Packed as you go. Keyword: packing list.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/habit-c1",
+   "p": "habit",
+   "kind": "listicle",
+   "angle": "Small habit ideas that stick: read 1 page in bed, lights down at 10:30 pm, phone charges in the kitchen, water before coffee. Keyword: habit ideas.",
+   "board_id": "1134836874795080738"
+  },
+  {
+   "id": "pins/v5/budget-b3",
+   "p": "budget",
+   "kind": "page",
+   "angle": "Debt payoff planner in Notion: highest interest first, add an extra payment and see your debt-free date move closer. Keyword: debt payoff planner.",
+   "board_id": "1134836874795080740"
+  },
+  {
+   "id": "pins/v5/vb-b2",
+   "p": "life",
+   "kind": "page",
+   "angle": "2027 goals planner in Notion: vision board, goals and the next small step for each. Keyword: 2027 goals.",
+   "board_id": "1134836874795080745"
+  },
+  {
+   "id": "pins/v5/meal-b3",
+   "p": "meal",
+   "kind": "page",
+   "angle": "Meal planner and grocery list in Notion: plan the next 7 days, then shop with one list sorted by aisle. Keyword: meal planner.",
+   "board_id": "1134836874795080750"
+  },
+  {
+   "id": "pins/v5/job-a2",
+   "p": "job",
+   "kind": "page",
+   "angle": "Job search organizer in Notion: Wishlist, Applied, Interview, Offer, drag a card when a company answers. Keyword: job search tracker.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/habit-b2",
+   "p": "habit",
+   "kind": "page",
+   "angle": "Daily habit tracker for Notion: one row a day, newest on top, and monthly bars for every habit. Keyword: habit tracker.",
+   "board_id": "1134836874795080738"
+  },
+  {
+   "id": "pins/v5/life-b3",
+   "p": "life",
+   "kind": "page",
+   "angle": "Milestone tracker in Notion: steps due this month and any that are late, tick Done to move forward. Keyword: goal tracker.",
+   "board_id": "1134836874795080745"
+  },
+  {
+   "id": "pins/v5/journal-a3",
+   "p": "journal",
+   "kind": "page",
+   "angle": "Gratitude journal Notion template: one thing you are thankful for every day, plus mood and energy. Keyword: gratitude journal.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/travel-b3",
+   "p": "travel",
+   "kind": "page",
+   "angle": "Travel packing checklist for Notion: documents, clothes, toiletries, tick Packed as you go. Keyword: travel packing checklist.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/shop-c3",
+   "p": "shop",
+   "kind": "listicle",
+   "angle": "Notion templates for a fresh start: habit plan, gratitude journal, vision board, job tracker and morning routine. Keyword: notion template ideas.",
+   "board_id": "1134836874794954336"
+  },
+  {
    "id": "pins/v5/habit-a1",
    "p": "habit",
    "kind": "page",
