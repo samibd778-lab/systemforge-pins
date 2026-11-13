@@ -66,6 +66,72 @@
   "board_name": "Budget Planner Ideas"
  },
  {
+  "id": "v5-meal-a1",
+  "product": "meal",
+  "name": "Meal Planner",
+  "kind": "page",
+  "angle": "Meal Planner Notion template: plan the week, cook what you love, shop with one list. Keyword: meal planner.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/meal-a1.png",
+  "link": "https://www.etsy.com/listing/4614269627",
+  "board_id": "1102607989961677617",
+  "board_name": ""
+ },
+ {
+  "id": "v5-journal-a1",
+  "product": "journal",
+  "name": "Daily Journal",
+  "kind": "page",
+  "angle": "Daily Journal Notion template: your mood, one win and one thank you, plus a gratitude jar. Keyword: daily journal.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/journal-a1.png",
+  "link": "https://www.etsy.com/listing/4611611706",
+  "board_id": "1102607989961677619",
+  "board_name": ""
+ },
+ {
+  "id": "v5-life-a1",
+  "product": "life",
+  "name": "Life Planner",
+  "kind": "page",
+  "angle": "Digital Vision Board in Notion: every dream with a photo and the date you want it by. Keyword: vision board.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/life-a1.png",
+  "link": "https://www.etsy.com/listing/4614275673",
+  "board_id": "1102607989961677614",
+  "board_name": ""
+ },
+ {
+  "id": "v5-meal-b1",
+  "product": "meal",
+  "name": "Meal Planner",
+  "kind": "page",
+  "angle": "Weekly Meal Planner for Notion: every meal linked to a recipe, grocery list sorted by aisle. Bonus PDF Eat Well, Stress Less. Keyword: weekly meal planner.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/meal-b1.png",
+  "link": "https://www.etsy.com/listing/4614269627",
+  "board_id": "1102607989961677617",
+  "board_name": ""
+ },
+ {
+  "id": "v5-journal-b1",
+  "product": "journal",
+  "name": "Daily Journal",
+  "kind": "page",
+  "angle": "Mood Tracker for Notion: average mood, great days and low days every month. Bonus PDF Journaling guide. Keyword: mood tracker.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/journal-b1.png",
+  "link": "https://www.etsy.com/listing/4611611706",
+  "board_id": "1102607989961677619",
+  "board_name": ""
+ },
+ {
+  "id": "v5-life-b1",
+  "product": "life",
+  "name": "Life Planner",
+  "kind": "page",
+  "angle": "Life Planner for Notion: goals that fill up as you go, milestones and next steps. Bonus PDF 90-Day Goal Workbook. Keyword: life planner.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/life-b1.png",
+  "link": "https://www.etsy.com/listing/4614275673",
+  "board_id": "1102607989961677614",
+  "board_name": ""
+ },
+ {
   "id": "v4-habit-1",
   "product": "habit",
   "name": "Habit Tracker",

@@ -43,6 +43,48 @@
    "board_id": "1134836874795080740"
   },
   {
+   "id": "pins/v5/meal-a1",
+   "p": "meal",
+   "kind": "page",
+   "angle": "Meal Planner Notion template: plan the week, cook what you love, shop with one list. Keyword: meal planner.",
+   "board_id": "1134836874795080750"
+  },
+  {
+   "id": "pins/v5/journal-a1",
+   "p": "journal",
+   "kind": "page",
+   "angle": "Daily Journal Notion template: your mood, one win and one thank you, plus a gratitude jar. Keyword: daily journal.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/life-a1",
+   "p": "life",
+   "kind": "page",
+   "angle": "Digital Vision Board in Notion: every dream with a photo and the date you want it by. Keyword: vision board.",
+   "board_id": "1134836874795080745"
+  },
+  {
+   "id": "pins/v5/meal-b1",
+   "p": "meal",
+   "kind": "page",
+   "angle": "Weekly Meal Planner for Notion: every meal linked to a recipe, grocery list sorted by aisle. Bonus PDF Eat Well, Stress Less. Keyword: weekly meal planner.",
+   "board_id": "1134836874795080750"
+  },
+  {
+   "id": "pins/v5/journal-b1",
+   "p": "journal",
+   "kind": "page",
+   "angle": "Mood Tracker for Notion: average mood, great days and low days every month. Bonus PDF Journaling guide. Keyword: mood tracker.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/life-b1",
+   "p": "life",
+   "kind": "page",
+   "angle": "Life Planner for Notion: goals that fill up as you go, milestones and next steps. Bonus PDF 90-Day Goal Workbook. Keyword: life planner.",
+   "board_id": "1134836874795080745"
+  },
+  {
    "id": "pins/v4/habit-1",
    "p": "habit",
    "kind": "lifestyle",
