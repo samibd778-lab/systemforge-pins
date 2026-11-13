@@ -8,29 +8,29 @@ from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, HERE)
 import mini_listing as M  # noqa: E402
-HD = os.path.join(ROOT, 'shots', 'hd'); IMG = os.path.join(ROOT, 'canva', 'v5', 'img'); os.makedirs(IMG, exist_ok=True)
+HD = os.path.join(ROOT, 'shots', 'hd3'); IMG = os.path.join(ROOT, 'canva', 'v5', 'img'); os.makedirs(IMG, exist_ok=True)
 INK, MUT, BG = '#2B2723', '#6A625A', '#FBF8F3'
 RAW = 'https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/{sha}/canva/v5/img/{f}'
 
 SETS = {'mjl': {
  'meal-a1': dict(p='meal', style='a', kicker='WEEKLY MEAL PLANNER', title='Meal Planner',
                  sub='Plan the week, cook what you love, shop with one list.',
-                 crops=[('meal-week', (0, 0, 640, 569)), ('meal-buy', (0, 0, 700, 624))]),
+                 crops=[('meal-next7', (0, 0, 1160, 1208))]),
  'meal-b1': dict(p='meal', style='b', title='WEEKLY MEAL PLANNER', kicker='for Notion',
                  sub='Every meal linked to a recipe. A grocery list sorted by aisle.', badge='Bonus PDF:\nEat Well,\nStress Less',
-                 crops=[('meal-recipes', (0, 0, 900, 604)), ('meal-calendar', (0, 0, 900, 487))]),
+                 crops=[('meal-recipes', (0, 0, 1345, 1228))]),
  'journal-a1': dict(p='journal', style='a', kicker='DAILY JOURNAL', title='Daily Journal',
                     sub='Your mood, one win and one thank you. A few minutes a day.',
-                    crops=[('journal-entries', (0, 0, 820, 583)), ('journal-gratitude', (0, 0, 820, 512))]),
+                    crops=[('journal-entries', (0, 0, 1345, 1198))]),
  'journal-b1': dict(p='journal', style='b', title='MOOD TRACKER', kicker='for Notion',
                     sub='See how your month felt: average mood, great days and low days.', badge='Bonus PDF:\nJournaling\nguide',
-                    crops=[('journal-monthly', (0, 0, 820, 486)), ('journal-calendar', (0, 0, 900, 387))]),
+                    crops=[('journal-monthly', (0, 0, 1345, 983))]),
  'life-a1': dict(p='life', style='a', kicker='DIGITAL VISION BOARD', title='Vision Board',
                  sub='Every dream with a photo, and the date you want it by.',
-                 crops=[('life-vision', (0, 0, 1000, 595)), ('life-goals', (0, 0, 905, 409))]),
+                 crops=[('life-vision', (0, 0, 1345, 1198))]),
  'life-b1': dict(p='life', style='b', title='LIFE PLANNER', kicker='for Notion',
                  sub='Goals that fill up as you go. Tick a milestone and the bar moves.', badge='Bonus PDF:\n90-Day Goal\nWorkbook',
-                 crops=[('life-goals', (0, 0, 905, 409)), ('life-steps', (0, 0, 1000, 309))]),
+                 crops=[('life-goals', (0, 0, 1536, 973))]),
 }}
 
 
@@ -91,7 +91,7 @@ if __name__ == '__main__':
     if mode == 'crops':
         for pid, s in S.items():
             for n, box, *_ in layout(s):
-                Image.open(os.path.join(HD, n + '.jpg')).convert('RGB').crop(box).save(os.path.join(IMG, cname(n, box)), quality=93)
+                Image.open(os.path.join(HD, n + '.jpg')).convert('RGB').crop(box).save(os.path.join(IMG, cname(n, box)), quality=95)
         print(sorted(os.listdir(IMG)))
     else:
         sha = sys.argv[2]
