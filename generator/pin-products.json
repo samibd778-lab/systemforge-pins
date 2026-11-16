@@ -108,7 +108,48 @@
    "name": "Life Bundle",
    "etsy": "https://www.etsy.com/listing/4616776496",
    "etsy_board": "1102607989961656311",
-   "facts": "Life Bundle, 8 Notion templates in one Notion dashboard, plus 7 bonus PDF guides.\n- Habit Tracker: tick 6 habits a day, your score fills in by itself, monthly bars and perfect days\n- Budget Planner: budget per category, bills with due days, savings goals, debt payoff plan\n- Meal Planner: the next 7 days, your recipes, a grocery list sorted by aisle\n- Daily Journal: mood, energy, one win and one thank you, weekly review, monthly mood\n- Life Planner: goals with progress bars, milestones with dates, a vision board\n- Travel Planner: countdown, budget left, bookings and packing for every trip\n- Job Application Tracker: every job from Wishlist to Offer, follow-up emails, interview prep\n- Second Brain OS: goals, projects, tasks and notes linked together, weekly reviews\n- One home page with a menu to every template and a 3-step start\n- 7 bonus PDF guides: 30-Day Habit Reset, Money Reset in 7 Days, Eat Well Stress Less, Journaling guide, The 90-Day Goal Workbook, Plan Trips Like a Pro, 30-Day Job Search Playbook"
+   "facts": "Life Bundle, 8 Notion templates in one Notion dashboard, plus 7 bonus PDF guides.\n- Habit Tracker: tick 6 habits a day, your score fills in by itself, monthly bars and perfect days\n- Budget Planner: budget per category, bills with due days, savings goals, debt payoff plan\n- Meal Planner: the next 7 days, your recipes, a grocery list sorted by aisle\n- Daily Journal: mood, energy, one win and one thank you, weekly review, monthly mood\n- Life Planner: goals with progress bars, milestones with dates, a vision board\n- Travel Planner: countdown, budget left, bookings and packing for every trip\n- Job Application Tracker: every job from Wishlist to Offer, follow-up emails, interview prep\n- Second Brain OS: goals, projects, tasks and notes linked together, weekly reviews\n- One home page with a menu to every template and a 3-step start\n- 7 bonus PDF guides: 30-Day Habit Reset, Money Reset in 7 Days, Eat Well Stress Less, Journaling guide, The 90-Day Goal Workbook, Plan Trips Like a Pro, 30-Day Job Search Playbook",
+   "gumroad": "https://getsystemforge.gumroad.com/l/life-bundle"
+  },
+  "free-grocery": {
+   "name": "Free Printable Grocery List + Meal Plan",
+   "gumroad": "https://getsystemforge.gumroad.com/l/free-grocery-list",
+   "facts": "Free Printable Grocery List + Meal Plan (PDF), a FREE printable PDF (US Letter, print at home), not a Notion template. A free printable grocery list sorted by aisle, plus a weekly meal plan. Plan your week, write what you need, and shop faster.\n- Grocery list sorted by aisle\n- Weekly meal plan (breakfast, lunch, dinner)\n- How to use it in 3 steps\nIt is free: pay $0 on Gumroad and download the PDF. Inside, a last page shows the Meal Planner Notion template that does the same in Notion."
+  },
+  "free-habit": {
+   "name": "Free Printable Habit Tracker + 20 Habit Ideas",
+   "gumroad": "https://getsystemforge.gumroad.com/l/free-habit-tracker",
+   "facts": "Free Printable Habit Tracker + 20 Habit Ideas (PDF), a FREE printable PDF (US Letter, print at home), not a Notion template. A free printable monthly habit tracker. Write up to 12 habits, colour a box each day, and see your month at a glance.\n- Monthly habit tracker (up to 12 habits)\n- 20 habit ideas to pick from\n- How to use it in 3 steps\nIt is free: pay $0 on Gumroad and download the PDF. Inside, a last page shows the Habit Tracker Notion template that does the same in Notion."
+  },
+  "free-budget": {
+   "name": "Free Printable Budget Planner: Budget, Bills, Savings + Debt",
+   "gumroad": "https://getsystemforge.gumroad.com/l/free-budget-planner",
+   "facts": "Free Printable Budget Planner: Budget, Bills, Savings + Debt (PDF), a FREE printable PDF (US Letter, print at home), not a Notion template. A free printable budget planner. Plan your month, tick your bills, and watch your savings grow and your debt go down.\n- Monthly budget by category\n- Bill tracker for the whole year\n- Savings tracker\n- Debt payoff tracker\n- How to use it in 3 steps\nIt is free: pay $0 on Gumroad and download the PDF. Inside, a last page shows the Budget Planner Notion template that does the same in Notion."
+  },
+  "free-weekly": {
+   "name": "Free Printable Weekly Planner + Daily Planner",
+   "gumroad": "https://getsystemforge.gumroad.com/l/free-weekly-planner",
+   "facts": "Free Printable Weekly Planner + Daily Planner (PDF), a FREE printable PDF (US Letter, print at home), not a Notion template. A free printable weekly planner with a daily page for busy days. Write your top 3, spread the rest over the week, done.\n- Weekly planner (Monday to Sunday)\n- Daily planner with a schedule\n- How to use it in 3 steps\nIt is free: pay $0 on Gumroad and download the PDF. Inside, a last page shows the Second Brain OS Notion template that does the same in Notion."
+  },
+  "free-travel": {
+   "name": "Free Printable Packing List + Trip Planner",
+   "gumroad": "https://getsystemforge.gumroad.com/l/free-packing-list",
+   "facts": "Free Printable Packing List + Trip Planner (PDF), a FREE printable PDF (US Letter, print at home), not a Notion template. A free printable packing list sorted by type, plus a one-page trip planner. Never forget your charger again.\n- Packing list sorted by type\n- One-page trip planner (day plan, booked or not, budget)\n- How to use it in 3 steps\nIt is free: pay $0 on Gumroad and download the PDF. Inside, a last page shows the Travel Planner Notion template that does the same in Notion."
+  },
+  "free-journal": {
+   "name": "Free Printable Gratitude Journal + 30 Prompts",
+   "gumroad": "https://getsystemforge.gumroad.com/l/free-gratitude-journal",
+   "facts": "Free Printable Gratitude Journal + 30 Prompts (PDF), a FREE printable PDF (US Letter, print at home), not a Notion template. A free printable gratitude journal page and 30 prompts. Three minutes a day, morning or night.\n- Daily gratitude journal page\n- 30 gratitude prompts\n- How to use it in 3 steps\nIt is free: pay $0 on Gumroad and download the PDF. Inside, a last page shows the Daily Journal Notion template that does the same in Notion."
+  },
+  "free-goals": {
+   "name": "Free Printable 2027 Goal Planner + Vision Board",
+   "gumroad": "https://getsystemforge.gumroad.com/l/free-2027-goal-planner",
+   "facts": "Free Printable 2027 Goal Planner + Vision Board (PDF), a FREE printable PDF (US Letter, print at home), not a Notion template. A free printable 2027 goal planner. One goal for each part of your life, small steps with dates, and a vision board to fill in.\n- My 2027 Goals (word of the year + one goal per life area)\n- Goal planner with steps and dates\n- Vision board page\n- How to use it in 3 steps\nIt is free: pay $0 on Gumroad and download the PDF. Inside, a last page shows the Life Planner Notion template that does the same in Notion."
+  },
+  "free-job": {
+   "name": "Free Printable Job Application Tracker + Interview Prep",
+   "gumroad": "https://getsystemforge.gumroad.com/l/free-job-tracker",
+   "facts": "Free Printable Job Application Tracker + Interview Prep (PDF), a FREE printable PDF (US Letter, print at home), not a Notion template. A free printable job application tracker plus an interview prep page. Know where every application stands.\n- Job application tracker (company, role, status, next step)\n- Interview prep page\n- How to use it in 3 steps\nIt is free: pay $0 on Gumroad and download the PDF. Inside, a last page shows the Job Application Tracker Notion template that does the same in Notion."
   }
  }
 }

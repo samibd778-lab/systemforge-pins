@@ -1,6 +1,69 @@
 {
  "pins": [
   {
+   "id": "pins/v5/free-goals-a1",
+   "p": "free-goals",
+   "kind": "page",
+   "angle": "Free printable my 2027 goals (word of the year + one goal per life area): 4-page printable PDF: 2027 goals, goal planner + vision board. US Letter. Keyword: 2027 goal planner printable.",
+   "board_id": "1134836874795080745"
+  },
+  {
+   "id": "pins/v5/bundle-a1",
+   "p": "bundle",
+   "kind": "page",
+   "angle": "Notion template bundle: 8 Notion templates in one dashboard (habit tracker, budget, meal planner, journal, life planner, travel, job tracker, second brain) plus 7 bonus PDF guides. Keyword: notion template ideas.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/free-budget-a1",
+   "p": "free-budget",
+   "kind": "page",
+   "angle": "Free printable monthly budget by category: 5-page printable PDF: monthly budget, bill tracker, savings + debt payoff. US Letter. Keyword: free budget planner printable.",
+   "board_id": "1134836874795080740"
+  },
+  {
+   "id": "pins/v5/free-grocery-a1",
+   "p": "free-grocery",
+   "kind": "page",
+   "angle": "Free printable grocery list sorted by aisle: 3-page printable PDF: grocery list by aisle + weekly meal plan. US Letter. Keyword: free printable grocery list.",
+   "board_id": "1134836874795080750"
+  },
+  {
+   "id": "pins/v5/free-habit-a1",
+   "p": "free-habit",
+   "kind": "page",
+   "angle": "Free printable monthly habit tracker (up to 12 habits): 3-page printable PDF: monthly habit tracker + 20 habit ideas. US Letter. Keyword: free habit tracker printable.",
+   "board_id": "1134836874795080738"
+  },
+  {
+   "id": "pins/v5/free-weekly-a1",
+   "p": "free-weekly",
+   "kind": "page",
+   "angle": "Free printable weekly planner (monday to sunday): 3-page printable PDF: weekly planner + daily planner. US Letter. Keyword: free weekly planner printable.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/free-journal-a1",
+   "p": "free-journal",
+   "kind": "page",
+   "angle": "Free printable daily gratitude journal page: 3-page printable PDF: daily gratitude journal + 30 prompts. US Letter. Keyword: free gratitude journal printable.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/free-job-a1",
+   "p": "free-job",
+   "kind": "page",
+   "angle": "Free printable job application tracker (company, role, status, next step): 3-page printable PDF: job application tracker + interview prep. US Letter. Keyword: free job application tracker printable.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/free-travel-a1",
+   "p": "free-travel",
+   "kind": "page",
+   "angle": "Free printable packing list sorted by type: 3-page printable PDF: packing list + one-page trip planner. US Letter. Keyword: free packing list printable.",
+   "board_id": "1134836874794954336"
+  },
+  {
    "id": "pins/v5/habit-a3",
    "p": "habit",
    "kind": "page",

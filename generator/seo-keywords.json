@@ -339,5 +339,93 @@
    "notion planner template",
    "aesthetic notion template"
   ]
+ },
+ "free-grocery": {
+  "primary": "free printable grocery list",
+  "keywords": [
+   "free printable grocery list",
+   "grocery list printable",
+   "weekly meal plan printable",
+   "meal planner printable",
+   "grocery list"
+  ],
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
+ },
+ "free-habit": {
+  "primary": "free habit tracker printable",
+  "keywords": [
+   "free habit tracker printable",
+   "habit tracker printable",
+   "monthly habit tracker",
+   "habit tracker ideas",
+   "habit ideas"
+  ],
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
+ },
+ "free-budget": {
+  "primary": "free budget planner printable",
+  "keywords": [
+   "free budget planner printable",
+   "budget planner printable",
+   "bill tracker printable",
+   "savings tracker",
+   "debt payoff tracker"
+  ],
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
+ },
+ "free-weekly": {
+  "primary": "free weekly planner printable",
+  "keywords": [
+   "free weekly planner printable",
+   "weekly planner printable",
+   "daily planner printable",
+   "weekly planner",
+   "to do list printable"
+  ],
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
+ },
+ "free-travel": {
+  "primary": "free packing list printable",
+  "keywords": [
+   "free packing list printable",
+   "packing list",
+   "travel packing list",
+   "trip planner printable",
+   "vacation packing list"
+  ],
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
+ },
+ "free-journal": {
+  "primary": "free gratitude journal printable",
+  "keywords": [
+   "free gratitude journal printable",
+   "gratitude journal",
+   "gratitude journal prompts",
+   "journal prompts",
+   "daily journal printable"
+  ],
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
+ },
+ "free-goals": {
+  "primary": "2027 goal planner printable",
+  "keywords": [
+   "2027 goal planner printable",
+   "goal planner printable",
+   "vision board printable",
+   "2027 goals",
+   "new year goals"
+  ],
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
+ },
+ "free-job": {
+  "primary": "free job application tracker printable",
+  "keywords": [
+   "free job application tracker printable",
+   "job application tracker",
+   "job search tracker",
+   "interview prep",
+   "job search"
+  ],
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
  }
 }
