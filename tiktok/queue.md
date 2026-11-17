@@ -487,3 +487,255 @@ Shop link in my bio 🔗
 
 #ugccreator #branddeals #contentcreator #notiontemplate #influencertips #notiontok #ugctips
 ```
+
+## 36. l22-free-goals — 2026-12-06 19:30
+
+```
+Free printable 2027 goal planner + vision board 🖨️
+
+A free printable PDF: one goal for each part of your life, small steps with dates, and a vision board page. Print it at home.
+
+Free download, link in my bio 🔗
+
+#2027goals #goalsetting #freeprintable #visionboard #newyeargoals #printables #freebie
+```
+
+## 37. l05-habit-stick — 2026-12-07 12:30
+
+```
+My habits finally stick: a Notion habit tracker ✅
+
+Tick up to 6 habits a day and your score fills in by itself. Every habit gets a monthly bar, and a calendar shows your score on every day.
+
+Shop link in my bio 🔗
+
+#habittracker #notion #notiontemplate #habits #selfimprovement #notiontok
+```
+
+## 38. l07-budget-left — 2026-12-07 19:30
+
+```
+Where did my money go? A Notion budget planner 💸
+
+Every category shows what you spent this month and what is left. Bills show paid, due soon or late, and every expense updates the budget.
+
+Shop link in my bio 🔗
+
+#budgetplanner #budgeting #notion #notiontemplate #personalfinance #notiontok
+```
+
+## 39. l09-journal-2min — 2026-12-08 12:30
+
+```
+A 2-minute journal you will actually keep (Notion) ✨
+
+One entry a day: mood, energy, one win and one thank you. Every thank you lands in a gratitude jar, and your monthly mood fills in by itself.
+
+Shop link in my bio 🔗
+
+#journaling #gratitudejournal #notion #notiontemplate #selfcare #notiontok
+```
+
+## 40. l11-life-goals — 2026-12-08 19:30
+
+```
+2027 goals that do not fade by February (Notion) 🎯
+
+Every goal gets a progress bar that fills as you tick milestones. A vision board holds every dream with a photo, and next steps flag what is late.
+
+Shop link in my bio 🔗
+
+#goalsetting #2027goals #notion #notiontemplate #visionboard #notiontok
+```
+
+## 41. l21-bundle — 2026-12-09 12:30
+
+```
+8 Notion templates in one dashboard (Life Bundle) 📦
+
+Habits, money, meals, journal, goals, trips, job search and a second brain: 8 Notion templates in one dashboard, plus 7 bonus PDF guides.
+
+Shop link in my bio 🔗
+
+#notion #notiontemplate #lifeplanner #productivity #notiontemplates #notiontok
+```
+
+## 42. l13-meal-week — 2026-12-09 19:30
+
+```
+What is for dinner? Already planned (Notion) 🥗
+
+Breakfast, lunch, dinner and snacks for every day, each linked to a recipe. The grocery list is sorted by aisle, with the recipe that needs each item.
+
+Shop link in my bio 🔗
+
+#mealplanning #mealprep #notion #notiontemplate #groceryshopping #notiontok
+```
+
+## 43. l15-travel-trip — 2026-12-10 12:30
+
+```
+Plan your whole trip on one Notion page ✈️
+
+Every trip gets a countdown and the budget that is left. Plans that are not booked yet show up in one list, next to your itinerary and confirmation numbers.
+
+Shop link in my bio 🔗
+
+#travelplanner #travelplanning #notion #notiontemplate #traveltips #notiontok
+```
+
+## 44. l17-job-board — 2026-12-10 19:30
+
+```
+Track every job application in one Notion board 💼
+
+Every job moves from Wishlist to Offer with its next step. Jobs with no answer after 7 days show up so you follow up on time, and interviews come with a prep checklist.
+
+Shop link in my bio 🔗
+
+#jobsearch #jobhunting #notion #notiontemplate #careertips #notiontok
+```
+
+## 45. l19-sb-day — 2026-12-11 12:30
+
+```
+Your whole life in one Notion page (Second Brain) 🧠
+
+A home page with a Today widget, goals with a progress bar that fills as projects are done, and every project on one board.
+
+Shop link in my bio 🔗
+
+#secondbrain #notion #notiontemplate #productivity #lifeplanner #notiontok
+```
+
+## 46. l23-free-budget — 2026-12-11 19:30
+
+```
+Free printable budget planner: budget, bills, savings, debt 🖨️
+
+A free printable PDF: a monthly budget by category, a bill tracker for the whole year, a savings tracker and a debt payoff tracker.
+
+Free download, link in my bio 🔗
+
+#budgetplanner #freeprintable #budgeting #debtfree #savingmoney #printables #freebie
+```
+
+## 47. l06-habit-tiny — 2026-12-12 12:30
+
+```
+Busy day? Do the tiny version of your habit ✅
+
+Write the cue, the tiny version for busy days and the reward for every habit. A year review shows your overall score and perfect days. Bonus: a 30-Day Habit Reset PDF.
+
+Shop link in my bio 🔗
+
+#habittracker #notion #notiontemplate #habits #productivity #notiontok
+```
+
+## 48. l08-budget-debt — 2026-12-12 19:30
+
+```
+Watch your debt-free date move closer (Notion) 💸
+
+Savings goals tell you how much to save each month. Add an extra debt payment and see your debt-free date move closer. Bonus: Money Reset in 7 Days PDF.
+
+Shop link in my bio 🔗
+
+#debtfree #savingmoney #budgetplanner #notiontemplate #personalfinance #notiontok
+```
+
+## 49. l10-journal-week — 2026-12-13 12:30
+
+```
+A new journal prompt every day (Notion) ✨
+
+A mood calendar shows your month at a glance. A live widget gives you a new prompt each day, and your weekly review fills in by itself. Journaling guide included.
+
+Shop link in my bio 🔗
+
+#journaling #journalprompts #notion #notiontemplate #dailyjournal #notiontok
+```
+
+## 50. l12-life-wheel — 2026-12-13 19:30
+
+```
+Score 8 areas of your life in Notion 🎯
+
+The Life Wheel scores 8 areas of your life and shows where to grow. A weekly checklist sits on the home page. Bonus: The 90-Day Goal Workbook PDF.
+
+Shop link in my bio 🔗
+
+#lifeplanner #goalsetting #notion #notiontemplate #selfimprovement #notiontok
+```
+
+## 51. l24-free-habit — 2026-12-14 12:30
+
+```
+Free printable habit tracker + 20 habit ideas 🖨️
+
+A free printable PDF: a monthly habit tracker for up to 12 habits and 20 habit ideas to pick from. Color a box each day.
+
+Free download, link in my bio 🔗
+
+#habittracker #freeprintable #habits #printableplanner #selfimprovement #printables #freebie
+```
+
+## 52. l14-meal-sunday — 2026-12-14 19:30
+
+```
+Plan your meals in 15 minutes on Sunday (Notion) 🥗
+
+See the next 7 days and tick Cooked when it is done. Every recipe keeps its ingredients as a checklist, and a 15-minute Sunday checklist sits on the home page.
+
+Shop link in my bio 🔗
+
+#mealplanning #mealplan #notion #notiontemplate #healthyeating #notiontok
+```
+
+## 53. l16-travel-pack — 2026-12-15 12:30
+
+```
+Never forget your charger again (Notion travel planner) ✈️
+
+A packing list grouped by type with a progress bar. Every expense is linked to its trip so the budget updates. Bonus: Plan Trips Like a Pro PDF.
+
+Shop link in my bio 🔗
+
+#packinglist #travelplanner #notion #notiontemplate #traveltips #notiontok
+```
+
+## 54. l18-job-emails — 2026-12-15 19:30
+
+```
+Follow-up emails for your job search, ready to copy 💼
+
+Follow-up email scripts ready to copy: change the words in brackets and send. Recruiters and companies are linked to every job. Bonus: 30-Day Job Search Playbook PDF.
+
+Shop link in my bio 🔗
+
+#jobsearch #jobsearchtips #notion #notiontemplate #careeradvice #notiontok
+```
+
+## 55. l20-sb-phone — 2026-12-16 12:30
+
+```
+Your Second Brain on your phone (Notion) 🧠
+
+Tick your habits on your phone and your score fills in. A 2-minute journal and a mobile home page are included, plus a Notion for beginners PDF guide.
+
+Shop link in my bio 🔗
+
+#secondbrain #notion #notiontemplate #productivity #notiontips #notiontok
+```
+
+## 56. l25-free-grocery — 2026-12-16 19:30
+
+```
+Free printable grocery list sorted by aisle 🖨️
+
+A free printable PDF: a grocery list sorted by aisle and a weekly meal plan for breakfast, lunch and dinner.
+
+Free download, link in my bio 🔗
+
+#grocerylist #mealplanning #freeprintable #mealplan #printables #freebie
+```

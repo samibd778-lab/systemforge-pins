@@ -1,0 +1,819 @@
+{
+ "reels": [
+  {
+   "id": "l05-habit-stick",
+   "p": "habit",
+   "accent": [
+    190,
+    96,
+    60
+   ],
+   "bg": [
+    247,
+    236,
+    226
+   ],
+   "slides": [
+    {
+     "img": "etsy/habit/01-hero.jpg",
+     "hook": "My habits finally stick"
+    },
+    {
+     "img": "etsy/habit/02-feature1.jpg",
+     "hook": "Tick it. Your score fills in."
+    },
+    {
+     "img": "etsy/habit/03-feature2.jpg",
+     "hook": "A bar for every habit"
+    },
+    {
+     "img": "etsy/habit/04-feature3.jpg",
+     "hook": "Your month at a glance"
+    }
+   ],
+   "end": {
+    "name": "Habit Tracker",
+    "line": "Tick 6 habits a day. Your score fills in by itself."
+   },
+   "title": "My habits finally stick: a Notion habit tracker #shorts",
+   "caption": "Tick up to 6 habits a day and your score fills in by itself. Every habit gets a monthly bar, and a calendar shows your score on every day.",
+   "tags": "#habittracker #notion #notiontemplate #habits #selfimprovement"
+  },
+  {
+   "id": "l06-habit-tiny",
+   "p": "habit",
+   "accent": [
+    190,
+    96,
+    60
+   ],
+   "bg": [
+    247,
+    236,
+    226
+   ],
+   "slides": [
+    {
+     "img": "etsy/habit/05-feature4.jpg",
+     "hook": "Busy day? Do the tiny version"
+    },
+    {
+     "img": "etsy/habit/06-feature5.jpg",
+     "hook": "Start every day clear"
+    },
+    {
+     "img": "etsy/habit/07-feature6.jpg",
+     "hook": "Your whole year in one line"
+    },
+    {
+     "img": "etsy/habit/10-bonus.jpg",
+     "hook": "+ a 30-Day Habit Reset"
+    }
+   ],
+   "end": {
+    "name": "Habit Tracker",
+    "line": "A plan for every habit, plus a 30-Day Habit Reset."
+   },
+   "title": "Busy day? Do the tiny version of your habit #shorts",
+   "caption": "Write the cue, the tiny version for busy days and the reward for every habit. A year review shows your overall score and perfect days. Bonus: a 30-Day Habit Reset PDF.",
+   "tags": "#habittracker #notion #notiontemplate #habits #productivity"
+  },
+  {
+   "id": "l07-budget-left",
+   "p": "budget",
+   "accent": [
+    56,
+    110,
+    78
+   ],
+   "bg": [
+    232,
+    241,
+    234
+   ],
+   "slides": [
+    {
+     "img": "etsy/budget/01-hero.jpg",
+     "hook": "Where did my money go?"
+    },
+    {
+     "img": "etsy/budget/02-feature1.jpg",
+     "hook": "See what's left in every category"
+    },
+    {
+     "img": "etsy/budget/03-feature2.jpg",
+     "hook": "Never miss a bill again"
+    },
+    {
+     "img": "etsy/budget/04-feature3.jpg",
+     "hook": "Every dollar, in and out"
+    }
+   ],
+   "end": {
+    "name": "Budget Planner",
+    "line": "See what's left. Never miss a bill."
+   },
+   "title": "Where did my money go? A Notion budget planner #shorts",
+   "caption": "Every category shows what you spent this month and what is left. Bills show paid, due soon or late, and every expense updates the budget.",
+   "tags": "#budgetplanner #budgeting #notion #notiontemplate #personalfinance"
+  },
+  {
+   "id": "l08-budget-debt",
+   "p": "budget",
+   "accent": [
+    56,
+    110,
+    78
+   ],
+   "bg": [
+    232,
+    241,
+    234
+   ],
+   "slides": [
+    {
+     "img": "etsy/budget/05-feature4.jpg",
+     "hook": "Saving for something?"
+    },
+    {
+     "img": "etsy/budget/06-feature5.jpg",
+     "hook": "Watch your debt-free date move closer"
+    },
+    {
+     "img": "etsy/budget/07-feature6.jpg",
+     "hook": "How much you saved this month"
+    },
+    {
+     "img": "etsy/budget/10-bonus.jpg",
+     "hook": "+ Money Reset in 7 Days"
+    }
+   ],
+   "end": {
+    "name": "Budget Planner",
+    "line": "Savings goals, debt payoff and a 7-day money reset."
+   },
+   "title": "Watch your debt-free date move closer (Notion) #shorts",
+   "caption": "Savings goals tell you how much to save each month. Add an extra debt payment and see your debt-free date move closer. Bonus: Money Reset in 7 Days PDF.",
+   "tags": "#debtfree #savingmoney #budgetplanner #notiontemplate #personalfinance"
+  },
+  {
+   "id": "l09-journal-2min",
+   "p": "journal",
+   "accent": [
+    118,
+    92,
+    150
+   ],
+   "bg": [
+    240,
+    234,
+    245
+   ],
+   "slides": [
+    {
+     "img": "etsy/journal/01-hero.jpg",
+     "hook": "2 minutes a day. That is it."
+    },
+    {
+     "img": "etsy/journal/02-feature1.jpg",
+     "hook": "Mood, one win, one thank you"
+    },
+    {
+     "img": "etsy/journal/03-feature2.jpg",
+     "hook": "Every thank you in one jar"
+    },
+    {
+     "img": "etsy/journal/04-feature3.jpg",
+     "hook": "How did this month feel?"
+    }
+   ],
+   "end": {
+    "name": "Daily Journal",
+    "line": "Your mood, one win and one thank you a day."
+   },
+   "title": "A 2-minute journal you will actually keep (Notion) #shorts",
+   "caption": "One entry a day: mood, energy, one win and one thank you. Every thank you lands in a gratitude jar, and your monthly mood fills in by itself.",
+   "tags": "#journaling #gratitudejournal #notion #notiontemplate #selfcare"
+  },
+  {
+   "id": "l10-journal-week",
+   "p": "journal",
+   "accent": [
+    118,
+    92,
+    150
+   ],
+   "bg": [
+    240,
+    234,
+    245
+   ],
+   "slides": [
+    {
+     "img": "etsy/journal/05-feature4.jpg",
+     "hook": "Your month at a glance"
+    },
+    {
+     "img": "etsy/journal/06-feature5.jpg",
+     "hook": "A new prompt every day"
+    },
+    {
+     "img": "etsy/journal/07-feature6.jpg",
+     "hook": "Your week, summed up for you"
+    },
+    {
+     "img": "etsy/journal/10-bonus.jpg",
+     "hook": "+ a journaling guide"
+    }
+   ],
+   "end": {
+    "name": "Daily Journal",
+    "line": "A prompt every day and a weekly review that fills in."
+   },
+   "title": "A new journal prompt every day (Notion) #shorts",
+   "caption": "A mood calendar shows your month at a glance. A live widget gives you a new prompt each day, and your weekly review fills in by itself. Journaling guide included.",
+   "tags": "#journaling #journalprompts #notion #notiontemplate #dailyjournal"
+  },
+  {
+   "id": "l11-life-goals",
+   "p": "life",
+   "accent": [
+    112,
+    88,
+    150
+   ],
+   "bg": [
+    240,
+    234,
+    245
+   ],
+   "slides": [
+    {
+     "img": "etsy/life/01-hero.jpg",
+     "hook": "2027 goals that don't fade"
+    },
+    {
+     "img": "etsy/life/02-feature1.jpg",
+     "hook": "Every goal gets a progress bar"
+    },
+    {
+     "img": "etsy/life/03-feature2.jpg",
+     "hook": "A vision board in Notion"
+    },
+    {
+     "img": "etsy/life/04-feature3.jpg",
+     "hook": "Never miss a step"
+    }
+   ],
+   "end": {
+    "name": "Life Planner",
+    "line": "Big dreams, clear goals, small steps you can finish."
+   },
+   "title": "2027 goals that do not fade by February (Notion) #shorts",
+   "caption": "Every goal gets a progress bar that fills as you tick milestones. A vision board holds every dream with a photo, and next steps flag what is late.",
+   "tags": "#goalsetting #2027goals #notion #notiontemplate #visionboard"
+  },
+  {
+   "id": "l12-life-wheel",
+   "p": "life",
+   "accent": [
+    112,
+    88,
+    150
+   ],
+   "bg": [
+    240,
+    234,
+    245
+   ],
+   "slides": [
+    {
+     "img": "etsy/life/05-feature4.jpg",
+     "hook": "Score 8 areas of your life"
+    },
+    {
+     "img": "etsy/life/06-feature5.jpg",
+     "hook": "Your Sunday in 10 minutes"
+    },
+    {
+     "img": "etsy/life/07-feature6.jpg",
+     "hook": "Pick what really matters"
+    },
+    {
+     "img": "etsy/life/10-bonus.jpg",
+     "hook": "+ a 90-Day Goal Workbook"
+    }
+   ],
+   "end": {
+    "name": "Life Planner",
+    "line": "A Life Wheel, a weekly check-in and a 90-day workbook."
+   },
+   "title": "Score 8 areas of your life in Notion #shorts",
+   "caption": "The Life Wheel scores 8 areas of your life and shows where to grow. A weekly checklist sits on the home page. Bonus: The 90-Day Goal Workbook PDF.",
+   "tags": "#lifeplanner #goalsetting #notion #notiontemplate #selfimprovement"
+  },
+  {
+   "id": "l13-meal-week",
+   "p": "meal",
+   "accent": [
+    80,
+    120,
+    70
+   ],
+   "bg": [
+    236,
+    242,
+    230
+   ],
+   "slides": [
+    {
+     "img": "etsy/meal/01-hero.jpg",
+     "hook": "What's for dinner? Already planned"
+    },
+    {
+     "img": "etsy/meal/02-feature1.jpg",
+     "hook": "Plan the whole week"
+    },
+    {
+     "img": "etsy/meal/03-feature2.jpg",
+     "hook": "All your recipes in one place"
+    },
+    {
+     "img": "etsy/meal/04-feature3.jpg",
+     "hook": "A grocery list sorted by aisle"
+    }
+   ],
+   "end": {
+    "name": "Meal Planner",
+    "line": "Plan the week, cook what you love, shop with one list."
+   },
+   "title": "What is for dinner? Already planned (Notion) #shorts",
+   "caption": "Breakfast, lunch, dinner and snacks for every day, each linked to a recipe. The grocery list is sorted by aisle, with the recipe that needs each item.",
+   "tags": "#mealplanning #mealprep #notion #notiontemplate #groceryshopping"
+  },
+  {
+   "id": "l14-meal-sunday",
+   "p": "meal",
+   "accent": [
+    80,
+    120,
+    70
+   ],
+   "bg": [
+    236,
+    242,
+    230
+   ],
+   "slides": [
+    {
+     "img": "etsy/meal/05-feature4.jpg",
+     "hook": "The next 7 days at a glance"
+    },
+    {
+     "img": "etsy/meal/06-feature5.jpg",
+     "hook": "Ingredients as a checklist"
+    },
+    {
+     "img": "etsy/meal/07-feature6.jpg",
+     "hook": "Your Sunday in 15 minutes"
+    },
+    {
+     "img": "etsy/meal/10-bonus.jpg",
+     "hook": "+ Eat Well, Stress Less"
+    }
+   ],
+   "end": {
+    "name": "Meal Planner",
+    "line": "The next 7 days, recipes and a 15-minute Sunday."
+   },
+   "title": "Plan your meals in 15 minutes on Sunday (Notion) #shorts",
+   "caption": "See the next 7 days and tick Cooked when it is done. Every recipe keeps its ingredients as a checklist, and a 15-minute Sunday checklist sits on the home page.",
+   "tags": "#mealplanning #mealplan #notion #notiontemplate #healthyeating"
+  },
+  {
+   "id": "l15-travel-trip",
+   "p": "travel",
+   "accent": [
+    52,
+    108,
+    150
+   ],
+   "bg": [
+    232,
+    240,
+    246
+   ],
+   "slides": [
+    {
+     "img": "etsy/travel/01-hero.jpg",
+     "hook": "Your next trip, on one page"
+    },
+    {
+     "img": "etsy/travel/02-feature1.jpg",
+     "hook": "A countdown to every trip"
+    },
+    {
+     "img": "etsy/travel/03-feature2.jpg",
+     "hook": "What is still not booked?"
+    },
+    {
+     "img": "etsy/travel/04-feature3.jpg",
+     "hook": "Your whole itinerary"
+    }
+   ],
+   "end": {
+    "name": "Travel Planner",
+    "line": "Dates, plans, bookings, budget and packing on one page."
+   },
+   "title": "Plan your whole trip on one Notion page #shorts",
+   "caption": "Every trip gets a countdown and the budget that is left. Plans that are not booked yet show up in one list, next to your itinerary and confirmation numbers.",
+   "tags": "#travelplanner #travelplanning #notion #notiontemplate #traveltips"
+  },
+  {
+   "id": "l16-travel-pack",
+   "p": "travel",
+   "accent": [
+    52,
+    108,
+    150
+   ],
+   "bg": [
+    232,
+    240,
+    246
+   ],
+   "slides": [
+    {
+     "img": "etsy/travel/05-feature4.jpg",
+     "hook": "Never forget your charger again"
+    },
+    {
+     "img": "etsy/travel/06-feature5.jpg",
+     "hook": "Track every dollar you spend"
+    },
+    {
+     "img": "etsy/travel/07-feature6.jpg",
+     "hook": "Plan before you go"
+    },
+    {
+     "img": "etsy/travel/10-bonus.jpg",
+     "hook": "+ Plan Trips Like a Pro"
+    }
+   ],
+   "end": {
+    "name": "Travel Planner",
+    "line": "Packing list, trip budget and a before-you-go checklist."
+   },
+   "title": "Never forget your charger again (Notion travel planner) #shorts",
+   "caption": "A packing list grouped by type with a progress bar. Every expense is linked to its trip so the budget updates. Bonus: Plan Trips Like a Pro PDF.",
+   "tags": "#packinglist #travelplanner #notion #notiontemplate #traveltips"
+  },
+  {
+   "id": "l17-job-board",
+   "p": "job",
+   "accent": [
+    60,
+    100,
+    150
+   ],
+   "bg": [
+    232,
+    239,
+    246
+   ],
+   "slides": [
+    {
+     "img": "etsy/job/01-hero.jpg",
+     "hook": "Job hunting? Track every application"
+    },
+    {
+     "img": "etsy/job/02-feature1.jpg",
+     "hook": "Wishlist to Offer on one board"
+    },
+    {
+     "img": "etsy/job/03-feature2.jpg",
+     "hook": "No answer after 7 days? Follow up"
+    },
+    {
+     "img": "etsy/job/04-feature3.jpg",
+     "hook": "Walk in prepared"
+    }
+   ],
+   "end": {
+    "name": "Job Application Tracker",
+    "line": "Every job, interview and follow-up in one place."
+   },
+   "title": "Track every job application in one Notion board #shorts",
+   "caption": "Every job moves from Wishlist to Offer with its next step. Jobs with no answer after 7 days show up so you follow up on time, and interviews come with a prep checklist.",
+   "tags": "#jobsearch #jobhunting #notion #notiontemplate #careertips"
+  },
+  {
+   "id": "l18-job-emails",
+   "p": "job",
+   "accent": [
+    60,
+    100,
+    150
+   ],
+   "bg": [
+    232,
+    239,
+    246
+   ],
+   "slides": [
+    {
+     "img": "etsy/job/05-feature4.jpg",
+     "hook": "Follow-up emails ready to copy"
+    },
+    {
+     "img": "etsy/job/06-feature5.jpg",
+     "hook": "Recruiters and companies, linked"
+    },
+    {
+     "img": "etsy/job/07-feature6.jpg",
+     "hook": "A 10-minute weekly review"
+    },
+    {
+     "img": "etsy/job/10-bonus.jpg",
+     "hook": "+ a 30-Day Job Search Playbook"
+    }
+   ],
+   "end": {
+    "name": "Job Application Tracker",
+    "line": "Email scripts, contacts and a weekly review."
+   },
+   "title": "Follow-up emails for your job search, ready to copy #shorts",
+   "caption": "Follow-up email scripts ready to copy: change the words in brackets and send. Recruiters and companies are linked to every job. Bonus: 30-Day Job Search Playbook PDF.",
+   "tags": "#jobsearch #jobsearchtips #notion #notiontemplate #careeradvice"
+  },
+  {
+   "id": "l19-sb-day",
+   "p": "sb",
+   "accent": [
+    72,
+    92,
+    72
+   ],
+   "bg": [
+    236,
+    240,
+    234
+   ],
+   "slides": [
+    {
+     "img": "etsy/sb/01-hero.jpg",
+     "hook": "Your whole life in one Notion page"
+    },
+    {
+     "img": "etsy/sb/02-today.jpg",
+     "hook": "Start every day clear"
+    },
+    {
+     "img": "etsy/sb/03-goals.jpg",
+     "hook": "Goals that fill up as you go"
+    },
+    {
+     "img": "etsy/sb/04-projects.jpg",
+     "hook": "Every project on one board"
+    }
+   ],
+   "end": {
+    "name": "Second Brain OS",
+    "line": "Goals, projects, notes, habits and journal in one calm place."
+   },
+   "title": "Your whole life in one Notion page (Second Brain) #shorts",
+   "caption": "A home page with a Today widget, goals with a progress bar that fills as projects are done, and every project on one board.",
+   "tags": "#secondbrain #notion #notiontemplate #productivity #lifeplanner"
+  },
+  {
+   "id": "l20-sb-phone",
+   "p": "sb",
+   "accent": [
+    72,
+    92,
+    72
+   ],
+   "bg": [
+    236,
+    240,
+    234
+   ],
+   "slides": [
+    {
+     "img": "etsy/sb/05-habits.jpg",
+     "hook": "Small habits, every day"
+    },
+    {
+     "img": "etsy/sb/06-journal.jpg",
+     "hook": "A 2-minute daily journal"
+    },
+    {
+     "img": "etsy/sb/07-mobile.jpg",
+     "hook": "Your Second Brain on your phone"
+    },
+    {
+     "img": "etsy/sb/10-bonus.jpg",
+     "hook": "+ Notion for beginners guide"
+    }
+   ],
+   "end": {
+    "name": "Second Brain OS",
+    "line": "Habits, journal and a mobile home page, all linked."
+   },
+   "title": "Your Second Brain on your phone (Notion) #shorts",
+   "caption": "Tick your habits on your phone and your score fills in. A 2-minute journal and a mobile home page are included, plus a Notion for beginners PDF guide.",
+   "tags": "#secondbrain #notion #notiontemplate #productivity #notiontips"
+  },
+  {
+   "id": "l21-bundle",
+   "p": "bundle",
+   "accent": [
+    34,
+    34,
+    34
+   ],
+   "bg": [
+    245,
+    240,
+    233
+   ],
+   "slides": [
+    {
+     "img": "etsy/bundle/01-hero.jpg",
+     "hook": "8 Notion templates, one dashboard"
+    },
+    {
+     "img": "etsy/bundle/02-habit.jpg",
+     "hook": "Habits"
+    },
+    {
+     "img": "etsy/bundle/03-budget.jpg",
+     "hook": "Money"
+    },
+    {
+     "img": "etsy/bundle/04-meal.jpg",
+     "hook": "Meals"
+    },
+    {
+     "img": "etsy/bundle/07-travel.jpg",
+     "hook": "Trips"
+    }
+   ],
+   "end": {
+    "name": "Life Bundle",
+    "line": "8 Notion templates and 7 bonus PDF guides."
+   },
+   "title": "8 Notion templates in one dashboard (Life Bundle) #shorts",
+   "caption": "Habits, money, meals, journal, goals, trips, job search and a second brain: 8 Notion templates in one dashboard, plus 7 bonus PDF guides.",
+   "tags": "#notion #notiontemplate #lifeplanner #productivity #notiontemplates"
+  },
+  {
+   "id": "l22-free-goals",
+   "p": "free-goals",
+   "accent": [
+    34,
+    34,
+    34
+   ],
+   "bg": [
+    245,
+    240,
+    233
+   ],
+   "slides": [
+    {
+     "img": "products/free-pages/7-free-2027-goal-planner-cover.jpg",
+     "hook": "Free 2027 goal planner (print it)"
+    },
+    {
+     "img": "products/free-pages/7-free-2027-goal-planner-1.jpg",
+     "hook": "One goal for each part of your life"
+    },
+    {
+     "img": "products/free-pages/7-free-2027-goal-planner-2.jpg",
+     "hook": "Small steps with dates"
+    },
+    {
+     "img": "products/free-pages/7-free-2027-goal-planner-3.jpg",
+     "hook": "A vision board to fill in"
+    }
+   ],
+   "end": {
+    "name": "Free 2027 Goal Planner",
+    "line": "A printable PDF. Free."
+   },
+   "title": "Free printable 2027 goal planner + vision board #shorts",
+   "caption": "A free printable PDF: one goal for each part of your life, small steps with dates, and a vision board page. Print it at home.",
+   "tags": "#2027goals #goalsetting #freeprintable #visionboard #newyeargoals"
+  },
+  {
+   "id": "l23-free-budget",
+   "p": "free-budget",
+   "accent": [
+    56,
+    110,
+    78
+   ],
+   "bg": [
+    232,
+    241,
+    234
+   ],
+   "slides": [
+    {
+     "img": "products/free-pages/3-free-budget-planner-cover.jpg",
+     "hook": "Free printable budget planner"
+    },
+    {
+     "img": "products/free-pages/3-free-budget-planner-1.jpg",
+     "hook": "Plan your month by category"
+    },
+    {
+     "img": "products/free-pages/3-free-budget-planner-2.jpg",
+     "hook": "Tick every bill"
+    },
+    {
+     "img": "products/free-pages/3-free-budget-planner-4.jpg",
+     "hook": "Watch your debt go down"
+    }
+   ],
+   "end": {
+    "name": "Free Budget Planner",
+    "line": "Budget, bills, savings and debt. A printable PDF."
+   },
+   "title": "Free printable budget planner: budget, bills, savings, debt #shorts",
+   "caption": "A free printable PDF: a monthly budget by category, a bill tracker for the whole year, a savings tracker and a debt payoff tracker.",
+   "tags": "#budgetplanner #freeprintable #budgeting #debtfree #savingmoney"
+  },
+  {
+   "id": "l24-free-habit",
+   "p": "free-habit",
+   "accent": [
+    190,
+    96,
+    60
+   ],
+   "bg": [
+    247,
+    236,
+    226
+   ],
+   "slides": [
+    {
+     "img": "products/free-pages/2-free-habit-tracker-cover.jpg",
+     "hook": "Free printable habit tracker"
+    },
+    {
+     "img": "products/free-pages/2-free-habit-tracker-1.jpg",
+     "hook": "Up to 12 habits. Color a box a day."
+    },
+    {
+     "img": "products/free-pages/2-free-habit-tracker-2.jpg",
+     "hook": "+ 20 habit ideas"
+    }
+   ],
+   "end": {
+    "name": "Free Habit Tracker",
+    "line": "12 habits, 20 ideas. A printable PDF."
+   },
+   "title": "Free printable habit tracker + 20 habit ideas #shorts",
+   "caption": "A free printable PDF: a monthly habit tracker for up to 12 habits and 20 habit ideas to pick from. Color a box each day.",
+   "tags": "#habittracker #freeprintable #habits #printableplanner #selfimprovement"
+  },
+  {
+   "id": "l25-free-grocery",
+   "p": "free-grocery",
+   "accent": [
+    34,
+    34,
+    34
+   ],
+   "bg": [
+    245,
+    240,
+    233
+   ],
+   "slides": [
+    {
+     "img": "products/free-pages/1-free-grocery-list-cover.jpg",
+     "hook": "Free printable grocery list"
+    },
+    {
+     "img": "products/free-pages/1-free-grocery-list-1.jpg",
+     "hook": "Sorted by aisle. Shop faster."
+    },
+    {
+     "img": "products/free-pages/1-free-grocery-list-2.jpg",
+     "hook": "+ a weekly meal plan"
+    }
+   ],
+   "end": {
+    "name": "Free Grocery List",
+    "line": "Sorted by aisle, with a weekly meal plan."
+   },
+   "title": "Free printable grocery list sorted by aisle #shorts",
+   "caption": "A free printable PDF: a grocery list sorted by aisle and a weekly meal plan for breakfast, lunch and dinner.",
+   "tags": "#grocerylist #mealplanning #freeprintable #mealplan #printables"
+  }
+ ]
+}
