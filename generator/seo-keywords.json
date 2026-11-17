@@ -24,6 +24,13 @@
    "#clientmanagement",
    "#freelancebusiness",
    "#freelancelife"
+  ],
+  "primaries": [
+   "freelancer Notion template",
+   "Notion CRM template",
+   "client tracker Notion",
+   "Notion freelancer dashboard",
+   "freelance business Notion template"
   ]
  },
  "fit": {
@@ -46,6 +53,13 @@
    "#getpaid",
    "#freelancetips",
    "#smallbusinesstips"
+  ],
+  "primaries": [
+   "Notion invoice tracker",
+   "invoice tracker template",
+   "client payment tracker",
+   "freelance invoice tracker",
+   "Notion invoice tracker template"
   ]
  },
  "wcp": {
@@ -70,6 +84,13 @@
    "#socialmediaplanner",
    "#contentcreator",
    "#contentplanning"
+  ],
+  "primaries": [
+   "Notion content calendar",
+   "content calendar template",
+   "weekly content planner",
+   "Notion content planner",
+   "social media content calendar"
   ]
  },
  "ccs": {
@@ -95,6 +116,13 @@
    "#creatortips",
    "#socialmediaplanner",
    "#youtubecreator"
+  ],
+  "primaries": [
+   "Notion template for content creators",
+   "Notion content planner",
+   "content creator planner",
+   "Notion content creator dashboard",
+   "YouTube content planner"
   ]
  },
  "prop": {
@@ -117,6 +145,13 @@
    "#proposals",
    "#salespipeline",
    "#clientwork"
+  ],
+  "primaries": [
+   "Notion proposal tracker",
+   "proposal tracker template",
+   "Notion client proposal template",
+   "freelance proposal template",
+   "sales pipeline Notion template"
   ]
  },
  "deal": {
@@ -141,6 +176,13 @@
    "#brandpartnerships",
    "#contentcreator",
    "#ugc"
+  ],
+  "primaries": [
+   "brand deal tracker",
+   "Notion brand deal tracker",
+   "brand deal tracker template",
+   "UGC deal tracker",
+   "UGC tracker Notion"
   ]
  },
  "topics": {
@@ -219,16 +261,29 @@
  "sb": {
   "primary": "second brain notion template",
   "keywords": [
-   "notion template",
-   "notion layout ideas",
+   "second brain notion template",
+   "notion second brain",
    "notion dashboard",
-   "habit tracker",
+   "notion dashboard ideas aesthetic",
+   "aesthetic notion template",
+   "notion template ideas",
+   "notion template",
+   "notion life planner",
+   "notion planner template",
+   "life organization",
    "digital planner",
-   "life planner",
-   "notion journal",
+   "productivity system",
    "goal planner",
-   "aesthetic notion",
-   "notion template ideas"
+   "habit tracker",
+   "notion journal"
+  ],
+  "primaries": [
+   "second brain notion template",
+   "notion second brain",
+   "notion dashboard",
+   "notion life planner",
+   "aesthetic notion template",
+   "notion dashboard ideas aesthetic"
   ]
  },
  "_pinclicks": "Pinterest volumes from PinClicks 2026-11-11: research/pinclicks-keywords-2026-11-11.md",
@@ -241,7 +296,23 @@
    "daily habit tracker",
    "habit tracker template",
    "notion habit tracker",
-   "notion template"
+   "digital habit tracker",
+   "habit tracker aesthetic",
+   "habits to start",
+   "good habits",
+   "daily routine",
+   "self improvement",
+   "notion template",
+   "new year habits",
+   "2027 habit tracker"
+  ],
+  "primaries": [
+   "habit tracker",
+   "habit tracker ideas",
+   "notion habit tracker",
+   "monthly habit tracker",
+   "daily habit tracker",
+   "habit tracker template"
   ]
  },
  "budget": {
@@ -253,7 +324,26 @@
    "budget planner ideas",
    "notion budget template",
    "notion finance template",
-   "savings tracker"
+   "digital budget planner",
+   "budget template",
+   "savings tracker",
+   "savings goals",
+   "bill tracker",
+   "expense tracker",
+   "debt payoff tracker",
+   "budgeting for beginners",
+   "money saving tips",
+   "personal finance",
+   "2027 budget planner",
+   "budget reset"
+  ],
+  "primaries": [
+   "budget planner",
+   "monthly budget planner",
+   "budget planner template",
+   "notion budget template",
+   "notion finance template",
+   "debt payoff tracker"
   ]
  },
  "journal": {
@@ -262,10 +352,25 @@
    "journal ideas",
    "daily journal",
    "gratitude journal",
-   "mood tracker",
    "notion journal template",
-   "journaling",
-   "notion template"
+   "mood tracker",
+   "journal prompts",
+   "gratitude journal prompts",
+   "digital journal",
+   "journaling ideas",
+   "journaling for beginners",
+   "self care journal",
+   "self care ideas",
+   "notion template",
+   "2027 journal"
+  ],
+  "primaries": [
+   "journal ideas",
+   "gratitude journal",
+   "daily journal",
+   "notion journal template",
+   "mood tracker",
+   "journal prompts"
   ]
  },
  "life": {
@@ -273,11 +378,27 @@
   "keywords": [
    "life planner",
    "notion life planner",
-   "vision board",
    "life planner organization",
+   "vision board",
+   "vision board ideas",
+   "2027 vision board",
+   "goal planner",
+   "goal setting",
+   "notion goals template",
+   "2027 goals",
+   "new year goals",
+   "wheel of life",
+   "weekly reset",
+   "notion template ideas",
+   "notion template"
+  ],
+  "primaries": [
+   "life planner",
+   "notion life planner",
+   "vision board",
    "goal planner",
    "notion goals template",
-   "notion template ideas"
+   "life planner organization"
   ]
  },
  "meal": {
@@ -288,7 +409,22 @@
    "meal planner template",
    "meal prep planner",
    "notion meal planner",
+   "meal planning ideas",
+   "weekly meal plan",
+   "recipe organizer",
+   "notion recipe template",
    "grocery list",
+   "grocery list by aisle",
+   "family meal planner",
+   "meal prep for the week",
+   "notion template"
+  ],
+  "primaries": [
+   "meal planner",
+   "weekly meal planner",
+   "meal planner template",
+   "notion meal planner",
+   "meal prep planner",
    "recipe organizer"
   ]
  },
@@ -297,10 +433,25 @@
   "keywords": [
    "travel planner",
    "travel planner template",
-   "travel itinerary planner",
    "notion travel planner",
+   "notion travel template",
+   "travel itinerary planner",
+   "itinerary template",
+   "trip planner",
+   "vacation planner",
    "packing list",
+   "travel packing list",
    "travel budget planner",
+   "travel checklist",
+   "travel tips",
+   "notion template"
+  ],
+  "primaries": [
+   "travel planner",
+   "travel planner template",
+   "notion travel planner",
+   "travel itinerary planner",
+   "packing list",
    "trip planner"
   ]
  },
@@ -308,11 +459,25 @@
   "primary": "job application tracker",
   "keywords": [
    "job application tracker",
-   "job search",
    "job application tracker notion",
+   "job search tracker",
+   "job search",
+   "job search tips",
+   "interview prep",
+   "interview tips",
+   "follow up email",
+   "career planner",
+   "job hunting",
+   "notion template for job search",
+   "notion template"
+  ],
+  "primaries": [
+   "job application tracker",
+   "job application tracker notion",
+   "job search tracker",
    "interview prep",
    "job search tips",
-   "notion template"
+   "job search"
   ]
  },
  "shop": {
@@ -322,9 +487,23 @@
    "notion template",
    "aesthetic notion template",
    "notion dashboard",
+   "notion dashboard ideas aesthetic",
    "notion planner template",
+   "notion life planner",
    "digital planner",
-   "notion life planner"
+   "notion templates for life",
+   "life planner organization",
+   "habit tracker",
+   "budget planner",
+   "meal planner"
+  ],
+  "primaries": [
+   "notion template ideas",
+   "notion template",
+   "aesthetic notion template",
+   "notion dashboard",
+   "notion planner template",
+   "notion dashboard ideas aesthetic"
   ]
  },
  "bundle": {
@@ -332,12 +511,27 @@
   "keywords": [
    "notion template",
    "notion template ideas",
-   "digital planner",
-   "notion dashboard",
-   "life planner",
    "notion life planner",
+   "notion dashboard",
+   "all in one notion template",
    "notion planner template",
-   "aesthetic notion template"
+   "aesthetic notion template",
+   "digital planner",
+   "life planner organization",
+   "notion bundle",
+   "habit tracker",
+   "budget planner",
+   "meal planner",
+   "travel planner",
+   "2027 planner"
+  ],
+  "primaries": [
+   "notion template",
+   "notion life planner",
+   "notion dashboard",
+   "all in one notion template",
+   "notion planner template",
+   "notion template ideas"
   ]
  },
  "free-grocery": {
@@ -345,33 +539,65 @@
   "keywords": [
    "free printable grocery list",
    "grocery list printable",
+   "grocery list by aisle",
    "weekly meal plan printable",
    "meal planner printable",
-   "grocery list"
+   "weekly meal planner",
+   "meal planner",
+   "grocery list",
+   "free printables"
   ],
-  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
+  "primaries": [
+   "free printable grocery list",
+   "grocery list printable",
+   "weekly meal plan printable",
+   "meal planner printable"
+  ]
  },
  "free-habit": {
-  "primary": "free habit tracker printable",
+  "primary": "habit tracker printable",
   "keywords": [
-   "free habit tracker printable",
    "habit tracker printable",
-   "monthly habit tracker",
+   "free habit tracker printable",
+   "monthly habit tracker printable",
+   "printable habit tracker",
    "habit tracker ideas",
-   "habit ideas"
+   "habit ideas",
+   "monthly habit tracker",
+   "2027 habit tracker",
+   "free printables",
+   "habit tracker"
   ],
-  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
+  "primaries": [
+   "habit tracker printable",
+   "free habit tracker printable",
+   "monthly habit tracker printable",
+   "printable habit tracker"
+  ]
  },
  "free-budget": {
   "primary": "free budget planner printable",
   "keywords": [
    "free budget planner printable",
    "budget planner printable",
+   "monthly budget planner",
    "bill tracker printable",
-   "savings tracker",
-   "debt payoff tracker"
+   "savings tracker printable",
+   "debt payoff tracker printable",
+   "budget planner",
+   "free printables",
+   "budgeting for beginners",
+   "2027 budget planner"
   ],
-  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
+  "primaries": [
+   "free budget planner printable",
+   "budget planner printable",
+   "bill tracker printable",
+   "debt payoff tracker printable"
+  ]
  },
  "free-weekly": {
   "primary": "free weekly planner printable",
@@ -379,53 +605,133 @@
    "free weekly planner printable",
    "weekly planner printable",
    "daily planner printable",
+   "to do list printable",
    "weekly planner",
-   "to do list printable"
+   "daily planner",
+   "planner printables free",
+   "free printables",
+   "2027 planner printable"
   ],
-  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
+  "primaries": [
+   "free weekly planner printable",
+   "weekly planner printable",
+   "daily planner printable",
+   "to do list printable"
+  ]
  },
  "free-travel": {
   "primary": "free packing list printable",
   "keywords": [
    "free packing list printable",
+   "packing list printable",
    "packing list",
    "travel packing list",
+   "vacation packing list",
    "trip planner printable",
-   "vacation packing list"
+   "travel checklist",
+   "free printables"
   ],
-  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
+  "primaries": [
+   "free packing list printable",
+   "packing list printable",
+   "travel packing list",
+   "vacation packing list"
+  ]
  },
  "free-journal": {
   "primary": "free gratitude journal printable",
   "keywords": [
    "free gratitude journal printable",
+   "gratitude journal printable",
    "gratitude journal",
    "gratitude journal prompts",
    "journal prompts",
-   "daily journal printable"
+   "daily journal printable",
+   "journal ideas",
+   "self care ideas",
+   "free printables"
   ],
-  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
+  "primaries": [
+   "free gratitude journal printable",
+   "gratitude journal printable",
+   "gratitude journal prompts",
+   "journal prompts"
+  ]
  },
  "free-goals": {
   "primary": "2027 goal planner printable",
   "keywords": [
    "2027 goal planner printable",
    "goal planner printable",
+   "2027 vision board printable",
    "vision board printable",
+   "vision board",
    "2027 goals",
-   "new year goals"
+   "new year goals",
+   "word of the year",
+   "goal setting",
+   "free printables"
   ],
-  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
+  "primaries": [
+   "2027 goal planner printable",
+   "2027 vision board printable",
+   "goal planner printable",
+   "new year goals printable"
+  ]
  },
  "free-job": {
   "primary": "free job application tracker printable",
   "keywords": [
    "free job application tracker printable",
+   "job application tracker printable",
    "job application tracker",
    "job search tracker",
+   "job search",
    "interview prep",
-   "job search"
+   "job search tips",
+   "free printables"
   ],
-  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete"
- }
+  "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
+  "primaries": [
+   "free job application tracker printable",
+   "job application tracker printable",
+   "job search tracker",
+   "job application tracker"
+  ]
+ },
+ "_seasonal": {
+  "from": "11-10",
+  "to": "01-31",
+  "note": "Added to the prompt only in this window, and only when true for the product.",
+  "keywords": [
+   "2027 planner",
+   "new year goals",
+   "new year reset",
+   "2027 goals",
+   "fresh start",
+   "january reset"
+  ],
+  "products": [
+   "habit",
+   "budget",
+   "journal",
+   "life",
+   "meal",
+   "sb",
+   "shop",
+   "bundle",
+   "free-habit",
+   "free-budget",
+   "free-weekly",
+   "free-journal",
+   "free-goals",
+   "job",
+   "free-job"
+  ]
+ },
+ "_rotation": "Each pin uses the least-used primary keyword of its product (n8n \"Add SEO keywords\" remembers the last ones) and 6 keywords from the list, rotated."
 }
