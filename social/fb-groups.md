@@ -30,9 +30,21 @@ Account: Sami Boud (check the avatar menu: Chrome can be switched to the SystemF
 | 2026-11-12 | Notion Templates, Tips And Tricks | habit-tracker (tip: never miss twice) | notion-tips-tricks | PUBLISHED, visible in group search |
 | 2026-11-12 | Be NotionSmart | budget-planner (bullets) | be-notionsmart | PUBLISHED (Just now) |
 | 2026-11-12 | Gumroad Products [Promote FREELY!] | budget-planner (short promo) | gumroad-promote | pending admin approval |
+| 2026-11-17 | Notion Templates, Tips And Tricks | life-planner (tip: 3 steps to plan 2027, image, no link, "Comment 2027") | - | PUBLISHED (Just now) |
+| 2026-11-17 | Be NotionSmart | life-bundle (image, no link, "Comment BUNDLE") | - | posted (Just now; group now has admin approval, check) |
+| 2026-11-17 | Gumroad Products [Promote FREELY!] | free-2027-goal-planner (image, no link, "Comment GOALS") | - | pending admin approval |
 
 ## Check 2026-11-12
 - All 5 live posts: 0 reactions, 0 comments (Free Notion Templates "Comment INVOICE" post: 0 comments).
 - Tips And Tricks + Be NotionSmart posts don't show in "Your content" (posted Nov 9); find them with the group search (`/groups/<id>/search/?q=...`).
 - Gumroad Analytics, last 30 days: Facebook 33 + m.facebook.com 17 = 50 views, 0 sales; Instagram 22 views; Pinterest 1. 4 free downloads total (2 from Morocco = tests).
 - Direct /my_pending_content URLs often stay on the Facebook splash: use the group search instead.
+
+## New method (2026-11-17)
+- What works for others (checked 2026-11-16 in Tips And Tricks): NO link in the post, 1-2 mockup images, short text, "Comment WORD and I'll DM you the link" (Jem Digital: 10 comments), Hansel: "LIKE and Share, send me a message: Christmas". Links get pending/declined and lower reach.
+- Our link posts (Nov 6-12): 0 reactions, 0 comments; Gumroad: 41 Facebook views in 30 days, 0 sales.
+- Tips And Tricks rule 4: Notion content only (no PDF printables there).
+- Be NotionSmart and Gumroad Promote now show "pending admin approval" for new posts.
+- Images: file_upload is refused ("uploads can't be approved here"). Working way: open a gumroad.com tab, overlay the image full screen with JS (fixed div + <img src=raw.githubusercontent.com/...@commit>, hide other page children so extension badges don't show), take a screenshot, then `upload_image` with that screenshot id into the composer's hidden file input. Make the image a wide collage (1536x662) first: `social/fb/<date>/wide-*.jpg`.
+- Typing: Facebook turns "1." lines into a list and doubles the numbers: use ① ② ③. Type line by line with Enter; never press Escape in the composer (it closes the dialog).
+- Replying to "Comment X": Sami sends the link in Messenger himself (or Claude replies in the comment with the UTM link after Sami's yes).
