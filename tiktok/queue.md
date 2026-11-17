@@ -1,6 +1,18 @@
 # TikTok queue (2/day from 2026-11-19, 12:30 + 19:30 New York)
 
-## 1. r01-late-invoices — 2026-11-19 12:30
+## 1. p01-broke-by-20th — 2026-11-19 12:30
+
+```
+Paid on the 1st, broke by the 20th? Try this 💸
+
+Broke before the month ends? Give every dollar a job on payday, pay bills first, and check what is left once a week. Free printable budget planner, link in bio. Which one do you skip?
+
+Free download, link in my bio 🔗
+
+#budgeting #moneytips #personalfinance #budgetplanner #savingmoney #freebie
+```
+
+## 2. r01-late-invoices — 2026-11-19 19:30
 
 ```
 Late invoices flag themselves in this Notion template 💸
@@ -12,7 +24,19 @@ Shop link in my bio 🔗
 #notion #notiontemplate #freelancer #freelancetips #productivity #notiontok #freelancebusiness
 ```
 
-## 2. v01-pipeline-move — 2026-11-19 19:30
+## 3. p02-quit-day-4 — 2026-11-20 12:30
+
+```
+Quit your new habit on day 4 again? Try this ✅
+
+It is not willpower, the habit is too big. Start with a 2-minute version, stack it after coffee, never miss twice. What habit are you starting next?
+
+Shop link in my bio 🔗
+
+#habits #habittracker #selfimprovement #productivity #notiontemplate #notiontok
+```
+
+## 4. v01-pipeline-move — 2026-11-20 19:30
 
 ```
 POV: your content plan actually moves (Notion) 📅
@@ -24,7 +48,19 @@ Shop link in my bio 🔗
 #notion #notiontemplate #contentcreator #contentplanner #creatortips #notiontok #contentcreatortips
 ```
 
-## 3. r02-content-board — 2026-11-20 12:30
+## 5. p03-goals-3-weeks — 2026-11-21 12:30
+
+```
+Your goals lasted 3 weeks again? Do this for 2027 🎯
+
+Big goals with no steps fade by February. One goal per life area, small steps with dates, a look every Sunday. Free printable 2027 goal planner, link in bio. What is your #1 goal for 2027?
+
+Free download, link in my bio 🔗
+
+#2027goals #goalsetting #newyeargoals #visionboard #freeprintable #freebie
+```
+
+## 6. r02-content-board — 2026-11-21 19:30
 
 ```
 Plan content for every platform in one Notion board 📅
@@ -36,7 +72,19 @@ Shop link in my bio 🔗
 #notion #notiontemplate #contentcreator #contentplanner #creatortips #notiontok #contentcreatortips
 ```
 
-## 4. v02-proposal-won — 2026-11-20 19:30
+## 7. p04-6pm-dinner — 2026-11-22 12:30
+
+```
+6pm, hungry, no idea what to cook? Try this 🥗
+
+Deciding every night is the tiring part. Plan 5 dinners on Sunday, shop with one list by aisle, cook once and eat twice. Free grocery list + meal plan, link in bio. What is your go-to easy dinner?
+
+Free download, link in my bio 🔗
+
+#mealplanning #mealprep #easydinner #grocerylist #freeprintable #freebie
+```
+
+## 8. v02-proposal-won — 2026-11-22 19:30
 
 ```
 Draft to Won: track every proposal in Notion 💸
@@ -48,7 +96,19 @@ Shop link in my bio 🔗
 #notion #notiontemplate #freelancer #freelancetips #productivity #notiontok #freelancebusiness
 ```
 
-## 5. r03-client-owes — 2026-11-21 12:30
+## 9. p05-50-applications — 2026-11-23 12:30
+
+```
+Applied to 50 jobs and heard back from 2? Do this 💼
+
+Most people never follow up. Follow up after 7 days, rewrite the top of your resume for each job, track every application. How many jobs did you apply to this month?
+
+Shop link in my bio 🔗
+
+#jobsearch #jobhunting #jobsearchtips #careertips #resume #notiontok
+```
+
+## 10. r03-client-owes — 2026-11-23 19:30
 
 ```
 See which client still owes you in Notion 💸
@@ -60,7 +120,19 @@ Shop link in my bio 🔗
 #notion #notiontemplate #freelancer #freelancetips #productivity #notiontok #freelancebusiness
 ```
 
-## 6. f01-next-step — 2026-11-21 19:30
+## 11. p06-tabs-in-head — 2026-11-24 12:30
+
+```
+20 tabs open in your head? Try this 🧠
+
+Your brain is for ideas, not for storing them. Write every task in one place, pick your top 3, plan on Sunday. Free weekly + daily planner, link in bio. What is your top 3 for tomorrow?
+
+Free download, link in my bio 🔗
+
+#productivity #planner #weeklyplanner #organization #freeprintable #freebie
+```
+
+## 12. f01-next-step — 2026-11-24 19:30
 
 ```
 This Notion invoice tracker tells you who to chase next 💸
@@ -72,7 +144,19 @@ Shop link in my bio 🔗
 #notion #notiontemplate #freelancer #invoicetracker #freelancetips #notiontok #freelancebusiness
 ```
 
-## 7. c01-content-week — 2026-11-22 12:30
+## 13. p07-last-good-day — 2026-11-25 12:30
+
+```
+When was your last good day? Try this ✨
+
+Bad days are loud, good days are quiet. Write one win and one thank you a day, and read them on hard days. Free gratitude journal + 30 prompts, link in bio. What is one win from today?
+
+Free download, link in my bio 🔗
+
+#gratitude #journaling #gratitudejournal #selfcare #mentalhealth #freebie
+```
+
+## 14. c01-content-week — 2026-11-25 19:30
 
 ```
 This Notion content planner tells me what to post next 📅
@@ -84,7 +168,19 @@ Shop link in my bio 🔗
 #notion #notiontemplate #contentcreator #contentplanner #creatortips #notiontok #contentcreatortips
 ```
 
-## 8. v03-proposal-board — 2026-11-22 19:30
+## 15. p08-debt-never-moves — 2026-11-26 12:30
+
+```
+Paying debt for years and it never moves? 💳
+
+Minimum payments mostly pay the interest. List every debt with its rate, put extra money on the highest interest first, celebrate each one you finish. Snowball or avalanche?
+
+Shop link in my bio 🔗
+
+#debtfree #debtpayoff #personalfinance #moneytips #budgeting #notiontok
+```
+
+## 16. v03-proposal-board — 2026-11-26 19:30
 
 ```
 Drag your deals to Won (Notion for freelancers) 💸
@@ -96,7 +192,19 @@ Shop link in my bio 🔗
 #notion #notiontemplate #freelancer #freelancelife #productivity #notiontok #freelancebusiness
 ```
 
-## 9. r04-brand-deals — 2026-11-23 12:30
+## 17. p09-forgot-charger — 2026-11-27 12:30
+
+```
+Forgot your charger again? Try this ✈️
+
+Packing from memory never works. Keep one list you reuse, pack by type, check it the night before. Free packing list + trip planner, link in bio. What do you always forget?
+
+Free download, link in my bio 🔗
+
+#packinglist #traveltips #packingtips #travelhacks #freeprintable #freebie
+```
+
+## 18. r04-brand-deals — 2026-11-27 19:30
 
 ```
 Track brand deals until you get paid 📅
@@ -108,7 +216,19 @@ Shop link in my bio 🔗
 #notion #notiontemplate #contentcreator #contentplanner #creatortips #notiontok #contentcreatortips
 ```
 
-## 10. k01-get-paid — 2026-11-23 19:30
+## 19. p10-sunday-dread — 2026-11-28 12:30
+
+```
+Sunday night dread? A 10-minute Sunday reset 🗓️
+
+Monday feels heavy when nothing is planned. Pick 3 big things, plan 5 days of meals, choose one habit. What is in your Sunday reset?
+
+Shop link in my bio 🔗
+
+#sundayreset #productivity #weeklyplanning #notiontemplate #lifeplanner #notiontok
+```
+
+## 20. k01-get-paid — 2026-11-28 19:30
 
 ```
 3 ways to get paid on time as a freelancer (Notion) 💸
@@ -126,7 +246,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #freelancer #freelancetips #freelancelife #productivity #smallbusiness #notiontok #freelancebusiness
 ```
 
-## 11. r05-proposal-to-paid — 2026-11-24 12:30
+## 21. r05-proposal-to-paid — 2026-11-29 12:30
 
 ```
 From proposal to paid: a calm Notion system for freelancers 💸
@@ -138,7 +258,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #freelancer #freelancetips #productivity #notiontok #freelancebusiness
 ```
 
-## 12. k02-content-week — 2026-11-24 19:30
+## 22. k02-content-week — 2026-11-29 19:30
 
 ```
 Plan a week of content in 15 minutes (Notion) 📅
@@ -156,7 +276,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #productivity #notiontok #contentcreatortips
 ```
 
-## 13. r06-content-ideas — 2026-11-25 12:30
+## 23. r06-content-ideas — 2026-11-30 12:30
 
 ```
 Never lose a content idea again (Notion) 📅
@@ -168,7 +288,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #contentcreator #contentplanner #creatortips #notiontok #contentcreatortips
 ```
 
-## 14. k03-freelance-track — 2026-11-25 19:30
+## 24. k03-freelance-track — 2026-11-30 19:30
 
 ```
 What to track as a freelancer (Notion) 💸
@@ -186,7 +306,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #freelancer #freelancetips #freelancelife #productivity #smallbusiness #notiontok #freelancebusiness
 ```
 
-## 15. r07-overdue-tasks — 2026-11-26 12:30
+## 25. r07-overdue-tasks — 2026-12-01 12:30
 
 ```
 What's overdue today? A freelance task list in Notion 💸
@@ -198,7 +318,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #freelancer #freelancetips #productivity #notiontok #freelancebusiness
 ```
 
-## 16. k04-brand-deals — 2026-11-26 19:30
+## 26. k04-brand-deals — 2026-12-01 19:30
 
 ```
 Keep your brand deals organized (Notion) 📅
@@ -216,7 +336,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #productivity #notiontok #contentcreatortips
 ```
 
-## 17. r08-weekly-goals — 2026-11-27 12:30
+## 27. r08-weekly-goals — 2026-12-02 12:30
 
 ```
 Are you on track this week? Weekly posting goals in Notion 📅
@@ -228,7 +348,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #contentcreator #contentplanner #creatortips #notiontok #contentcreatortips
 ```
 
-## 18. k05-proposal-flow — 2026-11-27 19:30
+## 28. k05-proposal-flow — 2026-12-02 19:30
 
 ```
 A simple proposal flow for freelancers (Notion) 💸
@@ -242,7 +362,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #freelancer #freelancetips #freelancelife #productivity #smallbusiness #notiontok #freelancebusiness
 ```
 
-## 19. r09-client-emails — 2026-11-28 12:30
+## 29. r09-client-emails — 2026-12-03 12:30
 
 ```
 Stop rewriting the same client emails 💸
@@ -254,7 +374,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #freelancer #freelancetips #productivity #notiontok #freelancebusiness
 ```
 
-## 20. k06-creator-hq — 2026-11-28 19:30
+## 30. k06-creator-hq — 2026-12-03 19:30
 
 ```
 One Notion page for your whole creator business 📅
@@ -268,7 +388,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #contentcreator #contentplanner #creatortips #socialmediatips #productivity #notiontok #contentcreatortips
 ```
 
-## 21. f03-drag-to-paid — 2026-11-29 12:30
+## 31. f03-drag-to-paid — 2026-12-04 12:30
 
 ```
 Client paid? Drag the invoice to Paid (Notion) 💸
@@ -280,7 +400,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #freelancer #invoicetracker #smallbusiness #notiontok #freelancebusiness
 ```
 
-## 22. q01-behind-week — 2026-11-29 19:30
+## 32. q01-behind-week — 2026-12-04 19:30
 
 ```
 Are you behind on your posting goal this week? 📅
@@ -292,7 +412,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #contentcreator #contentplanner #creatortips #notiontok #contentcreatortips
 ```
 
-## 23. r10-creator-hq — 2026-11-30 12:30
+## 33. r10-creator-hq — 2026-12-05 12:30
 
 ```
 Your whole creator business in one Notion workspace 📅
@@ -304,7 +424,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #contentcreator #contentplanner #creatortips #notiontok #contentcreatortips
 ```
 
-## 24. c03-idea-to-posted — 2026-11-30 19:30
+## 34. c03-idea-to-posted — 2026-12-05 19:30
 
 ```
 How a post moves from idea to posted in my Notion 📅
@@ -316,7 +436,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #contentcreator #contentplanner #creatortips #notiontok #contentcreatortips
 ```
 
-## 25. q02-brand-owes — 2026-12-01 12:30
+## 35. q02-brand-owes — 2026-12-06 12:30
 
 ```
 Which brand still owes you money? 🤝
@@ -328,7 +448,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #ugccreator #branddeals #contentcreator #notiontok #ugctips
 ```
 
-## 26. f04-project-health — 2026-12-01 19:30
+## 36. f04-project-health — 2026-12-06 19:30
 
 ```
 This project was 37 days late. My Notion caught it 💸
@@ -340,7 +460,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #freelancer #projectmanagement #freelancetips #notiontok #freelancebusiness
 ```
 
-## 27. q03-real-profit — 2026-12-02 12:30
+## 37. q03-real-profit — 2026-12-07 12:30
 
 ```
 Do you know your real profit per project? 💸
@@ -352,7 +472,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #freelancer #projectmanagement #freelancetips #notiontok #freelancebusiness
 ```
 
-## 28. b02-deal-to-paid — 2026-12-02 19:30
+## 38. b02-deal-to-paid — 2026-12-07 19:30
 
 ```
 Track every brand deal from first pitch to paid (Notion) 🤝
@@ -364,7 +484,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #ugccreator #branddeals #contentcreator #notiontok #ugctips
 ```
 
-## 29. q04-chase-today — 2026-12-03 12:30
+## 39. q04-chase-today — 2026-12-08 12:30
 
 ```
 Which invoice should you chase today? 💸
@@ -376,7 +496,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #freelancer #invoicetracker #smallbusiness #notiontok #freelancebusiness
 ```
 
-## 30. c04-drag-calendar — 2026-12-03 19:30
+## 40. c04-drag-calendar — 2026-12-08 19:30
 
 ```
 Plans changed? Drag the post to its new day (Notion) 📅
@@ -388,7 +508,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #contentcalendar #contentcreator #socialmediatips #notiontok #contentcreatortips
 ```
 
-## 31. q05-five-platforms — 2026-12-04 12:30
+## 41. q05-five-platforms — 2026-12-09 12:30
 
 ```
 Posting on 5 platforms? One calendar for all of them 📅
@@ -400,7 +520,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #contentcalendar #contentcreator #socialmediatips #notiontok #contentcreatortips
 ```
 
-## 32. k13-late-client — 2026-12-04 19:30
+## 42. k13-late-client — 2026-12-09 19:30
 
 ```
 Client paid late? The 4 emails to send, and when 💸
@@ -422,7 +542,7 @@ Shop link in my bio 🔗
 #freelancer #freelancetips #invoicetracker #notiontemplate #smallbusiness #notiontok #freelancebusiness
 ```
 
-## 33. k14-week-20min — 2026-12-05 12:30
+## 43. k14-week-20min — 2026-12-10 12:30
 
 ```
 Plan a week of content in 20 minutes 📅
@@ -444,7 +564,7 @@ Shop link in my bio 🔗
 #contentcreator #contentplanner #contentcalendar #notiontemplate #creatortips #notiontok #contentcreatortips
 ```
 
-## 34. k15-quotes-ignored — 2026-12-05 19:30
+## 44. k15-quotes-ignored — 2026-12-10 19:30
 
 ```
 Why your freelance quotes get ignored (5 fixes) 📝
@@ -466,7 +586,7 @@ Shop link in my bio 🔗
 #freelancer #freelancetips #proposaltracker #notiontemplate #smallbusiness #notiontok #freelancebusiness
 ```
 
-## 35. k16-deal-money — 2026-12-06 12:30
+## 45. k16-deal-money — 2026-12-11 12:30
 
 ```
 Brand deals: 5 things to track so you get paid 🤝
@@ -488,7 +608,7 @@ Shop link in my bio 🔗
 #ugccreator #branddeals #contentcreator #notiontemplate #influencertips #notiontok #ugctips
 ```
 
-## 36. l22-free-goals — 2026-12-06 19:30
+## 46. l22-free-goals — 2026-12-11 19:30
 
 ```
 Free printable 2027 goal planner + vision board 🖨️
@@ -500,7 +620,7 @@ Free download, link in my bio 🔗
 #2027goals #goalsetting #freeprintable #visionboard #newyeargoals #printables #freebie
 ```
 
-## 37. l05-habit-stick — 2026-12-07 12:30
+## 47. l05-habit-stick — 2026-12-12 12:30
 
 ```
 My habits finally stick: a Notion habit tracker ✅
@@ -512,7 +632,7 @@ Shop link in my bio 🔗
 #habittracker #notion #notiontemplate #habits #selfimprovement #notiontok
 ```
 
-## 38. l07-budget-left — 2026-12-07 19:30
+## 48. l07-budget-left — 2026-12-12 19:30
 
 ```
 Where did my money go? A Notion budget planner 💸
@@ -524,7 +644,7 @@ Shop link in my bio 🔗
 #budgetplanner #budgeting #notion #notiontemplate #personalfinance #notiontok
 ```
 
-## 39. l09-journal-2min — 2026-12-08 12:30
+## 49. l09-journal-2min — 2026-12-13 12:30
 
 ```
 A 2-minute journal you will actually keep (Notion) ✨
@@ -536,7 +656,7 @@ Shop link in my bio 🔗
 #journaling #gratitudejournal #notion #notiontemplate #selfcare #notiontok
 ```
 
-## 40. l11-life-goals — 2026-12-08 19:30
+## 50. l11-life-goals — 2026-12-13 19:30
 
 ```
 2027 goals that do not fade by February (Notion) 🎯
@@ -548,7 +668,7 @@ Shop link in my bio 🔗
 #goalsetting #2027goals #notion #notiontemplate #visionboard #notiontok
 ```
 
-## 41. l21-bundle — 2026-12-09 12:30
+## 51. l21-bundle — 2026-12-14 12:30
 
 ```
 8 Notion templates in one dashboard (Life Bundle) 📦
@@ -560,7 +680,7 @@ Shop link in my bio 🔗
 #notion #notiontemplate #lifeplanner #productivity #notiontemplates #notiontok
 ```
 
-## 42. l13-meal-week — 2026-12-09 19:30
+## 52. l13-meal-week — 2026-12-14 19:30
 
 ```
 What is for dinner? Already planned (Notion) 🥗
@@ -572,7 +692,7 @@ Shop link in my bio 🔗
 #mealplanning #mealprep #notion #notiontemplate #groceryshopping #notiontok
 ```
 
-## 43. l15-travel-trip — 2026-12-10 12:30
+## 53. l15-travel-trip — 2026-12-15 12:30
 
 ```
 Plan your whole trip on one Notion page ✈️
@@ -584,7 +704,7 @@ Shop link in my bio 🔗
 #travelplanner #travelplanning #notion #notiontemplate #traveltips #notiontok
 ```
 
-## 44. l17-job-board — 2026-12-10 19:30
+## 54. l17-job-board — 2026-12-15 19:30
 
 ```
 Track every job application in one Notion board 💼
@@ -596,7 +716,7 @@ Shop link in my bio 🔗
 #jobsearch #jobhunting #notion #notiontemplate #careertips #notiontok
 ```
 
-## 45. l19-sb-day — 2026-12-11 12:30
+## 55. l19-sb-day — 2026-12-16 12:30
 
 ```
 Your whole life in one Notion page (Second Brain) 🧠
@@ -608,7 +728,7 @@ Shop link in my bio 🔗
 #secondbrain #notion #notiontemplate #productivity #lifeplanner #notiontok
 ```
 
-## 46. l23-free-budget — 2026-12-11 19:30
+## 56. l23-free-budget — 2026-12-16 19:30
 
 ```
 Free printable budget planner: budget, bills, savings, debt 🖨️
@@ -620,7 +740,7 @@ Free download, link in my bio 🔗
 #budgetplanner #freeprintable #budgeting #debtfree #savingmoney #printables #freebie
 ```
 
-## 47. l06-habit-tiny — 2026-12-12 12:30
+## 57. l06-habit-tiny — 2026-12-17 12:30
 
 ```
 Busy day? Do the tiny version of your habit ✅
@@ -632,7 +752,7 @@ Shop link in my bio 🔗
 #habittracker #notion #notiontemplate #habits #productivity #notiontok
 ```
 
-## 48. l08-budget-debt — 2026-12-12 19:30
+## 58. l08-budget-debt — 2026-12-17 19:30
 
 ```
 Watch your debt-free date move closer (Notion) 💸
@@ -644,7 +764,7 @@ Shop link in my bio 🔗
 #debtfree #savingmoney #budgetplanner #notiontemplate #personalfinance #notiontok
 ```
 
-## 49. l10-journal-week — 2026-12-13 12:30
+## 59. l10-journal-week — 2026-12-18 12:30
 
 ```
 A new journal prompt every day (Notion) ✨
@@ -656,7 +776,7 @@ Shop link in my bio 🔗
 #journaling #journalprompts #notion #notiontemplate #dailyjournal #notiontok
 ```
 
-## 50. l12-life-wheel — 2026-12-13 19:30
+## 60. l12-life-wheel — 2026-12-18 19:30
 
 ```
 Score 8 areas of your life in Notion 🎯
@@ -668,7 +788,7 @@ Shop link in my bio 🔗
 #lifeplanner #goalsetting #notion #notiontemplate #selfimprovement #notiontok
 ```
 
-## 51. l24-free-habit — 2026-12-14 12:30
+## 61. l24-free-habit — 2026-12-19 12:30
 
 ```
 Free printable habit tracker + 20 habit ideas 🖨️
@@ -680,7 +800,7 @@ Free download, link in my bio 🔗
 #habittracker #freeprintable #habits #printableplanner #selfimprovement #printables #freebie
 ```
 
-## 52. l14-meal-sunday — 2026-12-14 19:30
+## 62. l14-meal-sunday — 2026-12-19 19:30
 
 ```
 Plan your meals in 15 minutes on Sunday (Notion) 🥗
@@ -692,7 +812,7 @@ Shop link in my bio 🔗
 #mealplanning #mealplan #notion #notiontemplate #healthyeating #notiontok
 ```
 
-## 53. l16-travel-pack — 2026-12-15 12:30
+## 63. l16-travel-pack — 2026-12-20 12:30
 
 ```
 Never forget your charger again (Notion travel planner) ✈️
@@ -704,7 +824,7 @@ Shop link in my bio 🔗
 #packinglist #travelplanner #notion #notiontemplate #traveltips #notiontok
 ```
 
-## 54. l18-job-emails — 2026-12-15 19:30
+## 64. l18-job-emails — 2026-12-20 19:30
 
 ```
 Follow-up emails for your job search, ready to copy 💼
@@ -716,7 +836,7 @@ Shop link in my bio 🔗
 #jobsearch #jobsearchtips #notion #notiontemplate #careeradvice #notiontok
 ```
 
-## 55. l20-sb-phone — 2026-12-16 12:30
+## 65. l20-sb-phone — 2026-12-21 12:30
 
 ```
 Your Second Brain on your phone (Notion) 🧠
@@ -728,7 +848,7 @@ Shop link in my bio 🔗
 #secondbrain #notion #notiontemplate #productivity #notiontips #notiontok
 ```
 
-## 56. l25-free-grocery — 2026-12-16 19:30
+## 66. l25-free-grocery — 2026-12-21 19:30
 
 ```
 Free printable grocery list sorted by aisle 🖨️

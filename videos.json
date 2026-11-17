@@ -253,11 +253,25 @@
    "tags": "#habittracker #notion #notiontemplate #habits #productivity"
   },
   {
+   "id": "p01-broke-by-20th",
+   "p": "free-budget",
+   "title": "Paid on the 1st, broke by the 20th? Try this #shorts",
+   "caption": "Broke before the month ends? Give every dollar a job on payday, pay bills first, and check what is left once a week. Free printable budget planner, link in bio. Which one do you skip?",
+   "tags": "#budgeting #moneytips #personalfinance #budgetplanner #savingmoney"
+  },
+  {
    "id": "l02-budget-left",
    "p": "budget",
    "title": "Where did my money go? This Notion budget shows me #shorts",
    "caption": "Every category shows what you spent this month and what is left. Bills show paid, due soon or late. Savings goals tell you how much to save each month. Bonus: Money Reset in 7 Days PDF.",
    "tags": "#budgetplanner #budgeting #notion #notiontemplate #personalfinance"
+  },
+  {
+   "id": "p02-quit-day-4",
+   "p": "habit",
+   "title": "Quit your new habit on day 4 again? Try this #shorts",
+   "caption": "It is not willpower, the habit is too big. Start with a 2-minute version, stack it after coffee, never miss twice. What habit are you starting next?",
+   "tags": "#habits #habittracker #selfimprovement #productivity #notiontemplate"
   },
   {
    "id": "l03-journal-mood",
@@ -267,11 +281,25 @@
    "tags": "#journaling #notion #notiontemplate #gratitudejournal #selfcare"
   },
   {
+   "id": "p03-goals-3-weeks",
+   "p": "free-goals",
+   "title": "Your goals lasted 3 weeks again? Do this for 2027 #shorts",
+   "caption": "Big goals with no steps fade by February. One goal per life area, small steps with dates, a look every Sunday. Free printable 2027 goal planner, link in bio. What is your #1 goal for 2027?",
+   "tags": "#2027goals #goalsetting #newyeargoals #visionboard #freeprintable"
+  },
+  {
    "id": "l04-second-brain",
    "p": "sb",
    "title": "Stop keeping your life in 6 different apps (Notion) #shorts",
    "caption": "Second Brain OS: goals that fill up as you finish projects, tasks, notes, a habit tracker and a 2-minute journal, all linked in one Notion page. Plus a beginner guide if Notion is new to you.",
    "tags": "#secondbrain #notion #notiontemplate #productivity #lifeplanner"
+  },
+  {
+   "id": "p04-6pm-dinner",
+   "p": "free-grocery",
+   "title": "6pm, hungry, no idea what to cook? Try this #shorts",
+   "caption": "Deciding every night is the tiring part. Plan 5 dinners on Sunday, shop with one list by aisle, cook once and eat twice. Free grocery list + meal plan, link in bio. What is your go-to easy dinner?",
+   "tags": "#mealplanning #mealprep #easydinner #grocerylist #freeprintable"
   },
   {
    "id": "l22-free-goals",
@@ -281,11 +309,25 @@
    "tags": "#2027goals #goalsetting #freeprintable #visionboard #newyeargoals"
   },
   {
+   "id": "p05-50-applications",
+   "p": "job",
+   "title": "Applied to 50 jobs and heard back from 2? Do this #shorts",
+   "caption": "Most people never follow up. Follow up after 7 days, rewrite the top of your resume for each job, track every application. How many jobs did you apply to this month?",
+   "tags": "#jobsearch #jobhunting #jobsearchtips #careertips #resume"
+  },
+  {
    "id": "l05-habit-stick",
    "p": "habit",
    "title": "My habits finally stick: a Notion habit tracker #shorts",
    "caption": "Tick up to 6 habits a day and your score fills in by itself. Every habit gets a monthly bar, and a calendar shows your score on every day.",
    "tags": "#habittracker #notion #notiontemplate #habits #selfimprovement"
+  },
+  {
+   "id": "p06-tabs-in-head",
+   "p": "free-weekly",
+   "title": "20 tabs open in your head? Try this #shorts",
+   "caption": "Your brain is for ideas, not for storing them. Write every task in one place, pick your top 3, plan on Sunday. Free weekly + daily planner, link in bio. What is your top 3 for tomorrow?",
+   "tags": "#productivity #planner #weeklyplanner #organization #freeprintable"
   },
   {
    "id": "l07-budget-left",
@@ -295,11 +337,25 @@
    "tags": "#budgetplanner #budgeting #notion #notiontemplate #personalfinance"
   },
   {
+   "id": "p07-last-good-day",
+   "p": "free-journal",
+   "title": "When was your last good day? Try this #shorts",
+   "caption": "Bad days are loud, good days are quiet. Write one win and one thank you a day, and read them on hard days. Free gratitude journal + 30 prompts, link in bio. What is one win from today?",
+   "tags": "#gratitude #journaling #gratitudejournal #selfcare #mentalhealth"
+  },
+  {
    "id": "l09-journal-2min",
    "p": "journal",
    "title": "A 2-minute journal you will actually keep (Notion) #shorts",
    "caption": "One entry a day: mood, energy, one win and one thank you. Every thank you lands in a gratitude jar, and your monthly mood fills in by itself.",
    "tags": "#journaling #gratitudejournal #notion #notiontemplate #selfcare"
+  },
+  {
+   "id": "p08-debt-never-moves",
+   "p": "budget",
+   "title": "Paying debt for years and it never moves? #shorts",
+   "caption": "Minimum payments mostly pay the interest. List every debt with its rate, put extra money on the highest interest first, celebrate each one you finish. Snowball or avalanche?",
+   "tags": "#debtfree #debtpayoff #personalfinance #moneytips #budgeting"
   },
   {
    "id": "l11-life-goals",
@@ -309,11 +365,25 @@
    "tags": "#goalsetting #2027goals #notion #notiontemplate #visionboard"
   },
   {
+   "id": "p09-forgot-charger",
+   "p": "free-travel",
+   "title": "Forgot your charger again? Try this #shorts",
+   "caption": "Packing from memory never works. Keep one list you reuse, pack by type, check it the night before. Free packing list + trip planner, link in bio. What do you always forget?",
+   "tags": "#packinglist #traveltips #packingtips #travelhacks #freeprintable"
+  },
+  {
    "id": "l21-bundle",
    "p": "bundle",
    "title": "8 Notion templates in one dashboard (Life Bundle) #shorts",
    "caption": "Habits, money, meals, journal, goals, trips, job search and a second brain: 8 Notion templates in one dashboard, plus 7 bonus PDF guides.",
    "tags": "#notion #notiontemplate #lifeplanner #productivity #notiontemplates"
+  },
+  {
+   "id": "p10-sunday-dread",
+   "p": "bundle",
+   "title": "Sunday night dread? A 10-minute Sunday reset #shorts",
+   "caption": "Monday feels heavy when nothing is planned. Pick 3 big things, plan 5 days of meals, choose one habit. What is in your Sunday reset?",
+   "tags": "#sundayreset #productivity #weeklyplanning #notiontemplate #lifeplanner"
   },
   {
    "id": "l13-meal-week",

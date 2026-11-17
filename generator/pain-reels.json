@@ -1,0 +1,440 @@
+{
+ "reels": [
+  {
+   "id": "p01-broke-by-20th",
+   "p": "free-budget",
+   "accent": [
+    56,
+    110,
+    78
+   ],
+   "dark": [
+    24,
+    48,
+    36
+   ],
+   "light": [
+    236,
+    243,
+    238
+   ],
+   "hook": "Paid on the 1st. Broke by the 20th?",
+   "why": [
+    "You didn't overspend once.",
+    "You overspent on small things."
+   ],
+   "tips": [
+    "Give every dollar a job on payday",
+    "Pay your bills first, then the fun",
+    "Check what is left once a week"
+   ],
+   "tool": {
+    "img": "products/free-pages/3-free-budget-planner-1.jpg",
+    "name": "A free printable budget planner",
+    "cta": "Free, link in bio"
+   },
+   "question": "Which one do you skip the most?",
+   "comment": "Comment 1, 2 or 3",
+   "music": [
+    3,
+    2,
+    5
+   ],
+   "title": "Paid on the 1st, broke by the 20th? Try this #shorts",
+   "caption": "Broke before the month ends? Give every dollar a job on payday, pay bills first, and check what is left once a week. Free printable budget planner, link in bio. Which one do you skip?",
+   "tags": "#budgeting #moneytips #personalfinance #budgetplanner #savingmoney"
+  },
+  {
+   "id": "p02-quit-day-4",
+   "p": "habit",
+   "accent": [
+    190,
+    96,
+    60
+   ],
+   "dark": [
+    70,
+    34,
+    22
+   ],
+   "light": [
+    248,
+    238,
+    229
+   ],
+   "hook": "Day 4 and you quit your new habit again?",
+   "why": [
+    "It's not your willpower.",
+    "The habit is just too big."
+   ],
+   "tips": [
+    "Start with a 2-minute version",
+    "Do it right after your coffee",
+    "Never miss two days in a row"
+   ],
+   "tool": {
+    "img": "etsy/habit/05-feature4.jpg",
+    "name": "My Notion habit tracker"
+   },
+   "question": "What habit are you starting next?",
+   "comment": "Tell me in the comments",
+   "music": [
+    4,
+    -2,
+    8
+   ],
+   "title": "Quit your new habit on day 4 again? Try this #shorts",
+   "caption": "It is not willpower, the habit is too big. Start with a 2-minute version, stack it after coffee, never miss twice. What habit are you starting next?",
+   "tags": "#habits #habittracker #selfimprovement #productivity #notiontemplate"
+  },
+  {
+   "id": "p03-goals-3-weeks",
+   "p": "free-goals",
+   "accent": [
+    112,
+    88,
+    150
+   ],
+   "dark": [
+    44,
+    34,
+    62
+   ],
+   "light": [
+    242,
+    237,
+    247
+   ],
+   "hook": "Your goals lasted 3 weeks again?",
+   "why": [
+    "Big goals with no steps",
+    "fade by February."
+   ],
+   "tips": [
+    "One goal for each part of your life",
+    "Break it into small steps with dates",
+    "Look at it every Sunday"
+   ],
+   "tool": {
+    "img": "products/free-pages/7-free-2027-goal-planner-2.jpg",
+    "name": "A free 2027 goal planner",
+    "cta": "Free, link in bio"
+   },
+   "question": "What is your #1 goal for 2027?",
+   "comment": "Comment it below",
+   "music": [
+    5,
+    3,
+    11
+   ],
+   "title": "Your goals lasted 3 weeks again? Do this for 2027 #shorts",
+   "caption": "Big goals with no steps fade by February. One goal per life area, small steps with dates, a look every Sunday. Free printable 2027 goal planner, link in bio. What is your #1 goal for 2027?",
+   "tags": "#2027goals #goalsetting #newyeargoals #visionboard #freeprintable"
+  },
+  {
+   "id": "p04-6pm-dinner",
+   "p": "free-grocery",
+   "accent": [
+    80,
+    120,
+    70
+   ],
+   "dark": [
+    34,
+    52,
+    30
+   ],
+   "light": [
+    238,
+    243,
+    232
+   ],
+   "hook": "6pm. Hungry. No idea what to cook.",
+   "why": [
+    "Cooking is not the hard part.",
+    "Deciding every night is."
+   ],
+   "tips": [
+    "Plan 5 dinners on Sunday",
+    "Shop with one list sorted by aisle",
+    "Cook once, eat twice"
+   ],
+   "tool": {
+    "img": "products/free-pages/1-free-grocery-list-2.jpg",
+    "name": "A free grocery list + meal plan",
+    "cta": "Free, link in bio"
+   },
+   "question": "What is your go-to easy dinner?",
+   "comment": "Drop it in the comments",
+   "music": [
+    6,
+    1,
+    4
+   ],
+   "title": "6pm, hungry, no idea what to cook? Try this #shorts",
+   "caption": "Deciding every night is the tiring part. Plan 5 dinners on Sunday, shop with one list by aisle, cook once and eat twice. Free grocery list + meal plan, link in bio. What is your go-to easy dinner?",
+   "tags": "#mealplanning #mealprep #easydinner #grocerylist #freeprintable"
+  },
+  {
+   "id": "p05-50-applications",
+   "p": "job",
+   "accent": [
+    52,
+    108,
+    150
+   ],
+   "dark": [
+    22,
+    44,
+    64
+   ],
+   "light": [
+    234,
+    241,
+    247
+   ],
+   "hook": "Applied to 50 jobs. Heard back from 2?",
+   "why": [
+    "Most people apply",
+    "and never follow up."
+   ],
+   "tips": [
+    "Follow up after 7 days",
+    "Rewrite the top 3 lines of your resume for each job",
+    "Track every application in one place"
+   ],
+   "tool": {
+    "img": "etsy/job/03-feature2.jpg",
+    "name": "My Notion job application tracker"
+   },
+   "question": "How many jobs did you apply to this month?",
+   "comment": "Comment the number",
+   "music": [
+    7,
+    0,
+    6
+   ],
+   "title": "Applied to 50 jobs and heard back from 2? Do this #shorts",
+   "caption": "Most people never follow up. Follow up after 7 days, rewrite the top of your resume for each job, track every application. How many jobs did you apply to this month?",
+   "tags": "#jobsearch #jobhunting #jobsearchtips #careertips #resume"
+  },
+  {
+   "id": "p06-tabs-in-head",
+   "p": "free-weekly",
+   "accent": [
+    40,
+    40,
+    40
+   ],
+   "dark": [
+    18,
+    18,
+    18
+   ],
+   "light": [
+    245,
+    240,
+    233
+   ],
+   "hook": "20 tabs open in your head?",
+   "why": [
+    "Your brain is for ideas,",
+    "not for storing them."
+   ],
+   "tips": [
+    "Write every task in one place",
+    "Pick only your top 3 for today",
+    "Plan your week on Sunday"
+   ],
+   "tool": {
+    "img": "products/free-pages/4-free-weekly-planner-1.jpg",
+    "name": "A free weekly + daily planner",
+    "cta": "Free, link in bio"
+   },
+   "question": "What is your top 3 for tomorrow?",
+   "comment": "Comment your top 3",
+   "music": [
+    0,
+    4,
+    9
+   ],
+   "title": "20 tabs open in your head? Try this #shorts",
+   "caption": "Your brain is for ideas, not for storing them. Write every task in one place, pick your top 3, plan on Sunday. Free weekly + daily planner, link in bio. What is your top 3 for tomorrow?",
+   "tags": "#productivity #planner #weeklyplanner #organization #freeprintable"
+  },
+  {
+   "id": "p07-last-good-day",
+   "p": "free-journal",
+   "accent": [
+    112,
+    88,
+    150
+   ],
+   "dark": [
+    44,
+    34,
+    62
+   ],
+   "light": [
+    242,
+    237,
+    247
+   ],
+   "hook": "When was your last good day?",
+   "why": [
+    "Bad days are loud.",
+    "Good days are quiet."
+   ],
+   "tips": [
+    "Write one win every day",
+    "Write one thank you",
+    "Read it again on hard days"
+   ],
+   "tool": {
+    "img": "products/free-pages/6-free-gratitude-journal-1.jpg",
+    "name": "A free gratitude journal + 30 prompts",
+    "cta": "Free, link in bio"
+   },
+   "question": "What is one win from today?",
+   "comment": "Share it below",
+   "music": [
+    2,
+    -4,
+    13
+   ],
+   "title": "When was your last good day? Try this #shorts",
+   "caption": "Bad days are loud, good days are quiet. Write one win and one thank you a day, and read them on hard days. Free gratitude journal + 30 prompts, link in bio. What is one win from today?",
+   "tags": "#gratitude #journaling #gratitudejournal #selfcare #mentalhealth"
+  },
+  {
+   "id": "p08-debt-never-moves",
+   "p": "budget",
+   "accent": [
+    56,
+    110,
+    78
+   ],
+   "dark": [
+    24,
+    48,
+    36
+   ],
+   "light": [
+    236,
+    243,
+    238
+   ],
+   "hook": "Paying your debt for years and it never moves?",
+   "why": [
+    "Minimum payments",
+    "mostly pay the interest."
+   ],
+   "tips": [
+    "List every debt with its interest rate",
+    "Put extra money on the highest interest first",
+    "Celebrate every debt you finish"
+   ],
+   "tool": {
+    "img": "etsy/budget/06-feature5.jpg",
+    "name": "My Notion budget planner"
+   },
+   "question": "Snowball or avalanche: which one do you use?",
+   "comment": "Comment below",
+   "music": [
+    1,
+    5,
+    7
+   ],
+   "title": "Paying debt for years and it never moves? #shorts",
+   "caption": "Minimum payments mostly pay the interest. List every debt with its rate, put extra money on the highest interest first, celebrate each one you finish. Snowball or avalanche?",
+   "tags": "#debtfree #debtpayoff #personalfinance #moneytips #budgeting"
+  },
+  {
+   "id": "p09-forgot-charger",
+   "p": "free-travel",
+   "accent": [
+    52,
+    108,
+    150
+   ],
+   "dark": [
+    22,
+    44,
+    64
+   ],
+   "light": [
+    234,
+    241,
+    247
+   ],
+   "hook": "Forgot your charger. Again?",
+   "why": [
+    "Packing from memory",
+    "never works."
+   ],
+   "tips": [
+    "Keep one packing list you reuse",
+    "Pack by type: clothes, tech, toiletries",
+    "Check it the night before"
+   ],
+   "tool": {
+    "img": "products/free-pages/5-free-packing-list-1.jpg",
+    "name": "A free packing list + trip planner",
+    "cta": "Free, link in bio"
+   },
+   "question": "What do you always forget to pack?",
+   "comment": "Confess in the comments",
+   "music": [
+    3,
+    -3,
+    2
+   ],
+   "title": "Forgot your charger again? Try this #shorts",
+   "caption": "Packing from memory never works. Keep one list you reuse, pack by type, check it the night before. Free packing list + trip planner, link in bio. What do you always forget?",
+   "tags": "#packinglist #traveltips #packingtips #travelhacks #freeprintable"
+  },
+  {
+   "id": "p10-sunday-dread",
+   "p": "bundle",
+   "accent": [
+    40,
+    40,
+    40
+   ],
+   "dark": [
+    18,
+    18,
+    18
+   ],
+   "light": [
+    245,
+    240,
+    233
+   ],
+   "hook": "Sunday night dread?",
+   "why": [
+    "Monday feels heavy",
+    "when nothing is planned."
+   ],
+   "tips": [
+    "Pick 3 big things for the week",
+    "Plan your meals for 5 days",
+    "Choose one habit to focus on"
+   ],
+   "tool": {
+    "img": "etsy/bundle/01-hero.jpg",
+    "name": "My whole life in one Notion dashboard"
+   },
+   "question": "What is in your Sunday reset?",
+   "comment": "Comment your routine",
+   "music": [
+    6,
+    -1,
+    10
+   ],
+   "title": "Sunday night dread? A 10-minute Sunday reset #shorts",
+   "caption": "Monday feels heavy when nothing is planned. Pick 3 big things, plan 5 days of meals, choose one habit. What is in your Sunday reset?",
+   "tags": "#sundayreset #productivity #weeklyplanning #notiontemplate #lifeplanner"
+  }
+ ]
+}
