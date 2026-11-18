@@ -1198,6 +1198,36 @@
   "board": "prop"
  },
  {
+  "id": "v3-deal-zoom",
+  "product": "deal",
+  "name": "Brand Deal Tracker",
+  "kind": "lifestyle",
+  "angle": "Zoomed cards from the Brand Deal Tracker Notion template. Headline: Know which brand owes you.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-deal-zoom.png",
+  "link": "https://getsystemforge.etsy.com/listing/4596950665",
+  "board": "deal"
+ },
+ {
+  "id": "v3-ccs-zoom",
+  "product": "ccs",
+  "name": "Content Creator Studio",
+  "kind": "lifestyle",
+  "angle": "Zoomed cards from the Content Creator Studio Notion template. Headline: Know what to post next.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-ccs-zoom.png",
+  "link": "https://getsystemforge.etsy.com/listing/4595688129",
+  "board": "ccs"
+ },
+ {
+  "id": "v3-wcp-zoom",
+  "product": "wcp",
+  "name": "Weekly Content Planner",
+  "kind": "lifestyle",
+  "angle": "Zoomed cards from the Weekly Content Planner Notion template. Headline: Hit your posting goal every week.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-wcp-zoom.png",
+  "link": "https://getsystemforge.etsy.com/listing/4595995539",
+  "board": "wcp"
+ },
+ {
   "id": "v3-fco-desk",
   "product": "fco",
   "name": "Freelancer Client OS",
@@ -1206,6 +1236,26 @@
   "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-fco-desk.png",
   "link": "https://getsystemforge.etsy.com/listing/4595701133",
   "board": "fco"
+ },
+ {
+  "id": "v3-fit-zoom",
+  "product": "fit",
+  "name": "Freelance Invoice Tracker",
+  "kind": "lifestyle",
+  "angle": "Zoomed cards from the Freelance Invoice Tracker Notion template. Headline: Chase these first.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-fit-zoom.png",
+  "link": "https://getsystemforge.etsy.com/listing/4596053610",
+  "board": "fit"
+ },
+ {
+  "id": "v3-prop-zoom",
+  "product": "prop",
+  "name": "Proposal Tracker",
+  "kind": "lifestyle",
+  "angle": "Zoomed cards from the Proposal Tracker Notion template. Headline: Never forget a follow-up.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-prop-zoom.png",
+  "link": "https://getsystemforge.etsy.com/listing/4596961562",
+  "board": "prop"
  },
  {
   "id": "v3-deal-studio",
@@ -1236,6 +1286,16 @@
   "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-wcp-hand.png",
   "link": "https://getsystemforge.etsy.com/listing/4595995539",
   "board": "wcp"
+ },
+ {
+  "id": "v3-fco-zoom",
+  "product": "fco",
+  "name": "Freelancer Client OS",
+  "kind": "lifestyle",
+  "angle": "Zoomed cards from the Freelancer Client OS Notion template. Headline: Every project, every invoice.",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-fco-zoom.png",
+  "link": "https://getsystemforge.etsy.com/listing/4595701133",
+  "board": "fco"
  },
  {
   "id": "v3-fit-studio",
