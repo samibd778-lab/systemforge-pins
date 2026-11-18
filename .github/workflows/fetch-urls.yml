@@ -1,0 +1,29 @@
+name: Fetch files from URLs
+# Push a file named fetch/<set>.txt with lines "<repo path> <url>" and this action downloads
+# every url into its repo path and commits it (used for Canva exports, which the session can't download).
+on:
+  push:
+    paths: ['fetch/*.txt']
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download
+        run: |
+          for f in $(git diff --name-only HEAD~1 HEAD -- 'fetch/*.txt'); do
+            while read -r path url; do
+              [ -z "$path" ] && continue
+              mkdir -p "$(dirname "$path")"
+              curl -sSfL -o "$path" "$url" && echo "ok $path $(stat -c%s "$path")" || echo "FAILED $path"
+            done < "$f"
+          done
+      - name: Commit
+        run: |
+          git config user.name "Claude"
+          git config user.email "noreply@anthropic.com"
+          git add -A
+          git commit -m "Fetched files from URLs" || echo "nothing new"
+          git push
