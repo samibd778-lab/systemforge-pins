@@ -40,28 +40,28 @@
    "p": "free-weekly",
    "kind": "page",
    "angle": "Free printable weekly planner (monday to sunday): 3-page printable PDF: weekly planner + daily planner. US Letter. Keyword: free weekly planner printable.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097040"
   },
   {
    "id": "pins/v5/free-journal-a1",
    "p": "free-journal",
    "kind": "page",
    "angle": "Free printable daily gratitude journal page: 3-page printable PDF: daily gratitude journal + 30 prompts. US Letter. Keyword: free gratitude journal printable.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097037"
   },
   {
    "id": "pins/v5/free-job-a1",
    "p": "free-job",
    "kind": "page",
    "angle": "Free printable job application tracker (company, role, status, next step): 3-page printable PDF: job application tracker + interview prep. US Letter. Keyword: free job application tracker printable.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097039"
   },
   {
    "id": "pins/v5/free-travel-a1",
    "p": "free-travel",
    "kind": "page",
    "angle": "Free printable packing list sorted by type: 3-page printable PDF: packing list + one-page trip planner. US Letter. Keyword: free packing list printable.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097038"
   },
   {
    "id": "pins/v5/habit-a3",
@@ -96,7 +96,7 @@
    "p": "travel",
    "kind": "page",
    "angle": "Travel packing list in Notion: sorted by type, linked to your trip, tick Packed as you go. Keyword: packing list.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097038"
   },
   {
    "id": "pins/v5/habit-c1",
@@ -131,7 +131,7 @@
    "p": "job",
    "kind": "page",
    "angle": "Job search organizer in Notion: Wishlist, Applied, Interview, Offer, drag a card when a company answers. Keyword: job search tracker.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097039"
   },
   {
    "id": "pins/v5/habit-b2",
@@ -152,14 +152,14 @@
    "p": "journal",
    "kind": "page",
    "angle": "Gratitude journal Notion template: one thing you are thankful for every day, plus mood and energy. Keyword: gratitude journal.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097037"
   },
   {
    "id": "pins/v5/travel-b3",
    "p": "travel",
    "kind": "page",
    "angle": "Travel packing checklist for Notion: documents, clothes, toiletries, tick Packed as you go. Keyword: travel packing checklist.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097038"
   },
   {
    "id": "pins/v5/shop-c3",
@@ -215,7 +215,7 @@
    "p": "journal",
    "kind": "page",
    "angle": "Daily Journal Notion template: your mood, one win and one thank you, plus a gratitude jar. Keyword: daily journal.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097037"
   },
   {
    "id": "pins/v5/life-a1",
@@ -236,7 +236,7 @@
    "p": "journal",
    "kind": "page",
    "angle": "Mood Tracker for Notion: average mood, great days and low days every month. Bonus PDF Journaling guide. Keyword: mood tracker.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097037"
   },
   {
    "id": "pins/v5/life-b1",
@@ -278,7 +278,7 @@
    "p": "journal",
    "kind": "page",
    "angle": "What to write in a daily journal: how you feel, your energy, one win and one thank you, in a Notion journal. Keyword: journal ideas.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097037"
   },
   {
    "id": "pins/v5/life-c1",
@@ -299,7 +299,7 @@
    "p": "journal",
    "kind": "page",
    "angle": "Monthly mood tracker in Notion: average mood, great days and low days, fills in by itself. Keyword: mood tracker.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097037"
   },
   {
    "id": "pins/v5/life-a2",
@@ -320,7 +320,7 @@
    "p": "journal",
    "kind": "page",
    "angle": "Daily Journal for Notion: mood, energy, one win and one thank you for every day. Bonus PDF Journaling guide. Keyword: daily journal.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097037"
   },
   {
    "id": "pins/v5/life-b2",
@@ -341,14 +341,14 @@
    "p": "travel",
    "kind": "page",
    "angle": "Travel Planner Notion template: countdown, budget left and packing progress for every trip. Keyword: travel planner.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097038"
   },
   {
    "id": "pins/v5/job-a1",
    "p": "job",
    "kind": "page",
    "angle": "Job Application Tracker in Notion: every job from Wishlist to Offer with the next step on each card. Keyword: job application tracker.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097039"
   },
   {
    "id": "pins/v5/sb-a1",
@@ -383,7 +383,7 @@
    "p": "travel",
    "kind": "page",
    "angle": "Travel Itinerary Planner for Notion: plans not booked yet with the date, tick Booked and they leave the list. Keyword: travel itinerary planner.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097038"
   },
   {
    "id": "pins/v5/sb-a2",
@@ -404,14 +404,14 @@
    "p": "job",
    "kind": "page",
    "angle": "Job Search Tracker for Notion: drag a card when a company answers, the next step shows on every job. Keyword: job search organization.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097039"
   },
   {
    "id": "pins/v5/travel-b2",
    "p": "travel",
    "kind": "page",
    "angle": "Vacation Planner for Notion: every trip with its countdown, budget left and packing bar. Keyword: vacation planner.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097038"
   },
   {
    "id": "pins/v5/sb-b1",
@@ -460,21 +460,21 @@
    "p": "journal",
    "kind": "lifestyle",
    "angle": "A 2-minute journal you will actually keep. Your mood, one win and one thank you. Keyword on the image: journal ideas.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097037"
   },
   {
    "id": "pins/v4/travel-1",
    "p": "travel",
    "kind": "lifestyle",
    "angle": "Every trip on one page. Dates, plans, bookings, budget and packing. Keyword on the image: travel planner.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097038"
   },
   {
    "id": "pins/v4/job-1",
    "p": "job",
    "kind": "lifestyle",
    "angle": "Track every job application. Every job, interview and follow-up in one place. Keyword on the image: job application tracker.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097039"
   },
   {
    "id": "pins/v4/list-ideas",
@@ -516,21 +516,21 @@
    "p": "journal",
    "kind": "lifestyle",
    "angle": "One entry a day. Mood, energy, one win and one thing you are grateful for. Keyword on the image: daily journal.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097037"
   },
   {
    "id": "pins/v4/travel-2",
    "p": "travel",
    "kind": "lifestyle",
    "angle": "A countdown for every trip. Days to go, budget left and how much is packed. Keyword on the image: travel planner template.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097038"
   },
   {
    "id": "pins/v4/job-2",
    "p": "job",
    "kind": "lifestyle",
    "angle": "One board for every job. From Wishlist to Offer, with the next step on each card. Keyword on the image: job search organization.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097039"
   },
   {
    "id": "pins/v4/habit-3",
@@ -565,21 +565,21 @@
    "p": "journal",
    "kind": "lifestyle",
    "angle": "A jar for every thank you. Every thank you you wrote, in one place. Keyword on the image: gratitude journal.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097037"
   },
   {
    "id": "pins/v4/travel-3",
    "p": "travel",
    "kind": "lifestyle",
    "angle": "Never forget to book. Plans not booked yet, with the date and the cost. Keyword on the image: travel itinerary planner.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097038"
   },
   {
    "id": "pins/v4/job-3",
    "p": "job",
    "kind": "lifestyle",
    "angle": "Follow up on time. Jobs with no answer after 7 days show up here. Keyword on the image: job application tracker.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097039"
   },
   {
    "id": "pins/v4/list-aesthetic",
@@ -621,21 +621,21 @@
    "p": "journal",
    "kind": "lifestyle",
    "angle": "See how your month felt. Average mood, great days and low days for every month. Keyword on the image: mood tracker.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097037"
   },
   {
    "id": "pins/v4/travel-4",
    "p": "travel",
    "kind": "lifestyle",
    "angle": "One page per trip. Budget left, packing bar and the itinerary with confirmation numbers. Keyword on the image: notion travel planner.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097038"
   },
   {
    "id": "pins/v4/job-4",
    "p": "job",
    "kind": "lifestyle",
    "angle": "Walk in prepared. A prep checklist and the STAR method, with a real example. Keyword on the image: interview prep.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097039"
   },
   {
    "id": "pins/v4/habit-5",
@@ -670,21 +670,21 @@
    "p": "journal",
    "kind": "lifestyle",
    "angle": "Your mood calendar. See your month at a glance and keep your favorite days. Keyword on the image: notion journal template.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097037"
   },
   {
    "id": "pins/v4/travel-5",
    "p": "travel",
    "kind": "lifestyle",
    "angle": "Pack smarter. A packing list grouped by type. Tick Packed as you go. Keyword on the image: packing list.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097038"
   },
   {
    "id": "pins/v4/job-5",
    "p": "job",
    "kind": "lifestyle",
    "angle": "Follow-up emails ready to copy. Change the words in brackets, send it, done. Keyword on the image: job search tips.",
-   "board_id": "1134836874794954336"
+   "board_id": "1134836874795097039"
   },
   {
    "id": "pins/v3sb/sb-zoom-homepage",

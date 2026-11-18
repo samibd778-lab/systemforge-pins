@@ -275,7 +275,11 @@
    "productivity system",
    "goal planner",
    "habit tracker",
-   "notion journal"
+   "notion journal",
+   "notion template ideas personal",
+   "notion dashboard layout",
+   "notion dashboard life planner",
+   "notion template aesthetic"
   ],
   "primaries": [
    "second brain notion template",
@@ -304,7 +308,10 @@
    "self improvement",
    "notion template",
    "new year habits",
-   "2027 habit tracker"
+   "2027 habit tracker",
+   "habit tracker layout",
+   "habit tracker planner",
+   "habit tracker calendar"
   ],
   "primaries": [
    "habit tracker",
@@ -335,7 +342,10 @@
    "money saving tips",
    "personal finance",
    "2027 budget planner",
-   "budget reset"
+   "budget reset",
+   "budget planner aesthetic",
+   "budget planner digital",
+   "budget planner layout"
   ],
   "primaries": [
    "budget planner",
@@ -362,7 +372,12 @@
    "self care journal",
    "self care ideas",
    "notion template",
-   "2027 journal"
+   "2027 journal",
+   "journal prompts ideas",
+   "journal page ideas",
+   "journal layout",
+   "journal template",
+   "journaling aesthetic"
   ],
   "primaries": [
    "journal ideas",
@@ -390,7 +405,13 @@
    "wheel of life",
    "weekly reset",
    "notion template ideas",
-   "notion template"
+   "notion template",
+   "life planner aesthetic",
+   "life planner ideas",
+   "life planner dashboard",
+   "life planner notion ideas",
+   "vision board 2027 ideas",
+   "2027 planner template"
   ],
   "primaries": [
    "life planner",
@@ -417,7 +438,11 @@
    "grocery list by aisle",
    "family meal planner",
    "meal prep for the week",
-   "notion template"
+   "notion template",
+   "meal planner aesthetic",
+   "meal planner ideas",
+   "meal planner notion template",
+   "meal planner for the week"
   ],
   "primaries": [
    "meal planner",
@@ -444,7 +469,12 @@
    "travel budget planner",
    "travel checklist",
    "travel tips",
-   "notion template"
+   "notion template",
+   "travel planner ideas",
+   "travel planner aesthetic",
+   "packing list for vacation",
+   "packing list for travel",
+   "packing list template"
   ],
   "primaries": [
    "travel planner",
@@ -469,7 +499,11 @@
    "career planner",
    "job hunting",
    "notion template for job search",
-   "notion template"
+   "notion template",
+   "job application tracker template",
+   "job application template",
+   "job application tips",
+   "job application spreadsheet"
   ],
   "primaries": [
    "job application tracker",
@@ -495,7 +529,11 @@
    "life planner organization",
    "habit tracker",
    "budget planner",
-   "meal planner"
+   "meal planner",
+   "notion template ideas personal",
+   "notion template aesthetic",
+   "notion dashboard layout",
+   "notion template planner"
   ],
   "primaries": [
    "notion template ideas",
@@ -523,7 +561,11 @@
    "budget planner",
    "meal planner",
    "travel planner",
-   "2027 planner"
+   "2027 planner",
+   "notion template ideas personal",
+   "notion dashboard life planner",
+   "notion template planner",
+   "2027 planner digital"
   ],
   "primaries": [
    "notion template",
@@ -545,7 +587,10 @@
    "weekly meal planner",
    "meal planner",
    "grocery list",
-   "free printables"
+   "free printables",
+   "grocery list printable free",
+   "free printable grocery list templates",
+   "printable grocery list"
   ],
   "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
   "primaries": [
@@ -567,7 +612,9 @@
    "monthly habit tracker",
    "2027 habit tracker",
    "free printables",
-   "habit tracker"
+   "habit tracker",
+   "habit tracker printable free",
+   "habit tracker aesthetic"
   ],
   "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
   "primaries": [
@@ -589,7 +636,10 @@
    "budget planner",
    "free printables",
    "budgeting for beginners",
-   "2027 budget planner"
+   "2027 budget planner",
+   "budget planner printable free",
+   "budget planner free",
+   "printable planner free"
   ],
   "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
   "primaries": [
@@ -610,7 +660,10 @@
    "daily planner",
    "planner printables free",
    "free printables",
-   "2027 planner printable"
+   "2027 planner printable",
+   "printable planner free",
+   "printable planner pages",
+   "weekly planner printable free"
   ],
   "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
   "primaries": [
@@ -630,7 +683,10 @@
    "vacation packing list",
    "trip planner printable",
    "travel checklist",
-   "free printables"
+   "free printables",
+   "packing list for vacation",
+   "packing list for a week",
+   "packing list template"
   ],
   "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
   "primaries": [
@@ -651,7 +707,9 @@
    "daily journal printable",
    "journal ideas",
    "self care ideas",
-   "free printables"
+   "free printables",
+   "journal prompts ideas",
+   "journal page ideas"
   ],
   "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
   "primaries": [
@@ -673,7 +731,11 @@
    "new year goals",
    "word of the year",
    "goal setting",
-   "free printables"
+   "free printables",
+   "vision board 2027 ideas",
+   "2027 planner pages",
+   "goal planner printable free",
+   "2027 planner pdf"
   ],
   "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
   "primaries": [
@@ -693,7 +755,9 @@
    "job search",
    "interview prep",
    "job search tips",
-   "free printables"
+   "free printables",
+   "job application tracker template",
+   "job application spreadsheet"
   ],
   "source": "picked by hand for the free printables (2026-11-16), not from autocomplete",
   "primaries": [
@@ -733,5 +797,6 @@
    "free-job"
   ]
  },
- "_rotation": "Each pin uses the least-used primary keyword of its product (n8n \"Add SEO keywords\" remembers the last ones) and 6 keywords from the list, rotated."
+ "_rotation": "Each pin uses the least-used primary keyword of its product (n8n \"Add SEO keywords\" remembers the last ones) and 6 keywords from the list, rotated.",
+ "_pinterest_autocomplete": "Pinterest search suggestions pulled 2026-11-18 (getsystemforge account): research/pinterest-autocomplete-2026-11-18.md"
 }
