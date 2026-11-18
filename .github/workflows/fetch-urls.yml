@@ -13,9 +13,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: Download
         run: |
-          for f in $(git diff --name-only HEAD~1 HEAD -- 'fetch/*.txt'); do
+          for f in fetch/*.txt; do
             while read -r path url; do
               [ -z "$path" ] && continue
+              [ -f "$path" ] && continue
               mkdir -p "$(dirname "$path")"
               curl -sSfL -o "$path" "$url" && echo "ok $path $(stat -c%s "$path")" || echo "FAILED $path"
             done < "$f"
