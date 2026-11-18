@@ -1,5 +1,93 @@
 [
  {
+  "id": "v5-habit-zoom",
+  "product": "habit",
+  "name": "Habit Tracker",
+  "kind": "page",
+  "angle": "Habit tracker in Notion: tick today's habits and your score fills in by itself, plus your month at a glance. Keyword: habit tracker.",
+  "link": "https://www.etsy.com/listing/4611609200",
+  "board_id": "1102607989961656300",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v5-habit-zoom.png"
+ },
+ {
+  "id": "v5-budget-zoom",
+  "product": "budget",
+  "name": "Budget Planner",
+  "kind": "page",
+  "angle": "Budget planner in Notion: what's left in every category and the bills due this month, paid or late. Keyword: budget planner.",
+  "link": "https://www.etsy.com/listing/4611612842",
+  "board_id": "1102607989961677610",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v5-budget-zoom.png"
+ },
+ {
+  "id": "v5-journal-zoom",
+  "product": "journal",
+  "name": "Daily Journal",
+  "kind": "page",
+  "angle": "Daily journal in Notion: two minutes a day for mood, one win and one thank you, plus a gratitude jar. Keyword: daily journal.",
+  "link": "https://www.etsy.com/listing/4611611706",
+  "board_id": "1102607989961677619",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v5-journal-zoom.png"
+ },
+ {
+  "id": "v5-life-zoom",
+  "product": "life",
+  "name": "Life Planner",
+  "kind": "page",
+  "angle": "2027 life planner in Notion: goals with progress that fills up as you go and your next steps with dates. Keyword: 2027 goals.",
+  "link": "https://www.etsy.com/listing/4614275673",
+  "board_id": "1102607989961694989",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v5-life-zoom.png"
+ },
+ {
+  "id": "v5-meal-zoom",
+  "product": "meal",
+  "name": "Meal Planner",
+  "kind": "page",
+  "angle": "Weekly meal planner in Notion: your whole week of meals with photos and a grocery list by aisle. Keyword: meal planner.",
+  "link": "https://www.etsy.com/listing/4614269627",
+  "board_id": "1102607989961677617",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v5-meal-zoom.png"
+ },
+ {
+  "id": "v5-travel-zoom",
+  "product": "travel",
+  "name": "Travel Planner",
+  "kind": "page",
+  "angle": "Travel planner in Notion: every trip on one page, a countdown to each trip and what's still to book. Keyword: travel planner.",
+  "link": "https://www.etsy.com/listing/4614286430",
+  "board_id": "1102607989961677618",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v5-travel-zoom.png"
+ },
+ {
+  "id": "v5-job-zoom",
+  "product": "job",
+  "name": "Job Application Tracker",
+  "kind": "page",
+  "angle": "Job application tracker in Notion: jobs with no answer in 7 days show up to follow up, plus your job pipeline. Keyword: job application tracker.",
+  "link": "https://www.etsy.com/listing/4614280376",
+  "board_id": "1102607989961694978",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v5-job-zoom.png"
+ },
+ {
+  "id": "v5-sb-zoom",
+  "product": "sb",
+  "name": "Second Brain OS",
+  "kind": "page",
+  "angle": "Second brain in Notion: goals, habits and journal linked on one calm page. Keyword: second brain notion.",
+  "link": "https://www.etsy.com/listing/4607192750",
+  "board_id": "1102607989961656311",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v5-sb-zoom.png"
+ },
+ {
   "id": "v5-habit-a3",
   "product": "habit",
   "name": "Habit Tracker",
@@ -1110,36 +1198,6 @@
   "board": "prop"
  },
  {
-  "id": "v3-deal-zoom",
-  "product": "deal",
-  "name": "Brand Deal Tracker",
-  "kind": "lifestyle",
-  "angle": "Zoomed cards from the Brand Deal Tracker Notion template. Headline: Know which brand owes you.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-deal-zoom.png",
-  "link": "https://getsystemforge.etsy.com/listing/4596950665",
-  "board": "deal"
- },
- {
-  "id": "v3-ccs-zoom",
-  "product": "ccs",
-  "name": "Content Creator Studio",
-  "kind": "lifestyle",
-  "angle": "Zoomed cards from the Content Creator Studio Notion template. Headline: Know what to post next.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-ccs-zoom.png",
-  "link": "https://getsystemforge.etsy.com/listing/4595688129",
-  "board": "ccs"
- },
- {
-  "id": "v3-wcp-zoom",
-  "product": "wcp",
-  "name": "Weekly Content Planner",
-  "kind": "lifestyle",
-  "angle": "Zoomed cards from the Weekly Content Planner Notion template. Headline: Hit your posting goal every week.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-wcp-zoom.png",
-  "link": "https://getsystemforge.etsy.com/listing/4595995539",
-  "board": "wcp"
- },
- {
   "id": "v3-fco-desk",
   "product": "fco",
   "name": "Freelancer Client OS",
@@ -1148,26 +1206,6 @@
   "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-fco-desk.png",
   "link": "https://getsystemforge.etsy.com/listing/4595701133",
   "board": "fco"
- },
- {
-  "id": "v3-fit-zoom",
-  "product": "fit",
-  "name": "Freelance Invoice Tracker",
-  "kind": "lifestyle",
-  "angle": "Zoomed cards from the Freelance Invoice Tracker Notion template. Headline: Chase these first.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-fit-zoom.png",
-  "link": "https://getsystemforge.etsy.com/listing/4596053610",
-  "board": "fit"
- },
- {
-  "id": "v3-prop-zoom",
-  "product": "prop",
-  "name": "Proposal Tracker",
-  "kind": "lifestyle",
-  "angle": "Zoomed cards from the Proposal Tracker Notion template. Headline: Never forget a follow-up.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-prop-zoom.png",
-  "link": "https://getsystemforge.etsy.com/listing/4596961562",
-  "board": "prop"
  },
  {
   "id": "v3-deal-studio",
@@ -1198,16 +1236,6 @@
   "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-wcp-hand.png",
   "link": "https://getsystemforge.etsy.com/listing/4595995539",
   "board": "wcp"
- },
- {
-  "id": "v3-fco-zoom",
-  "product": "fco",
-  "name": "Freelancer Client OS",
-  "kind": "lifestyle",
-  "angle": "Zoomed cards from the Freelancer Client OS Notion template. Headline: Every project, every invoice.",
-  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/v3/v3-fco-zoom.png",
-  "link": "https://getsystemforge.etsy.com/listing/4595701133",
-  "board": "fco"
  },
  {
   "id": "v3-fit-studio",
