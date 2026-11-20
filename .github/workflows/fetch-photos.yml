@@ -1,5 +1,6 @@
 name: Fetch photos
 on:
+  workflow_dispatch:
   push:
     paths: ["photos/list.txt"]
 permissions:
@@ -23,7 +24,6 @@ jobs:
         run: |
           git config user.name "Claude"
           git config user.email "noreply@anthropic.com"
-          git pull -q --rebase || true
           git add photos
           git commit -m "Self-hosted page photos" || echo "nothing new"
-          git push
+          for i in 1 2 3; do git pull -q --rebase && git push && break; sleep 5; done
