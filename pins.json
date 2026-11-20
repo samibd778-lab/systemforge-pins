@@ -1,6 +1,69 @@
 {
  "pins": [
   {
+   "id": "pins/v5/v6-bundle-a",
+   "p": "bundle",
+   "kind": "page",
+   "angle": "The complete Notion life planner: 8 planners already connected (habit, budget, journal, life, meal, travel, job, second brain) on one home page, with 7 bonus PDF guides. Keyword: notion life planner.",
+   "board_id": "1134836874795101682"
+  },
+  {
+   "id": "pins/v5/v6-habit-tall",
+   "p": "habit",
+   "kind": "page",
+   "angle": "Aesthetic Notion dashboard for habits: the full habit tracker page, today, a weekly check-in table and monthly progress. Keyword: aesthetic notion dashboard.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/v6-budget-tall",
+   "p": "budget",
+   "kind": "page",
+   "angle": "Notion planner idea for money: the full budget dashboard with this month, budget by category, bills and savings goals. Keyword: notion planner ideas.",
+   "board_id": "1134836874795101682"
+  },
+  {
+   "id": "pins/v5/v6-journal-tall",
+   "p": "journal",
+   "kind": "page",
+   "angle": "Aesthetic Notion dashboard for journaling: the full daily journal page with today, entries and a gratitude jar. Keyword: aesthetic notion dashboard.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/v6-life-tall",
+   "p": "life",
+   "kind": "page",
+   "angle": "Notion planner idea for 2027: the full life planner dashboard with home, a vision board and goals with progress. Keyword: notion planner ideas.",
+   "board_id": "1134836874795101682"
+  },
+  {
+   "id": "pins/v5/v6-bundle-b",
+   "p": "bundle",
+   "kind": "page",
+   "angle": "Your whole life in one Notion page: habits, money, meals, goals, trips, job search and notes in 8 connected planners. Keyword: all in one notion template.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/v6-meal-tall",
+   "p": "meal",
+   "kind": "page",
+   "angle": "Aesthetic Notion dashboard for meals: the full meal planner page with your week of meals and a grocery list by aisle. Keyword: aesthetic notion dashboard.",
+   "board_id": "1134836874794954336"
+  },
+  {
+   "id": "pins/v5/v6-travel-tall",
+   "p": "travel",
+   "kind": "page",
+   "angle": "Notion planner idea for trips: the full travel dashboard with your trips, a trip plan and what is still to book. Keyword: notion planner ideas.",
+   "board_id": "1134836874795101682"
+  },
+  {
+   "id": "pins/v5/v6-job-tall",
+   "p": "job",
+   "kind": "page",
+   "angle": "Notion dashboard for a job search: the full tracker page with the job pipeline, follow ups and interviews. Keyword: notion dashboard ideas.",
+   "board_id": "1134836874794954336"
+  },
+  {
    "id": "pins/v5/free-goals-a1",
    "p": "free-goals",
    "kind": "page",
