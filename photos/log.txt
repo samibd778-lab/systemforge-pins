@@ -36,3 +36,4 @@ st-hist2 159999
 st-hist3 294949
 st-sem1 178691
 st-sem2 151667
+student-cover2 148698
