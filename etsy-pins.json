@@ -1,5 +1,82 @@
 [
  {
+  "id": "v6-habit-tall",
+  "product": "habit",
+  "name": "Habit Tracker",
+  "kind": "page",
+  "angle": "Aesthetic Notion dashboard for habits: the full habit tracker page, today, a weekly check-in table and monthly progress. Keyword: aesthetic notion dashboard.",
+  "link": "https://www.etsy.com/listing/4611609200",
+  "board_id": "1102607989961699910",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v6-habit-tall.png"
+ },
+ {
+  "id": "v6-budget-tall",
+  "product": "budget",
+  "name": "Budget Planner",
+  "kind": "page",
+  "angle": "Notion planner idea for money: the full budget dashboard with this month, budget by category, bills and savings goals. Keyword: notion planner ideas.",
+  "link": "https://www.etsy.com/listing/4611612842",
+  "board_id": "1102607989961699909",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v6-budget-tall.png"
+ },
+ {
+  "id": "v6-journal-tall",
+  "product": "journal",
+  "name": "Daily Journal",
+  "kind": "page",
+  "angle": "Aesthetic Notion dashboard for journaling: the full daily journal page with today, entries and a gratitude jar. Keyword: aesthetic notion dashboard.",
+  "link": "https://www.etsy.com/listing/4611611706",
+  "board_id": "1102607989961699910",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v6-journal-tall.png"
+ },
+ {
+  "id": "v6-life-tall",
+  "product": "life",
+  "name": "Life Planner",
+  "kind": "page",
+  "angle": "Notion planner idea for 2027: the full life planner dashboard with home, a vision board and goals with progress. Keyword: notion planner ideas.",
+  "link": "https://www.etsy.com/listing/4614275673",
+  "board_id": "1102607989961699909",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v6-life-tall.png"
+ },
+ {
+  "id": "v6-meal-tall",
+  "product": "meal",
+  "name": "Meal Planner",
+  "kind": "page",
+  "angle": "Aesthetic Notion dashboard for meals: the full meal planner page with your week of meals and a grocery list by aisle. Keyword: aesthetic notion dashboard.",
+  "link": "https://www.etsy.com/listing/4614269627",
+  "board_id": "1102607989961699910",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v6-meal-tall.png"
+ },
+ {
+  "id": "v6-travel-tall",
+  "product": "travel",
+  "name": "Travel Planner",
+  "kind": "page",
+  "angle": "Notion planner idea for trips: the full travel dashboard with your trips, a trip plan and what is still to book. Keyword: notion planner ideas.",
+  "link": "https://www.etsy.com/listing/4614286430",
+  "board_id": "1102607989961699909",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v6-travel-tall.png"
+ },
+ {
+  "id": "v6-job-tall",
+  "product": "job",
+  "name": "Job Application Tracker",
+  "kind": "page",
+  "angle": "Aesthetic Notion dashboard for a job search: the full tracker page with the job pipeline, follow ups and interviews. Keyword: notion dashboard ideas.",
+  "link": "https://www.etsy.com/listing/4614280376",
+  "board_id": "1102607989961699910",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v6-job-tall.png"
+ },
+ {
   "id": "v5-habit-zoom",
   "product": "habit",
   "name": "Habit Tracker",
