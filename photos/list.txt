@@ -35,3 +35,4 @@ st-hist2 https://images.unsplash.com/photo-1521295121783-8a321d551ad2?fm=jpg&q=7
 st-hist3 https://images.unsplash.com/photo-1473163928189-364b2c4e1135?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 st-sem1 https://images.unsplash.com/photo-1561089489-f13d5e730d72?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 st-sem2 https://images.unsplash.com/photo-1608048608477-30389696fdc1?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+student-cover2 https://images.unsplash.com/photo-1434030216411-0b793f4b4173?fm=jpg&q=70&w=1500&ar=3:2&fit=crop
