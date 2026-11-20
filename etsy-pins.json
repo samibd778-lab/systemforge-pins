@@ -1,5 +1,16 @@
 [
  {
+  "id": "v6-bundle-a",
+  "product": "bundle",
+  "name": "Life Bundle",
+  "kind": "page",
+  "angle": "The complete Notion life planner: 8 planners already connected (habit, budget, journal, life, meal, travel, job, second brain) on one home page, with 7 bonus PDF guides. Keyword: notion life planner.",
+  "link": "https://www.etsy.com/listing/4616776496",
+  "board_id": "1102607989961699909",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v6-bundle-a.png"
+ },
+ {
   "id": "v6-habit-tall",
   "product": "habit",
   "name": "Habit Tracker",
@@ -42,6 +53,17 @@
   "board_id": "1102607989961699909",
   "board_name": "",
   "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v6-life-tall.png"
+ },
+ {
+  "id": "v6-bundle-b",
+  "product": "bundle",
+  "name": "Life Bundle",
+  "kind": "page",
+  "angle": "Your whole life in one Notion page: habits, money, meals, goals, trips, job search and notes in 8 connected planners. Keyword: all in one notion template.",
+  "link": "https://www.etsy.com/listing/4616776496",
+  "board_id": "1102607989961699910",
+  "board_name": "",
+  "image": "https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/main/pins/v5/v6-bundle-b.png"
  },
  {
   "id": "v6-meal-tall",
