@@ -232,3 +232,5 @@ sxa-glasses https://images.unsplash.com/photo-1517948430535-1e2469d314fe?fm=jpg&
 sxa-nails https://images.unsplash.com/photo-1632345031435-8727f6897d53?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 sxa-dentist https://images.unsplash.com/photo-1704455306251-b4634215d98f?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 sxa-spa https://images.unsplash.com/photo-1761470575018-135c213340eb?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+sbg-latte https://images.unsplash.com/photo-1563311977-d285756282dc?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+sbg-veg https://images.unsplash.com/photo-1631021967410-02c235efd7fc?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
