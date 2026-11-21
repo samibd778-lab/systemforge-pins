@@ -90,3 +90,16 @@ bundle-1 https://images.unsplash.com/photo-1632948177278-5ab29b5b6e68?fm=jpg&q=7
 bundle-2 https://images.unsplash.com/photo-1762160687270-1602d25749b6?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 bundle-3 https://images.unsplash.com/photo-1643148636637-58b3eb95cdad?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 bundle-cover https://images.unsplash.com/photo-1643148636637-58b3eb95cdad?fm=jpg&q=70&w=1500&ar=3:2&fit=crop
+habit-1 https://images.unsplash.com/photo-1711266274381-ac43484994ef?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+habit-2 https://images.unsplash.com/photo-1758599879178-e5be0375dee9?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+habit-3 https://images.unsplash.com/photo-1767611125290-f8dbdfe27041?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+habit-cover https://images.unsplash.com/photo-1521141941147-fcac14bec0ee?fm=jpg&q=70&w=1500&ar=3:2&fit=crop
+budget-1 https://images.unsplash.com/photo-1707902665498-a202981fb5ac?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+budget-2 https://images.unsplash.com/photo-1607863680198-23d4b2565df0?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+budget-3 https://images.unsplash.com/photo-1709534486708-fb8f94150d0a?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+budget-cover https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?fm=jpg&q=70&w=1500&ar=3:2&fit=crop
+journal-1 https://images.unsplash.com/photo-1692158962133-6c97ee651ab9?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+journal-2 https://images.unsplash.com/photo-1700864199335-d91cea43d4e5?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+journal-3 https://images.unsplash.com/photo-1642543492691-ddf04d74a507?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+journal-cover https://images.unsplash.com/photo-1769794370990-614f765fa360?fm=jpg&q=70&w=1500&ar=3:2&fit=crop
+sb-cover https://images.unsplash.com/photo-1495465798138-718f86d1a4bc?fm=jpg&q=70&w=1500&ar=3:2&fit=crop
