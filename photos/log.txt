@@ -285,3 +285,7 @@ wrc-coat 192712
 wrc-loafers 81311
 wrc-blazer 127659
 wrc-redtop 69295
+wrc-trousers2 60993
+wrc-shirt2 48352
+wrc-tote 83720
+wrc-sneakers2 47542
