@@ -235,3 +235,12 @@ sxa-dentist 120405
 sxa-spa 102029
 sbg-latte 78637
 sbg-veg 170144
+pgs-stroller 215060
+pgs-carseat 126400
+pgs-bottles 117821
+pgs-pump 39422
+pgs-bath 103869
+pgs-diapers 231465
+pgs-monitor 95116
+pgs-changing 85419
+pgs-sleepsack 153660
