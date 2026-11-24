@@ -244,3 +244,5 @@ pgs-diapers 231465
 pgs-monitor 95116
 pgs-changing 85419
 pgs-sleepsack 153660
+skp-lip 97368
+skp-eye 63785
