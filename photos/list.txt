@@ -289,3 +289,4 @@ wrc-shirt2 https://images.unsplash.com/photo-1521731610793-f6ec09461c4f?fm=jpg&q
 wrc-tote https://images.unsplash.com/photo-1535981444082-2a5dc0548ef3?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 wrc-sneakers2 https://images.unsplash.com/photo-1587563871167-1ee9c731aefb?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 wrc-sneakers3 https://images.unsplash.com/photo-1625860191460-10a66c7384fb?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+wrc-loafers2 https://images.unsplash.com/photo-1685904655193-c742fb6add37?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
