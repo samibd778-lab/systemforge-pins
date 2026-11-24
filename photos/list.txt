@@ -251,3 +251,4 @@ hmr-bath https://images.unsplash.com/photo-1631889993959-41b4e9c6e3c5?fm=jpg&q=7
 hms-trash https://images.unsplash.com/photo-1686795516385-e92043f6f389?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 hms-tp https://images.unsplash.com/photo-1584016265431-c1d87c07da3f?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 hms-laundry https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+hms-tp2 https://images.unsplash.com/photo-1631524254770-03abe3f42a0d?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
