@@ -234,3 +234,12 @@ sxa-dentist https://images.unsplash.com/photo-1704455306251-b4634215d98f?fm=jpg&
 sxa-spa https://images.unsplash.com/photo-1761470575018-135c213340eb?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 sbg-latte https://images.unsplash.com/photo-1563311977-d285756282dc?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 sbg-veg https://images.unsplash.com/photo-1631021967410-02c235efd7fc?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+pgs-stroller https://images.unsplash.com/photo-1559135141-2bea6465fccf?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+pgs-carseat https://images.unsplash.com/photo-1665578325705-cfe6de3ae2eb?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+pgs-bottles https://images.unsplash.com/photo-1529567054786-fc5235fdd39e?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+pgs-pump https://images.unsplash.com/photo-1528750997573-59b89d56f4f7?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+pgs-bath https://images.unsplash.com/photo-1630305130592-210da48f151e?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+pgs-diapers https://images.unsplash.com/photo-1695998575483-b215c8b2f619?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+pgs-monitor https://images.unsplash.com/photo-1510632233616-88025944e960?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+pgs-changing https://images.unsplash.com/photo-1642379831553-9edae041e93f?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+pgs-sleepsack https://images.unsplash.com/photo-1773243086631-962baefccd8a?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
