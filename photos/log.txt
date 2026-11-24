@@ -271,3 +271,17 @@ fml-tacos 164227
 fml-salmon 177073
 fml-leftovers 101283
 fml-wrap 134898
+wrc-sweater 149336
+wrc-dress 87875
+wrc-boots 50682
+wrc-tee 134330
+wrc-turtle 93595
+wrc-trousers 44102
+wrc-jeans 126598
+wrc-shirt 76386
+wrc-sneakers 62865
+wrc-hoops 112722
+wrc-coat 192712
+wrc-loafers 81311
+wrc-blazer 127659
+wrc-redtop 69295
