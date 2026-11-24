@@ -243,3 +243,5 @@ pgs-diapers https://images.unsplash.com/photo-1695998575483-b215c8b2f619?fm=jpg&
 pgs-monitor https://images.unsplash.com/photo-1510632233616-88025944e960?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 pgs-changing https://images.unsplash.com/photo-1642379831553-9edae041e93f?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
 pgs-sleepsack https://images.unsplash.com/photo-1773243086631-962baefccd8a?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+skp-lip https://images.unsplash.com/photo-1599305090598-fe179d501227?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
+skp-eye https://images.unsplash.com/photo-1601049505392-eebe867c4329?fm=jpg&q=70&w=1200&ar=3:2&fit=crop
