@@ -290,3 +290,4 @@ wrc-shirt2 48352
 wrc-tote 83720
 wrc-sneakers2 47542
 wrc-sneakers3 37981
+wrc-loafers2 104525
