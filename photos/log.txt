@@ -248,3 +248,7 @@ skp-lip 97368
 skp-eye 63785
 skp-spf 113561
 skp-eye2 69335
+hmr-bath 144594
+hms-trash 109621
+hms-tp 72932
+hms-laundry 135377
