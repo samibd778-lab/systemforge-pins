@@ -1,0 +1,18 @@
+{"colors":{"bg":"#F3EFEC","accent":"#B24A33","ink":"#2A2420","muted":"#6A605A","line":"#E6D7CF"},
+"pdf":"dl/fit/Strength-Starter-Guide.pdf",
+"screens":{"hero":["fitness-top",{"shot":"fitness-menu"}],"inside":["fitness-menu",{"shot":"fitness-week"}],"week":["fitness-week","fitness-challenge"],
+ "challenge":["fitness-challenge","fitness-calendar"],"cal":["fitness-calendar",{"shot":"fitness-bests","y0":20}],"bests":["fitness-bests",{"shot":"fitness-goals"}],
+ "goals":["fitness-goals",{"shot":"fitness-cardio"}],"cardio":["fitness-cardio"]},
+"zooms":{"week":["fitness-week",[100,175,1300,390]],"challenge":["fitness-challenge",[100,175,1090,480]],"cal":["fitness-calendar",[100,360,1440,580]],
+ "bests":["fitness-bests",[100,180,1420,420]],"goals":[["fitness-goals",[100,150,740,420]],["fitness-goals",[790,150,1430,420]]],"cardio":["fitness-cardio",[100,175,1295,420]]},
+"pages":[
+["hero",{"slug":"hero","title":"Fitness &amp; Workout Tracker","thumb_title":"Fitness &amp;<br>Workout Tracker","sub":"Your workouts this week, your personal bests and your goals on one page.","chips":["This week","Personal bests","Monthly challenge","Body log"]}],
+["inside",{"slug":"inside","title":"Everything inside","items":["This week’s workouts","Monthly challenge","Workout calendar","Personal bests","My goals","Body log","Recent lifts","Cardio log with pace","Workout plans","Warm-up &amp; recovery","Gym bag checklist","Bonus: Strength Starter Guide (PDF)"],"chips":["Works on desktop, tablet &amp; phone","Instant access"]}],
+["feature",{"slug":"this-week","kick":"This week","title":"Every workout, at a glance","sub":"Your last 7 days, newest first, plus anything planned.","scr":"week.png","zoom":"z-week.png","zw":1350,"zy":1150}],
+["feature",{"slug":"challenge","kick":"Monthly challenge","title":"A goal and a reward each month","sub":"Link your workouts and the bar fills by itself.","scr":"challenge.png","zoom":"z-challenge.png","zw":1150,"zy":1000}],
+["feature",{"slug":"calendar","kick":"Workout calendar","title":"Your month at a glance","sub":"Click a day to add a workout.","scr":"cal.png","zoom":"z-cal.png","zw":1450,"zy":1200}],
+["feature",{"slug":"personal-bests","kick":"Personal bests","title":"Watch your lifts go up","sub":"Your top weight and estimated 1-rep max for every exercise.","scr":"bests.png","zoom":"z-bests.png","zw":1450,"zy":1200}],
+["feature",{"slug":"goals","kick":"Goals &amp; body log","title":"See the trend, not one day","sub":"Progress bars for your goals and a weekly body check-in.","scr":"goals.png","zoom":"z-goals.png","zw":1450,"zy":1150}],
+["feature",{"slug":"cardio","kick":"Cardio log","title":"Runs, rides, swims and hikes","sub":"Add distance and minutes, and your pace shows by itself.","scr":"cardio.png","zoom":"z-cardio.png","zw":1350,"zy":1150}],
+["bonus",{"slug":"bonus","title":"Strength Starter Guide","sub":"A 7-page printable PDF that comes with your tracker.","items":["The 4 rules of progress","How to add weight safely","Your first 4 weeks","Recovery that works","When to rest","Printable 4-week log"],"pages":["pdf-1.png","pdf-2.png","pdf-7.png"],"note":"This tracker helps you stay organized. It is not medical advice. Check with your doctor before you start a new exercise plan."}]
+]}

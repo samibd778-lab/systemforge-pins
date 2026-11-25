@@ -1,0 +1,20 @@
+{"colors":{"bg":"#EEF1F5","accent":"#3F5F8F","ink":"#1F2633","muted":"#5C6676","line":"#D7DEE8"},
+"pdf":"dl/student/Study-Smarter-Playbook.pdf",
+"screens":{"hero":["student-top",{"shot":"student-menu","y0":22}],"inside":["student-menu",{"shot":"student-due"}],"due":["student-due","student-schedule"],
+ "schedule":["student-schedule",{"shot":"student-board"}],"board":["student-board",{"shot":"student-courses"}],"courses":["student-courses",{"shot":"student-exams"}],
+ "exams":["student-exams",{"shot":"student-gpa"}],"gpa":["student-gpa",{"shot":"student-budget"}],"budget":["student-budget"]},
+"zooms":{"due":["student-due",[100,175,1430,425]],"schedule":["student-schedule",[100,175,1250,520]],"board":["student-board",[100,175,1250,500]],
+ "courses":["student-courses",[100,155,1425,580]],"exams":["student-exams",[790,150,1415,440]],
+ "gpa":[["student-gpa",[100,150,830,420]],["student-gpa",[915,150,1440,260]]],"budget":["student-budget",[100,175,1305,495]]},
+"pages":[
+["hero",{"slug":"hero","title":"Student Planner","thumb_title":"Student<br>Planner","sub":"What’s due this week, your grade in every course and the exams coming up.","chips":["Due this week","Weekly schedule","Grades &amp; GPA","Exam countdown"]}],
+["inside",{"slug":"inside","title":"Everything inside","items":["Due this week","Weekly class schedule","Assignment board","My courses with grades","Exams countdown","Notes to review","Study log + My GPA","Student budget","Study methods guide","Exam prep checklist","Professor email templates","Bonus: Study Smarter Playbook (PDF)"],"chips":["Works on desktop, tablet &amp; phone","Instant access"]}],
+["feature",{"slug":"due","kick":"Due this week","title":"Never miss a deadline","sub":"Everything due in the next 7 days, late items first.","scr":"due.png","zoom":"z-due.png","zw":1450,"zy":1250}],
+["feature",{"slug":"schedule","kick":"Weekly schedule","title":"Every class, by day","sub":"Classes, labs and office hours. Today’s classes are marked.","scr":"schedule.png","zoom":"z-schedule.png","zw":1350,"zy":1000}],
+["feature",{"slug":"assignments","kick":"Assignment board","title":"Drag it when you start","sub":"Not started, in progress, submitted or graded.","scr":"board.png","zoom":"z-board.png","zw":1300,"zy":1000}],
+["feature",{"slug":"courses","kick":"My courses","title":"Your grade in every class","sub":"Your grade, the score you need and your study hours for each course.","scr":"courses.png","zoom":"z-courses.png","zw":1300,"zy":950}],
+["feature",{"slug":"exams","kick":"Exams &amp; reviews","title":"Review at the right time","sub":"An exam countdown, plus notes that tell you when to review.","scr":"exams.png","zoom":"z-exams.png","zw":950,"zy":950}],
+["feature",{"slug":"gpa","kick":"Study log &amp; GPA","title":"Your GPA updates itself","sub":"Log study sessions. Your GPA comes from your graded courses.","scr":"gpa.png","zoom":"z-gpa.png","zw":1400,"zy":1050}],
+["feature",{"slug":"budget","kick":"Student budget","title":"Money in, money out","sub":"Track your semester money and see what’s left.","scr":"budget.png","zoom":"z-budget.png","zw":1300,"zy":1050}],
+["bonus",{"slug":"bonus","title":"Study Smarter Playbook","sub":"A 7-page printable PDF that comes with your planner.","items":["5 methods that beat re-reading","Spaced reviews made easy","The 7-day exam plan","Grade math in 2 minutes","Focus without willpower","Printable weekly planner"],"pages":["pdf-1.png","pdf-2.png","pdf-7.png"],"note":""}]
+]}
