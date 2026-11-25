@@ -36,7 +36,12 @@ def no_cta(im):
     a=np.asarray(im).astype(int)
     g=(abs(a[:,:,0]-232)<6)&(abs(a[:,:,1]-241)<6)&(abs(a[:,:,2]-236)<6)
     rows=np.where(g[:,300:1300].mean(1)>0.6)[0]
-    if len(rows): a[rows.min()-4:rows.max()+5,90:1440]=255
+    runs=[];
+    for r in rows:
+        if runs and r-runs[-1][1]<=3: runs[-1][1]=r
+        else: runs.append([r,r])
+    for r0,r1 in runs:
+        if r1-r0>=10: a[r0-4:r1+5,90:1440]=255
     return Image.fromarray(a.astype('uint8'))
 for k,v in CFG['screens'].items():
     no_cta(stack(v)).save(D/f'{k}.png'); print('screen',k)

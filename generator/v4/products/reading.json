@@ -1,0 +1,19 @@
+{"colors":{"bg":"#F3EEE8","accent":"#8A5A3B","ink":"#2A2420","muted":"#665C55","line":"#E3D7CB"},
+"pdf":"dl/read/Read-More-Playbook.pdf",
+"screens":{"hero":["reading-top",{"shot":"reading-menu"}],"inside":["reading-menu",{"shot":"reading-current"}],"current":["reading-current",{"shot":"reading-challenge","cut":545}],
+ "challenge":["reading-challenge","reading-shelf"],"shelf":["reading-shelf",{"shot":"reading-quotes"}],"quotes":["reading-quotes",{"shot":"reading-borrowed"}],
+ "borrowed":["reading-borrowed","reading-log"],"log":["reading-log",{"shot":"reading-club"}],"club":["reading-club"]},
+"zooms":{"current":["reading-current",[100,175,760,515]],"challenge":["reading-challenge",[100,175,1010,275]],"shelf":["reading-shelf",[100,175,1245,490]],
+ "quotes":["reading-quotes",[100,175,1420,510]],"borrowed":["reading-borrowed",[100,175,1130,380]],"log":["reading-log",[790,150,1430,470]],"club":["reading-club",[100,180,1090,520]]},
+"pages":[
+["hero",{"slug":"hero","title":"Reading Journal","thumb_title":"Reading<br>Journal","sub":"The books you’re reading now, your yearly challenge and your whole bookshelf.","chips":["Currently reading","Reading challenge","Bookshelf","Book club"]}],
+["inside",{"slug":"inside","title":"Everything inside","items":["Currently reading with progress","Reading challenge","Bookshelf board","Favorite quotes","Borrowed &amp; lent","Want to read","Reading log","Book club","Book review prompts","Reading habit tips","Bonus: Read More Playbook (PDF)"],"chips":["Works on desktop, tablet &amp; phone","Instant access"]}],
+["feature",{"slug":"currently-reading","kick":"Currently reading","title":"See how far you are","sub":"Update the current page and the bar moves.","scr":"current.png","zoom":"z-current.png","zw":850,"zy":950}],
+["feature",{"slug":"challenge","kick":"Reading challenge","title":"Hit your yearly goal","sub":"Finished books count toward the year by themselves.","scr":"challenge.png","zoom":"z-challenge.png","zw":1350,"zy":1350}],
+["feature",{"slug":"bookshelf","kick":"Bookshelf","title":"Every book, by status","sub":"Want to read, reading, finished or did not finish.","scr":"shelf.png","zoom":"z-shelf.png","zw":1300,"zy":1050}],
+["feature",{"slug":"quotes","kick":"Favorite quotes","title":"Keep the lines you loved","sub":"Quotes, ideas and new words, linked to their book.","scr":"quotes.png","zoom":"z-quotes.png","zw":1450,"zy":1150}],
+["feature",{"slug":"borrowed","kick":"Borrowed &amp; lent","title":"Never lose a book again","sub":"Library books and books you lent, with a reminder before they’re due.","scr":"borrowed.png","zoom":"z-borrowed.png","zw":1250,"zy":1100}],
+["feature",{"slug":"reading-log","kick":"Reading log","title":"Minutes and pages, every session","sub":"Each session with minutes and pages, newest first.","scr":"log.png","zoom":"z-log.png","zw":950,"zy":950}],
+["feature",{"slug":"book-club","kick":"Book club","title":"Ready for book club?","sub":"Each meeting with its book, host and how much you’ve read.","scr":"club.png","zoom":"z-club.png","zw":1100,"zy":1000}],
+["bonus",{"slug":"bonus","title":"Read More Playbook","sub":"A 7-page printable PDF that comes with your journal.","items":["Find time to read","Pick books you’ll finish","Remember what you read","30-day reading challenge","Host a book club","Printable book log"],"pages":["pdf-1.png","pdf-2.png","pdf-7.png"],"note":""}]
+]}

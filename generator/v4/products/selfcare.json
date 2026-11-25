@@ -1,0 +1,18 @@
+{"colors":{"bg":"#EFF2EE","accent":"#4F7A5C","ink":"#222A24","muted":"#5E6860","line":"#D9E2DA"},
+"pdf":"dl/selfcare/Gentle-Reset-Guide.pdf",
+"screens":{"hero":["selfcare-top",{"shot":"selfcare-menu"}],"inside":["selfcare-menu",{"shot":"selfcare-checkin"}],"checkin":["selfcare-checkin",{"shot":"selfcare-weekly"}],
+ "weekly":["selfcare-weekly","selfcare-menuboard"],"menuboard":["selfcare-menuboard",{"shot":"selfcare-affirmation"}],"affirmation":["selfcare-affirmation",{"shot":"selfcare-appointments"}],
+ "appointments":["selfcare-appointments","selfcare-favorites"],"favorites":["selfcare-favorites"]},
+"zooms":{"checkin":["selfcare-checkin",[100,175,1080,450]],"weekly":["selfcare-weekly",[100,175,1420,280]],"menuboard":["selfcare-menuboard",[100,180,960,490]],
+ "affirmation":["selfcare-affirmation",[100,175,1420,475]],"appointments":["selfcare-appointments",[100,175,1300,420]],"favorites":["selfcare-favorites",[100,140,1420,420]]},
+"pages":[
+["hero",{"slug":"hero","title":"Self-Care &amp; Wellness Planner","thumb_title":"Self-Care &amp;<br>Wellness Planner","sub":"Check in each day, pick a little care from your menu and look back every Sunday.","chips":["Daily check-in","Self-care menu","Weekly reset","Gratitude jar"]}],
+["inside",{"slug":"inside","title":"Everything inside","items":["Daily check-in with a score","Weekly reset","Self-care menu by energy","Daily affirmation","Care appointments","My favorites","Gratitude jar","Self-care ideas library","Calm-down toolkit","Morning &amp; evening routines","Bonus: Gentle Reset Guide (PDF)"],"chips":["Works on desktop, tablet &amp; phone","Instant access"]}],
+["feature",{"slug":"check-in","kick":"Daily check-in","title":"Two minutes a day","sub":"Mood, energy, sleep and water. The score fills by itself.","scr":"checkin.png","zoom":"z-checkin.png","zw":1200,"zy":1000}],
+["feature",{"slug":"weekly-reset","kick":"Weekly reset","title":"Your week in one line","sub":"Average mood, sleep and self-care, plus your wins.","scr":"weekly.png","zoom":"z-weekly.png","zw":1450,"zy":1350}],
+["feature",{"slug":"self-care-menu","kick":"Self-care menu","title":"Care that fits your energy","sub":"Rituals grouped by the energy they need. Low day? Start on the left.","scr":"menuboard.png","zoom":"z-menuboard.png","zw":1000,"zy":1000}],
+["feature",{"slug":"affirmation","kick":"Daily affirmation","title":"One kind sentence a day","sub":"Today’s card comes first. Write your own words anytime.","scr":"affirmation.png","zoom":"z-affirmation.png","zw":1450,"zy":1200}],
+["feature",{"slug":"appointments","kick":"Care appointments","title":"Know when it’s time to book","sub":"Haircut, dentist, massage and more, with a reminder to book.","scr":"appointments.png","zoom":"z-appointments.png","zw":1350,"zy":1100}],
+["feature",{"slug":"favorites","kick":"Favorites &amp; gratitude","title":"What helps you most","sub":"Your favorite rituals and every line you were grateful for.","scr":"favorites.png","zoom":"z-favorites.png","zw":1450,"zy":1200}],
+["bonus",{"slug":"bonus","title":"Gentle Reset Guide","sub":"A 7-page printable PDF that comes with your planner.","items":["The 6 daily basics","Build your self-care menu","Match care to your energy","A 4-week reset plan","The Sunday reset","Printable weekly tracker"],"pages":["pdf-1.png","pdf-2.png","pdf-7.png"],"note":"This planner supports your routine. It is not medical or mental health advice."}]
+]}

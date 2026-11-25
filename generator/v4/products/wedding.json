@@ -1,0 +1,19 @@
+{"colors":{"bg":"#F6EFEF","accent":"#A65A6A","ink":"#2C2427","muted":"#6B6064","line":"#E9D9DB"},
+"pdf":"dl/wedding/Stress-Free-Wedding-Guide.pdf",
+"screens":{"hero":["wedding-top",{"shot":"wedding-menu","cut":455}],"inside":["wedding-menu",{"shot":"wedding-bigday"}],"bigday":["wedding-bigday","wedding-todo"],
+ "budget":["wedding-budget",{"shot":"wedding-guests"}],"guests":["wedding-guests",{"shot":"wedding-seating"}],"seating":["wedding-seating","wedding-vendors"],
+ "vendors":["wedding-vendors",{"shot":"wedding-gifts"}],"gifts":["wedding-gifts","wedding-honeymoon"],"honeymoon":["wedding-honeymoon"]},
+"zooms":{"bigday":["wedding-bigday",[100,175,1260,300]],"budget":["wedding-budget",[100,175,1240,470]],"guests":["wedding-guests",[100,180,1250,440]],
+ "seating":["wedding-seating",[100,175,1420,490]],"vendors":["wedding-vendors",[100,180,960,440]],"gifts":["wedding-gifts",[100,175,1190,345]],"honeymoon":["wedding-honeymoon",[100,175,1245,385]]},
+"pages":[
+["hero",{"slug":"hero","title":"Wedding Planner","thumb_title":"Wedding<br>Planner","sub":"Your countdown, budget, guests, seating and vendors, all on one page.","chips":["Countdown","Budget","Guest list","Seating chart"]}],
+["inside",{"slug":"inside","title":"Everything inside","items":["Our big day dashboard","Next to do","Budget with payments due","Guest list board","Seating chart","Vendors board","Gifts &amp; thank-yous","Honeymoon plan","Wedding timeline guide","Questions to ask vendors","Day-of schedule","Bonus: Stress-Free Wedding Guide (PDF)"],"chips":["Works on desktop, tablet &amp; phone","Instant access"]}],
+["feature",{"slug":"big-day","kick":"Our big day","title":"Everything in one line","sub":"Countdown, budget, guests and checklist progress.","scr":"bigday.png","zoom":"z-bigday.png","zw":1450,"zy":1300}],
+["feature",{"slug":"budget","kick":"Budget","title":"Know what’s left to pay","sub":"Every cost, what you paid and what is left. Over or under shows by itself.","scr":"budget.png","zoom":"z-budget.png","zw":1350,"zy":1050}],
+["feature",{"slug":"guests","kick":"Guest list","title":"Every RSVP, at a glance","sub":"Drag a card when someone answers. The next step tells you what to do.","scr":"guests.png","zoom":"z-guests.png","zw":1350,"zy":1100}],
+["feature",{"slug":"seating","kick":"Seating chart","title":"Seat everyone, stress-free","sub":"Seats used on every table. Plus ones count too.","scr":"seating.png","zoom":"z-seating.png","zw":1450,"zy":1150}],
+["feature",{"slug":"vendors","kick":"Vendors","title":"From first call to booked","sub":"Researching, contacted or booked, with prices.","scr":"vendors.png","zoom":"z-vendors.png","zw":1000,"zy":1000}],
+["feature",{"slug":"gifts","kick":"Gifts &amp; thank-yous","title":"Never miss a thank-you","sub":"Log each gift. A reminder shows when a note is 14+ days late.","scr":"gifts.png","zoom":"z-gifts.png","zw":1300,"zy":1150}],
+["feature",{"slug":"honeymoon","kick":"Honeymoon","title":"Plan the trip after","sub":"Flights, stays and fun plans, with a countdown and what to book.","scr":"honeymoon.png","zoom":"z-honeymoon.png","zw":1300,"zy":1100}],
+["bonus",{"slug":"bonus","title":"Stress-Free Wedding Guide","sub":"A 7-page printable PDF that comes with your planner.","items":["Start with 3 numbers","A 12-month timeline","Budget without stress","Guests and seating","Choosing vendors","Printable day-of plan"],"pages":["pdf-1.png","pdf-2.png","pdf-7.png"],"note":""}]
+]}
