@@ -1,0 +1,18 @@
+{"colors":{"bg":"#F3EFF2","accent":"#7E5B86","ink":"#2A2530","muted":"#665F6B","line":"#E2D9E3"},
+"pdf":"dl/wardrobe/Capsule-Closet-Guide.pdf",
+"screens":{"hero":["wardrobe-top",{"shot":"wardrobe-menu","y0":22}],"inside":["wardrobe-menu",{"shot":"wardrobe-outfits"}],"outfits":["wardrobe-outfits",{"shot":"wardrobe-closet"}],
+ "closet":["wardrobe-closet",{"shot":"wardrobe-value"}],"value":["wardrobe-value",{"shot":"wardrobe-wishlist"}],"wishlist":["wardrobe-wishlist",{"shot":"wardrobe-30day"}],
+ "30day":["wardrobe-30day","wardrobe-trips"],"trips":["wardrobe-trips"]},
+"zooms":{"outfits":["wardrobe-outfits",[100,140,1420,470]],"closet":["wardrobe-closet",[100,145,1440,400]],"value":["wardrobe-value",[100,140,1210,565]],
+ "wishlist":["wardrobe-wishlist",[100,135,670,400]],"30day":["wardrobe-30day",[100,140,1130,235]],"trips":["wardrobe-trips",[100,140,1275,295]]},
+"pages":[
+["hero",{"slug":"hero","title":"Capsule Wardrobe Planner","thumb_title":"Capsule<br>Wardrobe Planner","sub":"Your clothes, your outfits and what you really wear, all on one page.","chips":["Outfit ideas","My closet","Cost per wear","Trips &amp; packing"]}],
+["inside",{"slug":"inside","title":"Everything inside","items":["Outfit ideas gallery","My closet by category","Closet value: cost per wear","Wishlist &amp; donate","The 30-day wishlist rule","Trips &amp; packing","Build your capsule","Smart shopping rules","Packing lists","Seasonal closet review","Bonus: Capsule Closet Guide (PDF)"],"chips":["Works on desktop, tablet &amp; phone","Instant access"]}],
+["feature",{"slug":"outfits","kick":"Outfit ideas","title":"Your outfits, ready to wear","sub":"Pieces, value and when you last wore each outfit.","scr":"outfits.png","zoom":"z-outfits.png","zw":1450,"zy":1200}],
+["feature",{"slug":"closet","kick":"My closet","title":"Everything you own, by category","sub":"Each piece shows its color, cost per wear and wear level.","scr":"closet.png","zoom":"z-closet.png","zw":1450,"zy":1250}],
+["feature",{"slug":"cost-per-wear","kick":"Closet value","title":"See what you really wear","sub":"Least worn first. Cost per wear goes down every time you wear it.","scr":"value.png","zoom":"z-value.png","zw":1150,"zy":950}],
+["feature",{"slug":"wishlist","kick":"Wishlist &amp; donate","title":"What you want, and what’s leaving","sub":"Keep your wishlist and your donate pile in one place.","scr":"wishlist.png","zoom":"z-wishlist.png","zw":900,"zy":1000}],
+["feature",{"slug":"30-day-rule","kick":"The 30-day rule","title":"Buy less, choose better","sub":"Wait 30 days. If you still want it and it fills a gap, buy it.","scr":"30day.png","zoom":"z-30day.png","zw":1350,"zy":1350}],
+["feature",{"slug":"trips","kick":"Trips &amp; packing","title":"Pack the right outfits","sub":"Pick outfits and pieces for each trip and see the countdown.","scr":"trips.png","zoom":"z-trips.png","zw":1350,"zy":1250}],
+["bonus",{"slug":"bonus","title":"Capsule Closet Guide","sub":"A 7-page printable PDF that comes with your planner.","items":["Edit your closet","Pick your colors","The 30-piece capsule","Make more outfits","Shop smarter","Printable outfit planner"],"pages":["pdf-1.png","pdf-2.png","pdf-7.png"],"note":""}]
+]}

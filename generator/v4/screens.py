@@ -22,7 +22,9 @@ def stack(names,h=900):
     out=None
     for n in names:
         if isinstance(n,dict):  # explicit piece: {"shot":..., "y0":..} appended without overlap search
-            b=shot(n['shot']).crop((0,n.get('y0',0),1440,582)); start=out.height if out else 0
+            b=shot(n['shot']).crop((0,n.get('y0',0),1440,582))
+            if 'cut' in n: out=out.crop((0,0,1440,n['cut']))
+            start=out.height if out else 0
         else:
             b=shot(n)
             if out is None: out=b; continue

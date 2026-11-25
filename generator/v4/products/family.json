@@ -1,0 +1,262 @@
+{
+ "colors": {
+  "bg": "#F6EFE9",
+  "accent": "#B8633F",
+  "ink": "#2E2622",
+  "muted": "#6E625B",
+  "line": "#E8D8CC"
+ },
+ "pdf": "dl/family/Calm-Family-Week-Guide.pdf",
+ "screens": {
+  "hero": [
+   "family-top",
+   {
+    "shot": "family-menu",
+    "y0": 22
+   }
+  ],
+  "inside": [
+   "family-menu",
+   {
+    "shot": "family-comingup"
+   }
+  ],
+  "comingup": [
+   "family-comingup",
+   {
+    "shot": "family-chores",
+    "cut": 430
+   }
+  ],
+  "chores": [
+   "family-chores",
+   {
+    "shot": "family-calendar"
+   }
+  ],
+  "cal": [
+   "family-calendar",
+   {
+    "shot": "family-rewards",
+    "y0": 20
+   }
+  ],
+  "rewards": [
+   "family-rewards",
+   "family-school"
+  ],
+  "school": [
+   "family-school",
+   "family-meals"
+  ],
+  "meals": [
+   "family-meals"
+  ]
+ },
+ "zooms": {
+  "comingup": [
+   "family-comingup",
+   [
+    100,
+    175,
+    1230,
+    375
+   ]
+  ],
+  "chores": [
+   "family-chores",
+   [
+    100,
+    160,
+    680,
+    410
+   ]
+  ],
+  "ourfamily": [
+   "family-chores",
+   [
+    915,
+    160,
+    1430,
+    420
+   ]
+  ],
+  "cal": [
+   "family-calendar",
+   [
+    660,
+    320,
+    1440,
+    460
+   ]
+  ],
+  "meals": [
+   "family-meals",
+   [
+    100,
+    175,
+    1440,
+    445
+   ]
+  ],
+  "school": [
+   "family-school",
+   [
+    100,
+    175,
+    1300,
+    395
+   ]
+  ],
+  "rewards": [
+   "family-rewards",
+   [
+    100,
+    175,
+    1050,
+    345
+   ]
+  ]
+ },
+ "pages": [
+  [
+   "hero",
+   {
+    "slug": "hero",
+    "title": "Mom &amp; Family Planner",
+    "thumb_title": "Mom &amp;<br>Family Planner",
+    "sub": "Who is where, what’s for dinner and who does which chore, on one page.",
+    "chips": [
+     "Coming up",
+     "Chore chart",
+     "Meal plan",
+     "School &amp; activities"
+    ]
+   }
+  ],
+  [
+   "inside",
+   {
+    "slug": "inside",
+    "title": "Everything inside",
+    "items": [
+     "Coming up: events, soonest first",
+     "Chore chart with stars",
+     "Our family: ages &amp; birthdays",
+     "Family calendar",
+     "Reward shop",
+     "School &amp; activities",
+     "This week’s meals",
+     "Weekly family reset",
+     "Me-time menu",
+     "Important info",
+     "Bonus: Calm Family Week Guide (PDF)"
+    ],
+    "chips": [
+     "Works on desktop, tablet &amp; phone",
+     "Instant access"
+    ]
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "coming-up",
+    "kick": "Coming up",
+    "title": "Know who is where",
+    "sub": "Everything from today on, with who goes and what to bring.",
+    "scr": "comingup.png",
+    "zoom": "z-comingup.png",
+    "zw": 1300,
+    "zy": 1100
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "chores",
+    "kick": "Chore chart",
+    "title": "Chores kids can follow",
+    "sub": "Move a chore to Done. Stars add up for each child.",
+    "scr": "chores.png",
+    "zoom": "z-chores.png",
+    "zw": 950,
+    "zy": 1000
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "calendar",
+    "kick": "Family calendar",
+    "title": "The whole family on one calendar",
+    "sub": "Games, checkups, parties and family nights at a glance.",
+    "scr": "cal.png",
+    "zoom": "z-cal.png",
+    "zw": 1100,
+    "zy": 1200
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "rewards",
+    "kick": "Reward shop",
+    "title": "Rewards kids work for",
+    "sub": "Rewards cost points. Points come from chores marked Done.",
+    "scr": "rewards.png",
+    "zoom": "z-rewards.png",
+    "zw": 1200,
+    "zy": 1150
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "school",
+    "kick": "School &amp; activities",
+    "title": "Every class and payment",
+    "sub": "Days, times, what to bring, and a reminder a week before each payment.",
+    "scr": "school.png",
+    "zoom": "z-school.png",
+    "zw": 1350,
+    "zy": 1100
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "meals",
+    "kick": "Meal plan",
+    "title": "What’s for dinner, sorted",
+    "sub": "This week’s meals, one day at a time.",
+    "scr": "meals.png",
+    "zoom": "z-meals.png",
+    "zw": 1450,
+    "zy": 1250
+   }
+  ],
+  [
+   "bonus",
+   {
+    "slug": "bonus",
+    "title": "Calm Family Week Guide",
+    "sub": "A 7-page printable PDF that comes with your planner.",
+    "items": [
+     "The Sunday reset",
+     "Meal planning made easy",
+     "Chores kids can do",
+     "Mornings without the rush",
+     "Time for you",
+     "Printable weekly plan"
+    ],
+    "pages": [
+     "pdf-1.png",
+     "pdf-2.png",
+     "pdf-7.png"
+    ],
+    "note": ""
+   }
+  ]
+ ]
+}
