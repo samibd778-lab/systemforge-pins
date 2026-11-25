@@ -38,7 +38,7 @@ def no_cta(im):
     rows=np.where(g[:,300:1300].mean(1)>0.6)[0]
     runs=[];
     for r in rows:
-        if runs and r-runs[-1][1]<=3: runs[-1][1]=r
+        if runs and r-runs[-1][1]<=40: runs[-1][1]=r
         else: runs.append([r,r])
     for r0,r1 in runs:
         if r1-r0>=10: a[r0-4:r1+5,90:1440]=255
