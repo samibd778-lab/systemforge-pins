@@ -1,0 +1,247 @@
+{
+ "colors": {
+  "bg": "#F5EFE8",
+  "accent": "#A9744F",
+  "ink": "#2E2723",
+  "muted": "#6E635C",
+  "line": "#E6D8CB"
+ },
+ "pdf": "dl/skin/Glow-Routine-Guide.pdf",
+ "screens": {
+  "hero": [
+   "skin-top",
+   {
+    "shot": "skin-menu",
+    "y0": 22
+   }
+  ],
+  "inside": [
+   "skin-menu",
+   {
+    "shot": "skin-routine"
+   }
+  ],
+  "routine": [
+   "skin-routine",
+   "skin-log"
+  ],
+  "log": [
+   "skin-log",
+   "skin-checkins"
+  ],
+  "checkins": [
+   "skin-checkins",
+   "skin-shelf"
+  ],
+  "shelf": [
+   "skin-shelf",
+   "skin-products"
+  ],
+  "products": [
+   "skin-products",
+   {
+    "shot": "skin-empties"
+   }
+  ],
+  "empties": [
+   "skin-empties"
+  ]
+ },
+ "zooms": {
+  "routine": [
+   "skin-routine",
+   [
+    100,
+    150,
+    1430,
+    345
+   ]
+  ],
+  "log": [
+   "skin-log",
+   [
+    100,
+    175,
+    1300,
+    485
+   ]
+  ],
+  "checkins": [
+   "skin-checkins",
+   [
+    100,
+    175,
+    1430,
+    370
+   ]
+  ],
+  "shelf": [
+   "skin-shelf",
+   [
+    100,
+    175,
+    1170,
+    485
+   ]
+  ],
+  "products": [
+   "skin-products",
+   [
+    100,
+    180,
+    1245,
+    450
+   ]
+  ],
+  "empties": [
+   "skin-empties",
+   [
+    100,
+    175,
+    1245,
+    345
+   ]
+  ]
+ },
+ "pages": [
+  [
+   "hero",
+   {
+    "slug": "hero",
+    "title": "Skincare &amp; Beauty Routine",
+    "thumb_title": "Skincare &amp;<br>Beauty Routine",
+    "sub": "Your routine, your products and how your skin feels, all on one page.",
+    "chips": [
+     "Morning &amp; evening routine",
+     "Skin log",
+     "Product shelf",
+     "Skin check-ins"
+    ]
+   }
+  ],
+  [
+   "inside",
+   {
+    "slug": "inside",
+    "title": "Everything inside",
+    "items": [
+     "My routine: morning, evening, weekly",
+     "Skin log",
+     "Skin check-ins",
+     "My shelf with use-by dates",
+     "All products board",
+     "Empties &amp; repurchase",
+     "Routine order guide",
+     "Ingredient cheat sheet",
+     "Beauty budget &amp; wishlist",
+     "Monthly skin review",
+     "Bonus: Glow Routine Guide (PDF)"
+    ],
+    "chips": [
+     "Works on desktop, tablet &amp; phone",
+     "Instant access"
+    ]
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "routine",
+    "kick": "My routine",
+    "title": "Your steps, in the right order",
+    "sub": "Morning, evening and weekly steps, with the product for each one.",
+    "scr": "routine.png",
+    "zoom": "z-routine.png",
+    "zw": 1450,
+    "zy": 1250
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "skin-log",
+    "kick": "Skin log",
+    "title": "How your skin felt each day",
+    "sub": "Skin today, routine score, water and sleep in one quick entry.",
+    "scr": "log.png",
+    "zoom": "z-log.png",
+    "zw": 1300,
+    "zy": 1050
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "checkins",
+    "kick": "Skin check-ins",
+    "title": "See your progress",
+    "sub": "Every 4 weeks: a photo, a score from 1 to 10 and what changed.",
+    "scr": "checkins.png",
+    "zoom": "z-checkins.png",
+    "zw": 1400,
+    "zy": 1150
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "shelf",
+    "kick": "My shelf",
+    "title": "Use it before it expires",
+    "sub": "What you use now, oldest first, with each use-by date.",
+    "scr": "shelf.png",
+    "zoom": "z-shelf.png",
+    "zw": 1250,
+    "zy": 1000
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "products",
+    "kick": "All products",
+    "title": "Every product in one place",
+    "sub": "Wishlist, using, finished, and what didn’t work for you.",
+    "scr": "products.png",
+    "zoom": "z-products.png",
+    "zw": 1300,
+    "zy": 1050
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "empties",
+    "kick": "Empties",
+    "title": "Buy again, or not?",
+    "sub": "When you finish a product: did it work, and what did it cost per month?",
+    "scr": "empties.png",
+    "zoom": "z-empties.png",
+    "zw": 1300,
+    "zy": 1150
+   }
+  ],
+  [
+   "bonus",
+   {
+    "slug": "bonus",
+    "title": "Glow Routine Guide",
+    "sub": "A 7-page printable PDF that comes with your planner.",
+    "items": [
+     "Build your routine",
+     "The right order",
+     "Read a label",
+     "Add new products safely",
+     "Habits that help",
+     "Printable 4-week log"
+    ],
+    "pages": [
+     "pdf-1.png",
+     "pdf-2.png",
+     "pdf-7.png"
+    ],
+    "note": "This planner helps you stay organized. It is not medical advice. See a dermatologist for skin concerns."
+   }
+  ]
+ ]
+}

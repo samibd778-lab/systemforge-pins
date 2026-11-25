@@ -164,7 +164,8 @@
   "hero": [
    "pregnancy-top",
    {
-    "shot": "pregnancy-menu"
+    "shot": "pregnancy-menu",
+    "y0": 22
    }
   ],
   "inside": [

@@ -1,0 +1,280 @@
+{
+ "colors": {
+  "bg": "#F6EFEE",
+  "accent": "#B5566A",
+  "ink": "#2E2629",
+  "muted": "#6E6266",
+  "line": "#EADADA"
+ },
+ "pdf": "dl/cycle/Know-Your-Cycle-Guide.pdf",
+ "screens": {
+  "hero": [
+   "cycle-top",
+   {
+    "shot": "cycle-menu",
+    "y0": 22
+   }
+  ],
+  "inside": [
+   "cycle-menu",
+   {
+    "shot": "cycle-today"
+   }
+  ],
+  "today": [
+   "cycle-today",
+   "cycle-log"
+  ],
+  "log": [
+   "cycle-log",
+   {
+    "shot": "cycle-calendar"
+   }
+  ],
+  "cal": [
+   "cycle-calendar",
+   {
+    "shot": "cycle-history",
+    "y0": 18
+   }
+  ],
+  "history": [
+   "cycle-history",
+   "cycle-symptoms"
+  ],
+  "symptoms": [
+   "cycle-symptoms",
+   {
+    "shot": "cycle-selfcare",
+    "y0": 25
+   }
+  ],
+  "selfcare": [
+   "cycle-selfcare",
+   "cycle-insights"
+  ],
+  "insights": [
+   "cycle-insights"
+  ]
+ },
+ "zooms": {
+  "today": [
+   "cycle-today",
+   [
+    270,
+    170,
+    1310,
+    235
+   ]
+  ],
+  "log": [
+   "cycle-log",
+   [
+    100,
+    175,
+    1040,
+    480
+   ]
+  ],
+  "cal": [
+   "cycle-calendar",
+   [
+    100,
+    295,
+    1060,
+    450
+   ]
+  ],
+  "history": [
+   "cycle-history",
+   [
+    100,
+    175,
+    1000,
+    340
+   ]
+  ],
+  "insights": [
+   "cycle-insights",
+   [
+    100,
+    175,
+    840,
+    340
+   ]
+  ],
+  "symptoms": [
+   "cycle-symptoms",
+   [
+    100,
+    180,
+    1250,
+    435
+   ]
+  ],
+  "selfcare": [
+   "cycle-selfcare",
+   [
+    100,
+    175,
+    1020,
+    445
+   ]
+  ]
+ },
+ "pages": [
+  [
+   "hero",
+   {
+    "slug": "hero",
+    "title": "Cycle &amp; Wellness Tracker",
+    "thumb_title": "Cycle &amp;<br>Wellness Tracker",
+    "sub": "Log your day in one minute. See your cycle, next period and patterns.",
+    "chips": [
+     "Daily log",
+     "Next period estimate",
+     "Symptoms board",
+     "Self-care ideas"
+    ]
+   }
+  ],
+  [
+   "inside",
+   {
+    "slug": "inside",
+    "title": "Everything inside",
+    "items": [
+     "My cycle today dashboard",
+     "Daily log: flow, mood, energy, sleep",
+     "Cycle calendar",
+     "Cycle history",
+     "Symptoms board",
+     "Self-care for today",
+     "Cycle insights",
+     "Cycle phases guide",
+     "Comfort kit ideas",
+     "Notes for my doctor",
+     "Monthly cycle review",
+     "Bonus: Know Your Cycle Guide (PDF)"
+    ],
+    "chips": [
+     "Works on desktop, tablet &amp; phone",
+     "Instant access"
+    ]
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "today",
+    "kick": "Your dashboard",
+    "title": "Your cycle day at a glance",
+    "sub": "See your cycle day, estimated phase, next period and your averages.",
+    "scr": "today.png",
+    "zoom": "z-today.png",
+    "zw": 1400,
+    "zy": 1350
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "daily-log",
+    "kick": "Daily log",
+    "title": "Log your day in one minute",
+    "sub": "Flow, mood, energy, how you feel and sleep. Your cycle day fills in by itself.",
+    "scr": "log.png",
+    "zoom": "z-log.png",
+    "zw": 1250,
+    "zy": 1000
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "calendar",
+    "kick": "Calendar",
+    "title": "Your month on one calendar",
+    "sub": "See flow and mood day by day.",
+    "scr": "cal.png",
+    "zoom": "z-cal.png",
+    "zw": 1200,
+    "zy": 1150
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "symptoms",
+    "kick": "Symptoms board",
+    "title": "Spot your patterns",
+    "sub": "Your days grouped by how you felt: cramps, bloating, headache and more.",
+    "scr": "symptoms.png",
+    "zoom": "z-symptoms.png",
+    "zw": 1300,
+    "zy": 1050
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "history",
+    "kick": "Cycle history",
+    "title": "Every cycle, saved",
+    "sub": "Period start, period length and cycle length for each month.",
+    "scr": "history.png",
+    "zoom": "z-history.png",
+    "zw": 1250,
+    "zy": 1150
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "insights",
+    "kick": "Cycle insights",
+    "title": "Learn what each cycle tells you",
+    "sub": "Average energy, mood, symptom days and sleep for each cycle.",
+    "scr": "insights.png",
+    "zoom": "z-insights.png",
+    "zw": 1200,
+    "zy": 1150
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "selfcare",
+    "kick": "Self-care",
+    "title": "Ideas that fit your phase",
+    "sub": "Ideas for your estimated phase rise to the top. Add your own anytime.",
+    "scr": "selfcare.png",
+    "zoom": "z-selfcare.png",
+    "zw": 1250,
+    "zy": 1000
+   }
+  ],
+  [
+   "bonus",
+   {
+    "slug": "bonus",
+    "title": "Know Your Cycle Guide",
+    "sub": "A 7-page printable PDF that comes with your tracker.",
+    "items": [
+     "Start tracking",
+     "The four phases",
+     "Spot your patterns",
+     "Plan with your cycle",
+     "Comfort on hard days",
+     "Printable 3-month tracker"
+    ],
+    "pages": [
+     "pdf-1.png",
+     "pdf-2.png",
+     "pdf-7.png"
+    ],
+    "note": "This tracker helps you notice patterns. It is not medical advice or birth control. Talk to your doctor about your health."
+   }
+  ]
+ ]
+}

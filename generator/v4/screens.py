@@ -15,7 +15,7 @@ def overlap(a,b):
     A=np.asarray(a.convert('L'),dtype=np.int16); B=np.asarray(b.convert('L'),dtype=np.int16)
     best=(1e9,None)
     for k in range(40,A.shape[0]-60):
-        d=np.abs(A[k:k+60]-B[:60]).mean()
+        d=np.abs(A[k+40:k+100]-B[40:100]).mean() if k+100<=A.shape[0] else 1e9
         if d<best[0]: best=(d,k)
     return best
 def stack(names,h=900):
@@ -44,3 +44,7 @@ for k,v in CFG['zooms'].items():
     z=Image.new('RGB',(sum(i.width for i in ims),max(i.height for i in ims)),'white'); x=0
     for i in ims: z.paste(i,(x,0)); x+=i.width
     z.save(D/f'z-{k}.png'); print('zoom',k)
+
+import subprocess
+if CFG.get('pdf'):
+    subprocess.run(['pdftoppm','-r','130','-png','-f','1','-l','7',str(ROOT/CFG['pdf']),str(D/'pdf')],check=True); print('pdf')

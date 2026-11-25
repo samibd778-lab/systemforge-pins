@@ -7,7 +7,7 @@ def overlap(a,b):
     for k in range(40,A.shape[0]-40):
         n=A.shape[0]-k
         if n<60: break
-        d=np.abs(A[k:k+60]-B[:60]).mean()
+        d=np.abs(A[k+40:k+100]-B[40:100]).mean() if k+100<=A.shape[0] else 1e9
         if d<best[0]: best=(d,k)
     return best
 def stack(paths,h=900):
