@@ -16,7 +16,8 @@ def u(n): return 'data:image/png;base64,'+base64.b64encode((SCR/n).read_bytes())
 BASE = f"""
 <style>
 *{{box-sizing:border-box;margin:0;padding:0}}
-body{{width:2700px;height:2025px;background:{C['bg']};font-family:Inter;color:{C['ink']};position:relative;overflow:hidden}}
+body{{width:100vw;height:100vh;background:{C['bg']};font-family:Inter;color:{C['ink']};position:relative;overflow:hidden}}
+.cv{{position:absolute;top:0;width:2700px;height:2025px}}
 .kick{{font:600 38px Inter;letter-spacing:9px;text-transform:uppercase;color:{C['accent']}}}
 .pill{{display:inline-flex;align-items:center;gap:18px;background:#fff;border-radius:60px;padding:16px 40px;font:600 40px Inter;color:{C['ink']};box-shadow:0 6px 20px rgba(0,0,0,.06)}}
 .pill b{{display:inline-grid;place-items:center;width:52px;height:52px;border:4px solid {C['ink']};border-radius:10px;font:800 34px Gelasio}}
@@ -67,6 +68,12 @@ def page_feature(d, i):
 {laptop(d['scr'],lx,620,1700)}
 <div class="zoom" style="left:{zx}px;top:{d.get('zy',1000)}px;width:{zw}px"><img src="{u(d['zoom'])}"></div>"""
 
+def page_thumb(d):
+    return f"""<div style="position:absolute;top:90px;left:0;right:0;text-align:center">
+<div class="pill"><b>N</b>Notion Template</div>
+<h1 style="margin-top:40px;font-size:128px">{d['thumb_title']}</h1></div>
+{laptop('hero.png',230,560,1100)}"""
+
 def page_bonus(d):
     pages=d['pages']
     imgs=''.join(f'<img src="{u(p)}" style="position:absolute;width:640px;left:{1300+k*330}px;top:{560+[60,0,60][k]}px;transform:rotate({[-6,0,6][k]}deg);box-shadow:0 30px 60px rgba(60,40,30,.25);border-radius:8px;z-index:{[1,3,2][k]}">' for k,p in enumerate(pages))
@@ -79,16 +86,25 @@ def page_bonus(d):
 <div class="foot">{d.get('note','')}</div>"""
 
 async def main():
+    out_g = ROOT/f'dl/{P}/v4'; out_g.mkdir(parents=True, exist_ok=True)
     async with async_playwright() as pw:
         exe = next(p for p in ['/opt/pw-browsers/chromium-1243/chrome-linux64/chrome','/opt/pw-browsers/chromium-1194/chrome-linux/chrome'] if os.path.exists(p))
         b = await pw.chromium.launch(executable_path=exe)
-        pg = await b.new_page(viewport={'width':2700,'height':2025})
-        for n,(kind,d) in enumerate(CFG['pages'],1):
-            body = {'hero':page_hero,'inside':page_inside,'bonus':page_bonus}.get(kind)
-            html = BASE + (body(d) if body else page_feature(d,n))
-            await pg.set_content('<html><body>'+html+'</body></html>')
-            await pg.wait_for_timeout(400)
-            f = OUT/f"{n:02d}-{d.get('slug',kind)}.png"
-            await pg.screenshot(path=str(f)); print(f.name)
+        for mode,(W,H),outdir in [('etsy',(2700,2025),OUT),('gumroad',(3600,2025),out_g)]:
+            pg = await b.new_page(viewport={'width':W,'height':H})
+            for n,(kind,d) in enumerate(CFG['pages'],1):
+                body = {'hero':page_hero,'inside':page_inside,'bonus':page_bonus}.get(kind)
+                inner = body(d) if body else page_feature(d,n)
+                html = BASE + f'<div class="cv" style="left:{(W-2700)//2}px">{inner}</div>'
+                await pg.set_content('<html><body>'+html+'</body></html>')
+                await pg.wait_for_timeout(300)
+                f = outdir/f"{n:02d}-{d.get('slug',kind)}.jpg"
+                await pg.screenshot(path=str(f), type='jpeg', quality=88); print(mode, f.name)
+            await pg.close()
+        pg = await b.new_page(viewport={'width':1560,'height':1560})
+        hero = CFG['pages'][0][1]
+        await pg.set_content('<html><body>'+BASE+f'<div class="cv" style="left:0;width:1560px;height:1560px">{page_thumb(hero)}</div></body></html>')
+        await pg.wait_for_timeout(300)
+        await pg.screenshot(path=str(out_g/'thumb.jpg'), type='jpeg', quality=90); print('thumb')
         await b.close()
 asyncio.run(main())

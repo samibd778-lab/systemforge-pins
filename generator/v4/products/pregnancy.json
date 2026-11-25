@@ -18,7 +18,8 @@
      "Appointments",
      "Baby shopping &amp; budget",
      "Baby log"
-    ]
+    ],
+    "thumb_title": "Pregnancy &amp;<br>Baby Planner"
    }
   ],
   [
@@ -158,5 +159,124 @@
     "note": "This planner and guide help you get organized. They are not medical advice. Always follow your doctor or midwife."
    }
   ]
- ]
+ ],
+ "screens": {
+  "hero": [
+   "pregnancy-top",
+   {
+    "shot": "pregnancy-menu"
+   }
+  ],
+  "inside": [
+   "pregnancy-menu",
+   "pregnancy-menu2"
+  ],
+  "mypreg": [
+   "pregnancy-mypregnancy",
+   "pregnancy-appointments"
+  ],
+  "appts": [
+   "pregnancy-appointments",
+   "pregnancy-shopping"
+  ],
+  "shop": [
+   "pregnancy-shopping",
+   "pregnancy-shopping2"
+  ],
+  "cal": [
+   "pregnancy-calendar",
+   {
+    "shot": "pregnancy-babylog",
+    "y0": 18
+   }
+  ],
+  "babylog": [
+   "pregnancy-babylog",
+   "pregnancy-journal"
+  ],
+  "journal": [
+   "pregnancy-journal",
+   "pregnancy-milestones"
+  ],
+  "miles": [
+   "pregnancy-milestones",
+   "pregnancy-milestones2"
+  ]
+ },
+ "zooms": {
+  "mypreg": [
+   "pregnancy-mypregnancy",
+   [
+    265,
+    165,
+    1300,
+    265
+   ]
+  ],
+  "appts": [
+   [
+    "pregnancy-appointments",
+    [
+     100,
+     170,
+     470,
+     405
+    ]
+   ],
+   [
+    "pregnancy-appointments",
+    [
+     880,
+     170,
+     1245,
+     405
+    ]
+   ]
+  ],
+  "shop": [
+   "pregnancy-shopping",
+   [
+    100,
+    175,
+    960,
+    440
+   ]
+  ],
+  "cal": [
+   "pregnancy-calendar",
+   [
+    650,
+    180,
+    1250,
+    310
+   ]
+  ],
+  "babylog": [
+   "pregnancy-babylog",
+   [
+    100,
+    175,
+    980,
+    500
+   ]
+  ],
+  "journal": [
+   "pregnancy-journal",
+   [
+    100,
+    170,
+    1100,
+    318
+   ]
+  ],
+  "miles": [
+   "pregnancy-milestones",
+   [
+    100,
+    175,
+    1100,
+    318
+   ]
+  ]
+ }
 }
