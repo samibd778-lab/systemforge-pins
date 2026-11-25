@@ -1,0 +1,162 @@
+{
+ "colors": {
+  "bg": "#F4EEEA",
+  "accent": "#9A6B8E",
+  "ink": "#2E2629",
+  "muted": "#6E6266",
+  "line": "#E4D9D3"
+ },
+ "pages": [
+  [
+   "hero",
+   {
+    "slug": "hero",
+    "title": "Pregnancy &amp; Baby Planner",
+    "sub": "From your due date to baby’s first year, all in one calm place.",
+    "chips": [
+     "Week &amp; countdown",
+     "Appointments",
+     "Baby shopping &amp; budget",
+     "Baby log"
+    ]
+   }
+  ],
+  [
+   "inside",
+   {
+    "slug": "inside",
+    "title": "Everything inside",
+    "items": [
+     "My pregnancy dashboard",
+     "Next appointments + calendar",
+     "Baby shopping list + budget",
+     "Pregnancy journal",
+     "Baby log: feeds, sleep, diapers",
+     "Baby milestones",
+     "Hospital bag checklist",
+     "Birth preferences",
+     "Baby names",
+     "Support plan for the first weeks",
+     "Bonus: Calm Baby Prep Guide (PDF)"
+    ],
+    "chips": [
+     "Works on desktop, tablet &amp; phone",
+     "Instant access"
+    ]
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "dashboard",
+    "kick": "Your dashboard",
+    "title": "Know your week at a glance",
+    "sub": "Add your due date. See your week, trimester, days to go and baby budget.",
+    "scr": "mypreg.png",
+    "zoom": "z-mypreg.png",
+    "zy": 1350,
+    "zw": 1350
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "appointments",
+    "kick": "Appointments",
+    "title": "Never forget a question",
+    "sub": "Every visit, soonest first, with the questions you want to ask.",
+    "scr": "appts.png",
+    "zoom": "z-appts.png",
+    "zw": 1250,
+    "zy": 1050
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "calendar",
+    "kick": "Calendar",
+    "title": "All your visits on one calendar",
+    "sub": "Checkups, scans and classes at a glance.",
+    "scr": "cal.png",
+    "zoom": "z-cal.png",
+    "zw": 1100,
+    "zy": 1200
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "shopping",
+    "kick": "Baby shopping",
+    "title": "Baby shopping, sorted",
+    "sub": "To buy, bought or gift. See how ready you are and what’s left in your budget.",
+    "scr": "shop.png",
+    "zoom": "z-shop.png",
+    "zw": 1250,
+    "zy": 1050
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "journal",
+    "kick": "Pregnancy journal",
+    "title": "A few lines each week",
+    "sub": "Your pregnancy week fills in by itself. Note questions for your doctor.",
+    "scr": "journal.png",
+    "zoom": "z-journal.png",
+    "zw": 1350,
+    "zy": 1250
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "babylog",
+    "kick": "After the birth",
+    "title": "Track feeds, sleep and diapers",
+    "sub": "Each entry shows a short summary and how long ago it was.",
+    "scr": "babylog.png",
+    "zoom": "z-babylog.png",
+    "zw": 1200,
+    "zy": 1000
+   }
+  ],
+  [
+   "feature",
+   {
+    "slug": "milestones",
+    "kick": "Baby milestones",
+    "title": "Remember every first",
+    "sub": "Add the birth date, and each milestone shows baby’s age.",
+    "scr": "miles.png",
+    "zoom": "z-miles.png",
+    "zw": 1350,
+    "zy": 1300
+   }
+  ],
+  [
+   "bonus",
+   {
+    "slug": "bonus",
+    "title": "Calm Baby Prep Guide",
+    "sub": "A 7-page printable PDF that comes with your planner.",
+    "items": [
+     "Your trimester to-do list",
+     "Smart baby shopping",
+     "Set up the nursery",
+     "Pack the hospital bag",
+     "Plan the first weeks",
+     "Printable newborn tracker"
+    ],
+    "pages": [
+     "pdf-1.png",
+     "pdf-2.png",
+     "pdf-7.png"
+    ],
+    "note": "This planner and guide help you get organized. They are not medical advice. Always follow your doctor or midwife."
+   }
+  ]
+ ]
+}
