@@ -1,0 +1,13 @@
+{
+"pregnancy": {"for": ["First-time moms who like to plan ahead", "Busy parents-to-be juggling work and appointments", "Partners who want to share the to-do list", "A thoughtful baby shower or new mom gift"], "disc": "It helps you stay organized. It is not medical advice."},
+"cycle": {"for": ["Anyone who wants to understand their cycle", "Women tracking symptoms, mood and energy", "People who want notes ready for the doctor", "A private, ad-free alternative to tracking apps"], "disc": "It helps you notice patterns. It is not medical advice or birth control."},
+"skin": {"for": ["Skincare lovers with a full shelf", "Beginners building their first routine", "Anyone who forgets when products expire", "Shoppers who want to buy less and use up more"], "disc": "It helps you stay organized. It is not medical advice."},
+"home": {"for": ["Busy families who share the housework", "Roommates and couples splitting chores", "Anyone who wants a calm, tidy home", "New homeowners keeping up with home jobs"]},
+"family": {"for": ["Busy moms running the family week", "Parents with kids in school and activities", "Families who want fair chores and rewards", "Anyone tired of the daily ‘what’s for dinner?’"]},
+"wardrobe": {"for": ["Anyone building a capsule wardrobe", "People who feel they have nothing to wear", "Shoppers who want to buy less and better", "Travelers who pack the same outfits again"]},
+"student": {"for": ["High school and college students", "Anyone juggling classes, exams and deadlines", "Students who want to track grades and GPA", "A great back-to-school gift"]},
+"fitness": {"for": ["Gym beginners who want a simple plan", "Lifters tracking personal bests", "Runners and walkers logging cardio", "Anyone who wants to stay consistent"], "disc": "It is not medical advice. Check with your doctor before a new exercise plan."},
+"reading": {"for": ["Book lovers with a long to-read list", "Readers doing a yearly reading challenge", "Book club members and hosts", "A lovely gift for the reader in your life"]},
+"selfcare": {"for": ["Anyone who wants a gentle daily routine", "Busy people who forget to rest", "Those who like gratitude and affirmations", "A kind gift for a friend who needs a break"], "disc": "It supports your routine. It is not medical or mental health advice."},
+"wedding": {"for": ["Couples planning their own wedding", "Brides who want everything in one place", "Anyone keeping a wedding budget on track", "A sweet engagement or bride-to-be gift"]}
+}
