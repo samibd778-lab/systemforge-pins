@@ -19,13 +19,13 @@ def u(p):
 
 
 CSS = f"""
-@font-face{{font-family:FR;src:url({u(F/'fraunces600.woff2')})}}
+@font-face{{font-family:PF;src:url({u(F/'playfair700.woff2')})}}
 @font-face{{font-family:I5;src:url({u(F/'inter500.woff2')})}}
 @font-face{{font-family:I7;src:url({u(F/'inter700.woff2')})}}
 *{{margin:0;padding:0;box-sizing:border-box}}
 body{{width:1000px;height:1500px;overflow:hidden;position:relative;font-family:I5}}
 .kick{{font-family:I7;font-size:24px;letter-spacing:5px;text-transform:uppercase}}
-h1{{font-family:FR;font-weight:600;line-height:1.02;letter-spacing:-1px}}
+h1{{font-family:PF;font-weight:700;line-height:1.08;letter-spacing:.5px;text-transform:uppercase;font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1}}
 .foot{{position:absolute;bottom:40px;left:0;right:0;text-align:center;font-family:I7;font-size:22px;letter-spacing:4px}}
 .paper{{position:absolute;background:#fff;box-shadow:0 30px 70px rgba(0,0,0,.22);border-radius:6px;overflow:hidden}}
 .paper img{{width:100%;display:block}}
@@ -53,19 +53,19 @@ SRC = R / 'pins/ny/src'
 def peek(T, img, top=1150):
     if not img:
         return ''
-    return (f'<div class="paper" style="left:230px;top:{top}px;width:540px;transform:rotate(-3deg)"><img src="{u(img)}"></div>'
+    return (f'<div class="paper" style="left:230px;top:{top}px;width:540px;transform:none"><img src="{u(img)}"></div>'
             f'<div style="position:absolute;left:0;right:0;bottom:0;height:110px;background:{T["bg"]}"></div>')
 
 
-def printable(t, kick, title, imgs, badge, size=96):
+def printable(t, kick, title, imgs, badge, size=78):
     """Free printable: title on top, 1 or 2 real pages fanned below."""
     T = THEMES[t]
     pages = ''
     if len(imgs) == 1:
-        pages = f'<div class="paper" style="left:190px;top:560px;width:620px;transform:rotate(-2deg)"><img src="{u(imgs[0])}"></div>'
+        pages = f'<div class="paper" style="left:190px;top:560px;width:620px;transform:none"><img src="{u(imgs[0])}"></div>'
     else:
-        pages = (f'<div class="paper" style="left:90px;top:600px;width:520px;transform:rotate(-6deg)"><img src="{u(imgs[0])}"></div>'
-                 f'<div class="paper" style="left:400px;top:560px;width:520px;transform:rotate(4deg)"><img src="{u(imgs[1])}"></div>')
+        pages = (f'<div class="paper" style="left:90px;top:600px;width:520px;transform:none"><img src="{u(imgs[0])}"></div>'
+                 f'<div class="paper" style="left:400px;top:560px;width:520px;transform:none"><img src="{u(imgs[1])}"></div>')
     return f'''<body style="background:{T['bg']};color:{T['ink']}">
 <div style="position:absolute;left:70px;right:70px;top:80px;text-align:center">
 <div class="kick" style="color:{T['acc']}">{kick}</div>
@@ -75,7 +75,7 @@ def printable(t, kick, title, imgs, badge, size=96):
 <div class="foot" style="color:{T['acc']};background:{T['bg']};padding-top:22px;bottom:0;height:100px">{FOOT}</div></body>'''
 
 
-def steps(t, kick, title, items, note='', size=90, img=None):
+def steps(t, kick, title, items, note='', size=70, img=None):
     """Numbered tips list. items = [(bold, text)]."""
     T = THEMES[t]
     rows = ''.join(f'<div class="row"><div class="n" style="background:{T["acc"]};color:{T["bg"]}">{i+1}</div>'
@@ -89,7 +89,7 @@ def steps(t, kick, title, items, note='', size=90, img=None):
 {peek(T, img)}<div class="foot" style="color:{T['acc']}">{FOOT}</div></body>'''
 
 
-def grid(t, kick, title, cards, note='', size=90, img=None):
+def grid(t, kick, title, cards, note='', size=70, img=None):
     """2x2 cards. cards = [(head, [lines])]."""
     T = THEMES[t]
     cs = ''.join(f'<div class="card" style="background:{T["soft"]}"><b style="color:{T["acc"]}">{h}</b><ul>'
@@ -103,12 +103,12 @@ def grid(t, kick, title, cards, note='', size=90, img=None):
 {peek(T, img)}<div class="foot" style="color:{T['acc']}">{FOOT}</div></body>'''
 
 
-def listing(t, kick, title, items, img=None, size=84):
+def listing(t, kick, title, items, img=None, size=70):
     """Two-column list of short lines (prompts / ideas), optional page peek at the bottom."""
     T = THEMES[t]
     half = (len(items) + 1) // 2
     col = lambda xs, st: ''.join(f'<div style="font-size:31px;line-height:1.3;margin-bottom:24px"><span style="font-family:I7;color:{T["acc"]}">{st+i:02d}</span>&nbsp; {x}</div>' for i, x in enumerate(xs))
-    pk = f'<div class="paper" style="left:250px;top:1160px;width:500px;transform:rotate(-2deg)"><img src="{u(img)}"></div>' if img else ''
+    pk = f'<div class="paper" style="left:250px;top:1160px;width:500px;transform:none"><img src="{u(img)}"></div>' if img else ''
     return f'''<body style="background:{T['bg']};color:{T['ink']}">
 <div style="position:absolute;left:80px;right:80px;top:90px">
 <div class="kick" style="color:{T['acc']}">{kick}</div>
@@ -122,7 +122,7 @@ G = lambda n: FREE / f'Free-Printable-2027-Goal-Planner-p-{n}.png'
 P = {
     # ---- goals / vision board (Life Planner + free 2027 goal planner)
     'ny-01': printable('sage', 'Free printable · 2027', '2027 goal planner<br>+ vision board', [G(1), G(3)], 'FREE PDF · PRINT AT HOME'),
-    'ny-02': printable('blush', 'New year vision board', 'Make your 2027<br>vision board on paper', [G(3)], 'FREE PRINTABLE', size=88),
+    'ny-02': printable('blush', 'New year vision board', 'Make your 2027<br>vision board on paper', [G(3)], 'FREE PRINTABLE', size=70),
     'ny-03-tip': steps('cream', 'New years goals', 'How to set 2027 goals you’ll actually keep', [
         ('Only 1 to 3 goals', 'Each new goal takes energy from the others.'),
         ('Make it clear', '“Get fit” is vague. “Run a 10K on Dec 13” is clear.'),
@@ -141,14 +141,14 @@ P = {
         ('🗓️ Plan · 5 min', ['Pick 3 important things', 'Put them in your calendar', 'Say no to one thing']),
         ('✨ Dream · 2 min', ['Look at your vision board', 'Add a new dream', 'Remember your why']),
         ('🔁 Off track?', ['Make the next step smaller', 'Change the plan, not the goal', 'Start again this Sunday']),
-    ], size=82),
+    ], size=66),
     # ---- journaling (Daily Journal + free gratitude journal)
     'ny-06': listing('blush', 'Free printable', '30 gratitude journal prompts', [
         'A person who made you smile this week', 'A small thing you love about your home', 'A skill you are glad you have',
         'A meal you really enjoyed', 'A place that makes you calm', 'Something your body did for you today',
         'A friend you can always call', 'A mistake that taught you something', 'A song that lifts your mood',
         'Something you have now that you once wished for',
-    ], img=FREE / 'Free-Printable-Gratitude-Journal-p-1.png', size=80),
+    ], img=FREE / 'Free-Printable-Gratitude-Journal-p-1.png', size=64),
     'ny-07-tip': grid('cream', 'New year journal prompts', 'Journal prompts for every mood', [
         ('😄 Good day', ['What made today good?', 'What am I proud of?', 'What do I want to remember?']),
         ('😔 Low day', ['What do I need right now?', 'What is still okay today?', 'Who can I talk to?']),
@@ -188,7 +188,7 @@ P = {
     ], note='Never miss twice. One missed day is normal.', img=SRC / 'habit-cover-1.png'),
     # ---- budget (Budget Planner + free budget planner)
     'ny-13': printable('cream', 'Free printable · budget planner', 'Budget, bills, savings and debt on paper',
-                       [FREE / 'Free-Printable-Budget-Planner-p-1.png', FREE / 'Free-Printable-Budget-Planner-p-2.png'], 'FREE PDF · PRINT AT HOME', size=84),
+                       [FREE / 'Free-Printable-Budget-Planner-p-1.png', FREE / 'Free-Printable-Budget-Planner-p-2.png'], 'FREE PDF · PRINT AT HOME', size=67),
     'ny-14-tip': steps('navy', 'Budget planner', 'Money reset in 7 days', [
         ('Day 1', 'Find your real income, after tax.'),
         ('Day 2', 'List every bill and subscription with its due day.'),
@@ -197,16 +197,41 @@ P = {
         ('Day 5', 'List your debts with balance and interest rate.'),
         ('Day 6', 'Pick one savings goal: start with $500.'),
         ('Day 7', 'Plan a 5-minute money check every Sunday.'),
-    ], size=80),
+    ], size=64),
     'ny-15-tip': grid('sand', 'Budgeting tips', 'The 50/30/20 budget on $3,000 a month', [
         ('50% · Needs', ['About $1,500', 'Rent, food, bills, transport']),
         ('30% · Wants', ['About $900', 'Fun, eating out, hobbies']),
         ('20% · Savings & debt', ['About $600', 'Safety cushion first']),
         ('Rent is high?', ['Try 60/20/20', 'The best budget is the one you keep']),
-    ], note='Simple method, not financial advice.', img=SRC / 'budget-cover-1.png', size=82),
+    ], note='Simple method, not financial advice.', img=SRC / 'budget-cover-1.png', size=66),
 }
 
-if __name__ == '__main__':
+def canva_html(sha):
+    """Same pins as one HTML file for Canva import (raw GitHub images at a commit, Google fonts)."""
+    import re
+    raw = f'https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/{sha}/'
+    css = CSS.replace('font-family:PF', "font-family:'Playfair Display'").replace('font-family:I7', 'font-family:Inter;font-weight:700') \
+             .replace('font-family:I5', 'font-family:Inter;font-weight:500')
+    css = re.sub(r'@font-face\{[^}]*\}', '', css).replace('body{width:1000px;height:1500px;overflow:hidden;position:relative;', '.pg{width:1000px;height:1500px;overflow:hidden;position:relative;')
+    pages = []
+    for k, body in P.items():
+        b = body.replace(R.as_uri() + '/', raw)
+        b = re.sub(r'<body style="([^"]*)">', lambda m: f'<div class="pg" data-document-role="page" data-label="{k}" style="{m.group(1)}">', b, 1).replace('</body>', '</div>')
+        b = b.replace('font-family:I7', 'font-family:Inter;font-weight:700')
+        pages.append(b)
+    html = ('<!doctype html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700'
+            '&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"><style>body{margin:0}' + css + '</style></head><body>'
+            + '\n'.join(pages) + '</body></html>')
+    out = R / 'canva/ny/pins-ny.html'
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(html)
+    return out
+
+
+import sys
+if __name__ == '__main__' and len(sys.argv) > 2 and sys.argv[1] == 'canva':
+    print(canva_html(sys.argv[2]))
+elif __name__ == '__main__':
     tmp = OUT / '_t.html'
     for k, body in P.items():
         tmp.write_text(f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head>{body}</html>')
