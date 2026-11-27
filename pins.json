@@ -1,6 +1,178 @@
 {
  "pins": [
   {
+   "id": "pins/ny/ny-01",
+   "p": "free-goals",
+   "kind": "page",
+   "angle": "Free printable 2027 goal planner and vision board: a 2027 goals page (word of the year + one goal per life area) and a vision board page, print at home. Keyword: 2027 vision board.",
+   "board_id": "1134836874795080745"
+  },
+  {
+   "id": "pins/ny/ny-02",
+   "p": "free-goals",
+   "kind": "page",
+   "angle": "Free printable 2027 vision board page to fill with pictures: dream, place, feeling, goal, word, me in 2027. Keyword: 2027 vision board printable.",
+   "board_id": "1134836874795080745"
+  },
+  {
+   "id": "pins/ny/ny-03-tip",
+   "p": "life",
+   "kind": "tip",
+   "angle": "How to set 2027 goals you will actually keep",
+   "board_id": "1134836874795080745",
+   "tips": [
+    "Only 1 to 3 goals: each new goal takes energy from the others.",
+    "Make it clear: \"Run a 10K on Dec 13\" instead of \"get fit\".",
+    "Write why it matters: on hard days, the why keeps you going.",
+    "Pick a reward for when it is done.",
+    "Choose a date: 90 days is long enough to change and short enough to focus."
+   ]
+  },
+  {
+   "id": "pins/ny/ny-04-tip",
+   "p": "life",
+   "kind": "tip",
+   "angle": "Score your life 1 to 10 in 8 areas before you set new year goals",
+   "board_id": "1134836874795080745",
+   "tips": [
+    "Health, career, money, relationships, growth, fun, home and peace of mind.",
+    "Give each area a score from 1 to 10.",
+    "Circle the 2 lowest scores: your first goals usually live there."
+   ]
+  },
+  {
+   "id": "pins/ny/ny-05-tip",
+   "p": "life",
+   "kind": "tip",
+   "angle": "The 10-minute Sunday goal check-in",
+   "board_id": "1134836874795080745",
+   "tips": [
+    "Look back, 3 minutes: tick finished steps, write one win.",
+    "Plan, 5 minutes: pick 3 important things and put them in your calendar.",
+    "Dream, 2 minutes: look at your vision board and remember your why.",
+    "Off track? Make the next step smaller and change the plan, not the goal."
+   ]
+  },
+  {
+   "id": "pins/ny/ny-06",
+   "p": "free-journal",
+   "kind": "page",
+   "angle": "Free printable gratitude journal page with 30 gratitude journal prompts, like a person who made you smile this week or a place that makes you calm. Keyword: gratitude journal prompts.",
+   "board_id": "1134836874795097037"
+  },
+  {
+   "id": "pins/ny/ny-07-tip",
+   "p": "journal",
+   "kind": "tip",
+   "angle": "Journal prompts for every mood",
+   "board_id": "1134836874795097037",
+   "tips": [
+    "Good day: what made today good, and how can I do it again?",
+    "Low day: what do I need right now?",
+    "Stressed: what part can I control?",
+    "Normal day: what surprised me today?"
+   ]
+  },
+  {
+   "id": "pins/ny/ny-08-tip",
+   "p": "journal",
+   "kind": "tip",
+   "angle": "4 easy ways to start journaling this year",
+   "board_id": "1134836874795097037",
+   "tips": [
+    "Brain dump: write everything on your mind for 5 minutes.",
+    "Three good things: 3 things that went well today, and why.",
+    "Letter: write to someone or your future self, you never send it.",
+    "One question: pick one prompt and write 3 lines."
+   ]
+  },
+  {
+   "id": "pins/ny/ny-09-tip",
+   "p": "journal",
+   "kind": "tip",
+   "angle": "5-minute weekly review prompts",
+   "board_id": "1134836874795097037",
+   "tips": [
+    "Look back: find your best and your hard moment of the week.",
+    "Learn: what gave you energy, what drained you?",
+    "Look ahead: pick one focus and one thing to look forward to.",
+    "Rate your week in one word."
+   ]
+  },
+  {
+   "id": "pins/ny/ny-10-tip",
+   "p": "free-habit",
+   "kind": "tip",
+   "angle": "20 small habit ideas for the new year",
+   "board_id": "1134836874795080738",
+   "tips": [
+    "Health: water first thing, walk 10 minutes after lunch.",
+    "Mind: read 10 pages, no phone the first hour.",
+    "Home: make your bed, clear the sink before bed.",
+    "Money: write down what you spend, move $5 to savings."
+   ]
+  },
+  {
+   "id": "pins/ny/ny-11-tip",
+   "p": "habit",
+   "kind": "tip",
+   "angle": "The 30-day habit reset plan",
+   "board_id": "1134836874795080738",
+   "tips": [
+    "Week 1: only the tiny versions, no new habits.",
+    "Week 2: grow 1 or 2 habits a little, aim for 4 out of 6.",
+    "Week 3: keep the rhythm and try one perfect day.",
+    "Week 4: change the habit that is not working and plan next month."
+   ]
+  },
+  {
+   "id": "pins/ny/ny-12-tip",
+   "p": "habit",
+   "kind": "tip",
+   "angle": "Missed a habit day? Do this",
+   "board_id": "1134836874795080738",
+   "tips": [
+    "I forgot: move the cue where you cannot miss it.",
+    "I was too tired: do the tiny version only.",
+    "I got bored: change the place or the music.",
+    "I missed a week: do not start from zero. Never miss twice."
+   ]
+  },
+  {
+   "id": "pins/ny/ny-13",
+   "p": "free-budget",
+   "kind": "page",
+   "angle": "Free printable budget planner: monthly budget by category and a bill tracker for the whole year, plus savings and debt payoff trackers. Keyword: budget planner printable.",
+   "board_id": "1134836874795080740"
+  },
+  {
+   "id": "pins/ny/ny-14-tip",
+   "p": "budget",
+   "kind": "tip",
+   "angle": "Money reset in 7 days",
+   "board_id": "1134836874795080740",
+   "tips": [
+    "Day 1: find your real income after tax.",
+    "Day 2: list every bill with its due day.",
+    "Day 4: give each category a monthly budget.",
+    "Day 6: pick one savings goal, start with $500.",
+    "Day 7: plan a 5-minute money check every Sunday."
+   ]
+  },
+  {
+   "id": "pins/ny/ny-15-tip",
+   "p": "budget",
+   "kind": "tip",
+   "angle": "The 50/30/20 budget on $3,000 a month",
+   "board_id": "1134836874795080740",
+   "tips": [
+    "About 50% for needs: about $1,500.",
+    "About 30% for wants: about $900.",
+    "About 20% for savings and debt: about $600.",
+    "Rent is high? Try 60/20/20. Simple method, not financial advice."
+   ]
+  },
+  {
    "id": "pins/v5/v6-bundle-a",
    "p": "bundle",
    "kind": "page",
