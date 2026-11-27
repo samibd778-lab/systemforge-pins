@@ -1,6 +1,277 @@
 {
  "carousels": [
   {
+   "id": "k23-goals-2027",
+   "p": "life",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "NEW YEAR GOALS",
+     "title": "2027 goals<br>you’ll <mark>keep</mark>",
+     "sub": "5 rules before you<br>write a single goal."
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "Only 1 to 3 goals",
+     "text": "Each new goal takes energy from the others. Three is the most that most people can keep.",
+     "box": "Fewer goals, more done.",
+     "label": "RULE"
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "Make it clear",
+     "text": "You should know the day it’s done.",
+     "box": "“Get fit” → “Run a 10K race on December 13”",
+     "label": "EXAMPLE"
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "Write why<br>it matters",
+     "text": "On hard days, the why is what keeps you going.",
+     "box": "One line per goal is enough.",
+     "label": "TIP"
+    },
+    {
+     "type": "tip",
+     "num": "04",
+     "title": "Pick a reward<br>and a date",
+     "text": "90 days is long enough to change something and short enough to stay focused.",
+     "box": "Small, fun reward when it’s done.",
+     "label": "TIP"
+    },
+    {
+     "type": "cta",
+     "bullets": [
+      "Goals with a progress bar that fills as you go",
+      "Milestones with dates and a digital vision board",
+      "Bonus: The 90-Day Goal Workbook (PDF)"
+     ],
+     "send": "a friend setting 2027 goals"
+    }
+   ],
+   "caption": "2027 goals you'll actually keep:\n\n1. Only 1 to 3 goals\n2. Make it clear (you know when it's done)\n3. Write why it matters\n4. Pick a reward and a date\n\nSave this for your New Year planning.\n\nWant it in Notion? Life Planner has goals that fill up as you tick each step, plus a vision board. Link in bio.\n\n#notion #notiontemplate #newyeargoals #2027goals #goalsetting #productivity #lifeplanner"
+  },
+  {
+   "id": "k24-sunday-goals",
+   "p": "life",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "GOAL SETTING",
+     "title": "The <mark>10-minute</mark><br>Sunday check‑in",
+     "sub": "Keep your goals alive<br>every week.",
+     "size": 100
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "Look back<br>3 minutes",
+     "text": "Tick finished steps. Write one win. Write what got in the way.",
+     "box": "One win counts, even a small one.",
+     "label": "TIP"
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "Plan<br>5 minutes",
+     "text": "Pick 3 important things and put them in your calendar. Move late steps to new dates.",
+     "box": "Say no to one thing this week.",
+     "label": "TRY THIS"
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "Dream<br>2 minutes",
+     "text": "Look at your vision board. Add a new dream if you have one. Remember your why.",
+     "box": "Then close the laptop.",
+     "label": "TIP"
+    },
+    {
+     "type": "tip",
+     "num": "04",
+     "title": "Fell off track?",
+     "text": "Make the next step smaller. Do 10 minutes, not an hour. Change the plan, not the goal.",
+     "box": "Progress, not perfection.",
+     "label": "REMEMBER"
+    },
+    {
+     "type": "cta",
+     "bullets": [
+      "A weekly check-in and quarterly review",
+      "Next steps: late, this week or later",
+      "Bonus: The 90-Day Goal Workbook (PDF)"
+     ],
+     "send": "someone who quits goals in February"
+    }
+   ],
+   "caption": "The 10-minute Sunday goal check-in:\n\n1. Look back (3 min): tick steps, write one win\n2. Plan (5 min): 3 important things in your calendar\n3. Dream (2 min): look at your vision board\n4. Off track? Make the next step smaller\n\nSave this and try it this Sunday.\n\nWant it in Notion? Life Planner has a weekly check-in, next steps and a vision board. Link in bio.\n\n#notion #notiontemplate #goalsetting #sundayreset #weeklyreview #2027goals #productivity"
+  },
+  {
+   "id": "k25-journal-moods",
+   "p": "journal",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "JOURNAL PROMPTS",
+     "title": "Prompts for<br><mark>every</mark> mood",
+     "sub": "Never stare at an<br>empty page again."
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "On a good day",
+     "text": "What made today good, and how can I do it again? Who do I want to thank?",
+     "box": "“What do I want to remember?”",
+     "label": "WRITE THIS"
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "On a low day",
+     "text": "What do I need right now? What is one small kind thing I can do for myself?",
+     "box": "“What is still okay today?”",
+     "label": "WRITE THIS"
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "When stressed",
+     "text": "What exactly is worrying me? What part can I control? What is one next step?",
+     "box": "“What can wait until tomorrow?”",
+     "label": "WRITE THIS"
+    },
+    {
+     "type": "tip",
+     "num": "04",
+     "title": "On a normal day",
+     "text": "What surprised me today? What did I learn? What will I do differently tomorrow?",
+     "box": "“What made me smile?”",
+     "label": "WRITE THIS"
+    },
+    {
+     "type": "cta",
+     "bullets": [
+      "One entry a day: mood, energy, one win, one thank you",
+      "Monthly mood and a mood calendar",
+      "Bonus: Journaling guide (PDF)"
+     ],
+     "send": "a friend who wants to start journaling"
+    }
+   ],
+   "caption": "Journal prompts for every mood:\n\n1. Good day: what made today good?\n2. Low day: what do I need right now?\n3. Stressed: what part can I control?\n4. Normal day: what surprised me today?\n\nSave this for tonight's journal.\n\nWant it in Notion? Daily Journal keeps your mood, one win and one thank you for every day. Link in bio.\n\n#journaling #journalprompts #newyearjournal #selfcare #notion #notiontemplate #dailyjournal"
+  },
+  {
+   "id": "k26-habit-reset",
+   "p": "habit",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "HABIT TRACKER IDEAS",
+     "title": "The <mark>30-day</mark><br>habit reset",
+     "sub": "Build habits that last,<br>one week at a time."
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "Week 1:<br>tiny versions",
+     "text": "Do only the 2-minute version of each habit. Don’t add new habits yet.",
+     "box": "1 page, 1 glass, a 5-minute walk.",
+     "label": "EXAMPLE"
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "Week 2:<br>grow a little",
+     "text": "Grow 1 or 2 habits a little. Aim for 4 out of 6 a day.",
+     "box": "“After I pour my coffee, I drink a glass of water.”",
+     "label": "HABIT STACK"
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "Week 3:<br>keep the rhythm",
+     "text": "Try one perfect day. Look at your month and write what helped.",
+     "box": "A 4 out of 6 day is a good day.",
+     "label": "RULE"
+    },
+    {
+     "type": "tip",
+     "num": "04",
+     "title": "Week 4:<br>fix and plan",
+     "text": "Change the habit that isn’t working. Plan next month’s focus.",
+     "box": "Never miss twice.",
+     "label": "REMEMBER"
+    },
+    {
+     "type": "cta",
+     "bullets": [
+      "Tick 6 habits a day, your score fills in by itself",
+      "A bar for every habit, your best habit and perfect days",
+      "Bonus: 30-Day Habit Reset (PDF)"
+     ],
+     "send": "a friend starting fresh in January"
+    }
+   ],
+   "caption": "The 30-day habit reset:\n\n1. Week 1: only the tiny versions\n2. Week 2: grow 1 or 2 habits a little\n3. Week 3: keep the rhythm\n4. Week 4: fix what isn't working\n\nSave this and start on the 1st.\n\nWant it in Notion? Habit Tracker scores your day by itself and shows your best habit every month. Link in bio.\n\n#habittracker #habits #newyearreset #selfimprovement #notion #notiontemplate #productivity"
+  },
+  {
+   "id": "k27-money-reset",
+   "p": "budget",
+   "slides": [
+    {
+     "type": "cover",
+     "kicker": "BUDGET PLANNER",
+     "title": "Money reset<br>in <mark>7 days</mark>",
+     "sub": "One small step a day.<br>Start January calm."
+    },
+    {
+     "type": "tip",
+     "num": "01",
+     "title": "Days 1–2",
+     "text": "Find your real income, after tax. List every bill and subscription with its due day.",
+     "box": "Rent, phone, internet, every app.",
+     "label": "LIST"
+    },
+    {
+     "type": "tip",
+     "num": "02",
+     "title": "Days 3–4",
+     "text": "Look at last month’s spending. Don’t judge it, just see it. Then give each category a budget.",
+     "box": "Needs first, then savings, then wants.",
+     "label": "ORDER"
+    },
+    {
+     "type": "tip",
+     "num": "03",
+     "title": "Days 5–6",
+     "text": "List your debts with balance and interest rate. Pick one savings goal.",
+     "box": "Start small: a $500 safety cushion.",
+     "label": "FIRST GOAL"
+    },
+    {
+     "type": "tip",
+     "num": "04",
+     "title": "Day 7",
+     "text": "Pick a day for a 5-minute money check every week.",
+     "box": "Sunday works well.",
+     "label": "TIP"
+    },
+    {
+     "type": "cta",
+     "bullets": [
+      "Budget per category: spent, left, on track",
+      "Bills with due days, savings goals and debt payoff",
+      "Bonus: Money Reset in 7 Days (PDF)"
+     ],
+     "send": "a friend who wants a money reset"
+    }
+   ],
+   "caption": "Money reset in 7 days:\n\n1. Days 1-2: real income and every bill\n2. Days 3-4: last month's spending, then a budget per category\n3. Days 5-6: your debts and one savings goal\n4. Day 7: a 5-minute money check every week\n\nSave this for January. A simple method, not financial advice.\n\nWant it in Notion? Budget Planner shows what you spent, what's left and your debt-free date. Link in bio.\n\n#budgeting #budgetplanner #moneytips #newyearreset #notion #notiontemplate #personalfinance"
+  },
+  {
    "id": "k13-late-client",
    "p": "fco",
    "slides": [
