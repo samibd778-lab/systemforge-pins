@@ -173,6 +173,226 @@
    ]
   },
   {
+   "id": "pins/gum/wedding-hook",
+   "p": "wedding",
+   "kind": "page",
+   "angle": "Wedding planner budget: what is left to pay, deposits and payments due on one page. Keyword: wedding budget.",
+   "board_id": "1134836874795119128"
+  },
+  {
+   "id": "pins/gum/pregnancy-hook",
+   "p": "pregnancy",
+   "kind": "page",
+   "angle": "Baby shopping list in a pregnancy planner: must-haves, gifts and prices in one list. Keyword: baby shopping list.",
+   "board_id": "1134836874795119129"
+  },
+  {
+   "id": "pins/gum/home-hook",
+   "p": "home",
+   "kind": "page",
+   "angle": "Cleaning schedule: what to clean today, every room and task with what is due next. Keyword: cleaning schedule.",
+   "board_id": "1134836874795119130"
+  },
+  {
+   "id": "pins/gum/fitness-hook",
+   "p": "fitness",
+   "kind": "page",
+   "angle": "Workout tracker: personal bests saved after every workout. Keyword: workout planner.",
+   "board_id": "1134836874795119131"
+  },
+  {
+   "id": "pins/gum/family-hook",
+   "p": "family",
+   "kind": "page",
+   "angle": "Mom planner with a chore chart kids can follow and rewards they work for. Keyword: chore chart for kids.",
+   "board_id": "1134836874795119139"
+  },
+  {
+   "id": "pins/gum/selfcare-hook",
+   "p": "selfcare",
+   "kind": "page",
+   "angle": "Self-care planner: a 2-minute daily check-in with mood, energy and one small kind thing. Keyword: daily check in.",
+   "board_id": "1134836874795119134"
+  },
+  {
+   "id": "pins/gum/reading-hook",
+   "p": "reading",
+   "kind": "page",
+   "angle": "Reading journal: a yearly reading challenge that fills in as you finish books. Keyword: reading challenge.",
+   "board_id": "1134836874795119133"
+  },
+  {
+   "id": "pins/gum/skin-hook",
+   "p": "skin",
+   "kind": "page",
+   "angle": "Skincare routine planner: morning, evening and weekly steps in the right order. Keyword: skincare routine.",
+   "board_id": "1134836874795119136"
+  },
+  {
+   "id": "pins/gum/student-hook",
+   "p": "student",
+   "kind": "page",
+   "angle": "Student planner: everything due this week, by class, so you never miss a deadline. Keyword: assignment tracker.",
+   "board_id": "1134836874795119135"
+  },
+  {
+   "id": "pins/gum/wardrobe-hook",
+   "p": "wardrobe",
+   "kind": "page",
+   "angle": "Capsule wardrobe planner: saved outfits ready to wear again. Keyword: outfit planner.",
+   "board_id": "1134836874795119138"
+  },
+  {
+   "id": "pins/gum/cycle-hook",
+   "p": "cycle",
+   "kind": "page",
+   "angle": "Cycle tracker: your cycle day at a glance, log your day in one minute. Keyword: period tracker.",
+   "board_id": "1134836874795119157"
+  },
+  {
+   "id": "pins/gum/wedding-tip",
+   "p": "wedding",
+   "kind": "tip",
+   "angle": "A 12-month wedding timeline",
+   "board_id": "1134836874795119128",
+   "tips": [
+    "12 to 9 months: budget and guest list, book the venue, photographer and caterer.",
+    "9 to 4 months: save-the-dates, florist and music, dress or suit, cake tasting.",
+    "3 to 1 months: send invitations, final headcount, seating chart, last fittings.",
+    "The week of: confirm all vendors, pack the kit, share the schedule, rest."
+   ]
+  },
+  {
+   "id": "pins/gum/pregnancy-tip",
+   "p": "pregnancy",
+   "kind": "tip",
+   "angle": "Pregnancy checklist by trimester",
+   "board_id": "1134836874795119129",
+   "tips": [
+    "1st trimester: book the first visit, add your due date, start a baby budget.",
+    "2nd trimester: make a shopping list, plan the nursery, pick a pediatrician.",
+    "3rd trimester: pack the hospital bag, install the car seat, freeze some meals.",
+    "After birth: log feeds and sleep, accept help, rest when you can."
+   ]
+  },
+  {
+   "id": "pins/gum/home-tip",
+   "p": "home",
+   "kind": "tip",
+   "angle": "Daily, weekly, monthly and seasonal cleaning checklist",
+   "board_id": "1134836874795119130",
+   "tips": [
+    "Every day: make the beds, wipe counters, dishes, one load of laundry.",
+    "Every week: bathroom, floors, bed sheets, dusting.",
+    "Every month: fridge, washer filter, under the beds, test alarms.",
+    "Every season: furnace filter, oven, baseboards, pillows."
+   ]
+  },
+  {
+   "id": "pins/gum/fitness-tip",
+   "p": "fitness",
+   "kind": "tip",
+   "angle": "4 rules to get stronger",
+   "board_id": "1134836874795119131",
+   "tips": [
+    "Do a bit more: add a little weight, one rep or one set over time.",
+    "Repeat the basics: squat, hinge, push, pull, carry.",
+    "Write it down so you know what to try next time.",
+    "Show up: 3 workouts a week for 3 months beat 6 a week for 3 weeks."
+   ]
+  },
+  {
+   "id": "pins/gum/family-tip",
+   "p": "family",
+   "kind": "tip",
+   "angle": "Chores kids can do by age",
+   "board_id": "1134836874795119139",
+   "tips": [
+    "Ages 3 to 5: put toys away, feed a pet, match socks.",
+    "Ages 6 to 8: make the bed, set the table, water plants.",
+    "Ages 9 to 12: fold laundry, take out trash, help cook.",
+    "Teens: do laundry, clean the bathroom, cook a meal."
+   ]
+  },
+  {
+   "id": "pins/gum/selfcare-tip",
+   "p": "selfcare",
+   "kind": "tip",
+   "angle": "6 small self-care basics",
+   "board_id": "1134836874795119134",
+   "tips": [
+    "Sleep: aim for 7 hours or more.",
+    "Water: keep a bottle where you can see it.",
+    "Move and go outside: any movement and a few minutes of daylight count.",
+    "One screen-free hour and one small ritual a day."
+   ]
+  },
+  {
+   "id": "pins/gum/reading-tip",
+   "p": "reading",
+   "kind": "tip",
+   "angle": "How to find time to read more",
+   "board_id": "1134836874795119133",
+   "tips": [
+    "10 pages a day is about a dozen books a year.",
+    "Read before bed instead of 15 minutes of scrolling.",
+    "Read in the gaps: lunch, the bus, waiting rooms.",
+    "Audiobooks count, and keep the phone in another room."
+   ]
+  },
+  {
+   "id": "pins/gum/skin-tip",
+   "p": "skin",
+   "kind": "tip",
+   "angle": "Skincare routine order, thin to thick",
+   "board_id": "1134836874795119136",
+   "tips": [
+    "Morning: cleanser, toner, serum, moisturizer, sunscreen.",
+    "Evening: remove makeup, cleanser, serum, moisturizer.",
+    "Weekly: exfoliate 1 to 2 times, face mask, wash brushes.",
+    "Short on time: cleanse, moisturize, sunscreen in the morning."
+   ]
+  },
+  {
+   "id": "pins/gum/student-tip",
+   "p": "student",
+   "kind": "tip",
+   "angle": "5 study methods that work",
+   "board_id": "1134836874795119135",
+   "tips": [
+    "Active recall: close the book, write what you remember, then check.",
+    "Spaced reviews over days and weeks, not 5 times in one night.",
+    "Pomodoro: 25 minutes of focus, 5 minutes of break.",
+    "Practice problems without the solution, and teach it in simple words."
+   ]
+  },
+  {
+   "id": "pins/gum/wardrobe-tip",
+   "p": "wardrobe",
+   "kind": "tip",
+   "angle": "The 30-piece capsule wardrobe",
+   "board_id": "1134836874795119138",
+   "tips": [
+    "9 tops and 6 bottoms.",
+    "3 dresses: casual, smart, going out.",
+    "4 layers: coat, blazer, jacket, cardigan.",
+    "5 shoes and 3 extras like a tote and a scarf."
+   ]
+  },
+  {
+   "id": "pins/gum/cycle-tip",
+   "p": "cycle",
+   "kind": "tip",
+   "angle": "The 4 phases of your cycle as a simple map, with ideas for each phase; every body is different. Keyword",
+   "board_id": "1134836874795119157",
+   "tips": [
+    "Period: warm drinks, gentle movement, early nights.",
+    "Follicular: start new things and plan the month.",
+    "Ovulation: big tasks and time with friends.",
+    "Luteal: lighter days and extra sleep. Every body is different."
+   ]
+  },
+  {
    "id": "pins/v5/v6-bundle-a",
    "p": "bundle",
    "kind": "page",

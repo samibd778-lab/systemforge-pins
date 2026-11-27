@@ -10,7 +10,8 @@ import newyear_pins as NY  # CSS, layouts, fonts
 
 R = NY.R
 SCR = R / 'generator/v4/scr'
-OUT = R / 'pins/shop'
+GUM = os.environ.get('GUM') == '1'   # Gumroad account variant: dark top band, different tip colors
+OUT = R / ('pins/gum' if GUM else 'pins/shop')
 OUT.mkdir(parents=True, exist_ok=True)
 u = NY.u
 
@@ -33,6 +34,8 @@ def zoomcard(p, zoom, T):
 
 def hook(p, kick, title, sub, screen, zoom):
     T = theme(p)
+    if GUM:
+        return hook_gum(p, kick, title, sub, screen, zoom, T)
     return f'''<body style="background:{T['bg']};color:{T['ink']}">
 <div style="position:absolute;left:70px;right:70px;top:80px;text-align:center">
 <div class="kick" style="color:{T['acc']}">{kick}</div>
@@ -47,9 +50,31 @@ def hook(p, kick, title, sub, screen, zoom):
 <div class="foot" style="color:{T['acc']}">SYSTEMFORGE · INSTANT DOWNLOAD</div></body>'''
 
 
+def hook_gum(p, kick, title, sub, screen, zoom, T):
+    """Gumroad variant: accent band on top with white title, zoom card first, screen below."""
+    f = SCR / p / ('z-' + zoom + '.png')
+    w, h = Image.open(f).size
+    cw = min(w, 760); sc = 900 / cw; zh = min(int(h * sc), 380)
+    return f'''<body style="background:{T['bg']};color:{T['ink']}">
+<div style="position:absolute;left:0;right:0;top:0;height:470px;background:{T['acc']}"></div>
+<div style="position:absolute;left:70px;right:70px;top:80px;text-align:center;color:#fff">
+<div class="kick" style="color:rgba(255,255,255,.85)">{kick}</div>
+<h1 style="font-size:84px;margin-top:20px">{title}</h1>
+<div style="margin-top:22px;font-size:31px;line-height:1.4;color:rgba(255,255,255,.9)">{sub}</div></div>
+<div style="position:absolute;left:50px;top:520px;width:900px;height:{zh}px;overflow:hidden;border-radius:16px;background:#fff;box-shadow:0 22px 50px rgba(0,0,0,.18)">
+<img src="{u(f)}" style="width:{int(w*sc)}px;display:block"></div>
+<div style="position:absolute;left:100px;top:{560+zh}px;width:800px;height:{1330-560-zh}px;overflow:hidden;border-radius:14px;background:#fff;box-shadow:0 18px 40px rgba(0,0,0,.14)">
+<img src="{u(SCR / p / (screen + '.png'))}" style="width:800px;display:block"></div>
+<div style="position:absolute;left:0;right:0;top:1360px;text-align:center"><span class="badge" style="background:{T['acc']};color:#fff">See what’s inside &rarr;</span></div>
+<div class="foot" style="color:{T['acc']}">SYSTEMFORGE · NOTION TEMPLATES</div></body>'''
+
+
 def add_theme(p):
     T = theme(p)
-    NY.THEMES[p] = dict(bg=T['bg'], ink=T['ink'], acc=T['acc'], soft='#FFFFFF')
+    if GUM:   # dark version for the Gumroad account
+        NY.THEMES[p] = dict(bg=T['ink'], ink='#F7F2EC', acc=T['acc'], soft='rgba(255,255,255,.08)')
+    else:
+        NY.THEMES[p] = dict(bg=T['bg'], ink=T['ink'], acc=T['acc'], soft='#FFFFFF')
     return p
 
 
