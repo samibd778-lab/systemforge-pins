@@ -798,5 +798,258 @@
   ]
  },
  "_rotation": "Each pin uses the least-used primary keyword of its product (n8n \"Add SEO keywords\" remembers the last ones) and 6 keywords from the list, rotated.",
- "_pinterest_autocomplete": "Pinterest search suggestions pulled 2026-11-18 (getsystemforge account): research/pinterest-autocomplete-2026-11-18.md"
+ "_pinterest_autocomplete": "Pinterest search suggestions pulled 2026-11-18 (getsystemforge account): research/pinterest-autocomplete-2026-11-18.md",
+ "pregnancy": {
+  "primary": "pregnancy planner",
+  "primaries": [
+   "pregnancy planner",
+   "pregnancy journal",
+   "pregnancy tracker"
+  ],
+  "keywords": [
+   "pregnancy planner",
+   "pregnancy journal",
+   "pregnancy tracker",
+   "notion template",
+   "digital planner",
+   "baby tracker",
+   "newborn tracker",
+   "expecting mom gift",
+   "baby shopping list",
+   "pregnancy gift",
+   "notion planner",
+   "baby log",
+   "hospital bag list"
+  ]
+ },
+ "cycle": {
+  "primary": "period tracker",
+  "primaries": [
+   "period tracker",
+   "cycle tracker",
+   "menstrual tracker"
+  ],
+  "keywords": [
+   "period tracker",
+   "cycle tracker",
+   "menstrual tracker",
+   "notion template",
+   "digital planner",
+   "mood tracker",
+   "symptom tracker",
+   "wellness tracker",
+   "wellness planner",
+   "notion planner",
+   "period journal",
+   "cycle syncing",
+   "self care planner"
+  ]
+ },
+ "skin": {
+  "primary": "skincare routine",
+  "primaries": [
+   "skincare routine",
+   "skincare planner",
+   "skincare tracker"
+  ],
+  "keywords": [
+   "skincare routine",
+   "skincare planner",
+   "skincare tracker",
+   "notion template",
+   "digital planner",
+   "beauty planner",
+   "skincare journal",
+   "skin care routine",
+   "product inventory",
+   "notion planner",
+   "self care planner",
+   "beauty organizer",
+   "skin log"
+  ]
+ },
+ "home": {
+  "primary": "cleaning schedule",
+  "primaries": [
+   "cleaning schedule",
+   "home planner",
+   "chore chart"
+  ],
+  "keywords": [
+   "cleaning schedule",
+   "home planner",
+   "chore chart",
+   "notion template",
+   "digital planner",
+   "cleaning checklist",
+   "cleaning planner",
+   "household planner",
+   "home management",
+   "notion planner",
+   "family chore chart",
+   "house cleaning",
+   "home organizer"
+  ]
+ },
+ "family": {
+  "primary": "family planner",
+  "primaries": [
+   "family planner",
+   "mom planner",
+   "family calendar"
+  ],
+  "keywords": [
+   "family planner",
+   "mom planner",
+   "family calendar",
+   "notion template",
+   "digital planner",
+   "chore chart",
+   "family chore chart",
+   "family organizer",
+   "meal planner",
+   "notion planner",
+   "reward chart",
+   "kids chore chart",
+   "school planner"
+  ]
+ },
+ "wardrobe": {
+  "primary": "capsule wardrobe",
+  "primaries": [
+   "capsule wardrobe",
+   "wardrobe planner",
+   "outfit planner"
+  ],
+  "keywords": [
+   "capsule wardrobe",
+   "wardrobe planner",
+   "outfit planner",
+   "notion template",
+   "digital planner",
+   "closet organizer",
+   "cost per wear",
+   "closet inventory",
+   "packing list",
+   "notion planner",
+   "style planner",
+   "fashion planner",
+   "minimalist closet"
+  ]
+ },
+ "student": {
+  "primary": "student planner",
+  "primaries": [
+   "student planner",
+   "academic planner",
+   "assignment tracker"
+  ],
+  "keywords": [
+   "student planner",
+   "academic planner",
+   "assignment tracker",
+   "notion template",
+   "digital planner",
+   "study planner",
+   "gpa tracker",
+   "class schedule",
+   "college planner",
+   "notion planner",
+   "exam planner",
+   "homework planner",
+   "student budget"
+  ]
+ },
+ "fitness": {
+  "primary": "workout planner",
+  "primaries": [
+   "workout planner",
+   "workout tracker",
+   "workout log"
+  ],
+  "keywords": [
+   "workout planner",
+   "workout tracker",
+   "workout log",
+   "notion template",
+   "digital planner",
+   "fitness planner",
+   "gym tracker",
+   "gym log",
+   "personal records",
+   "notion planner",
+   "cardio log",
+   "strength training",
+   "fitness journal"
+  ]
+ },
+ "reading": {
+  "primary": "reading journal",
+  "primaries": [
+   "reading journal",
+   "reading log",
+   "book tracker"
+  ],
+  "keywords": [
+   "reading journal",
+   "reading log",
+   "book tracker",
+   "notion template",
+   "digital planner",
+   "book journal",
+   "reading challenge",
+   "reading tracker",
+   "book club",
+   "notion planner",
+   "book lover gift",
+   "bookshelf tracker",
+   "tbr list"
+  ]
+ },
+ "selfcare": {
+  "primary": "self care planner",
+  "primaries": [
+   "self care planner",
+   "self care journal",
+   "wellness journal"
+  ],
+  "keywords": [
+   "self care planner",
+   "self care journal",
+   "wellness journal",
+   "notion template",
+   "digital planner",
+   "mood tracker",
+   "gratitude journal",
+   "daily check in",
+   "wellness planner",
+   "notion planner",
+   "self care checklist",
+   "habit tracker",
+   "calm planner"
+  ]
+ },
+ "wedding": {
+  "primary": "wedding planner",
+  "primaries": [
+   "wedding planner",
+   "wedding planning",
+   "wedding budget"
+  ],
+  "keywords": [
+   "wedding planner",
+   "wedding planning",
+   "wedding budget",
+   "notion template",
+   "digital planner",
+   "wedding checklist",
+   "seating chart",
+   "wedding guest list",
+   "bride to be gift",
+   "notion planner",
+   "engagement gift",
+   "wedding organizer",
+   "wedding binder"
+  ]
+ }
 }
