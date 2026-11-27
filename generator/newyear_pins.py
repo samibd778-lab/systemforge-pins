@@ -206,7 +206,7 @@ P = {
     ], note='Simple method, not financial advice.', img=SRC / 'budget-cover-1.png', size=66),
 }
 
-def canva_html(sha):
+def canva_html(sha, pins=None, name='ny'):
     """Same pins as one HTML file for Canva import (raw GitHub images at a commit, Google fonts)."""
     import re
     raw = f'https://raw.githubusercontent.com/samibd778-lab/systemforge-pins/{sha}/'
@@ -214,7 +214,7 @@ def canva_html(sha):
              .replace('font-family:I5', 'font-family:Inter;font-weight:500')
     css = re.sub(r'@font-face\{[^}]*\}', '', css).replace('body{width:1000px;height:1500px;overflow:hidden;position:relative;', '.pg{width:1000px;height:1500px;overflow:hidden;position:relative;')
     pages = []
-    for k, body in P.items():
+    for k, body in (pins or P).items():
         b = body.replace(R.as_uri() + '/', raw)
         b = re.sub(r'<body style="([^"]*)">', lambda m: f'<div class="pg" data-document-role="page" data-label="{k}" style="{m.group(1)}">', b, 1).replace('</body>', '</div>')
         b = b.replace('font-family:I7', 'font-family:Inter;font-weight:700')
@@ -222,7 +222,7 @@ def canva_html(sha):
     html = ('<!doctype html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700'
             '&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"><style>body{margin:0}' + css + '</style></head><body>'
             + '\n'.join(pages) + '</body></html>')
-    out = R / 'canva/ny/pins-ny.html'
+    out = R / f'canva/{name}/pins-{name}.html'
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html)
     return out
